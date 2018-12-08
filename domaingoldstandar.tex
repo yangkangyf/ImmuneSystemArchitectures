@@ -824,29 +824,123 @@ musculus} and \textsf{hsaP=}\textit{H.\ sapiens}.}
 \label{fig:FrecEstrat}
 \end{figure}
 
-\begin{sidewaysfigure}
-\includegraphics[width=\linewidth,keepaspectratio]{figures/matrix_spe}%
-\caption{Heatmap of the number of proteins identified in the 
-$\boldsymbol{\mathfrak{G}}$ species by at least one of the architecture 
-strategies. The number of proteins have been transformed by $\log_{10} 
-x$. Combinations of species have been obtained according to the final 
-agrupation given by the relationships between Query species and 
-$\boldsymbol{\mathfrak{G}}$ species. This plot have been organized according to 
-the number of final candidates by set of  
-$\boldsymbol{\mathfrak{G}}$ species, left with lower 
-values to the higher ones on the rigth. \textsf{navi=}\textit{N.\ vitripennis}, 
-\textsf{apme=}\textit{A.\ mellifera}, \textsf{drme=}\textit{D.\ melanogaster}, 
-\textsf{anga=}\textit{A.\ gambiae} and \textsf{acpi=}\textit{A.\ pisum}; and 
-Mammals: \textsf{mmu=}\textit{M.\ musculus} and \textsf{hsa=}\textit{H.\ 
-sapiens}.}
-\label{fig:matrix_relations}
-\end{sidewaysfigure}
+%\begin{sidewaysfigure}
+%\includegraphics[width=\linewidth,keepaspectratio]{figures/matrix_spe}%
+%\caption{Heatmap of the number of proteins identified in the 
+%$\boldsymbol{\mathfrak{G}}$ species by at least one of the architecture 
+%strategies. The number of proteins have been transformed by $\log_{10} 
+%x$. Combinations of species have been obtained according to the final 
+%agrupation given by the relationships between Query species and 
+%$\boldsymbol{\mathfrak{G}}$ species. This plot have been organized according to 
+%the number of final candidates by set of  
+%$\boldsymbol{\mathfrak{G}}$ species, left with lower 
+%values to the higher ones on the rigth. \textsf{navi=}\textit{N.\ vitripennis}, 
+%\textsf{apme=}\textit{A.\ mellifera}, \textsf{drme=}\textit{D.\ melanogaster}, 
+%\textsf{anga=}\textit{A.\ gambiae} and \textsf{acpi=}\textit{A.\ pisum}; and 
+%Mammals: \textsf{mmu=}\textit{M.\ musculus} and \textsf{hsa=}\textit{H.\ 
+%sapiens}.}
+%\label{fig:matrix_relations}
+%\end{sidewaysfigure}
 
-\subsection*{Orthology relationships between Immune system candidates} 
+\subsection*{Relationships between Innate Immune system candidates} 
 \label{Orthology}
-The merging step on the resulting immune system candidates generated $11013$ 
-groups that shared the same $\boldsymbol{\mathfrak{G}}$ proteins. Applying 
-\texttt{ProteinOrtho} was possible to identify.
+Once protein candidates were detected by ABDO strategy along studied species, one further step
+is the identification of biological relevance of the new detected protein candidates. Applying this clustering 
+step was possible identifying the intrinsic relationship between $\boldsymbol{\mathfrak{G}}$ proteins 
+and the new identified proteins, based on the protein domain architecture. In this way $4240$ groups
+were assigned and in order to identify orthology relationships, \texttt{ProteinOrtho} was applied along
+each group. 
+The complete distribution of the number of domains inside the identified candidates is show in 
+Figure \ref{fig:domainDistr}. Along all the described organisms, grouped by the taxonomical clade, 
+it is possible to identify the common distribution of the number of protein domains along all
+evaluated proteins. This result is congruent with the idea that protein domain distribution spans
+with a Pareto's distribution \cite{}, resulting in a high number of proteins with only one domain and
+with a long tail along higher numbers of domains with very low frequency along proteins. Despite 
+the similarity of this results along taxonomical clades, distribution from \textsl{B.\ floridae} showed 
+higher number of proteins with $2$ domains and similar distribution with Vertebrates on proteins 
+with $3$ domains, while Echinoderms, Hemichordates and Tunicates, showed similar density 
+distributions in those values. 
+
+At the same time, Table XX shows the most frequent protein architectures and the current 
+annotation in \texttt{Pfam} database.  In general the most common proteins domains are shown
+in Table XX. For proteins composed by one domain, the most frequent protein domain is a 
+Rhodopsin-like receptor (PF00001) for echinoderms, hemichordates and vertebrates, while 
+in Cephalochordata was the Cytochrome P450 (PF00067) and for tunicates the Protein Kinase domain 
+(PF00069).  At the same time, for heterodomain proteins those ones that are composed by $2$ domains
+reported domains involved on recognition as and $3$ domains are more specifically related with immune 
+responses. 
+
+%More specificity with more domains?
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.63]{figures/domainDistribution}
+\caption{Domain distribution of innate immune system proteins along studied 
+bilateria species.\textbf{Echi:} Echinodermata, \textbf{Hemi:} Hemichordata, 
+\textbf{Ceph:} Cephalochordata, \textbf{Tuni:} Tunicata and \textbf{Vert:} Vertebrata.}
+\label{fig:domainDistr}
+\end{figure}
+
+\iffalse
+%% TODO: put this info in a table and describe a little bit the annotation.
+%1
+1 Echi  PF00001        991
+2 Hemi  PF00001        438
+3 Ceph  PF00067        388
+4 Tuni  PF00069       2415
+5 Vert  PF00001       1304
+%2
+1 Echi  PF01825,PF00002   186
+2 Hemi  PF02931,PF02932   117
+3 Ceph  PF15227,PF00643   313
+4 Tuni  PF07707,PF01344   704
+5 Vert  PF13281,PF00069  1430
+%3
+1 Echi  PF00084,PF02494,PF00084    54
+2 Hemi  PF00629,PF00057,PF00629    13
+3 Ceph  PF12947,PF14670,PF07645   302
+4 Tuni  PF12947,PF14670,PF07645   146
+5 Vert  PF13927,PF13895,PF13927   366
+%4
+1 Echi  PF00664,PF00005,PF00664,PF00005   111
+2 Hemi  PF00664,PF00005,PF00664,PF00005    46
+3 Ceph  PF14670,PF07645,PF00054,PF02210    62
+4 Tuni  PF00664,PF00005,PF00664,PF00005   200
+5 Vert  PF14670,PF07645,PF00054,PF02210   110
+%5
+1 Echi  PF07679,PF00041,PF07679,PF00041,PF07679    33
+2 Hemi  PF07679,PF00041,PF07679,PF00041,PF07679    11
+3 Ceph  PF00651,PF13912,PF12874,PF13912,PF12874    15
+4 Ceph  PF13855,PF00791,PF10461,PF00791,PF00531    15
+5 Tuni  PF03104,PF15735,PF03104,PF00136,PF14260   188
+6 Vert  PF00651,PF13912,PF12874,PF13912,PF12874   118
+%6
+1 Echi  PF00246,PF13620,PF00246,PF13620,PF00246,PF13620    12
+2 Echi  PF00270,PF00271,PF02889,PF00270,PF00271,PF02889    12
+3 Hemi  PF00246,PF13620,PF00246,PF13620,PF00246,PF13620     4
+4 Ceph  PF00246,PF13620,PF00246,PF13620,PF00246,PF13620    20
+5 Tuni  PF00111,PF01799,PF00941,PF03450,PF01315,PF02738    33
+6 Vert  PF13912,PF00096,PF13912,PF00096,PF13912,PF00096    35
+%7
+1 Echi  PF00008,PF07645,PF00008,PF07645,PF00008,PF07645,PF00008    30
+2 Hemi  PF00008,PF07645,PF00008,PF07645,PF00008,PF07645,PF00008     6
+3 Ceph  PF00008,PF07645,PF00008,PF07645,PF00008,PF07645,PF00008    21
+4 Tuni  PF00008,PF07645,PF00008,PF07645,PF00008,PF07645,PF00008    63
+5 Vert  PF07645,PF00683,PF07645,PF00683,PF07645,PF00683,PF07645     9
+6 Vert  PF12661,PF07974,PF12661,PF07974,PF12661,PF00041,PF00147     9
+%8
+1 Echi  PF00094,PF08742,PF01826,PF00094,PF08742,PF01826,PF00094,PF08742    34
+2 Hemi  PF00094,PF08742,PF01826,PF00094,PF08742,PF01826,PF00094,PF08742    35
+3 Ceph  PF13912,PF00096,PF13912,PF00096,PF13912,PF00096,PF13912,PF00096    60
+4 Tuni  PF00094,PF08742,PF01826,PF00094,PF08742,PF01826,PF00094,PF08742   128
+5 Vert  PF13912,PF00096,PF13912,PF00096,PF13912,PF00096,PF13912,PF00096    83
+%9
+1 Echi  PF00055,PF00053,PF00052,PF00053,PF00052,PF00053,PF06008,PF06009,…     1
+2 Tuni  PF13855,PF07679,PF13927,PF07679,PF13927,PF07679,PF13927,PF07679,…    16
+3 Vert  PF13855,PF07679,PF13927,PF07679,PF13927,PF07679,PF13927,PF07679,…     7
+%10
+\fi
+
 
 %According to the described strategy, the organization of the protein 
 %architectures by groups allowed the reduction of the number of comparisons 
