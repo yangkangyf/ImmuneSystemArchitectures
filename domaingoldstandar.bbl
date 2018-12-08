@@ -1,0 +1,241 @@
+\begin{thebibliography}{31}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aken et~al.(2016)Aken, Ayling, Barrell, Clarke, Curwen, Fairley,
+  Banet, Billis, Gir{\'o}n, Hourlier, et~al.]{aken2016ensembl}
+B.~L. Aken, S.~Ayling, D.~Barrell, L.~Clarke, V.~Curwen, S.~Fairley, J.~F.
+  Banet, K.~Billis, C.~G. Gir{\'o}n, T.~Hourlier, et~al.
+\newblock The ensembl gene annotation system.
+\newblock \emph{Database}, 2016:\penalty0 baw093, 2016.
+
+\bibitem[Ashburner et~al.(2000)Ashburner, Ball, Blake, Botstein, Butler,
+  Cherry, Davis, Dolinski, Dwight, Eppig, et~al.]{ashburner2000gene}
+M.~Ashburner, C.~A. Ball, J.~A. Blake, D.~Botstein, H.~Butler, J.~M. Cherry,
+  A.~P. Davis, K.~Dolinski, S.~S. Dwight, J.~T. Eppig, et~al.
+\newblock Gene ontology: tool for the unification of biology.
+\newblock \emph{Nature genetics}, 25\penalty0 (1):\penalty0 25--29, 2000.
+
+\bibitem[Bern{\'a} and Alvarez-Valin(2014)]{berna2014evolutionary}
+L.~Bern{\'a} and F.~Alvarez-Valin.
+\newblock Evolutionary genomics of fast evolving tunicates.
+\newblock \emph{Genome biology and evolution}, 6\penalty0 (7):\penalty0
+  1724--1738, 2014.
+
+\bibitem[Bernstein et~al.(1996)Bernstein, Schluter, Bernstein, and
+  Marchalonis]{bernstein1996}
+R.~M. Bernstein, S.~F. Schluter, H.~Bernstein, and J.~J. Marchalonis.
+\newblock {{P}rimordial emergence of the recombination activating gene 1
+  ({R}{A}{G}1): sequence of the complete shark gene indicates homology to
+  microbial integrases}.
+\newblock \emph{Proc. Natl. Acad. Sci. U.S.A.}, 93\penalty0 (18):\penalty0
+  9454--9459, Sep 1996.
+
+\bibitem[Birney et~al.(2004)Birney, Andrews, Bevan, Caccamo, Chen, Clarke,
+  Coates, Cuff, Curwen, Cutts, et~al.]{birney2004overview}
+E.~Birney, T.~D. Andrews, P.~Bevan, M.~Caccamo, Y.~Chen, L.~Clarke, G.~Coates,
+  J.~Cuff, V.~Curwen, T.~Cutts, et~al.
+\newblock An overview of ensembl.
+\newblock \emph{Genome research}, 14\penalty0 (5):\penalty0 925--928, 2004.
+
+\bibitem[Breuer et~al.(2013)Breuer, Foroushani, Laird, Chen, Sribnaia, Lo,
+  Winsor, Hancock, Brinkman, and Lynn]{Breuer01012013}
+K.~Breuer, A.~K. Foroushani, M.~R. Laird, C.~Chen, A.~Sribnaia, R.~Lo, G.~L.
+  Winsor, R.~E.~W. Hancock, F.~S.~L. Brinkman, and D.~J. Lynn.
+\newblock Innatedb: systems biology of innate immunity and beyond---recent
+  updates and continuing curation.
+\newblock \emph{Nucleic Acids Research}, 41\penalty0 (D1):\penalty0
+  D1228--D1233, 2013.
+\newblock \doi{10.1093/nar/gks1147}.
+\newblock URL \url{http://nar.oxfordjournals.org/content/41/D1/D1228.abstract}.
+
+\bibitem[Brucker et~al.(2012)Brucker, Funkhouser, Setia, Pauly, and
+  Bordenstein]{Brucker2012}
+R.~M. Brucker, L.~J. Funkhouser, S.~Setia, R.~Pauly, and S.~R. Bordenstein.
+\newblock Insect innate immunity database (iiid): An annotation tool for
+  identifying immune genes in insect genomes.
+\newblock \emph{PLOS ONE}, 7\penalty0 (9):\penalty0 1--4, 09 2012.
+\newblock \doi{10.1371/journal.pone.0045125}.
+\newblock URL \url{http://dx.doi.org/10.1371%2Fjournal.pone.0045125}.
+
+\bibitem[Buckley and Rast(2015)]{Buckley64}
+K.~M. Buckley and J.~P. Rast.
+\newblock Diversity of animal immune receptors and the origins of recognition
+  complexity in the deuterostomes.
+\newblock \emph{Developmental \& Comparative Immunology}, 49\penalty0
+  (1):\penalty0 179 -- 189, 2015.
+\newblock ISSN 0145-305X.
+\newblock \doi{http://dx.doi.org/10.1016/j.dci.2014.10.013}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0145305X14002602}.
+
+\bibitem[Burge and Karlin(1997)]{genescan}
+C.~Burge and S.~Karlin.
+\newblock {{P}rediction of complete gene structures in human genomic
+  {D}{N}{A}}.
+\newblock \emph{J. Mol. Biol.}, 268\penalty0 (1):\penalty0 78--94, Apr 1997.
+
+\bibitem[Carroll(2008)]{carroll2008evo}
+S.~B. Carroll.
+\newblock Evo-devo and an expanding evolutionary synthesis: a genetic theory of
+  morphological evolution.
+\newblock \emph{Cell}, 134\penalty0 (1):\penalty0 25--36, 2008.
+
+\bibitem[Claverie(1997)]{claverie}
+J.-M. Claverie.
+\newblock Computational methods for the identification of genes in vertebrate
+  genomic sequences.
+\newblock \emph{Human Molecular Genetics}, 6\penalty0 (10):\penalty0 1735,
+  1997.
+\newblock \doi{10.1093/hmg/6.10.1735}.
+\newblock URL \url{+ http://dx.doi.org/10.1093/hmg/6.10.1735}.
+
+\bibitem[Csuros(2010)]{csuros2010}
+M.~Csuros.
+\newblock {{C}ount: evolutionary analysis of phylogenetic profiles with
+  parsimony and likelihood}.
+\newblock \emph{Bioinformatics}, 26\penalty0 (15):\penalty0 1910--1912, Aug
+  2010.
+
+\bibitem[Dehal et~al.(2002)Dehal, Satou, Campbell, Chapman, Degnan, De~Tomaso,
+  Davidson, Di~Gregorio, Gelpke, Goodstein, et~al.]{dehal2002draft}
+P.~Dehal, Y.~Satou, R.~K. Campbell, J.~Chapman, B.~Degnan, A.~De~Tomaso,
+  B.~Davidson, A.~Di~Gregorio, M.~Gelpke, D.~M. Goodstein, et~al.
+\newblock The draft genome of ciona intestinalis: insights into chordate and
+  vertebrate origins.
+\newblock \emph{Science}, 298\penalty0 (5601):\penalty0 2157--2167, 2002.
+
+\bibitem[Delsuc et~al.(2006)Delsuc, Brinkmann, Chourrout, and
+  Philippe]{delsuc2006}
+F.~Delsuc, H.~Brinkmann, D.~Chourrout, and H.~Philippe.
+\newblock {{T}unicates and not cephalochordates are the closest living
+  relatives of vertebrates}.
+\newblock \emph{Nature}, 439\penalty0 (7079):\penalty0 965--968, Feb 2006.
+
+\bibitem[Denoeud et~al.(2010)Denoeud, Henriet, Mungpakdee, Aury, Da~Silva,
+  Brinkmann, Mikhaleva, Olsen, Jubin, Ca{\~n}estro,
+  et~al.]{denoeud2010plasticity}
+F.~Denoeud, S.~Henriet, S.~Mungpakdee, J.-M. Aury, C.~Da~Silva, H.~Brinkmann,
+  J.~Mikhaleva, L.~C. Olsen, C.~Jubin, C.~Ca{\~n}estro, et~al.
+\newblock Plasticity of animal genome architecture unmasked by rapid evolution
+  of a pelagic tunicate.
+\newblock \emph{Science}, 330\penalty0 (6009):\penalty0 1381--1385, 2010.
+
+\bibitem[Durinck et~al.(2009)Durinck, Spellman, Birney, and
+  Huber]{Durinck:2009aa}
+S.~Durinck, P.~T. Spellman, E.~Birney, and W.~Huber.
+\newblock Mapping identifiers for the integration of genomic datasets with the
+  r/bioconductor package biomart.
+\newblock \emph{Nat. Protocols}, 4\penalty0 (8):\penalty0 1184--1191, 07 2009.
+\newblock URL \url{http://dx.doi.org/10.1038/nprot.2009.97}.
+
+\bibitem[Forslund and Sonnhammer(2012)]{Forslund2012}
+K.~Forslund and E.~L. Sonnhammer.
+\newblock {{E}volution of protein domain architectures}.
+\newblock \emph{Methods Mol. Biol.}, 856:\penalty0 187--216, 2012.
+
+\bibitem[Franchi and Ballarin(2017)]{franchi2017}
+N.~Franchi and L.~Ballarin.
+\newblock {{I}mmunity in {P}rotochordates: {T}he {T}unicate {P}erspective}.
+\newblock \emph{Front Immunol}, 8:\penalty0 674, 2017.
+
+\bibitem[Korf et~al.(2003)Korf, Yandell, and Bedell]{Korf:2003}
+I.~Korf, M.~Yandell, and J.~Bedell.
+\newblock \emph{BLAST}.
+\newblock O'Reilly \&amp; Associates, Inc., Sebastopol, CA, USA, 2003.
+\newblock ISBN 0596002998.
+
+\bibitem[Lechner et~al.(2011)Lechner, Findei{\ss}, Steiner, Marz, Stadler, and
+  Prohaska]{Lechner2011}
+M.~Lechner, S.~Findei{\ss}, L.~Steiner, M.~Marz, P.~F. Stadler, and S.~J.
+  Prohaska.
+\newblock Proteinortho: Detection of (co-)orthologs in large-scale analysis.
+\newblock \emph{BMC Bioinformatics}, 12\penalty0 (1):\penalty0 124, Apr 2011.
+\newblock ISSN 1471-2105.
+\newblock \doi{10.1186/1471-2105-12-124}.
+\newblock URL \url{https://doi.org/10.1186/1471-2105-12-124}.
+
+\bibitem[Palsson-McDermott and O'Neill(2007)]{paalsson2007building}
+E.~M. Palsson-McDermott and L.~A. O'Neill.
+\newblock {{B}uilding an immune system from nine domains}.
+\newblock \emph{Biochem. Soc. Trans.}, 35\penalty0 (Pt 6):\penalty0 1437--1444,
+  Dec 2007.
+
+\bibitem[Putnam et~al.(2008)Putnam, Butts, Ferrier, Furlong, Hellsten,
+  Kawashima, Robinson-Rechavi, Shoguchi, Terry, Yu,
+  et~al.]{putnam2008amphioxus}
+N.~H. Putnam, T.~Butts, D.~E. Ferrier, R.~F. Furlong, U.~Hellsten,
+  T.~Kawashima, M.~Robinson-Rechavi, E.~Shoguchi, A.~Terry, J.-K. Yu, et~al.
+\newblock The amphioxus genome and the evolution of the chordate karyotype.
+\newblock \emph{Nature}, 453\penalty0 (7198):\penalty0 1064--1071, 2008.
+
+\bibitem[Seo et~al.(2001)Seo, Kube, Edvardsen, Jensen, Beck, Spriet, Gorsky,
+  Thompson, Lehrach, Reinhardt, et~al.]{seo2001miniature}
+H.-C. Seo, M.~Kube, R.~B. Edvardsen, M.~F. Jensen, A.~Beck, E.~Spriet,
+  G.~Gorsky, E.~M. Thompson, H.~Lehrach, R.~Reinhardt, et~al.
+\newblock Miniature genome in the marine chordate oikopleura dioica.
+\newblock \emph{Science}, 294\penalty0 (5551):\penalty0 2506--2506, 2001.
+
+\bibitem[Small et~al.(2007)Small, Brudno, Hill, and Sidow]{small2007haplome}
+K.~S. Small, M.~Brudno, M.~M. Hill, and A.~Sidow.
+\newblock A haplome alignment and reference sequence of the highly polymorphic
+  ciona savignyi genome.
+\newblock \emph{Genome biology}, 8\penalty0 (3):\penalty0 R41, 2007.
+
+\bibitem[Stanke and Morgenstern(2005)]{augustus}
+M.~Stanke and B.~Morgenstern.
+\newblock {{A}{U}{G}{U}{S}{T}{U}{S}: a web server for gene prediction in
+  eukaryotes that allows user-defined constraints}.
+\newblock \emph{Nucleic Acids Res.}, 33\penalty0 (Web Server issue):\penalty0
+  W465--467, Jul 2005.
+
+\bibitem[Tatusov et~al.(2000)Tatusov, Galperin, Natale, and
+  Koonin]{tatusov2000cog}
+R.~L. Tatusov, M.~Y. Galperin, D.~A. Natale, and E.~V. Koonin.
+\newblock The cog database: a tool for genome-scale analysis of protein
+  functions and evolution.
+\newblock \emph{Nucleic acids research}, 28\penalty0 (1):\penalty0 33--36,
+  2000.
+
+\bibitem[Tatusova et~al.(2016)Tatusova, DiCuccio, Badretdin, Chetvernin,
+  Nawrocki, Zaslavsky, Lomsadze, Pruitt, Borodovsky, and
+  Ostell]{tatusova2016ncbi}
+T.~Tatusova, M.~DiCuccio, A.~Badretdin, V.~Chetvernin, E.~P. Nawrocki,
+  L.~Zaslavsky, A.~Lomsadze, K.~D. Pruitt, M.~Borodovsky, and J.~Ostell.
+\newblock Ncbi prokaryotic genome annotation pipeline.
+\newblock \emph{Nucleic Acids Research}, page gkw569, 2016.
+
+\bibitem[Terrapon et~al.(2014)Terrapon, Weiner, Grath, Moore, and
+  Bornberg-Bauer]{Terrapon:2014}
+N.~Terrapon, J.~Weiner, S.~Grath, A.~D. Moore, and E.~Bornberg-Bauer.
+\newblock Rapid similarity search of proteins using alignments of domain
+  arrangements.
+\newblock \emph{Bioinformatics}, 30\penalty0 (2):\penalty0 274--281, 2014.
+\newblock \doi{10.1093/bioinformatics/btt379}.
+\newblock URL \url{http://dx.doi.org/10.1093/bioinformatics/btt379}.
+
+\bibitem[Velandia-Huerto et~al.(2016)Velandia-Huerto, Gittenberger, Brown,
+  Stadler, and Bermudez-Santana]{velandia2016a}
+C.~A. Velandia-Huerto, A.~A. Gittenberger, F.~D. Brown, P.~F. Stadler, and
+  C.~I. Bermudez-Santana.
+\newblock {{A}utomated detection of nc{R}{N}{A}s in the draft genome sequence
+  of a colonial tunicate: the carpet sea squirt {D}idemnum vexillum}.
+\newblock \emph{BMC Genomics}, 17:\penalty0 691, Aug 2016.
+
+\bibitem[Voskoboynik et~al.(2013)Voskoboynik, Neff, Sahoo, Newman, Pushkarev,
+  Koh, Passarelli, Fan, Mantalas, Palmeri, et~al.]{voskoboynik2013genome}
+A.~Voskoboynik, N.~F. Neff, D.~Sahoo, A.~M. Newman, D.~Pushkarev, W.~Koh,
+  B.~Passarelli, H.~C. Fan, G.~L. Mantalas, K.~J. Palmeri, et~al.
+\newblock The genome sequence of the colonial chordate, botryllus schlosseri.
+\newblock \emph{Elife}, 2:\penalty0 e00569, 2013.
+
+\bibitem[Yandell and Ence(2012)]{yandell2012}
+M.~Yandell and D.~Ence.
+\newblock {{A} beginner's guide to eukaryotic genome annotation}.
+\newblock \emph{Nat. Rev. Genet.}, 13\penalty0 (5):\penalty0 329--342, Apr
+  2012.
+
+\end{thebibliography}
