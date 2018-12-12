@@ -590,33 +590,24 @@ standard proteins, were compared with \texttt{ProteinOrtho}
 %associated sequence, CDSs for each protein was retrieved, thereby a strategy 
 %with the CDS's fragments where applied running \texttt{ProteinOrtho} v.5.16. 
 %\cite{Lechner2011} using the \texttt{Poff} extension of synteny, as follows:
-\TODO{Change protein ortho parameters according to the discussion about groups 
-and orthology relationships.}
+
 \begin{lstlisting}[language=bash, breaklines=true]
-#Step 1:
-proteinortho5.pl -synteny -dups=3 -verbose -cpus=8 -clean 
--keep -project=<name-project> -step=1 -temp=${temp-directory} -p=blastn 
-<fasta file>
-#Step 2:
-proteinortho5.pl -synteny -dups=3 -graph -cpus=8 -verbose -clean 
--step=2 -project={name-project} -keep -startat=${step} -stopat=4 -p=blastn 
-<fasta file>
-#Step 3:
-proteinortho5.pl -synteny -dups=3 -graph -cpus=16 -verbose -clean -step=3 
--keep -project=<name-project> -p=blastn <fasta file>
+proteinortho5.pl -force -graph -clean -keep -project=<name-project> 
+-step=1 <fasta files>
+proteinortho5.pl -force -graph -clean -keep -step=2 
+-project={name-project} <fasta files>
+proteinortho5.pl -force -graph -clean -keep -step=3  
+-project=<name-project> <fasta files>
 \end{lstlisting}
 
-% Here this referenced some orthology groups based on different species 
-%comparisons, (re-run?)
-%Complete comparisons were performed independently for each domain annotation 
-%source $m$. At the same time, different set of comparisons were used to obtain 
-%orthology groups between: Tunicates + Cephalochordata (\texttt{B. floridae}); 
-%Tunicates + Vertebrata (\textit{P. marinus}) and Vertebrates (\textit{P. 
-%marinus}) + Tunicates + Cephalochordata (\texttt{B. floridae}). Output files 
-%were analyzed with \texttt{Perl} scripts to get the orthology relationships 
-%between orthologous CDS sequences. At the end, with these methodology was 
-%possible to obtain orthology groups of genes, that further were subject to 
-%built matrices to calculate gain and losses of domains. 
+Detected 1:1 or co-orthologous relationships between pre-defined groups of 
+orthology were obtained with \texttt{Perl} script. At the same time, available 
+annotation from $\boldsymbol{\mathfrak{G}}$ were obtained from \texttt{Ensembl} 
+using \texttt{biomaRt}. For protein candidates that belongs from studied 
+species and shared orthologous relations with a $\boldsymbol{\mathfrak{G}}$ 
+protein, the retrieved annotation from from \texttt{Ensembl} and 
+\texttt{Interpro} accession numbers were associated and reported.
+
 
 \TODO{
 \subsection*{Gain and losses of domains}
@@ -878,19 +869,18 @@ vertebrates.
 
 A number of $1936$ architectures have been detected along the set of proteins 
 with heterodomains. Specifically, for all clades, was possible to calculate the 
-percentage of found architectures as follows: echinoderms ($42.3$\%), hemichordates ($45.0$\%),
-cephalochordates ($47.1$\%), tunicates ($22.5$\%) and vertebrates($50.8$\%). 
-At the same time, Figure \ref{fig:domainDistr}C shown the average of found 
-protein architectures along all the clades. Both, the presence percentage 
-and the average number of architectures shown a reduced number of used 
-architectures on detected candidates proteins from tunicates, in comparison 
-to other species of chordates and the outgroup species, composed by 
-echinoderms and hemichordates. 
-At the same time, \ref{fig:domainDistr}D represent the top $5$ domains 
-inside a heterodomain proteins architectures along all studied clades. This 
-distribution is dominated by $10$ protein domains that are spanned 
-along the detected innate immune proteins. The most frequent domain is an 
-Immunoglobulin domain (Ig 3, PF13927), at the same time in vertebrates, 
+percentage of found architectures as follows: echinoderms ($42.3$\%), 
+hemichordates ($45.0$\%), cephalochordates ($47.1$\%), tunicates ($22.5$\%) and 
+vertebrates($50.8$\%). At the same time, Figure \ref{fig:domainDistr}C shown 
+the average of found protein architectures along all the clades. Both, the 
+presence percentage and the average number of architectures shown a reduced 
+number of used architectures on detected candidates proteins from tunicates, in 
+comparison to other species of chordates and the outgroup species, composed by 
+echinoderms and hemichordates. At the same time, \ref{fig:domainDistr}D 
+represent the top $5$ domains inside a heterodomain proteins architectures along 
+all studied clades. This distribution is dominated by $10$ protein domains that 
+are spanned along the detected innate immune proteins. The most frequent domain 
+is an Immunoglobulin domain (Ig 3, PF13927), at the same time in vertebrates, 
 tunicates and echinoderms, in relation with this also in echinoderms
 and hemichordates, a frequent domain is the Immunoglobulin I-set domain 
 (PF07679). Leucine-rich repeats (PF13855), related with protein-protein 
@@ -1020,6 +1010,7 @@ PF15227,PF00643 & zf-C3HC4\_4,zf-B\_box & ? \\
 %along all the protein architectures, the same information is described for the 
 %$10$ most common domains, asociating their annotation for the GO term. 
 
+\iffalse
 \begin{table}[ht!]
 \caption{Top ten of most frequent domains found on chordate's immune system 
 proteins.}
@@ -1049,6 +1040,7 @@ GO:0005515\\
 \end{center}
 \label{tab:domains}
 \end{table}%
+\fi
 
 \bibliographystyle{abbrvnat}
 \bibliography{biblio,otherbibio}
