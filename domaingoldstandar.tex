@@ -835,61 +835,71 @@ musculus} and \textsf{hsaP=}\textit{H.\ sapiens}.}
 
 \subsection*{Relationships between Innate Immune system candidates} 
 \label{Orthology}
-Once protein candidates were detected by ABDO strategy on studied species, 
-one further step is the identification of biological relevance of the 
-new detected protein candidates. Applying clustering strategy was 
-possible to identify the intrinsic relationships between 
-$\boldsymbol{\mathfrak{G}}$ and the new identified proteins, based on the 
-protein domain architecture. In this way $4240$ groups were assigned and to 
-access for orthology relationships between them, \texttt{ProteinOrtho} was 
-applied along each group. 
-The complete distribution of the number of domains along all 
-identified candidates is show in Figure \ref{fig:domainDistr}A. Along all 
-the described organisms, grouped by the taxonomical clades, it was possible to
-identify a high number of proteins with only one class of protein domain. 
-Despite the similarity of this results along taxonomical clades, distribution 
-from \textsl{B.\ floridae} showed higher number of proteins with $2$ domains 
-types and similar distribution with Vertebrates on proteins with $3$ domains. 
-In the other way, echinoderms, hemichordates and tunicates, showed similar 
-density distributions for those values. Additionaly, the most frequent 
-protein architectures and the current annotation from \texttt{Pfam} database is 
-composed by those protein domains: Rhodopsin-like receptor (PF00001) for 
-echinoderms, hemichordates and vertebrates, while in Cephalochordata was the 
-Cytochrome P450 (PF00067) and for tunicates the Protein Kinase domain (PF00069). 
 
-Figure \ref{fig:domainDistr}B and C, shows the distribution of protein 
+After identification of innate immune system candidates by applying ABDO 
+strategies and obtaining the protein domain architectures, the distribution of 
+the number of domains was studied (Figure \ref{fig:domainDistr}A). Through all 
+the studied organisms, grouped by $5$ taxonomical clades (Echi =  
+Echinodermata, Hemi = Hemichordata, Ceph = Cephalochordata, Tuni = Tunicata 
+and Vert = Vertebrata), it was possible to identify a high number of 
+protein only with one type of protein domain (homodomain proteins).
+Despite the similarity of this results along described clades, distribution 
+from \textsl{B.\ floridae} showed higher number of proteins with $2$ domains 
+types and also a higher number of proteins with $3$ types of domains 
+in vertebrates. 
+In the other way, echinoderms, hemichordates and tunicates, showed similar 
+density distributions for those values. Additionally, the most frequent 
+protein architecture with current annotation from \texttt{Pfam} database is 
+composed by the following protein domains: Rhodopsin-like receptor (PF00001) 
+for echinoderms, hemichordates and vertebrates, while in Cephalochordata was 
+Cytochrome P450 (PF00067) and for tunicates the Protein Kinase domain 
+(PF00069). At the same time, few proteins are composed by more than $5$ 
+different types of domains, but the current distributions show a very long 
+heavy tails with values \TODO{$\ge 20$ different domains}.
+
+Figures \ref{fig:domainDistr}B and C, shows the distribution of protein 
 architectures on homodomain and heterodomain proteins along studied species, 
 respectively. For homodomain proteins, $2304$ domain architectures were 
 detected along innate immune proteins in echinoderms ($54.1$\%), hemichordates 
 ($51.3$\%), cephalochordates ($37.0$\%), tunicates ($43.1$\%) and 
-vertebrates($52.9$\%). At the same time, when the distributed architecture 
-frequency  is considered (\ref{fig:domainDistr}B), it shows a high variariation 
-in total number of architectures in echinoderms and in tunicates, respect to 
-vertebrates.
+vertebrates($52.9$\%). At the same time, when the distribution of the frequency 
+of architectures is considered (\ref{fig:domainDistr}B), it shows a 
+high variation in total number of architectures in echinoderms and in 
+tunicates, respect to vertebrates. \TODO{This high variations shows a 
+heterogeneous distribution along all tunicates, where the $n = 17$}. 
+Hemichordata and Cephalochordata were composed each one only by one specie.  
 
 A number of $1936$ architectures have been detected along the set of proteins 
-with heterodomains. Specifically, for all clades, was possible to calculate the 
-percentage of found architectures as follows: echinoderms ($42.3$\%), 
-hemichordates ($45.0$\%), cephalochordates ($47.1$\%), tunicates ($22.5$\%) and 
-vertebrates($50.8$\%). At the same time, Figure \ref{fig:domainDistr}C shown 
-the average of found protein architectures along all the clades. Both, the 
-presence percentage and the average number of architectures shown a reduced 
-number of used architectures on detected candidates proteins from tunicates, in 
-comparison to other species of chordates and the outgroup species, composed by 
-echinoderms and hemichordates. At the same time, \ref{fig:domainDistr}D 
-represent the top $5$ domains inside a heterodomain proteins architectures along 
-all studied clades. This distribution is dominated by $10$ protein domains that 
-are spanned along the detected innate immune proteins. The most frequent domain 
-is an Immunoglobulin domain (Ig 3, PF13927), at the same time in vertebrates, 
-tunicates and echinoderms, in relation with this also in echinoderms
-and hemichordates, a frequent domain is the Immunoglobulin I-set domain 
+with more than one type of domain (heterodomains). Specifically, for all 
+clades, was possible to calculate the percentage of found architectures 
+respect to the total number of heterodomain architectures: echinoderms 
+($42.3$\%), hemichordates ($45.0$\%), cephalochordates ($47.1$\%), tunicates 
+($22.5$\%) and vertebrates($50.8$\%). At the same time, Figure 
+\ref{fig:domainDistr}C shows the average of found protein architectures along 
+all the clades. Both, the presence percentage and the average number 
+of architectures shows a reduced number of found architectures on proteins from 
+tunicates, in comparison to other species of chordates and the outgroup 
+species, composed by echinoderms and hemichordates. Also, a high variability is 
+evident for the complete Tunicata clade. \TODO{Maybe make a stat test?}  
+
+In more detail for heterodomain proteins, Figure \ref{fig:domainDistr}D 
+represent the top $5$ proteins architectures domains along all defined clades. 
+This distribution is dominated by $10$ protein domains that are spanned along 
+the detected protein architectures. The most frequent domain is an 
+Immunoglobulin domain (Ig 3, PF13927), at the same time in vertebrates, 
+tunicates and echinoderms, in relation with this, also in echinoderms
+and hemichordates a frequent domain is the Immunoglobulin I-set domain 
 (PF07679). Leucine-rich repeats (PF13855), related with protein-protein 
 interactions are frequent in vertebrates and cephalochordates and additionally 
-some domains related with this funcion as Ankyrin repeats (PF12796) and the 
-Calcium-binding EGF domain (PF07645) have been detected in this list. The most 
-conserved along those clades are: P-kinase (PF00069) and related domains as 
-Tyrosin kinase (PF07714), or even Pleckstrin homology domain (PF00169).
- 
+related with this funcion, Ankyrin repeats (PF12796) and the Calcium-binding 
+EGF domain (PF07645) have been detected in this list. The most conserved along 
+those clades are: P-kinase (PF00069) and related domains as Tyrosin kinase 
+(PF07714), and even, Pleckstrin homology domain (PF00169).
+
+When the architecture distribution is considered, the most frequent 
+architectures along all species are described on 
+Table \ref{tab:mostConservedArch}. \TODO{Change this table describing by 
+specie, clade or even describe the matrix based on 1:1 orthologous proteins.}
 
 \begin{figure}[ht!]
 \centering
@@ -903,9 +913,6 @@ Echinodermata, \textbf{Hemi:} Hemichordata, \textbf{Ceph:} Cephalochordata,
 \textbf{Tuni:} Tunicata and \textbf{Vert:} Vertebrata.}
 \label{fig:domainDistr}
 \end{figure}
-
-The most conserved set of proteins are described on Table 
-\ref{tab:mostConservedArch}.
 
 \begin{table}[ht!]
 \caption{Most conserved architectures along studied species.}
@@ -929,6 +936,27 @@ PF15227,PF00643 & zf-C3HC4\_4,zf-B\_box & ? \\
 \label{tab:mostConservedArch}
 \end{center}
 \end{table}
+
+Once protein candidates were detected by ABDO strategy on studied species, 
+one further step is the identification of biological relevance of the 
+new detected protein candidates. Applying clustering strategy was 
+possible to identify the intrinsic relationships between 
+$\boldsymbol{\mathfrak{G}}$ and the new identified proteins, based on the 
+protein domain architectures. In this way $4240$ groups were assigned and to 
+access for orthology relationships between them, \texttt{ProteinOrtho} was 
+applied along each group. 
+A first approach was the identification of 1:1 orthologous or co-orthologous 
+(1:many or many:many) relationships. From the detected $27311$ relations, 
+$14510$ reported 1:1 orthology and a sub-set of $2732$ have inside the 
+compared set of proteins one from $\boldsymbol{\mathfrak{G}}$. From 
+co-orthologous comparisons, $12801$ were detected and a subset of $5293$ have at 
+least one protein from $\boldsymbol{\mathfrak{G}}$. Those sub-sets that contains 
+at least one $\boldsymbol{\mathfrak{G}}$ protein, could be annotated with the 
+retrieved \texttt{Interpro} annotation, obtained with \texttt{biomaRt} package 
+from \texttt{Ensembl}. Most of the 1:1 orthologous groups are composed by at 
+least $2$ species ($53.33$\%) including the golden specie. For co-orthology, 
+$2$ species are the most frequent but with in a lower percentage ($24.16$\%).
+
 
 \iffalse
 %% TODO: put this info in a table and describe a little bit the annotation.
