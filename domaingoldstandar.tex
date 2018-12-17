@@ -809,7 +809,6 @@ showed similar density distributions. Also, few proteins are composed by more
 than $5$ different types of domains, but the current distributions shows, in 
 all clades, a very long heavy tails with \TODO{$\ge 20$ domains types}.
 
-
 Meanwhile, Figures \ref{fig:domainDistr}B and C, shows the distribution of 
 protein architectures on homodomain and heterodomain proteins along studied 
 species, respectively. For homodomain proteins, $2304$ domain architectures 
@@ -854,7 +853,6 @@ been detected in this list. The most conserved along those clades are: P-kinase
 (PF00069) and related domains as: Tyrosin kinase (PF07714), and even Pleckstrin 
 homology domain (PF00169). 
 
-
 \TODO{When the architecture distribution is considered, the most frequent along 
 all species are described on Table \ref{tab:mostConservedArch}. Change 
 this table describing by specie, clade or even describe the matrix based on 1:1 
@@ -898,11 +896,11 @@ PF15227,PF00643 & zf-C3HC4\_4,zf-B\_box & ? \\
 
 Once protein candidates were detected by ABDO strategy on studied species, 
 a further step is the identification of biological relevance of the 
-new detected protein candidates. Applying a clustering strategy was 
-possible to identify the intrinsic relationships 
-between $\boldsymbol{\mathfrak{G}}$ and the new identified proteins, based on 
-the protein domain architectures. In this way $4240$ groups were created and 
-to access for orthology relationships between them, \texttt{ProteinOrtho} was 
+new detected protein candidates. Applying a clustering strategy was
+possible to identify the intrinsic relationships between 
+$\boldsymbol{\mathfrak{G}}$ and the new identified proteins, based on the 
+protein domain architectures. In this way $4240$ groups were created and to 
+access for orthology relationships between them, \texttt{ProteinOrtho} was 
 applied along each group. A first approach to study this orthology relations 
 was to access for the identification of 1:1 orthologous or co-orthologous 
 (1:many or many:many) groups. Then, from the detected $27311$ relations, 
@@ -915,119 +913,6 @@ retrieved \texttt{Interpro} annotation, obtained with \texttt{biomaRt} package
 from \texttt{Ensembl}. Most of the 1:1 orthologous groups are composed by at 
 least $2$ species ($53.33$\%) including the golden specie. For co-orthology, 
 $2$ species are the most frequent but with in a lower percentage ($24.16$\%).
-
-
-\iffalse
-%% TODO: put this info in a table and describe a little bit the annotation.
-%1
-1 Echi  PF00001        991
-2 Hemi  PF00001        438
-3 Ceph  PF00067        388
-4 Tuni  PF00069       2415
-5 Vert  PF00001       1304
-%2
-1 Echi  PF01825,PF00002   186
-2 Hemi  PF02931,PF02932   117
-3 Ceph  PF15227,PF00643   313
-4 Tuni  PF07707,PF01344   704
-5 Vert  PF13281,PF00069  1430
-%3
-1 Echi  PF00084,PF02494,PF00084    54
-2 Hemi  PF00629,PF00057,PF00629    13
-3 Ceph  PF12947,PF14670,PF07645   302
-4 Tuni  PF12947,PF14670,PF07645   146
-5 Vert  PF13927,PF13895,PF13927   366
-%4
-1 Echi  PF00664,PF00005,PF00664,PF00005   111
-2 Hemi  PF00664,PF00005,PF00664,PF00005    46
-3 Ceph  PF14670,PF07645,PF00054,PF02210    62
-4 Tuni  PF00664,PF00005,PF00664,PF00005   200
-5 Vert  PF14670,PF07645,PF00054,PF02210   110
-%5
-1 Echi  PF07679,PF00041,PF07679,PF00041,PF07679    33
-2 Hemi  PF07679,PF00041,PF07679,PF00041,PF07679    11
-3 Ceph  PF00651,PF13912,PF12874,PF13912,PF12874    15
-4 Ceph  PF13855,PF00791,PF10461,PF00791,PF00531    15
-5 Tuni  PF03104,PF15735,PF03104,PF00136,PF14260   188
-6 Vert  PF00651,PF13912,PF12874,PF13912,PF12874   118
-%6
-1 Echi  PF00246,PF13620,PF00246,PF13620,PF00246,PF13620    12
-2 Echi  PF00270,PF00271,PF02889,PF00270,PF00271,PF02889    12
-3 Hemi  PF00246,PF13620,PF00246,PF13620,PF00246,PF13620     4
-4 Ceph  PF00246,PF13620,PF00246,PF13620,PF00246,PF13620    20
-5 Tuni  PF00111,PF01799,PF00941,PF03450,PF01315,PF02738    33
-6 Vert  PF13912,PF00096,PF13912,PF00096,PF13912,PF00096    35
-%7
-1 Echi  PF00008,PF07645,PF00008,PF07645,PF00008,PF07645,PF00008    30
-2 Hemi  PF00008,PF07645,PF00008,PF07645,PF00008,PF07645,PF00008     6
-3 Ceph  PF00008,PF07645,PF00008,PF07645,PF00008,PF07645,PF00008    21
-4 Tuni  PF00008,PF07645,PF00008,PF07645,PF00008,PF07645,PF00008    63
-5 Vert  PF07645,PF00683,PF07645,PF00683,PF07645,PF00683,PF07645     9
-6 Vert  PF12661,PF07974,PF12661,PF07974,PF12661,PF00041,PF00147     9
-%8
-1 Echi  PF00094,PF08742,PF01826,PF00094,PF08742,PF01826,PF00094,PF08742    34
-2 Hemi  PF00094,PF08742,PF01826,PF00094,PF08742,PF01826,PF00094,PF08742    35
-3 Ceph  PF13912,PF00096,PF13912,PF00096,PF13912,PF00096,PF13912,PF00096    60
-4 Tuni  PF00094,PF08742,PF01826,PF00094,PF08742,PF01826,PF00094,PF08742   128
-5 Vert  PF13912,PF00096,PF13912,PF00096,PF13912,PF00096,PF13912,PF00096    83
-%9
-1 Echi  PF00055,PF00053,PF00052,PF00053,PF00052,PF00053,PF06008,PF06009,…     1
-2 Tuni  PF13855,PF07679,PF13927,PF07679,PF13927,PF07679,PF13927,PF07679,…    16
-3 Vert  PF13855,PF07679,PF13927,PF07679,PF13927,PF07679,PF13927,PF07679,…     7
-%10
-\fi
-
-
-%According to the described strategy, the organization of the protein 
-%architectures by groups allowed the reduction of the number of comparisons 
-%between all the proteins. In this respect, $13146$ sets of similar 
-%architectures constituted the database of architectures where all the protein 
-%architectures were classified. About $27.54$\% of these groups reported only 
-%$1$ member and the $5$ groups that reported the highest 
-%number of elements, for instance the archictectures: PF00069 ($9\,326\,916$), 
-%hat corresponds to the P-kinase domain; PF00001 ($3\,976\,036$) a 
-%hodopsin-like receptors family; PF00147 ($1442401$) fibrinogen alpha chain; 
-%PF00059 ($1\,265\,625$) a Lectin C-type domain and PF00067 ($1\,100\,401$) the 
-%Cytochrome P450. In addition, Table \ref{tab:domains} describe the protein 
-%domains that are overrepresented in the immune system candidate architectures, 
-%in this way the most frequent protein domain along all the proteins is the 
-%Epidermal grow factor-like domain (PF00008) with a frequency of $4703$ times 
-%in 
-%the annotation of all the proteins, but also, it is the most frequent domain 
-%along all the protein architectures, the same information is described for the 
-%$10$ most common domains, asociating their annotation for the GO term. 
-
-\iffalse
-\begin{table}[ht!]
-\caption{Top ten of most frequent domains found on chordate's immune system 
-proteins.}
-\begin{center}
-\begin{tabular}{p{2.0cm}ccp{4cm}p{3.5cm}}
-\toprule
-\textbf{Number Architectures}& \textbf{Frecuency} & \textbf{ACC} & 
-\textbf{PFAM Annotation} & \textbf{GO term}\\
-\midrule
-96&1143 & PF00028&Cadherin domain & GO:calcium ion binding; GO:0005509. 
-GO:homophilic cell adhesion via plasma membrane adhesion molecules; GO:0007156. 
-GO:membrane; GO:0016020\\
-422&1183 & PF00096&Zinc finger, C2H2 type & NA \\
-185&1385 &PF01391&Collagen triple helix repeat (20 copies) & NA \\
-279&1655  &PF00057&Low-density lipoprotein receptor domain class A & 
-Ldl\_recept\_a; GO:protein binding; GO:0005515 \\
-302&1780 &PF00084&Sushi repeat (SCR repeat) & NA \\
-430&2293 & PF13465&Zinc-finger double domain & NA\\
-680&3566 &PF07679&Immunoglobulin I-set domain & NA\\
-683&3966 &PF07645&Calcium-binding EGF domain & EGF\_CA; GO:calcium ion binding; 
-GO:0005509\\
-543&4150 &PF00041&Fibronectin type III domain & fn3; GO:protein binding; 
-GO:0005515\\
-731&4703 &PF00008&EGF-like domain & NA\\
-\bottomrule
-\end{tabular}
-\end{center}
-\label{tab:domains}
-\end{table}%
-\fi
 
 \bibliographystyle{abbrvnat}
 \bibliography{biblio,otherbibio}
