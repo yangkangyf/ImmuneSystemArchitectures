@@ -21,10 +21,12 @@
 \usepackage{adjustbox}
 
 %opening
-\title{Supplemental information \#1: A new strategy to characterize the domain 
+\title{Supplemental information \#2: A new strategy to characterize the domain 
 architecture structure of proteins of the innate inmune system in tunicate 
 species}
-\author{all}
+\author{Cristian A. Velandia-Huerto*, Ernesto Parra, Federico D. 
+Brown, Adriaan Gittenberger, \\ Peter F. Stadler and Clara I. 
+Berm\'{u}dez-Santana}
 \begin{document}
 
 \maketitle
@@ -34,36 +36,18 @@ species}
 
 \section*{Golden Standard properties}
 
-The Golden Standard Group ($\boldsymbol{\mathfrak{G}}$) is composed with sequences 
-that belong from $5$ species of insects (\textsl{Nasonia vitripennis}, 
-\textsl{Apis mellifera}, \textsl{Drosophila melanogaster}, \textsl{Anopheles 
-  gambiae} and \textsl{Acyrthosiphon pisum}), mouse and human, where annotations of the
-immune system was identified and retrieved. All the detailed 
-steps to retrieve the immune system annotated sequences are described on the 
-main text. Table \ref{tab:start} describes the number of sequences that have 
-been annotated in the immune system databases: \texttt{ImmuneDB} AND 
-\texttt{Insect Innate Immunity Database} (IIID). At the same time, complete 
-annotation from those species have been reported in order to compare the 
-percentage of proteins that are currently annotated as Immune System proteins. 
-Mainly, most of the proteins inside ($\boldsymbol{\mathfrak{G}}$) 
-belongs from human ($84.74$ \%) and mouse ($12.51$ \%), insects in total 
-reported $2.75$ \%. At the same time was possible to quantify the percentage of 
-proteins that are annotated in the immune system databases (\texttt{IIID} or 
-\texttt{ImmuneDB}), particulary the annotation on human is high in comparison 
-to the others organisms and in insects these value is lower that $3$\%.  
+Golden Standard Group ($\boldsymbol{\mathfrak{G}}$) is composed with immune system sequences annotated in immune-specific databases (Insect Innate Immunity Database (IIID) and ImmuneDB). From the first one have been retrieved sequences from $5$ species of insects: (\textsl{Nasonia vitripennis}, \textsl{Apis mellifera}, \textsl{Drosophila melanogaster}, \textsl{Anopheles gambiae} and \textsl{Acyrthosiphon pisum}). For the second one,  additional sequences from mouse and human. All the detailed steps to retrieve the immune system sequences are described on the main text. Table \ref{tab:start} describes the number of sequences that have been annotated in those immune system databases. At the same time, complete annotation from the latter species have been retrieved from \texttt{Ensembl} in order to compare the percentage of proteins that are annotated as Immune System proteins by the referenced databases. 
+First, all the reported proteins along the immune-system databases represented less than $3$\% in insect, while in mouse $\sim 9.32$\% and particulary in human a $\sim 36.90$\%. Also, the number of proteins that belong from human are the most frequent in $\boldsymbol{\mathfrak{G}}$, where represent a $84.74$\% followed by mouse sequences ($12.51$\%), while insects in total reported $2.75$\%.   
 
 \begin{table}[ht!]
 \begin{center}
 \caption{Number of retrieved annotated proteins related to the Immune System. 
-The annotation of these proteins have been retrieved from \texttt{Ensembl}, 
-including the relationship with an annotated gene. The column \textsl{Ann. 
-Proteins} represents those proteins that reported domain's annotations on 
-\texttt{Ensembl}.} 
+  The complete annotation of those proteins have been retrieved from \texttt{Ensembl}, including the relationships with their correspondend gene. The column \textsl{Ann. Proteins IS} are those proteins that have been reported on Immune system databases (\texttt{ImmuneDB} or \texttt{IIID}).} 
 \label{tab:start}
 \begin{tabular}{lp{2cm}p{2cm}p{2cm}p{2cm}p{1.5cm}l}
 \toprule
 \textbf{Specie} & \textbf{Complete Ann. Genes} & \textbf{Complete Ann. 
-Proteins} & \textbf{Ann. Genes} & \textbf{Ann. Proteins} & \textbf{\%. Prot.} 
+Proteins} & \textbf{Ann. Genes IS} & \textbf{Ann. Proteins IS} & \textbf{\%. Prot.} 
 & \textbf{Database}\\
 \midrule
 \textit{A.\ pisum} & 26195 & 26195 & 65 & 81 (63) & $0.3092$ & IIID\\
@@ -81,33 +65,14 @@ ImmuneDB\\
 \end{center}
 \end{table}
 
-Along all the proteins all the domains annotation was retrieved from 
-\texttt{Ensembl} and the different domain's architectures were organized to 
-define $\boldsymbol{\mathfrak{G}}$ set. The arrangement of those protein domain 
-architecures was performed independently for each annotation database 
-(\texttt{Gene3d}, \texttt{PANTHER}, \texttt{Pfam},  \texttt{PIRSF}, 
-\texttt{PRINTS}, \texttt{Prosite}, \texttt{SMART}, \texttt{SUPERFAMILY} and 
-\texttt{TIGRFAM}) and \textsl{reduction system} (described at the main text) 
-were applied. The initial distribution of protein's domains was necessary to 
-access for the most common proteins annotated in $\boldsymbol{\mathfrak{G}}$, 
-as shown in Figure \ref{fig:groups}. The distribution of domains along 
-$\boldsymbol{\mathfrak{G}}$ proteins reported along all the protein databases 
-that the biggest number of domains comes from proteins that have been annotated 
-on human and along all the species the 75 \% of the distribution reported $2$ 
-domains. At the same time, $\boldsymbol{\mathfrak{G}}$ also reported different 
+Once all the immune system proteins have been retrieved from \texttt{Ensembl}, the annotation of domains was organized later to define domain`s architectures in to define $\boldsymbol{\mathfrak{G}}$.
+
+The arrangement of those protein domain architecures was performed independently for each annotation database (\texttt{Gene3d}, \texttt{PANTHER}, \texttt{Pfam},  \texttt{PIRSF}, \texttt{PRINTS}, \texttt{Prosite}, \texttt{SMART},\texttt{SUPERFAMILY} and \texttt{TIGRFAM}) generating the input architectures to be reduced by the \textsl{reduction system} (described in the main text). The direct effect performing this reduction of redundancy in the protein`s architecture is the reduction of the number of domains inside the proteins in $\boldsymbol{\mathfrak{G}}$ (Figure \ref{fig:groups}). The distribution of domains along $\boldsymbol{\mathfrak{G}}$ reported in all the protein databases that most of the domains comes from proteins that have been annotated 
+on human. Additionaly, the distribution of domains along all the proteins shown that $75$\% of all proteins reported architectures with $\leq 2$ domains. At the same time, $\boldsymbol{\mathfrak{G}}$ also reported different 
 distributions along the specific protein databases, in this case in the 
 database \texttt{SMART} were reported the greatest number of domains inside a 
-protein ($152$) and also the database \texttt{Prosite} reported similar 
-distributions. In overall, is $\boldsymbol{\mathfrak{G}}$ possible to 
-characterize the greatest number of domains, as an example in Table 
-\ref{tab:greatestPfamComplete} is described the proteins that have the 
-greatest number of domains, annotated with the \texttt{Pfam} database for each 
-of the Gold Standard species. As expected, the correspondend annotation in 
-\texttt{Ensembl} database is related (when are avaliable) 
-with the immune system and the distribution of domains changes when the 
-reduction has been applied to generate domain architectures. In this case, the 
-number of maximum domains have been reduced in all species, but at the same 
-time, the most frequent domain are related with the immune system. 
+protein ($152$) and also, the database \texttt{Prosite} reported similar 
+distributions. In overall, the greatest number of domains could be accessed. As an example in Table \ref{tab:greatestPfamComplete} is described the proteins that have the biggest number of domains, annotated with the \texttt{Pfam} database for each of the Gold Standard species. As expected, the annotation for the protein domains retrieved from \texttt{Ensembl} is related (when are avaliable) with the immune system. The annotation in general are related with detection proteins, like transmembrane receptors, or recognition of specific patterns, as lectins or directly Immunoglobulin domains. 
 
 \begin{table}[ht!]
 \begin{center}
@@ -191,13 +156,30 @@ SCO-spondin \\
 \end{center}
 \end{table}
 
-In order to study the $\boldsymbol{\mathfrak{G}}$ architectures, was performed 
-an analysis to obtain the most common architectures along all the 
-Golden Standard species. In Figure \ref{fig:groups_arch} are described this 
-analysis, where all the data was plotted independently for each database. The 
-distribution of the protein architectures shown that the most common protein 
-architectures have only one protein domains and those that reported the highest 
-number of domains have a lower distribution.
+When the protein's architectures in $\boldsymbol{\mathfrak{G}}$ were analyzed 
+along all the species, the distribution and the number of domains were 
+calculated. The complete result is shown in Figure \ref{fig:groups_arch}, where 
+all the information were analysed indenpendently by protein database and the 
+distribution of protein architectures was calculated and its relation with the 
+domain number. In this analysis were taken into account the number of 
+architectures from $1$ because this set represents not only the proteins that 
+have been only one domain but also, these ones that reported repetitions on the 
+same domain and were collapsed after the reduction to one. In this set of $1$ 
+domain, is posible to identify architectures that have been detected in a wide 
+range of proteins along the annotation of the Golden Standard species; this 
+pattern was detected for all the databases and also reported architectures that 
+have been present in more than $1832$ proteins, as seen for the Immunoglobulins 
+domain (Accession number: \texttt{2.60.40.10}). As shown in Figure 
+\ref{fig:immunoglob}, this domain has been annotated in all of the 
+species in \texttt{Ensembl} as: Immunoglobulin-like or 
+Immunoglobulin-like-fold for the Gene3d database. Also, this region has another 
+annotations for the same region by others protein domain databases, even 
+including another protein domains and consequently generating another protein 
+architectures. 
+
+In general larger numbers in protein domains are not frequent in proteins in 
+comparison to the lower ones, as seen when the range of the data is compared 
+and also, supporting the pattern observed on Figure \ref{fig:groups}.
 
 \begin{figure}[ht!]
 \begin{center}
@@ -221,6 +203,22 @@ aplication of the reduction process and the Absolute Frequency is the counting
 of these architectures along all the organisms considered 
 in $\boldsymbol{\mathfrak{G}}$.}
 \label{fig:groups_arch}
+\end{center}
+\end{figure}
+
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[scale=0.4]{most_freq}
+\caption{Current annotation of the Immunoglobulin domain (2.60.40.10) along 
+the Gold Standard Species: 
+\textbf{Acpi}: \textit{A. pisum}, \textbf{apme}: \textit{A. mellifera}, 
+\textbf{drme}: \textit{D. melanogaster}, 
+\textbf{hsa}: \textit{H. sapiens}, \textbf{mmu}: \textit{M. musculus} and 
+\textbf{Navi}: \textit{N. vitripennis}. In the current version of 
+\texttt{Ensembl Metazoa} the annotation of \textbf{anga}: \textit{A. gambiae} 
+for the protein \texttt{AGAP010083-PA} have been deprecated and redirected to 
+the gen: \texttt{AGAP029053}.}
+\label{fig:immunoglob}
 \end{center}
 \end{figure}
 
