@@ -21,6 +21,9 @@
 \usepackage{footmisc} %reference footnotes
 \usepackage{listings}
 \usepackage{rotating}
+%Put lines numbers in the document
+\usepackage{lineno}
+\linenumbers
 
 \newcommand{\CAVH}[1]{\begingroup\color{red}#1\endgroup}
 \newcommand{\ADD}[1]{\begingroup\color{blue}#1\endgroup}
@@ -84,16 +87,17 @@ like GENSCAN introduced originally a probabilistic model of human gene structure
 got by the introduction of the tool AUGUSTUS \cite{augustus} which allows quite 
 accurately gene prediction and today there are versions that can be trained by 
 integrating RNAseq data, short cDNAs etc. AUGUSTUS corresponds to the 
-Generalized Hidden Markov Model. Other methods as GeneID uses a rules-based 
-heuristic method to assemble the typical signals of genes in a product or model 
-more likely. In the post-genomic era, gene annotation pipelines have been 
-handled the heterogeneity of the available expression information of ESTs, 
-RNA-seq or proteomic data in two main ways: by manual curation as such as the 
-VEGA-HAVANA project of the Wellcome Trust Sanger Institute and by using 
-automated process or hybrids methods which integrate homologies with coherent 
-patterns of known genes of other species to characterize all the functional 
-elements that make up the genes, ending with the assignment of a biological 
-function to a genomic sequence \cite{aken2016ensembl} \cite{birney2004overview}. 
+Generalized Hidden Markov Model. Other methods as GeneID \cite{Blanco:2007} uses 
+a rules-based heuristic method to assemble the typical signals of genes in a 
+product or model more likely. In the post-genomic era, gene annotation 
+pipelines have been handled the heterogeneity of the available expression 
+information of ESTs, RNA-seq or proteomic data in two main ways: by manual 
+curation as such as the VEGA-HAVANA project of the Wellcome Trust Sanger 
+Institute and by using automated process or hybrids methods which integrate 
+homologies with coherent patterns of known genes of other species to 
+characterize all the functional elements that make up the genes, ending with the 
+assignment of a biological function to a genomic sequence \cite{aken2016ensembl} 
+\cite{birney2004overview}. 
 For the case of vertebrates as well as some tunicate species which are the 
 closest relatives to vertebrates \cite{delsuc2006} their genomes have undergone 
 a rigorous annotation process widely accepted in comparative genomics of 
@@ -184,19 +188,15 @@ information from the \texttt{IIID} was used to obtain data of insects like
 melanogaster}, \textsl{Anopheles gambiae} and \textsl{Acyrthosiphon pisum}. The 
 latter genomes were chosen because both have annotations on \textsl{NCBI} and 
 \textsl{Ensembl}. For those cases, genes annotated on \texttt{IIID} were 
-retrieved using \texttt{Batch 
-Entrez}\footnote{\url{https://www.ncbi.nlm.nih.gov/sites/batchentrez}}. 
+retrieved using \texttt{Batch Entrez}\footnote{\url{
+https://www.ncbi.nlm.nih.gov/sites/batchentrez}}. 
 Accession numbers from \texttt{NCBI} were translated into the accession number 
 of \texttt{Ensembl}. Then, we proceed to retrieve the data of insects in a 
 similar way like in human and mouse. A reference set of domains was obtained 
 independently by each domain annotation database after using a \textsl{reduction 
 system} described in \textsl{Reduction function subsection}\ref{reduction}. We 
 used the \textsl{gold standard} set for further comparisons of domain 
-architectures of five species of chordates \textit{C. robusta}, 
-\textsl{C.\ savignyi}, \textsl{P.\ marinus}, \textit{D.\ rerio} and \textsl{L.\ 
-chalumnae}, annotated in \texttt{Ensembl} (v.81). The method to compare 
-architectures is explained later in the section \textsl{Architecture comparison 
-strategies} \ref{comparison}.
+architectures of $17$ studied species described on Additional File 1.
 
 \subsection*{Re-assembly of \textit{D. vexillum} genome}
 \TODO{Include information about re-assembly strategy from D. vexillum, 
@@ -205,16 +205,17 @@ methodological steps...}
 \subsection*{Genomic data sources}
 
 Genomic information source comes from $3$ Vertebrata species:
-\textit{P.\ marinus}, \textit{D.\ rerio} and \textit{L.\ chalumnae}, $10$
-species of Tunicata: \textit{Oikopleura dioica}, \textit{Botryllus schlosseri}, 
-\textit{Botrylloides leachii}, \textit{Ciona robusta}, \textit{Ciona savignyi}, 
-\textit{Didemnum vexillum}, \textit{Molgula occidentalis}, \textit{Molgula 
-oculata}, $1$ specie from Cephalochordata: \textit{Branchiostoma floridae}, 
-represents the final set of chosen Chordates. As an outgroup, a set of 
-$2$ species from Echinorderms: \textit{Strongylocentrotus purpuratus} and 
-\textit{Patiria miniata} and additionally $1$ Hemichordate 
-specie: \textit{Saccoglossus kowalevskii} were studied. The genomic 
-annotation were retrieved are described in Additional File 1. 
+\textit{Petromizon marinus}, \textit{Danio rerio} and 
+\textit{Latimeria chalumnae}, $10$ species of Tunicata: \textit{Oikopleura 
+dioica}, \textit{Botryllus schlosseri}, \textit{Botrylloides 
+leachii}, \textit{Ciona robusta}, \textit{Ciona savignyi}, \textit{Didemnum 
+vexillum}, \textit{Perohora viridis}, \textit{Clavelina oblonga}, 
+\textit{Molgula occidentalis} and \textit{Molgula oculata}, $1$ specie 
+from Cephalochordata: \textit{Branchiostoma floridae}, represents the final set 
+of chosen Chordates. As an outgroup, a set of $2$ species from Echinorderms: 
+\textit{Strongylocentrotus purpuratus} and \textit{Patiria miniata} and 
+additionally $1$ Hemichordate specie: \textit{Saccoglossus kowalevskii} were 
+studied. The protein database sources are described in Additional File 1. 
 
 \subsection*{Reduction system} \label{reduction}
 To set out our work, we have defined a reference \textsl{gold standard set}. 
@@ -396,7 +397,7 @@ overlapping between all the strategies, as described on Figure
 
 For the recently reported draft genomes of \textit{C.\ oblonga} and 
 \textit{P.\ viridis} a \textit{de novo} gene prediction was performed 
-directly on the assembled contigs using \texttt{GeneId} \cite{} 
+directly on the assembled contigs using \texttt{GeneID}\cite{Blanco:2007} 
 with the following parameters:
 
 \begin{lstlisting}[language=bash, breaklines=true]
@@ -606,57 +607,54 @@ $85$($81$), the number in parenthesis corresponds to the \textsl{bone fide}
 annotation in \texttt{Ensembl}. Finally the domain structure was traced back 
 with \texttt{Biomart} in \texttt{Ensembl}. With the final set of domains we 
 built the \textsl{gold standard} set $\boldsymbol{\mathfrak{G}}$ as described 
-in Additional File 1. 
+in Additional File 2. 
 
 \subsection*{\textbf{ABDO} strategy comparisons of domains} \label{subODB}
 
 The distribution of genes and proteins that belong from \textsl{gold standard set} 
-$\boldsymbol{\mathfrak{G}}$ is shown on Additional File 1: Table 1, where most of
-the current innate inmune system proteins belongs from human ($84.74$\%) and mouse ($12.51$\%).
-In order to compare $\boldsymbol{\mathfrak{G}}$ to the query species, the previously explained 
-\textbf{ABDO} strategies were applied. As shown in Table \ref{table:distribution_prot}, exists 
-$4$ different groups of species: those ones that have been annotated in \texttt{Ensembl} as: 
-\textit{C\. robusta}, \textit{C.\ savignyi}, \textit{P.\ marinus}, \textit{D.\ rerio} 
-and \textit{L.\ chalumnae}. Next, those ones that have gene and protein annotations but,
-in an independent databases and without the prediction of domains, as: \textit{B.\ floridae},
-\textit{B.\ schlosseri} and \textit{O.\ dioica}. The other third one is composed by those 
-genomes that have a \textsl{de novo} assembly, like: \textit{D.\ vexillum}, 
-\textit{C.\ oblonga} and \textit{P.\ viridis}, where does not exists reported predictions 
-of genes or proteins, then this prediction were performed as described in Methods and 
-Materials with the \texttt{GeneId} program using the previously constructed 
+$\boldsymbol{\mathfrak{G}}$ is shown on Additional File 2: Table 1, where most 
+of the current innate inmune system proteins belongs from human ($84.74$\%) and 
+mouse ($12.51$\%). In order to compare $\boldsymbol{\mathfrak{G}}$ to the query 
+species, the previously explained \textbf{ABDO} strategies were applied. As 
+shown in Table \ref{table:distribution_prot}, exists $4$ different groups of 
+species: those ones that have been annotated in \texttt{Ensembl} as: 
+\textit{C.\ robusta}, \textit{C.\ savignyi}, \textit{P.\ marinus}, \textit{D.\ 
+rerio} and \textit{L.\ chalumnae}. Also, those ones that have gene and 
+protein annotations but, in an independent databases and without the prediction 
+of domains, as: \textit{B.\ floridae}, \textit{B.\ schlosseri} and \textit{O.\ 
+dioica}. The other third one is composed by those genomes that have a \textsl{de 
+novo} assembly, as: \textit{D.\ vexillum}, \textit{C.\ oblonga} and 
+\textit{P.\ viridis}, which did not reported predictions of genes or 
+proteins, then this prediction were performed as described in Methods and 
+Materials with the \texttt{GeneID} program using the previously constructed 
 gene models from \textit{C.\ robusta} and \textit{O.\ dioica}\footnote{For 
 those genomes, in Table \ref{table:distribution_prot} are referenced as 
 \textsl{Ciro} and \textsl{Oidi} in parenthesis, respectively} and with 
-\texttt{AUGUSTUS} using transcriptome data. Finally, the last group is composed 
-by the outgroup species from hemichordates: \textit{S.\ kowalevskii} and
-from echinoderms: \textit{P.\ miniata} and \textit{S.\ purpuratus}, where the \textbf{ABDO} 
-predictions have been calculated with the automated pipeline \TODO{NAME\_PIPELINE} generated
-in this study.
+\texttt{AUGUSTUS} for \textit{D. vexillum}. Finally, the last group is composed 
+by the outgroup species from hemichordates: \textit{S.\ kowalevskii} and from 
+echinoderms: \textit{P.\ miniata} and \textit{S.\ purpuratus}, where the 
+\textbf{ABDO} predictions have been calculated applying the automated 
+pipeline \TODO{NAME\_PIPELINE} generated in this study.
 
-Table \ref{table:distribution_prot} summarizes the final innate immune system 
-candidates, based on homology architecture strategies (\textbf{ABDO}), which 
-have been applied independently. The final number of immune system set results 
-of the merging of all the candidates obtained from the applied strategies, 
-except for the candidates that have been detected only by the \textbf{B} 
-strategy. The main reason is that comparison does not represent an 
-pure architecture relation, because the complete sequence is used in the 
-pairwise alignment, this method has been frequently used to detect homologs 
-in distant or related species, according to the design of the homology strategy 
-based on the \texttt{blastp} parameters \TODO{CITE}. When it was applied, 
-always the B strategy reported higher frequencies of protein candidates in 
-comparison to the O or D strategies; and those results are more similar to the 
-A strategy, which does not have a previous reduction step. 
+At the same time, Table \ref{table:distribution_prot} summarizes the final 
+innate immune system candidates, based on homology architecture strategies 
+(\textbf{ABDO}), which have been reported independently, too. The final number 
+of innate immune system proteins set is described on column \textbf{Total Prot. 
+ISS}, which was obtained after merging steps on the ABDO results. 
 
-Then taking all into account, Table \ref{table:distribution_prot} shows the 
-highest distribution from annotated immune system proteins in vertebrates 
-(median = $63.49$\% $\pm 4.87$, n=3), in comparison to tunicates 
-(median = $31.88$\% $\pm 22.27$, n=12), cephalochordates ($43.14$\%, n=1), and the
-outgroup composed by hemichordates ($42.89$\%, n=1) and echinoderms 
-(median = $45.15$\% $\pm 11.56$, n=2). High standard deviation in tunicates are 
-a consequence of the inclusion of the new draft genomes (from \textit{C.\ oblonga} 
-and \textit{P.\ viridis}), where the prediction of genes was \textsl{de novo} 
-by \texttt{GeneId}. In this context, only considering the tunicates genomes that 
-had a previous annotation, the estimated values changed: (median =$40.21$\% $\pm 13.37$, n=8).
+When all the strategies were applied, always the B strategy reported higher 
+frequencies of protein candidates in comparison to the O or D; and those 
+results are more similar to the A strategy, which does not have a previous 
+reduction step. Then, those results show a highest distribution from 
+annotated immune system proteins in vertebrates  (median = $63.49$\% $\pm 
+4.87$, n=3), in comparison to tunicates (median = $31.88$\% $\pm 22.27$, n=12), 
+cephalochordates ($43.14$\%, n=1), and the outgroup composed by hemichordates 
+($42.89$\%, n=1) and echinoderms (median = $45.15$\% $\pm 11.56$, n=2). High 
+standard deviation in tunicates are a consequence of the inclusion of the new 
+draft genomes (from \textit{C.\ oblonga} and \textit{P.\ viridis}), where the 
+prediction of genes was \textsl{de novo} by \texttt{GeneID}. In this context, 
+only considering the tunicates genomes that had a previous annotation, the 
+estimated values changed: (median =$40.21$\% $\pm 13.37$, n=8).
 
 \begin{sidewaystable}
 \small
@@ -664,54 +662,58 @@ had a previous annotation, the estimated values changed: (median =$40.21$\% $\pm
 \begin{tabular}{p{3.2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2.7cm}p{2.6cm}}
 \toprule
 \textbf{Specie}&\textbf{Annotated Genes}&\textbf{Annotated 
-Proteins}&\textbf{Annotated Prot. with Pfam domains}&\textbf{Orderded 
+Proteins}&\textbf{Annotated Prot. with Pfam domains}&\textbf{Ordered 
 Prot}&\textbf{Disorder Prot}&\textbf{Blast 
-Prot}&\textbf{Architecture}&\textbf{Total Prot IS} \\ 
+Prot}&\textbf{Architecture}&\textbf{Total Prot IIS} \\ 
 \midrule \\
-\textsl{P. miniata}&    
+\textsl{P.\ miniata}&    
 $30399$&$30399$&$20192$($66.42$)&$1936$($6.37$)&$2527$($8.31$)&$11577$($38.08$)&
 $15707$($51.67$)&$16210$($53.32$)\\
-\textsl{S. purpuratus}& 
+\textsl{S.\ purpuratus}& 
 $33663$&$35786$&$23640$($66.06$)&$3248$($9.08$)&$4218$($11.79$)&$15420$($43.09$)
 &$10706$($29.92$)&$13230$($36.97$)\\
-\textsl{S. kowalevskii}&        
+\textsl{S.\ kowalevskii}&        
 $32367$&$22111$&$14888$($67.33$)&$1973$($8.92$)&$2571$($11.63$)&$9737$($44.04$)&
 $8280$($37.45$)&$9483$($42.89$)\\
 \midrule
-\textsl{B. floridae}&   $50817$&$50817$&$25430$($50.04$)&$5499$($10.82$)&$7352$($14.47$)&$21767$($
+\textsl{B.\ floridae}&   
+$50817$&$50817$&$25430$($50.04$)&$5499$($10.82$)&$7352$($14.47$)&$21767$($
 42.83$)&$5496$($10.82$)&$21920$($43.14$)\\
-\textsl{O. dioica}&$17212$&$17212$&$5709$($33.17$)&$1342$($7.80$)&$1633$($9.49$)&$4577$($26.5
+\midrule
+\textsl{O.\ dioica}
+&$17212$&$17212$&$5709$($33.17$)&$1342$($7.80$)&$1633$($9.49$)&$4577$($26.5
 9$)&$4760$($27.66$)&$5065$($29.43$)\\
-\textsl{M. occidentalis}&       
+\textsl{M.\ occidentalis}&       
 $30639$&$33023$&$13050$($39.52$)&$1195$($3.62$)&$1486$($4.50$)&$7170$($21.71$)&$
 11152$($33.77$)&$11341$($34.34$)\\
-\textsl{M. oculata}&    
+\textsl{M.\ oculata}&    
 $15313$&$16616$&$9985$($60.09$)&$1336$($8.04$)&$1689$($10.16$)&$6615$($39.81$)&$
 8355$($50.28$)&$8620$($51.88$)\\
-\textsl{B. schlosseri}& $46519$&$46519$&$8709$($18.72$)&$1790$($3.85$)&$2520$($5.42$)&$6148$($13.2
+\textsl{B.\ schlosseri}& 
+$46519$&$46519$&$8709$($18.72$)&$1790$($3.85$)&$2520$($5.42$)&$6148$($13.2
 2$)&$6760$($14.53$)&$7316$($15.73$)\\
-\textsl{B. leachii }&   
+\textsl{B.\ leachii }&   
 $15839$&$15839$&$9833$($62.08$)&$1271$($8.02$)&$1698$($10.72$)&$6243$($39.42$)&$
 8032$($50.71$)&$8369$($52.84$)\\
-\textsl{C. robusta} 
+\textsl{C.\ robusta} 
 &$17153$&$17302$&$8994$($51.98$)&$1371$($7.92$)&$1584$($9.15$)&$6005$($34.71$)&$
 4188$($24.21$)&$4958$($28.66$)\\
-\textsl{C. savignyi}&
+\textsl{C.\ savignyi}&
 $12172$&$20157$&$14016$($84.84$)&$2087$($10.35$)&$3273$($16.24$)&$10049$($
 49.85$)&$10074$($49.98$)&$10923$($54.19$)\\
-\textsl{P. viridis} (Ciro)&     
+\textsl{P.\ viridis} (Ciro)&     
 $6077$&$2221773$&$2806$($0.13$)&$56$($0.00$)&$65$($0.00$)&$12724$($0.57$)&$1896$
 ($0.09$)&$1865$($0.08$)\\
-\textsl{P. viridis} (Oidi)&     
+\textsl{P.\ viridis} (Oidi)&     
 $3025$&$1811030$&$2110$($0.12$)&$60$($0.00$)&$72$($0.00$)&$10329$($0.57$)&$1352$
 ($0.07$)&$1319$($0.07$)\\
-\textsl{D. vexillum}&
+\textsl{D.\ vexillum}&
 $26546$&$72326$&$36075$($49.88$)&$2920$($4.04$)&$4136$($5.72$)&$16889$($23.35$)&
 $26400$($36.50$)&$27349$($37.81$)\\
-\textsl{C. oblonga} (Ciro)&     
+\textsl{C.\ oblonga} (Ciro)&     
 $19507$&$1174882$&$4032$($0.34$)&$120$($0.01$)&$161$($0.01$)&$4070$($0.35$)&$282
 8$($0.24$)&$2810$($0.24$)\\
-\textsl{C. oblonga} (Oidi)&     
+\textsl{C.\ oblonga} (Oidi)&     
 $4832$&$950470$&$2856$($0.30$)&$125$($0.01$)&$164$($0.02$)&$8746$($0.92$)&$1957$
 ($0.21$)&$1939$($0.20$)\\
 \midrule
@@ -726,9 +728,10 @@ $4832$&$950470$&$2856$($0.30$)&$125$($0.01$)&$164$($0.02$)&$8746$($0.92$)&$1957$
 8.67$)&$10765$($45.61$)&$14986$($63.49$)\\
 \bottomrule
 \end{tabular}
-\caption{Final distribution of annotated genes and found candidate Immune 
-system proteins. The percentage in relation of the total of reported proteins 
-is in parenthesis.}
+\caption{Final distribution of annotated genes and found candidate Innate 
+Immune system proteins. The percentage in relation of the total of annotated  
+proteins (column \textit{Annotated Proteins}) is reported in parenthesis. In 
+last column \textbf{IIS} refers to: Innate Immune system.}
 \label{table:distribution_prot}
 \end{sidewaystable}
 
@@ -742,125 +745,124 @@ number of (ABDO) strategies that reported a successfully architecture
 comparisons. Here, $1 = (A, D)$; $2 = (AB, AD, BD, DO)$; $3 = (ABD, ADO, BDO)$ 
 and $4 = (ABDO)$; that is $10$ from $15$ possible combinations, because $(AO, 
 BO)$ always map to $(ADO, BDO)$, due $D \subseteq O$ and additionally, $B$ has 
-not been considered at all. This distribution of relationships against 
-$\boldsymbol{\mathfrak{G}}$ set shows a highest number of proteins that have 
-been detected as immune system candidates by only $1$ architecture strategy. 
-Additionaly, the number of candidates that have been detected with all the 
-strategies (set $4$) reported frequencies $\leq 5000$ proteins on the subject 
-species, reporting the highest distribution on the specie \textit{D.\ rerio}, 
-this group represents, along all the comparisons, the most conserved set of 
-immune proteins respect to the defined $\boldsymbol{\mathfrak{G}}$. Considering 
-in overall the immune system proteins along all the studied species, it is 
-possible to identify the proportion of shared innate immune system proteins 
-respecto to $\boldsymbol{\mathfrak{G}}$ (Figure \ref{fig:FrecEstrat}B). Mainly 
-those relationships have been detected with human and mouse proteins, as 
-described earlier, those protein candidates are the most frequent proteins in 
-$\boldsymbol{\mathfrak{G}}$.
+not been considered at all because this comparison does not represent a pure 
+architecture relation, due complete sequence is used in the pairwise alignment 
+against $\boldsymbol{\mathfrak{G}}$ protein sequences. At the same time, 
+thist described distribution of relationships against 
+$\boldsymbol{\mathfrak{G}}$ proteins shows a highest number of proteins that 
+have been detected as innate immune system candidates by only $1$ architecture 
+strategy. Additionally, the number of candidates that have been detected with 
+all the strategies (set $4$) reported frequencies $\leq 5000$ proteins on the 
+subject species, reporting the highest distribution on the specie \textit{D.\ 
+rerio}. This group represents, along all the comparisons, the most conserved 
+set of immune proteins respect to the defined $\boldsymbol{\mathfrak{G}}$. In 
+this approach, it is important to point out that query proteins could report 
+different ABDO strategies against $\boldsymbol{\mathfrak{G}}$, showing that 
+relationships between query proteins set (defined as $Q$ with $m$ elements) and 
+$\boldsymbol{\mathfrak{G}}$ proteins set (defined as $G$, with $n$ elements) 
+could not defined as a function $f(x)$ with comparison strategies $S= (A, B, D, 
+O)$ because it does not follows: $m_1 \ne m_2 \rightarrow f(m_1) \ne f(m_2)$.
+% Please evalueate if this math description is correct! I just wanted to point 
+% that same query protein could map to the Golden standard set for different 
+% proteins when it is considered the 4 ways to compare in this study A, B, D, O
+% strategies.
 
+Considering in overall the immune system proteins along all the studied 
+species, it is possible to identify the proportion of shared innate immune 
+system proteins respect to $\boldsymbol{\mathfrak{G}}$ species (Figure 
+\ref{fig:FrecEstrat}B). Mainly those relationships have been detected with human 
+and mouse proteins, as described earlier those $\boldsymbol{\mathfrak{G}}$ 
+species reported the most frequent proteins in $\boldsymbol{\mathfrak{G}}$ set.
+\TODO{Delete Ciin of the plot!}.
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.43]{figures/unitedComparedGOLD}%
-\caption{\textbf{A.}Frequency of detected proteins with defined architecture
+\caption{\textbf{A)}Frequency of detected proteins with defined architecture
 comparison strategies classified according to the number of possible combinations of 
 architecture strategies (described in more detail in main text), 
-against $\boldsymbol{\mathfrak{G}}$. \textbf{B.} Mean shared proportion homology 
-architecture against gold standard species. \textsf{naviP=}\textit{N.\ 
+against $\boldsymbol{\mathfrak{G}}$. \textbf{B)} Mean shared proportion 
+homology architecture against gold standard species. \textsf{naviP=}\textit{N.\ 
 vitripennis}, \textsf{apmeP=}\textit{A.\ mellifera}, \textsf{drmeP=}\textit{D.\ 
 melanogaster}, \textsf{angaP=}\textit{A.\ gambiae} and 
-\textsf{acpiP=}\textit{A.\ pisum}; and Mammals: \textsf{mmuP=}\textit{M.\ 
-musculus} and \textsf{hsaP=}\textit{H.\ sapiens}.}
+\textsf{acpiP=}\textit{A.\ pisum}; and Mammals: 
+\textsf{mmuP=}\textit{M.\ musculus} and \textsf{hsaP=}\textit{H.\ sapiens}.}
 \label{fig:FrecEstrat}
 \end{figure}
 
-%\begin{sidewaysfigure}
-%\includegraphics[width=\linewidth,keepaspectratio]{figures/matrix_spe}%
-%\caption{Heatmap of the number of proteins identified in the 
-%$\boldsymbol{\mathfrak{G}}$ species by at least one of the architecture 
-%strategies. The number of proteins have been transformed by $\log_{10} 
-%x$. Combinations of species have been obtained according to the final 
-%agrupation given by the relationships between Query species and 
-%$\boldsymbol{\mathfrak{G}}$ species. This plot have been organized according to 
-%the number of final candidates by set of  
-%$\boldsymbol{\mathfrak{G}}$ species, left with lower 
-%values to the higher ones on the rigth. \textsf{navi=}\textit{N.\ vitripennis}, 
-%\textsf{apme=}\textit{A.\ mellifera}, \textsf{drme=}\textit{D.\ melanogaster}, 
-%\textsf{anga=}\textit{A.\ gambiae} and \textsf{acpi=}\textit{A.\ pisum}; and 
-%Mammals: \textsf{mmu=}\textit{M.\ musculus} and \textsf{hsa=}\textit{H.\ 
-%sapiens}.}
-%\label{fig:matrix_relations}
-%\end{sidewaysfigure}
 
 \subsection*{Relationships between Innate Immune system candidates} 
 \label{Orthology}
 
-After identification of innate immune system candidates by applying ABDO 
-strategies and obtaining the protein domain architectures, the distribution of 
-the number of domains was studied (Figure \ref{fig:domainDistr}A). Through all 
-the studied organisms, grouped by $5$ taxonomical clades (Echi =  
-Echinodermata, Hemi = Hemichordata, Ceph = Cephalochordata, Tuni = Tunicata 
-and Vert = Vertebrata), it was possible to identify a high number of 
-protein only with one type of protein domain (homodomain proteins).
-Despite the similarity of this results along described clades, distribution 
-from \textsl{B.\ floridae} showed higher number of proteins with $2$ domains 
-types and also a higher number of proteins with $3$ types of domains 
-in vertebrates. 
-In the other way, echinoderms, hemichordates and tunicates, showed similar 
-density distributions for those values. Additionally, the most frequent 
-protein architecture with current annotation from \texttt{Pfam} database is 
-composed by the following protein domains: Rhodopsin-like receptor (PF00001) 
-for echinoderms, hemichordates and vertebrates, while in Cephalochordata was 
-Cytochrome P450 (PF00067) and for tunicates the Protein Kinase domain 
-(PF00069). At the same time, few proteins are composed by more than $5$ 
-different types of domains, but the current distributions show a very long 
-heavy tails with values \TODO{$\ge 20$ different domains}.
+Obtaining the protein domain architectures after their detection by ABDO 
+strategies, the distribution of the number of domains was studied (Figure 
+\ref{fig:domainDistr}A). All the studied organisms were grouped in $5$ 
+defined taxonomical clades as follows: \textbf{Echi} = Echinodermata, 
+\textbf{Hemi} = Hemichordata, \textbf{Ceph} = Cephalochordata, \textbf{Tuni} = 
+Tunicata and \textbf{Vert} = Vertebrata, following the sub-phylum assignment on 
+Additional File 1:Table 1. It was possible to identify a high number of 
+proteins that only reported $1$ protein domain type (homodomain proteins).
+Despite the similarity of this results along all clades, distribution 
+from \textsl{B.\ floridae} (Cephalochordata) showed also higher number of 
+proteins with $2$ and $3$ types of domains with similar numbers as reported 
+on vertebrates; but not in echinoderms, hemichordates and tunicates, that 
+showed similar density distributions. Also, few proteins are composed by more 
+than $5$ different types of domains, but the current distributions shows, in 
+all clades, a very long heavy tails with \TODO{$\ge 20$ domains types}.
 
-Figures \ref{fig:domainDistr}B and C, shows the distribution of protein 
-architectures on homodomain and heterodomain proteins along studied species, 
-respectively. For homodomain proteins, $2304$ domain architectures were 
-detected along innate immune proteins in echinoderms ($54.1$\%), hemichordates 
-($51.3$\%), cephalochordates ($37.0$\%), tunicates ($43.1$\%) and 
-vertebrates($52.9$\%). At the same time, when the distribution of the frequency 
-of architectures is considered (\ref{fig:domainDistr}B), it shows a 
-high variation in total number of architectures in echinoderms and in 
-tunicates, respect to vertebrates. \TODO{This high variations shows a 
-heterogeneous distribution along all tunicates, where the $n = 17$}. 
-Hemichordata and Cephalochordata were composed each one only by one specie.  
 
-A number of $1936$ architectures have been detected along the set of proteins 
-with more than one type of domain (heterodomains). Specifically, for all 
-clades, was possible to calculate the percentage of found architectures 
-respect to the total number of heterodomain architectures: echinoderms 
-($42.3$\%), hemichordates ($45.0$\%), cephalochordates ($47.1$\%), tunicates 
-($22.5$\%) and vertebrates($50.8$\%). At the same time, Figure 
-\ref{fig:domainDistr}C shows the average of found protein architectures along 
-all the clades. Both, the presence percentage and the average number 
-of architectures shows a reduced number of found architectures on proteins from 
-tunicates, in comparison to other species of chordates and the outgroup 
-species, composed by echinoderms and hemichordates. Also, a high variability is 
-evident for the complete Tunicata clade. \TODO{Maybe make a stat test?}  
+Meanwhile, Figures \ref{fig:domainDistr}B and C, shows the distribution of 
+protein architectures on homodomain and heterodomain proteins along studied 
+species, respectively. For homodomain proteins, $2304$ domain architectures 
+were detected along innate immune proteins in echinoderms ($54.1$\%), 
+hemichordates ($51.3$\%), cephalochordates ($37.0$\%), tunicates ($43.1$\%) and 
+vertebrates($52.9$\%). This distribution also shows a high variation in 
+total number of architectures of one type of domain in echinoderms and 
+tunicates, respect to vertebrates (an excluding Hemichordates and 
+Cephalochordates that have $n=1$). \TODO{Please, explain this with a more 
+detailed plot or data for tunicates and echinoderms.}.
 
-In more detail for heterodomain proteins, Figure \ref{fig:domainDistr}D 
+In this homodomain set, the most frequent protein architecture with 
+current annotation from \texttt{Pfam} database is: Rhodopsin-like receptor 
+(PF00001) for echinoderms, hemichordates and vertebrates, while for 
+Cephalochordata was Cytochrome P450 (PF00067) and for tunicates the Protein 
+Kinase domain (PF00069). 
+
+A number of $1936$ heterodomain architectures have been detected along the set 
+of proteins. Specifically, for all clades, was possible to calculate 
+the percentage of found architectures respect to the total number of 
+heterodomain architectures for all clades: echinoderms ($42.3$\%), 
+hemichordates ($45.0$\%), cephalochordates ($47.1$\%), tunicates 
+($22.5$\%) and vertebrates($50.8$\%). In more detail, 
+Figure \ref{fig:domainDistr}C shows the average of found protein architectures 
+along all the clades. Both, the presence percentage and the average number of 
+architectures shows a reduced number of found architectures on tunicates 
+proteins, in comparison to other species of chordates and the outgroup species. 
+Also, a high variability is evident for the complete Tunicata clade. \TODO{Maybe 
+make a stat test?, please make a plot!}.  
+
+As a complement for heterodomain proteins, Figure \ref{fig:domainDistr}D 
 represent the top $5$ proteins architectures domains along all defined clades. 
-This distribution is dominated by $10$ protein domains that are spanned along 
-the detected protein architectures. The most frequent domain is an 
-Immunoglobulin domain (Ig 3, PF13927), at the same time in vertebrates, 
-tunicates and echinoderms, in relation with this, also in echinoderms
-and hemichordates a frequent domain is the Immunoglobulin I-set domain 
-(PF07679). Leucine-rich repeats (PF13855), related with protein-protein 
-interactions are frequent in vertebrates and cephalochordates and additionally 
-related with this funcion, Ankyrin repeats (PF12796) and the Calcium-binding 
-EGF domain (PF07645) have been detected in this list. The most conserved along 
-those clades are: P-kinase (PF00069) and related domains as Tyrosin kinase 
-(PF07714), and even, Pleckstrin homology domain (PF00169).
+This distribution is dominated by only $10$ domains that are spanned along 
+the protein architectures. By this way, the most frequent domain is an 
+Immunoglobulin domain (Ig 3, PF13927), in vertebrates, tunicates and 
+echinoderms. In relation with this domain, in echinoderms and hemichordates a 
+frequent domain is the Immunoglobulin I-set domain (PF07679). Leucine-rich 
+repeats (PF13855), related with protein-protein interactions are frequent in 
+vertebrates and cephalochordates and additionally related with this funcion, 
+Ankyrin repeats (PF12796) and the Calcium-binding EGF domain (PF07645) have 
+been detected in this list. The most conserved along those clades are: P-kinase 
+(PF00069) and related domains as: Tyrosin kinase (PF07714), and even Pleckstrin 
+homology domain (PF00169). 
 
-When the architecture distribution is considered, the most frequent 
-architectures along all species are described on 
-Table \ref{tab:mostConservedArch}. \TODO{Change this table describing by 
-specie, clade or even describe the matrix based on 1:1 orthologous proteins.}
+
+\TODO{When the architecture distribution is considered, the most frequent along 
+all species are described on Table \ref{tab:mostConservedArch}. Change 
+this table describing by specie, clade or even describe the matrix based on 1:1 
+orthologous proteins.}
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[scale=0.73]{figures/completeDistributionDomains} \\
+\includegraphics[scale=0.53]{figures/completeDistributionDomains} \\
 \includegraphics[scale=0.38]{figures/heterodomains_distr}
 \caption{\textbf{A)} Domain distribution of innate immune system proteins along 
 studied 
@@ -895,20 +897,20 @@ PF15227,PF00643 & zf-C3HC4\_4,zf-B\_box & ? \\
 \end{table}
 
 Once protein candidates were detected by ABDO strategy on studied species, 
-one further step is the identification of biological relevance of the 
-new detected protein candidates. Applying clustering strategy was 
-possible to identify the intrinsic relationships between 
-$\boldsymbol{\mathfrak{G}}$ and the new identified proteins, based on the 
-protein domain architectures. In this way $4240$ groups were assigned and to 
-access for orthology relationships between them, \texttt{ProteinOrtho} was 
-applied along each group. 
-A first approach was the identification of 1:1 orthologous or co-orthologous 
-(1:many or many:many) relationships. From the detected $27311$ relations, 
-$14510$ reported 1:1 orthology and a sub-set of $2732$ have inside the 
-compared set of proteins one from $\boldsymbol{\mathfrak{G}}$. From 
+a further step is the identification of biological relevance of the 
+new detected protein candidates. Applying a clustering strategy was 
+possible to identify the intrinsic relationships 
+between $\boldsymbol{\mathfrak{G}}$ and the new identified proteins, based on 
+the protein domain architectures. In this way $4240$ groups were created and 
+to access for orthology relationships between them, \texttt{ProteinOrtho} was 
+applied along each group. A first approach to study this orthology relations 
+was to access for the identification of 1:1 orthologous or co-orthologous 
+(1:many or many:many) groups. Then, from the detected $27311$ relations, 
+$14510$ reported as 1:1 orthology and a sub-set of $2732$ groups have inside 
+the compared set of proteins, one from $\boldsymbol{\mathfrak{G}}$. From 
 co-orthologous comparisons, $12801$ were detected and a subset of $5293$ have at 
 least one protein from $\boldsymbol{\mathfrak{G}}$. Those sub-sets that contains 
-at least one $\boldsymbol{\mathfrak{G}}$ protein, could be annotated with the 
+at least one $\boldsymbol{\mathfrak{G}}$ proteins, could be annotated with the 
 retrieved \texttt{Interpro} annotation, obtained with \texttt{biomaRt} package 
 from \texttt{Ensembl}. Most of the 1:1 orthologous groups are composed by at 
 least $2$ species ($53.33$\%) including the golden specie. For co-orthology, 
