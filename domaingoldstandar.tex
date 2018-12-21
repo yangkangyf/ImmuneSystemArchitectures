@@ -48,17 +48,10 @@ process: Clara and Ernesto.}
 \item \TODO{Change everything related with another databases different to Pfam}. 
 \item \TODO{Discuss about the biological meaning of the different architecture 
 strategies}
-\item \TODO{Discuss about the ProteinOrtho strategy to create innane immune 
-system groups, based on protein comparison, but grouped by common domain's 
-architectures}.
 \item \TODO{If yes, what is the best option to detect protein orthologs. Based 
 on complete protein? or splitting  by protein domains?}
-\item \TODO{Plot: Distribution of architectures? (by specie)}
-\item \TODO{Biological meaning of the detected innate immune proteins on 
-tunicates.}
-\item \TODO{Best way to publish the paper and the new pipeline?}
+\item Adapt draft to journal template...\TODO{Which one?}. 
 \end{itemize}
-
 
 \section{Introduction}
 
@@ -487,7 +480,7 @@ the pipeline \TODO{Name of my pipeline!}.
 
 \begin{figure}[htb]
 \begin{center}
-\includegraphics[scale=0.15]{figures/completeALLWorkflow3}
+\includegraphics[scale=0.17]{figures/completeALLWorkflow3}
 \caption{\textbf{A.} Workflow to generate $\boldsymbol{\mathfrak{G}}$. Innate 
 immune system databases were used to obtain the accession numbers of the 
 related proteins. Next, domain annotation was accesed throught \texttt{biomaRt} 
@@ -856,7 +849,8 @@ Echinodermata, \textbf{Hemi:} Hemichordata, \textbf{Ceph:} Cephalochordata,
 \end{figure}
 
 \begin{table}[ht!]
-\caption{Most conserved architectures along studied species.}
+\caption{Most conserved architectures along studied species. \TODO{Maybe reeplace 
+this table for one more complete table with the most conserved along species? Additional file?}}
 \begin{center}
 \begin{tabular}{llp{4cm}}
 \toprule
@@ -970,7 +964,23 @@ sub-set of $2732$ groups have at least one $\boldsymbol{\mathfrak{G}}$ protein.
 From co-orthologous comparisons ($12801$) were detected and a subset 
 of $5293$ have at least one $\boldsymbol{\mathfrak{G}}$ protein. 
 For those sub-sets with $\boldsymbol{\mathfrak{G}}$ proteins was possible 
-to retrieve the \texttt{Interpro} annotation, using \texttt{biomaRt}.  
+to retrieve the \texttt{Interpro} annotation using \texttt{biomaRt}. 
+\TODO{Final tables are reported in Additional Files 3 (oneone\_heterodomains\_annotation\_proteins.txt, oneone\_homodomains\_annotation\_proteins.txt)}.
+
+\TODO{TODO:}
+\begin{itemize}
+\item \TODO{In this case, I have the interpro annotation for a given architecture based
+on the golden protein ($\boldsymbol{\mathfrak{G}}$) which have a 1:1 relationship. Just
+reporting those data? or is more convenient to plot by some way?}
+\item \TODO{Because the paper is about innate immune system, I was looking for 
+categories which I could classify the final architectures. I have found a nice classification
+specifically for tunicates on \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5465252/pdf/fimmu-08-00674.pdf} but I have to take some examples for each category and look it into
+the found candidates...Another option is on this systematic revision of domains: \url{https://www.sciencedirect.com/science/article/pii/S0378111918311119?via\%3Dihub}.}.
+\item \TODO{Dollo parsimony could be applied for analize gain and loss of protein architectures?.}
+\item \TODO{I could represent the protein architectures as drawings of the proteins, or a comparison between species, but for the most important ones in innate immune system, there is lot of information...}
+\item \TODO{I would like to report the ABDO method. I have the program, mainly Perl scripts and glue code in bash...or maybe in a server?}
+\end{itemize}
+
 
 \bibliographystyle{abbrvnat}
 \bibliography{biblio,otherbibio}

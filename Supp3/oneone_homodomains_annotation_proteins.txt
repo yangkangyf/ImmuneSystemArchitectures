@@ -1,0 +1,1298 @@
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"5-Hydroxytryptamine 6 receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR002232;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Adenosine A1 receptor";"Adenosine receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR001068;IPR001634;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Adenosine A2A receptor";"Adenosine receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR001513;IPR001634;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Alpha 2A adrenoceptor";"Adrenoceptor family";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR001946;IPR002233;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Atypical chemokine receptor 3";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR001416;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Beta 1 adrenoceptor";"Adrenoceptor family";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000507;IPR002233;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Chemokine receptor family";"CC chemokine receptor 2";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000355;IPR002237;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Chemokine receptor family";"CXC chemokine receptor 4/atypical chemokine receptor 2";"GPCR, rhodopsin-like, 7TM";"Atypical chemokine receptor 2"#IPR000276;IPR000355;IPR001277;IPR017452;IPR033037
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"CX3C chemokine receptor 1";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR005387;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"CXC chemokine receptor 5";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR001053;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Dopamine receptor family";"Dopamine D4 receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000929;IPR002185;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Dopamine receptor family";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000929;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Formyl peptide receptor-related";"C3a anaphylatoxin chemotactic receptor";"Anaphylatoxin chemotactic receptor family";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000826;IPR001644;IPR002234;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Formyl peptide receptor-related";"C3a anaphylatoxin chemotactic receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000826;IPR001644;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Formyl peptide receptor-related";"C5a1/C5a2 anaphylatoxin chemotactic receptor";"Anaphylatoxin chemotactic receptor family";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000826;IPR001274;IPR002234;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Formyl peptide receptor-related";"GPCR, rhodopsin-like, 7TM";"Formyl peptide receptor 2/3"#IPR000276;IPR000826;IPR017452;IPR027347
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Gastrin receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000314;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Growth hormone secretagogue receptor/motilin receptor";"GPCR, rhodopsin-like, 7TM";"Growth hormone secretagogue receptor"#IPR000276;IPR003905;IPR017452;IPR039129
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Histamine H3 receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR003980;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Histamine H4 receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR008102;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Neuropeptide Y1 receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000351;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Neuropeptide Y1 receptor";"Neuropeptide Y receptor family";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000351;IPR000611;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Prostacyclin (prostanoid IP) receptor";"Prostanoid receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000370;IPR008365;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Prostanoid EP1 receptor";"Prostaglandin DP receptor";"Prostanoid receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR000708;IPR001244;IPR008365;IPR017452
+0	PF00001	0#"G protein-coupled receptor, rhodopsin-like";"Prostanoid EP2 receptor";"Prostanoid receptor";"GPCR, rhodopsin-like, 7TM"#IPR000276;IPR001923;IPR008365;IPR017452
+0	PF00001	0#""#NA
+0	PF00001	0#"Neurokinin NK1 receptor";"G protein-coupled receptor, rhodopsin-like";"Neurokinin receptor";"GPCR, rhodopsin-like, 7TM"#IPR000046;IPR000276;IPR001681;IPR017452
+2	PF00002	2#"GPCR, family 2, secretin-like";"GPCR, family 2, corticotropin releasing factor receptor";"GPCR, family 2, corticotropin releasing factor receptor, type 1";"GPCR, family 2-like";"GPCR, family 2, secretin-like, conserved site";"GPCR family 2, extracellular hormone receptor domain superfamily"#IPR000832;IPR003051;IPR003052;IPR017981;IPR017983;IPR036445
+2	PF00002	2#"GPCR, family 2, secretin-like";"GPCR, family 2, corticotropin releasing factor receptor"#IPR000832;IPR003051
+3	PF00004	3#"ATPase, AAA-type, core";"P-loop containing nucleoside triphosphate hydrolase";"26S Proteasome regulatory subunit 6A"#IPR003959;IPR027417;IPR035254
+3	PF00004	3#"ATPase, AAA-type, core";"P-loop containing nucleoside triphosphate hydrolase"#IPR003959;IPR027417
+3	PF00004	3#""#NA
+6	PF00005	6#"ABC transporter-like";"AAA+ ATPase domain";"ABC transporter A";"P-loop containing nucleoside triphosphate hydrolase";"ATP-binding cassette subfamily A member 5"#IPR003439;IPR003593;IPR026082;IPR027417;IPR030367
+6	PF00005	6#"ABC transporter-like";"AAA+ ATPase domain";"ABC transporter, conserved site";"ABC transporter, G1";"P-loop containing nucleoside triphosphate hydrolase"#IPR003439;IPR003593;IPR017871;IPR020064;IPR027417
+6	PF00005	6#"ABC transporter-like";"ABC transporter, conserved site";"P-loop containing nucleoside triphosphate hydrolase"#IPR003439;IPR017871;IPR027417
+6	PF00005	6#"ABC transporter-like";"ABC transporter type 1, transmembrane domain";"P-loop containing nucleoside triphosphate hydrolase";"ATP-binding cassette subfamily B member 9";"ABC transporter type 1, transmembrane domain superfamily"#IPR003439;IPR011527;IPR027417;IPR030254;IPR036640
+6	PF00005	6#""#NA
+6	PF00005	6#NotAnnotatedGold#NA
+10	PF00007	10#"Gonadotropin, beta subunit";"Glycoprotein hormone subunit beta";"Gonadotropin, beta subunit, conserved site";"Cystine-knot cytokine"#IPR001545;IPR006208;IPR018245;IPR029034
+26	PF00009	26#"Transcription factor, GTP-binding domain";"P-loop containing nucleoside triphosphate hydrolase"#IPR000795;IPR027417
+26	PF00009	26#"Transcription factor, GTP-binding domain";"P-loop containing nucleoside triphosphate hydrolase";"Tr-type G domain, conserved site"#IPR000795;IPR027417;IPR031157
+34	PF00010	34#"Myc-type, basic helix-loop-helix (bHLH) domain";"DNA-binding protein inhibitor";"Helix-loop-helix DNA-binding domain superfamily"#IPR011598;IPR026052;IPR036638
+34	PF00010	34#"Myc-type, basic helix-loop-helix (bHLH) domain";"Helix-loop-helix DNA-binding domain superfamily"#IPR011598;IPR036638
+40	PF00011	40#"Alpha crystallin/Heat shock protein";"Alpha crystallin/Hsp20 domain";"HSP20-like chaperone";"Alpha-crystallin, subunit A";"Small heat shock protein HSP20"#IPR001436;IPR002068;IPR008978;IPR012274;IPR031107
+40	PF00011	40#"Alpha crystallin/Heat shock protein";"Alpha crystallin/Hsp20 domain";"HSP20-like chaperone";"Small heat shock protein HSP20";"Heat shock protein beta-1, ACD domain"#IPR001436;IPR002068;IPR008978;IPR031107;IPR037876
+41	PF00012	41#"Chaperone DnaK";"Heat shock protein 70 family";"Heat shock protein 70, conserved site";"Heat shock protein 70kD, peptide-binding domain superfamily";"Heat shock protein 70kD, C-terminal domain superfamily"#IPR012725;IPR013126;IPR018181;IPR029047;IPR029048
+41	PF00012	41#"Heat shock protein 70 family";"Heat shock protein 70, conserved site"#IPR013126;IPR018181
+42	PF00013	42#"K Homology domain";"K Homology domain, type 1";"K Homology domain, type 1 superfamily"#IPR004087;IPR004088;IPR036612
+47	PF00017	47#""#NA
+47	PF00017	47#"SH2 domain";"PI3K p85/p55 subunit";"SH2 domain superfamily"#IPR000980;IPR001720;IPR036860
+47	PF00017	47#"SH2 domain";"SH2 domain superfamily"#IPR000980;IPR036860
+64	PF00018	64#"Neutrophil cytosol factor P40";"SH3 domain";"Neutrophil cytosol factor P40, SH3 domain";"SH3-like domain superfamily";"PX domain superfamily"#IPR000919;IPR001452;IPR035541;IPR036028;IPR036871
+64	PF00018	64#"SH3 domain";"AH/BAR domain superfamily";"F-BAR domain";"F-BAR and double SH3 domains protein 2";"F-BAR and double SH3 domains protein";"FCHSD, SH3 domain 1";"SH3-like domain superfamily"#IPR001452;IPR027267;IPR031160;IPR034934;IPR034936;IPR035460;IPR036028
+64	PF00018	64#"SH3 domain";"Fyn/Yrk, SH3 domain";"SH3-like domain superfamily"#IPR001452;IPR035750;IPR036028
+64	PF00018	64#"SH3 domain";"Nephrocystin-1, SH3 domain";"SH3-like domain superfamily"#IPR001452;IPR030642;IPR036028
+64	PF00018	64#"SH3 domain";"SH3-like domain superfamily"#IPR001452;IPR036028
+77	PF00020	77#""#NA
+77	PF00020	77#"TNFR/NGFR cysteine-rich region";"Tumour necrosis factor receptor 1B";"Tumor necrosis factor receptor 1B, N-terminal"#IPR001368;IPR020411;IPR033996
+77	PF00020	77#"TNFR/NGFR cysteine-rich region";"Tumour necrosis factor receptor 3";"Tumour necrosis factor receptor 3, N-terminal"#IPR001368;IPR017349;IPR033997
+77	PF00020	77#"TNFR/NGFR cysteine-rich region";"Tumour necrosis factor receptor 5";"Tumour necrosis factor receptor 5, N-terminal"#IPR001368;IPR020435;IPR034021
+80	PF00022	80#"Actin family";"Actin, conserved site";"Actin/actin-like conserved site"#IPR004000;IPR004001;IPR020902
+80	PF00022	80#"Actin family";"Actin, conserved site"#IPR004000;IPR004001
+80	PF00022	80#"Actin family"#IPR004000
+81	PF00023	81#"Ankyrin repeat";"Ankyrin repeat-containing domain";"Ankyrin repeat-containing domain superfamily"#IPR002110;IPR020683;IPR036770
+88	PF00026	88#"Aspartic peptidase A1 family";"Aspartic peptidase, active site";"Aspartic peptidase domain superfamily";"Peptidase family A1 domain"#IPR001461;IPR001969;IPR021109;IPR033121
+89	PF00027	89#"Cyclic nucleotide-binding domain";"RmlC-like jelly roll fold";"Cyclic nucleotide-binding, conserved site";"Cyclic nucleotide-binding-like"#IPR000595;IPR014710;IPR018488;IPR018490
+91	PF00028	91#"Cadherin";"Cadherin-like";"Cadherin-23"#IPR002126;IPR015919;IPR033030
+91	PF00028	91#"Cadherin";"Cadherin-like";"Cadherin conserved site";"Cadherin-23"#IPR002126;IPR015919;IPR020894;IPR033030
+91	PF00028	91#"Cadherin";"Cadherin-like";"Cadherin conserved site"#IPR002126;IPR015919;IPR020894
+91	PF00028	91#"Cadherin";"Cadherin-like";"Cadherin conserved site";"Protocadherin beta-15"#IPR002126;IPR015919;IPR020894;IPR030733
+91	PF00028	91#"Cadherin";"Cadherin-like";"Cadherin conserved site";"VE-cadherin"#IPR002126;IPR015919;IPR020894;IPR030052
+91	PF00028	91#"Cadherin";"Cadherin-like"#IPR002126;IPR015919
+91	PF00028	91#"Cadherin";"Desmosomal cadherin";"Cadherin-like";"Cadherin conserved site"#IPR002126;IPR009122;IPR015919;IPR020894
+91	PF00028	91#""#NA
+105	PF00029	105#"Connexin";"Connexin, N-terminal";"Connexin, conserved site";"Connexin, N-terminal domain superfamily"#IPR000500;IPR013092;IPR017990;IPR038359
+113	PF00036	113#"EF-hand domain";"EF-hand domain pair";"EF-Hand 1, calcium-binding site"#IPR002048;IPR011992;IPR018247
+113	PF00036	113#"EF-hand domain";"EF-hand domain pair"#IPR002048;IPR011992
+137	PF00042	137#"Globin";"Haemoglobin, alpha-type";"Haemoglobin, pi";"Globin-like superfamily";"Globin/Protoglobin"#IPR000971;IPR002338;IPR002339;IPR009050;IPR012292
+137	PF00042	137#"Globin";"Haemoglobin, beta-type";"Globin-like superfamily";"Globin/Protoglobin"#IPR000971;IPR002337;IPR009050;IPR012292
+138	PF00043	138#""#NA
+141	PF00045	141#"Hemopexin-like domain";"Hemopexin, conserved site";"Hemopexin-like repeats";"Hemopexin-like domain superfamily"#IPR000585;IPR018486;IPR018487;IPR036375
+142	PF00046	142#"Helix-turn-helix motif";"Homeobox domain";"Homeobox-like domain superfamily";"Homeobox, conserved site";"Homeobox domain, metazoa"#IPR000047;IPR001356;IPR009057;IPR017970;IPR020479
+142	PF00046	142#"Homeobox domain";"Homeobox-like domain superfamily";"Homeobox, conserved site";"Homeobox domain, metazoa";"Homeobox protein GBX-2"#IPR001356;IPR009057;IPR017970;IPR020479;IPR031250
+142	PF00046	142#"Homeobox domain";"Homeobox-like domain superfamily";"Homeobox, conserved site";"Homeobox domain, metazoa"#IPR001356;IPR009057;IPR017970;IPR020479
+142	PF00046	142#"Homeobox domain";"Homeobox-like domain superfamily";"Homeobox, conserved site"#IPR001356;IPR009057;IPR017970
+142	PF00046	142#"Homeobox domain";"Homeobox-like domain superfamily"#IPR001356;IPR009057
+166	PF00048	166#"CC chemokine, conserved site";"Chemokine interleukin-8-like domain";"Chemokine CC, DCCL motif-cointaining domain";"Chemokine interleukin-8-like superfamily"#IPR000827;IPR001811;IPR034133;IPR036048
+166	PF00048	166#"CC chemokine, conserved site";"Chemokine interleukin-8-like domain";"Chemokine interleukin-8-like superfamily"#IPR000827;IPR001811;IPR036048
+166	PF00048	166#"Chemokine interleukin-8-like domain";"C chemokine";"Chemokine interleukin-8-like superfamily"#IPR001811;IPR008105;IPR036048
+166	PF00048	166#"Chemokine interleukin-8-like domain";"Chemokine interleukin-8-like superfamily"#IPR001811;IPR036048
+166	PF00048	166#"CXC chemokine";"Chemokine interleukin-8-like domain";"CXC chemokine, conserved site";"CXC chemokine 11";"CXC Chemokine domain";"Chemokine interleukin-8-like superfamily"#IPR001089;IPR001811;IPR018048;IPR027221;IPR033899;IPR036048
+166	PF00048	166#"CXC chemokine";"Chemokine interleukin-8-like domain";"CXC chemokine, conserved site";"CXC Chemokine domain";"Chemokine interleukin-8-like superfamily"#IPR001089;IPR001811;IPR018048;IPR033899;IPR036048
+187	PF00055	187#"Laminin, N-terminal";"Laminin, N-terminal domain superfamily"#IPR008211;IPR038684
+195	PF00057	195#"Low-density lipoprotein (LDL) receptor class A repeat";"Low-density lipoprotein (LDL) receptor class A, conserved site";"LDL receptor-like superfamily"#IPR002172;IPR023415;IPR036055
+218	PF00058	218#"LDLR class B repeat";"Six-bladed beta-propeller, TolB-like"#IPR000033;IPR011042
+218	PF00058	218#""#NA
+222	PF00059	222#"C-type lectin-like";"C-type lectin-like/link domain superfamily";"C-type lectin fold";"C-type lectin, conserved site";"CD209-like, C-type lectin-like domain"#IPR001304;IPR016186;IPR016187;IPR018378;IPR033989
+222	PF00059	222#"C-type lectin-like";"C-type lectin-like/link domain superfamily";"C-type lectin fold";"C-type lectin, conserved site"#IPR001304;IPR016186;IPR016187;IPR018378
+222	PF00059	222#"C-type lectin-like";"C-type lectin-like/link domain superfamily";"C-type lectin fold"#IPR001304;IPR016186;IPR016187
+222	PF00059	222#"C-type lectin-like";"C-type lectin-like/link domain superfamily";"C-type lectin fold";"Natural killer cell receptor-like, C-type lectin-like domain"#IPR001304;IPR016186;IPR016187;IPR033992
+222	PF00059	222#""#NA
+229	PF00061	229#"Cytosolic fatty-acid binding";"Lipocalin/cytosolic fatty-acid binding domain";"Calycin";"Intracellular lipid binding protein"#IPR000463;IPR000566;IPR012674;IPR031259
+231	PF00062	231#"Glycoside hydrolase, family 22, lysozyme";"Glycoside hydrolase, family 22";"Glycoside hydrolase, family 22, conserved site";"Lysozyme-like domain superfamily";"Lysozyme C"#IPR000974;IPR001916;IPR019799;IPR023346;IPR030056
+231	PF00062	231#"Lactalbumin";"Glycoside hydrolase, family 22";"Glycoside hydrolase, family 22, conserved site";"Lysozyme-like domain superfamily"#IPR000545;IPR001916;IPR019799;IPR023346
+238	PF00067	238#"Cytochrome P450";"Cytochrome P450, E-class, group I";"Cytochrome P450, conserved site";"Cytochrome P450 superfamily"#IPR001128;IPR002401;IPR017972;IPR036396
+238	PF00067	238#"Cytochrome P450";"Cytochrome P450, E-class, group I";"Cytochrome P450 superfamily"#IPR001128;IPR002401;IPR036396
+238	PF00067	238#"Cytochrome P450";"Cytochrome P450 superfamily"#IPR001128;IPR036396
+238	PF00067	238#""#NA
+240	PF00068	240#"Phospholipase A2";"Phospholipase A2 domain";"Phospholipase A2, aspartic acid active site";"Phospholipase A2, histidine active site";"Phospholipase A2 domain superfamily"#IPR001211;IPR016090;IPR033112;IPR033113;IPR036444
+241	PF00069	241#""#NA
+241	PF00069	241#"Protein kinase domain";"AGC-kinase, C-terminal";"Serine/threonine-protein kinase, active site";"Protein kinase-like domain superfamily"#IPR000719;IPR000961;IPR008271;IPR011009
+241	PF00069	241#"Protein kinase domain";"Mitogen-activated protein (MAP) kinase, conserved site";"Mitogen-activated protein (MAP) kinase p38-like";"Protein kinase-like domain superfamily";"Protein kinase, ATP binding site"#IPR000719;IPR003527;IPR008352;IPR011009;IPR017441
+241	PF00069	241#"Protein kinase domain";"Mitogen-activated protein (MAP) kinase, conserved site";"Serine/threonine-protein kinase, active site";"Mitogen-activated protein (MAP) kinase, ERK1/2";"Protein kinase-like domain superfamily";"Protein kinase, ATP binding site"#IPR000719;IPR003527;IPR008271;IPR008349;IPR011009;IPR017441
+241	PF00069	241#"Protein kinase domain";"Protein kinase-like domain superfamily";"Death-like domain superfamily";"Interleukin-1 receptor-associated kinase 4";"IRAK4, Death domain"#IPR000719;IPR011009;IPR011029;IPR017428;IPR037970
+241	PF00069	241#"Protein kinase domain";"Protein kinase-like domain superfamily"#IPR000719;IPR011009
+241	PF00069	241#"Protein kinase domain";"Protein kinase-like domain superfamily";"Protein kinase, ATP binding site"#IPR000719;IPR011009;IPR017441
+241	PF00069	241#"Protein kinase domain";"Serine/threonine-protein kinase, active site";"Protein kinase-like domain superfamily";"Calcium/calmodulin-dependent protein kinase type II"#IPR000719;IPR008271;IPR011009;IPR039071
+241	PF00069	241#"Protein kinase domain";"Serine/threonine-protein kinase, active site";"Protein kinase-like domain superfamily"#IPR000719;IPR008271;IPR011009
+241	PF00069	241#"Protein kinase domain";"Serine/threonine-protein kinase, active site";"Protein kinase-like domain superfamily";"Protein kinase, ATP binding site"#IPR000719;IPR008271;IPR011009;IPR017441
+268	PF00071	268#"Small GTPase superfamily";"P-loop containing nucleoside triphosphate hydrolase"#IPR001806;IPR027417
+268	PF00071	268#"Small GTPase superfamily";"Small GTPase superfamily, Rho type";"Small GTP-binding protein domain";"P-loop containing nucleoside triphosphate hydrolase"#IPR001806;IPR003578;IPR005225;IPR027417
+268	PF00071	268#"Small GTPase superfamily";"Small GTP-binding protein domain";"P-loop containing nucleoside triphosphate hydrolase"#IPR001806;IPR005225;IPR027417
+268	PF00071	268#"Small GTPase superfamily";"Small GTP-binding protein domain";"Small GTPase superfamily, Ras-type";"P-loop containing nucleoside triphosphate hydrolase";"GTP-binding protein Rheb"#IPR001806;IPR005225;IPR020849;IPR027417;IPR037586
+268	PF00071	268#"Small GTPase superfamily";"Small GTP-binding protein domain";"Small GTPase superfamily, Ras-type";"P-loop containing nucleoside triphosphate hydrolase"#IPR001806;IPR005225;IPR020849;IPR027417
+274	PF00076	274#""#NA
+274	PF00076	274#"RNA recognition motif domain";"HnRNP R/Q splicing factor";"Nucleotide-binding alpha-beta plait domain superfamily";"APOBEC1 complementation factor";"Probable RNA-binding protein 46, RNA recognition motif 2";"RNA-binding domain superfamily"#IPR000504;IPR006535;IPR012677;IPR033111;IPR034435;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"HnRNP R/Q splicing factor";"Nucleotide-binding alpha-beta plait domain superfamily";"Heterogeneous nuclear ribonucleoprotein Q, RNA recognition motif 1";"Heterogeneous nuclear ribonucleoprotein Q, RNA recognition motif 2";"RNA-binding domain superfamily"#IPR000504;IPR006535;IPR012677;IPR034544;IPR034548;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Nucleotide-binding alpha-beta plait domain superfamily";"Cleavage and polyadenylation specificity factor subunit 6";"CPSF6/7 family";"RNA-binding domain superfamily"#IPR000504;IPR012677;IPR034769;IPR034772;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Nucleotide-binding alpha-beta plait domain superfamily";"Eukaryotic translation initiation factor 4B";"RNA-binding domain superfamily"#IPR000504;IPR012677;IPR033107;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Nucleotide-binding alpha-beta plait domain superfamily";"hnRNP DL, RNA recognition motif 1";"RNA-binding domain superfamily"#IPR000504;IPR012677;IPR034847;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Nucleotide-binding alpha-beta plait domain superfamily";"MSSP-1, RNA recognition motif 1";"RNA-binding domain superfamily"#IPR000504;IPR012677;IPR034404;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Nucleotide-binding alpha-beta plait domain superfamily";"Nuclear cap-binding protein subunit 2";"NCBP2, RNA recognition motif";"RNA-binding domain superfamily"#IPR000504;IPR012677;IPR027157;IPR034148;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Nucleotide-binding alpha-beta plait domain superfamily";"p54nrb, RNA recognition motif 1";"RNA-binding domain superfamily"#IPR000504;IPR012677;IPR034552;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Nucleotide-binding alpha-beta plait domain superfamily";"RNA-binding domain superfamily"#IPR000504;IPR012677;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Nucleotide-binding alpha-beta plait domain superfamily";"RNA-binding protein Musashi homologue, RNA recognition motif 2";"RNA-binding domain superfamily"#IPR000504;IPR012677;IPR034126;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Nucleotide-binding alpha-beta plait domain superfamily";"SHARP, RNA recognition motif 2";"SHARP, RNA recognition motif 3";"RNA-binding domain superfamily"#IPR000504;IPR012677;IPR034173;IPR034174;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Paraneoplastic encephalomyelitis antigen";"Nucleotide-binding alpha-beta plait domain superfamily";"Splicing factor ELAV/Hu, RNA recognition motif 1";"RNA-binding domain superfamily"#IPR000504;IPR002343;IPR012677;IPR034775;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"RNA recognition motif domain, eukaryote";"Nucleotide-binding alpha-beta plait domain superfamily";"RBM3/CIRBP, RNA recognition motif";"RNA-binding domain superfamily"#IPR000504;IPR003954;IPR012677;IPR034278;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"Splicing factor, RBM39-like";"Nucleotide-binding alpha-beta plait domain superfamily";"RNA-binding domain superfamily"#IPR000504;IPR006509;IPR012677;IPR035979
+274	PF00076	274#"RNA recognition motif domain";"U2 snRNP auxilliary factor, large subunit, splicing factor";"Nucleotide-binding alpha-beta plait domain superfamily";"RNA-binding domain superfamily"#IPR000504;IPR006529;IPR012677;IPR035979
+289	PF00078	289#"Reverse transcriptase domain"#IPR000477
+290	PF00079	290#""#NA
+290	PF00079	290#"Serpin family";"Serpin domain";"Serpin superfamily"#IPR000215;IPR023796;IPR036186
+294	PF00082	294#""#NA
+297	PF00083	297#""#NA
+297	PF00083	297#"Sugar/inositol transporter";"Major facilitator,  sugar transporter-like";"Major facilitator superfamily domain";"MFS transporter superfamily"#IPR003663;IPR005828;IPR020846;IPR036259
+298	PF00084	298#""#NA
+298	PF00084	298#"Sushi/SCR/CCP domain";"Membrane cofactor protein CD46";"Sushi/SCR/CCP superfamily"#IPR000436;IPR017341;IPR035976
+298	PF00084	298#"Sushi/SCR/CCP domain";"Sushi/SCR/CCP superfamily";"Complement C2"#IPR000436;IPR035976;IPR037568
+298	PF00084	298#"Sushi/SCR/CCP domain";"Sushi/SCR/CCP superfamily"#IPR000436;IPR035976
+298	PF00084	298#"Sushi/SCR/CCP domain";"Sushi/SCR/CCP superfamily";"von Willebrand factor A-like domain superfamily";"Complement C2"#IPR000436;IPR035976;IPR036465;IPR037568
+308	PF00085	308#"Disulphide isomerase";"Thioredoxin domain";"Thioredoxin, conserved site";"Thioredoxin-like superfamily"#IPR005788;IPR013766;IPR017937;IPR036249
+308	PF00085	308#""#NA
+308	PF00085	308#"Thioredoxin domain";"Thioredoxin, conserved site";"Thioredoxin-like superfamily"#IPR013766;IPR017937;IPR036249
+308	PF00085	308#"Thioredoxin";"Thioredoxin domain";"Thioredoxin, conserved site";"Thioredoxin-like superfamily"#IPR005746;IPR013766;IPR017937;IPR036249
+312	PF00086	312#"Thyroglobulin type-1";"Insulin-like growth factor binding protein";"Insulin-like growth factor-binding protein family 1-6, chordata";"Insulin-like growth factor-binding protein 4";"Thyroglobulin type-1 superfamily"#IPR000716;IPR009168;IPR022321;IPR022327;IPR036857
+314	PF00088	314#"P-type trefoil domain";"P-type trefoil, conserved site";"P-type trefoil, chordata";"Trefoil factor 1"#IPR000519;IPR017957;IPR017994;IPR028824
+317	PF00089	317#"Serine proteases, trypsin domain";"Peptidase S1A, chymotrypsin family";"Peptidase S1, PA clan";"Serine proteases, trypsin family, histidine active site";"Complement C2"#IPR001254;IPR001314;IPR009003;IPR018114;IPR037568
+317	PF00089	317#"Serine proteases, trypsin domain";"Peptidase S1A, chymotrypsin family";"Peptidase S1, PA clan";"Serine proteases, trypsin family, histidine active site";"Serine proteases, trypsin family, serine active site";"Complement factor D"#IPR001254;IPR001314;IPR009003;IPR018114;IPR033116;IPR037561
+317	PF00089	317#"Serine proteases, trypsin domain";"Peptidase S1A, chymotrypsin family";"Peptidase S1, PA clan";"Serine proteases, trypsin family, histidine active site";"Serine proteases, trypsin family, serine active site"#IPR001254;IPR001314;IPR009003;IPR018114;IPR033116
+318	PF00090	318#"Thrombospondin type-1 (TSP1) repeat";"ADAM, cysteine-rich";"Thrombospondin type-1 (TSP1) repeat superfamily"#IPR000884;IPR006586;IPR036383
+318	PF00090	318#"Thrombospondin type-1 (TSP1) repeat";"Thrombospondin type-1 (TSP1) repeat superfamily";"Complement component C6"#IPR000884;IPR036383;IPR037563
+318	PF00090	318#"Thrombospondin type-1 (TSP1) repeat";"Thrombospondin type-1 (TSP1) repeat superfamily"#IPR000884;IPR036383
+325	PF00091	325#"Tubulin";"Alpha tubulin";"Tubulin/FtsZ, GTPase domain";"Tubulin, conserved site";"Tubulin/FtsZ, GTPase domain superfamily"#IPR000217;IPR002452;IPR003008;IPR017975;IPR036525
+325	PF00091	325#"Tubulin";"Alpha tubulin";"Tubulin/FtsZ, GTPase domain";"Tubulin/FtsZ, GTPase domain superfamily"#IPR000217;IPR002452;IPR003008;IPR036525
+353	PF00094	353#"von Willebrand factor, type D domain";"Mucin-6"#IPR001846;IPR030124
+360	PF00095	360#"WAP-type 'four-disulfide core' domain";"Elafin-like superfamily"#IPR008197;IPR036645
+364	PF00096	364#"Zinc finger C2H2-type";"C2H2-type Zinc finger protein,  YY-1-like";"Zinc finger C2H2 superfamily"#IPR013087;IPR017114;IPR036236
+364	PF00096	364#"Zinc finger C2H2-type";"Zinc finger C2H2 superfamily"#IPR013087;IPR036236
+372	PF00097	372#"Zinc finger, RING-type";"Zinc finger, RING/FYVE/PHD-type";"Zinc finger, RING-type, conserved site";"Zinc finger, C3HC4 RING-type";"TNF receptor-associated factor 3"#IPR001841;IPR013083;IPR017907;IPR018957;IPR027128
+390	PF00104	390#"Nuclear hormone receptor, ligand-binding domain";"Nuclear hormone receptor";"Liver X receptor";"Nuclear hormone receptor-like domain superfamily"#IPR000536;IPR001723;IPR023257;IPR035500
+390	PF00104	390#"Nuclear hormone receptor, ligand-binding domain";"Nuclear hormone receptor";"Nuclear hormone receptor-like domain superfamily"#IPR000536;IPR001723;IPR035500
+390	PF00104	390#"Nuclear hormone receptor, ligand-binding domain";"Nuclear hormone receptor";"Peroxisome proliferator-activated receptor";"Peroxisome proliferator-activated receptor, beta";"Nuclear hormone receptor-like domain superfamily"#IPR000536;IPR001723;IPR003074;IPR003075;IPR035500
+390	PF00104	390#"Nuclear hormone receptor, ligand-binding domain";"Nuclear hormone receptor";"Retinoic acid receptor";"Nuclear hormone receptor-like domain superfamily"#IPR000536;IPR001723;IPR003078;IPR035500
+391	PF00105	391#"Zinc finger, nuclear hormone receptor-type";"Peroxisome proliferator-activated receptor";"Peroxisome proliferator-activated receptor, beta";"Zinc finger, NHR/GATA-type";"Nuclear hormone receptor-like domain superfamily"#IPR001628;IPR003074;IPR003075;IPR013088;IPR035500
+391	PF00105	391#"Zinc finger, nuclear hormone receptor-type";"Zinc finger, NHR/GATA-type";"Liver X receptor"#IPR001628;IPR013088;IPR023257
+393	PF00106	393#""#NA
+393	PF00106	393#"Short-chain dehydrogenase/reductase SDR";"NAD(P)-binding domain superfamily"#IPR002347;IPR036291
+393	PF00106	393#"Short-chain dehydrogenase/reductase SDR";"Short-chain dehydrogenase/reductase, conserved site";"NAD(P)-binding domain superfamily"#IPR002347;IPR020904;IPR036291
+397	PF00107	397#""#NA
+401	PF00110	401#"Wnt";"Wnt-10 protein";"Wnt protein, conserved site"#IPR005817;IPR013302;IPR018161
+401	PF00110	401#"Wnt";"Wnt-2 protein"#IPR005817;IPR009140
+401	PF00110	401#"Wnt";"Wnt-4 protein";"Wnt protein, conserved site"#IPR005817;IPR009142;IPR018161
+401	PF00110	401#"Wnt";"Wnt-5a protein"#IPR005817;IPR026538
+401	PF00110	401#"Wnt";"Wnt protein, conserved site";"Wnt-11 protein"#IPR005817;IPR018161;IPR026536
+402	PF00111	402#"2Fe-2S ferredoxin-type iron-sulfur binding domain";"Adrenodoxin";"Beta-grasp domain superfamily";"Adrenodoxin, iron-sulphur binding site";"2Fe-2S ferredoxin-like superfamily"#IPR001041;IPR001055;IPR012675;IPR018298;IPR036010
+405	PF00112	405#"Cysteine peptidase, cysteine active site";"Peptidase C1A, papain C-terminal";"Peptidase C1A";"Papain-like cysteine peptidase superfamily";"Papain-like cysteine endopeptidase"#IPR000169;IPR000668;IPR013128;IPR038765;IPR039417
+405	PF00112	405#""#NA
+410	PF00122	410#""#NA
+415	PF00123	415#"Glucagon/GIP/secretin/VIP";"Vasoactive intestinal peptide"#IPR000532;IPR015523
+446	PF00135	446#"Thyroglobulin type-1";"Carboxylesterase, type B";"Carboxylesterase type B, conserved site";"Alpha/Beta hydrolase fold";"Thyroglobulin type-1 superfamily"#IPR000716;IPR002018;IPR019819;IPR029058;IPR036857
+446	PF00135	446#"Thyroglobulin type-1";"Carboxylesterase, type B";"Tyrosine-protein kinase ephrin type A/B receptor-like";"Thyroglobulin";"Carboxylesterase type B, conserved site";"Alpha/Beta hydrolase fold";"Thyroglobulin type-1 superfamily"#IPR000716;IPR002018;IPR011641;IPR016324;IPR019819;IPR029058;IPR036857
+449	PF00137	449#"V-ATPase proteolipid subunit";"V-ATPase proteolipid subunit C-like domain";"F/V-ATP synthase subunit C superfamily"#IPR000245;IPR002379;IPR035921
+450	PF00143	450#"Interferon alpha/beta/delta";"Four-helical cytokine-like, core"#IPR000471;IPR009079
+451	PF00145	451#""#NA
+452	PF00147	452#"Fibrinogen, alpha/beta/gamma chain, C-terminal globular domain";"Fibrinogen, alpha/beta/gamma chain, C-terminal globular, subdomain 2";"Fibrinogen, alpha/beta/gamma chain, C-terminal globular, subdomain 1";"Fibrinogen, conserved site";"Angiopoietin-1";"Fibrinogen-like, C-terminal"#IPR002181;IPR014715;IPR014716;IPR020837;IPR028843;IPR036056
+453	PF00149	453#"Calcineurin-like phosphoesterase domain, ApaH type";"Acid sphingomyelinase-like phosphodiesterase, predicted";"Metallo-dependent phosphatase-like"#IPR004843;IPR017064;IPR029052
+456	PF00151	456#""#NA
+456	PF00151	456#"Triacylglycerol lipase family";"Lipoprotein lipase";"Lipase/vitellogenin";"Alpha/Beta hydrolase fold"#IPR000734;IPR002330;IPR013818;IPR029058
+458	PF00152	458#"Aspartyl/Asparaginyl-tRNA synthetase, class IIb";"Aminoacyl-tRNA synthetase, class II (D/K/N)";"Aspartate-tRNA synthetase, type 2";"Aminoacyl-tRNA synthetase, class II"#IPR002312;IPR004364;IPR004523;IPR006195
+459	PF00153	459#"Mitochondrial carrier UCP-like";"Mitochondrial substrate/solute carrier";"Mitochondrial carrier domain superfamily"#IPR002030;IPR018108;IPR023395
+459	PF00153	459#"Mitochondrial substrate/solute carrier";"Mitochondrial carrier domain superfamily"#IPR018108;IPR023395
+459	PF00153	459#"Mitochondrial substrate/solute carrier";"Mitochondrial carrier domain superfamily";"Solute carrier family 25 member 46"#IPR018108;IPR023395;IPR039158
+460	PF00155	460#NotAnnotatedGold#NA
+461	PF00156	461#"Phosphoribosyltransferase domain";"Hypoxanthine phosphoribosyl transferase";"Phosphoribosyltransferase-like"#IPR000836;IPR005904;IPR029057
+462	PF00157	462#"POU-specific domain";"Octamer-binding transcription factor";"Lambda repressor-like, DNA-binding domain superfamily";"POU domain"#IPR000327;IPR000972;IPR010982;IPR013847
+464	PF00160	464#""#NA
+470	PF00164	470#"Ribosomal protein S12/S23";"Nucleic acid-binding, OB-fold"#IPR006032;IPR012340
+473	PF00168	473#"C2 domain";"Acyl transferase/acyl hydrolase/lysophospholipase";"C2 domain superfamily"#IPR000008;IPR016035;IPR035892
+473	PF00168	473#"C2 domain";"C2 domain superfamily";"Ras GTPase-activating proteins"#IPR000008;IPR035892;IPR039360
+473	PF00168	473#"C2 domain";"Phosphoinositide phospholipase C family";"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1";"C2 domain superfamily"#IPR000008;IPR001192;IPR028380;IPR035892
+487	PF00169	487#"Pleckstrin homology domain";"PH-like domain superfamily";"Protein Kinase B, pleckstrin homology domain";"Serine/threonine-protein kinase RAC alpha/beta"#IPR001849;IPR011993;IPR039026;IPR039027
+514	PF00170	514#"AP-1 transcription factor";"Basic-leucine zipper domain";"c-Fos/v-Fos"#IPR000837;IPR004827;IPR029816
+514	PF00170	514#"AP-1 transcription factor";"Basic-leucine zipper domain";"Fos-related antigen 1"#IPR000837;IPR004827;IPR029815
+514	PF00170	514#"AP-1 transcription factor";"Basic-leucine zipper domain";"Protein FosB"#IPR000837;IPR004827;IPR029813
+514	PF00170	514#"Basic-leucine zipper domain";"cAMP-dependent transcription factor ATF-4"#IPR004827;IPR029811
+515	PF00171	515#"Aldehyde dehydrogenase";"Aldehyde dehydrogenase domain";"Aldehyde/histidinol dehydrogenase";"Aldehyde dehydrogenase, N-terminal";"Aldehyde dehydrogenase, C-terminal"#IPR011408;IPR015590;IPR016161;IPR016162;IPR016163
+515	PF00171	515#"Aldehyde dehydrogenase domain";"Aldehyde dehydrogenase, cysteine active site";"Aldehyde/histidinol dehydrogenase";"Aldehyde dehydrogenase, N-terminal";"Aldehyde dehydrogenase, C-terminal";"Aldehyde dehydrogenase, glutamic acid active site"#IPR015590;IPR016160;IPR016161;IPR016162;IPR016163;IPR029510
+515	PF00171	515#"Aldehyde dehydrogenase domain";"Aldehyde/histidinol dehydrogenase";"Aldehyde dehydrogenase, N-terminal";"Aldehyde dehydrogenase, C-terminal"#IPR015590;IPR016161;IPR016162;IPR016163
+523	PF00177	523#"Ribosomal protein S5/S7";"Ribosomal protein S7 domain";"Ribosomal protein S7 domain superfamily"#IPR000235;IPR023798;IPR036823
+524	PF00178	524#"Ets domain";"Winged helix-like DNA-binding domain superfamily";"Winged helix DNA-binding domain superfamily"#IPR000418;IPR036388;IPR036390
+525	PF00179	525#""#NA
+526	PF00180	526#"Isocitrate dehydrogenase NADP-dependent";"Isocitrate/isopropylmalate dehydrogenase, conserved site";"Isopropylmalate dehydrogenase-like domain"#IPR004790;IPR019818;IPR024084
+526	PF00180	526#""#NA
+529	PF00188	529#"Cysteine-rich  secretory protein, allergen V5/Tpx-1-related";"CAP domain";"Allergen V5/Tpx-1-related, conserved site";"CAP superfamily"#IPR001283;IPR014044;IPR018244;IPR035940
+533	PF00191	533#"Annexin";"Annexin A11";"Annexin repeat";"Annexin superfamily"#IPR001464;IPR008157;IPR018502;IPR037104
+533	PF00191	533#"Annexin";"Annexin A3";"Annexin repeat, conserved site";"Annexin repeat";"Annexin superfamily"#IPR001464;IPR002390;IPR018252;IPR018502;IPR037104
+533	PF00191	533#"Annexin";"Annexin A4";"Annexin repeat, conserved site";"Annexin repeat";"Annexin superfamily"#IPR001464;IPR002391;IPR018252;IPR018502;IPR037104
+533	PF00191	533#"Annexin";"Annexin A5";"Annexin repeat, conserved site";"Annexin repeat";"Annexin superfamily"#IPR001464;IPR002392;IPR018252;IPR018502;IPR037104
+533	PF00191	533#"Annexin";"Annexin A6";"Annexin repeat, conserved site";"Annexin repeat";"Annexin superfamily"#IPR001464;IPR002393;IPR018252;IPR018502;IPR037104
+534	PF00193	534#"Sushi/SCR/CCP domain";"EGF-like domain";"C-type lectin-like";"Selectin superfamily";"EGF-like, conserved site";"C-type lectin-like/link domain superfamily";"C-type lectin fold";"C-type lectin, conserved site";"Selectin, C-type lectin-like domain";"Sushi/SCR/CCP superfamily"#IPR000436;IPR000742;IPR001304;IPR002396;IPR013032;IPR016186;IPR016187;IPR018378;IPR033991;IPR035976
+534	PF00193	534#"Sushi/SCR/CCP domain";"Link domain";"C-type lectin-like/link domain superfamily";"C-type lectin fold";"Sushi/SCR/CCP superfamily"#IPR000436;IPR000538;IPR016186;IPR016187;IPR035976
+536	PF00194	536#"Alpha carbonic anhydrase domain";"Carbonic anhydrase, CA4";"Carbonic anhydrase, alpha-class";"Alpha carbonic anhydrase domain superfamily"#IPR001148;IPR018343;IPR023561;IPR036398
+536	PF00194	536#""#NA
+546	PF00207	546#""#NA
+548	PF00209	548#"Sodium:neurotransmitter symporter";"Sodium:neurotransmitter symporter, creatine";"Sodium:neurotransmitter symporter superfamily"#IPR000175;IPR002984;IPR037272
+548	PF00209	548#"Sodium:neurotransmitter symporter";"Sodium:neurotransmitter symporter superfamily"#IPR000175;IPR037272
+548	PF00209	548#"Sodium:neurotransmitter symporter";"Sodium:neurotransmitter symporter, taurine";"Sodium:neurotransmitter symporter superfamily"#IPR000175;IPR002434;IPR037272
+550	PF00211	550#"Adenylyl cyclase class-3/4/guanylyl cyclase";"Adenylate cyclase, type 10";"P-loop containing nucleoside triphosphate hydrolase";"Nucleotide cyclase"#IPR001054;IPR016577;IPR027417;IPR029787
+552	PF00213	552#""#NA
+553	PF00214	553#"Adrenomedullin";"Calcitonin/adrenomedullin"#IPR001710;IPR021116
+554	PF00219	554#"Insulin-like growth factor-binding protein, IGFBP";"Growth factor receptor cysteine-rich domain superfamily";"Insulin-like growth factor binding protein, N-terminal, Cys-rich conserved site"#IPR000867;IPR009030;IPR017891
+567	PF00225	567#"Kinesin motor domain";"Kinesin motor domain, conserved site";"P-loop containing nucleoside triphosphate hydrolase";"Kinesin-like protein";"Kinesin motor domain superfamily"#IPR001752;IPR019821;IPR027417;IPR027640;IPR036961
+572	PF00226	572#"DnaJ domain";"Chaperone J-domain superfamily"#IPR001623;IPR036869
+572	PF00226	572#"DnaJ domain";"DnaJ domain, conserved site";"Chaperone J-domain superfamily"#IPR001623;IPR018253;IPR036869
+572	PF00226	572#""#NA
+578	PF00227	578#"Proteasome, subunit alpha/beta";"Proteasome alpha-type subunit";"Nucleophile aminohydrolases, N-terminal";"Proteasome subunit alpha 1"#IPR001353;IPR023332;IPR029055;IPR035144
+578	PF00227	578#"Proteasome, subunit alpha/beta";"Proteasome alpha-type subunit";"Nucleophile aminohydrolases, N-terminal";"Proteasome subunit alpha 3"#IPR001353;IPR023332;IPR029055;IPR037555
+578	PF00227	578#"Proteasome, subunit alpha/beta";"Proteasome alpha-type subunit";"Nucleophile aminohydrolases, N-terminal";"Proteasome subunit alpha6"#IPR001353;IPR023332;IPR029055;IPR034642
+578	PF00227	578#"Proteasome, subunit alpha/beta";"Proteasome beta-type subunit, conserved site";"Nucleophile aminohydrolases, N-terminal";"Proteasome subunit beta type 9"#IPR001353;IPR016050;IPR029055;IPR034383
+578	PF00227	578#"Proteasome, subunit alpha/beta";"Proteasome beta-type subunit, conserved site";"Proteasome B-type subunit";"Nucleophile aminohydrolases, N-terminal";"Proteasome beta 3 subunit"#IPR001353;IPR016050;IPR023333;IPR029055;IPR033811
+580	PF00229	580#"CD40 ligand";"Tumour necrosis factor domain";"Tumour necrosis factor-like domain superfamily";"Tumour necrosis factor, conserved site"#IPR003263;IPR006052;IPR008983;IPR021184
+580	PF00229	580#"Tumour necrosis factor domain";"Tumour necrosis factor-like domain superfamily";"Tumour necrosis factor, conserved site"#IPR006052;IPR008983;IPR021184
+580	PF00229	580#"Tumour necrosis factor domain";"Tumour necrosis factor-like domain superfamily";"Tumour necrosis factor ligand 10/11"#IPR006052;IPR008983;IPR017355
+584	PF00233	584#"3'5'-cyclic nucleotide phosphodiesterase, catalytic domain";"HD/PDEase domain";"3'5'-cyclic nucleotide phosphodiesterase";"3'5'-cyclic nucleotide phosphodiesterase, conserved site";"3'5'-cyclic nucleotide phosphodiesterase, catalytic domain superfamily"#IPR002073;IPR003607;IPR023088;IPR023174;IPR036971
+585	PF00235	585#"Profilin1/2/3, vertebrate";"Profilin";"Profilin superfamily"#IPR005454;IPR005455;IPR036140
+588	PF00240	588#"Ubiquitin domain";"Ubiquitin conserved site";"Ubiquitin";"Ubiquitin-like domain superfamily"#IPR000626;IPR019954;IPR019956;IPR029071
+602	PF00244	602#"14-3-3 protein";"14-3-3 protein, conserved site";"14-3-3 domain";"14-3-3 domain superfamily"#IPR000308;IPR023409;IPR023410;IPR036815
+603	PF00245	603#"Alkaline phosphatase";"Alkaline phosphatase-like, alpha/beta/alpha";"Alkaline-phosphatase-like, core domain superfamily"#IPR001952;IPR017849;IPR017850
+604	PF00246	604#""#NA
+607	PF00248	607#""#NA
+608	PF00249	608#"SANT/Myb domain";"Homeobox-like domain superfamily";"SANT domain"#IPR001005;IPR009057;IPR017884
+616	PF00252	616#"Ribosomal protein L16";"Ribosomal protein L10e/L16";"Ribosomal protein L10e/L16 superfamily"#IPR000114;IPR016180;IPR036920
+624	PF00255	624#"Glutathione peroxidase";"Glutathione peroxidase active site";"Glutathione peroxidase conserved site";"Thioredoxin-like superfamily"#IPR000889;IPR029759;IPR029760;IPR036249
+625	PF00258	625#"Flavodoxin-like";"Flavodoxin/nitric oxide synthase";"Flavoprotein-like superfamily"#IPR001094;IPR008254;IPR029039
+628	PF00261	628#"Tropomyosin"#IPR000533
+632	PF00270	632#"DEAD/DEAH box helicase domain";"RNA helicase, DEAD-box type, Q motif";"P-loop containing nucleoside triphosphate hydrolase";"RNA helicase p68 (DDX5)"#IPR011545;IPR014014;IPR027417;IPR033488
+647	PF00271	647#"Helicase, C-terminal";"P-loop containing nucleoside triphosphate hydrolase"#IPR001650;IPR027417
+651	PF00273	651#"Vitamin D-binding protein";"ALB/AFP/VDB";"Serum albumin, N-terminal";"Serum albumin-like"#IPR000213;IPR000264;IPR014760;IPR020858
+653	PF00274	653#"Fructose-bisphosphate aldolase, class-I";"Aldolase-type TIM barrel"#IPR000741;IPR013785
+655	PF00277	655#"Serum amyloid A protein"#IPR000096
+657	PF00282	657#"Pyridoxal phosphate-dependent decarboxylase";"Aromatic-L-amino-acid decarboxylase";"Pyridoxal phosphate-dependent transferase, major domain";"Pyridoxal phosphate-dependent transferase domain 1";"Pyridoxal phosphate-dependent transferase";"Pyridoxal-phosphate binding site"#IPR002129;IPR010977;IPR015421;IPR015422;IPR015424;IPR021115
+657	PF00282	657#"Pyridoxal phosphate-dependent decarboxylase";"Pyridoxal phosphate-dependent transferase, major domain";"Pyridoxal phosphate-dependent transferase domain 1";"Pyridoxal phosphate-dependent transferase"#IPR002129;IPR015421;IPR015422;IPR015424
+659	PF00287	659#"Sodium/potassium-transporting ATPase subunit beta";"Sodium/potassium-transporting ATPase subunit beta superfamily"#IPR000402;IPR038702
+662	PF00289	662#""#NA
+665	PF00291	665#"Serine/threonine dehydratase, pyridoxal-phosphate-binding site";"Pyridoxal-phosphate dependent enzyme";"Tryptophan synthase beta subunit-like PLP-dependent enzyme"#IPR000634;IPR001926;IPR036052
+673	PF00297	673#"Ribosomal protein L3";"Translation protein, beta-barrel domain superfamily";"Ribosomal protein L3, conserved site"#IPR000597;IPR009000;IPR019926
+674	PF00300	674#"Fructose-2,6-bisphosphatase";"Histidine phosphatase superfamily, clade-1";"Histidine phosphatase superfamily"#IPR003094;IPR013078;IPR029033
+675	PF00303	675#"Thymidylate synthase/dCMP hydroxymethylase domain";"Thymidylate synthase/dCMP hydroxymethylase superfamily"#IPR023451;IPR036926
+675	PF00303	675#"Thymidylate synthase";"Thymidylate synthase, active site";"Thymidylate synthase/dCMP hydroxymethylase domain";"Thymidylate synthase/dCMP hydroxymethylase superfamily"#IPR000398;IPR020940;IPR023451;IPR036926
+677	PF00307	677#"Calponin homology domain";"CH domain superfamily"#IPR001715;IPR036872
+705	PF00318	705#"Ribosomal protein S2";"Ribosomal protein S2, eukaryotic/archaeal";"Ribosomal protein S2, conserved site";"Ribosomal protein S2, flavodoxin-like domain superfamily"#IPR001865;IPR005707;IPR018130;IPR023591
+708	PF00320	708#"Zinc finger, GATA-type";"Zinc finger, NHR/GATA-type";"Transcription factor GATA"#IPR000679;IPR013088;IPR039355
+709	PF00322	709#"Endothelin-like toxin";"Endothelin-2";"Endothelin-like toxin, conserved site";"Endothelin"#IPR001928;IPR015658;IPR019764;IPR020475
+709	PF00322	709#"Endothelin-like toxin";"Endothelin-like toxin, conserved site";"Endothelin"#IPR001928;IPR019764;IPR020475
+710	PF00324	710#"Amino acid permease/ SLC12A domain";"Solute carrier family 12 member 9"#IPR004841;IPR030345
+714	PF00328	714#"Histidine phosphatase superfamily, clade-2";"Histidine phosphatase superfamily";"Histidine acid phosphatase active site"#IPR000560;IPR029033;IPR033379
+715	PF00329	715#"NADH:ubiquinone oxidoreductase, 30kDa subunit";"NADH dehydrogenase, subunit C";"NADH:ubiquinone oxidoreductase, 30kDa subunit, conserved site";"NADH:ubiquinone oxidoreductase, 30kDa subunit superfamily"#IPR001268;IPR010218;IPR020396;IPR037232
+716	PF00333	716#"Ribosomal protein S5";"Ribosomal protein S5, eukaryotic/archaeal";"Ribosomal protein S5, N-terminal";"Ribosomal protein S5 domain 2-type fold, subgroup";"Ribosomal protein S5, N-terminal, conserved site"#IPR000851;IPR005711;IPR013810;IPR014721;IPR018192
+720	PF00335	720#"Tetraspanin, EC2 domain superfamily";"Tetraspanin/Peripherin"#IPR008952;IPR018499
+720	PF00335	720#"Tetraspanin";"Tetraspanin, EC2 domain superfamily";"Tetraspanin/Peripherin";"Tetraspanin, conserved site"#IPR000301;IPR008952;IPR018499;IPR018503
+726	PF00341	726#"PDGF/VEGF domain";"Platelet-derived growth factor, conserved site";"Cystine-knot cytokine"#IPR000072;IPR023581;IPR029034
+729	PF00342	729#"Phosphoglucose isomerase (PGI)";"Phosphoglucose isomerase, conserved site";"Phosphoglucose isomerase, C-terminal";"Phosphoglucose isomerase, SIS domain 1";"Phosphoglucose isomerase, SIS domain 2"#IPR001672;IPR018189;IPR023096;IPR035476;IPR035482
+731	PF00347	731#"Ribosomal protein L6";"Ribosomal protein L6, alpha-beta domain";"Ribosomal protein L6, alpha-beta domain superfamily"#IPR000702;IPR020040;IPR036789
+731	PF00347	731#"Ribosomal protein L6";"Ribosomal protein L6, conserved site-2";"Ribosomal protein L6, alpha-beta domain";"Ribosomal protein L6, alpha-beta domain superfamily"#IPR000702;IPR002359;IPR020040;IPR036789
+732	PF00348	732#"Polyprenyl synthetase";"Isoprenoid synthase domain superfamily"#IPR000092;IPR008949
+732	PF00348	732#"Polyprenyl synthetase";"Isoprenoid synthase domain superfamily";"Polyprenyl synthetase, conserved site"#IPR000092;IPR008949;IPR033749
+736	PF00350	736#"Dynamin superfamily";"Mitofusin-2";"Mitofusin family";"P-loop containing nucleoside triphosphate hydrolase";"Dynamin-type guanine nucleotide-binding (G) domain"#IPR022812;IPR027089;IPR027094;IPR027417;IPR030381
+736	PF00350	736#"Dynamin superfamily";"P-loop containing nucleoside triphosphate hydrolase";"Dynamin-type guanine nucleotide-binding (G) domain"#IPR022812;IPR027417;IPR030381
+744	PF00354	744#"Pentraxin-related";"Concanavalin A-like lectin/glucanase domain superfamily";"Pentaxin, conserved site"#IPR001759;IPR013320;IPR030476
+748	PF00362	748#""#NA
+755	PF00364	755#"Biotin/lipoyl attachment";"2-oxo acid dehydrogenase, lipoyl-binding site";"Peripheral subunit-binding domain";"Single hybrid motif";"E3-binding domain superfamily"#IPR000089;IPR003016;IPR004167;IPR011053;IPR036625
+758	PF00365	758#"Phosphofructokinase domain";"Phosphofructokinase, conserved site";"ATP-dependent 6-phosphofructokinase";"Phosphofructokinase superfamily"#IPR000023;IPR015912;IPR022953;IPR035966
+760	PF00370	760#"Carbohydrate kinase, FGGY, conserved site";"Carbohydrate kinase, FGGY, N-terminal"#IPR018483;IPR018484
+762	PF00373	762#""#NA
+768	PF00375	768#"Sodium:dicarboxylate symporter";"Sodium:dicarboxylate symporter, conserved site";"Sodium:dicarboxylate symporter superfamily"#IPR001991;IPR018107;IPR036458
+771	PF00380	771#"Ribosomal protein S9";"Ribosomal protein S5 domain 2-type fold, subgroup";"Ribosomal protein S5 domain 2-type fold";"Ribosomal protein S9, conserved site"#IPR000754;IPR014721;IPR020568;IPR020574
+773	PF00383	773#"Cytidine and deoxycytidylate deaminase domain";"Deoxycytidylate deaminase-related";"APOBEC/CMP deaminase, zinc-binding";"Cytidine deaminase-like";"Deoxycytidylate deaminase domain"#IPR002125;IPR015517;IPR016192;IPR016193;IPR035105
+774	PF00385	774#"Chromo/chromo shadow domain";"Chromo-like domain superfamily";"Chromo domain subgroup";"Chromo domain, conserved site";"Chromo domain";"Chromobox protein homologue 3"#IPR000953;IPR016197;IPR017984;IPR023779;IPR023780;IPR038033
+781	PF00386	781#"C1q domain";"Tumour necrosis factor-like domain superfamily"#IPR001073;IPR008983
+803	PF00400	803#"G-protein, beta subunit";"WD40 repeat";"WD40/YVTN repeat-like-containing domain superfamily";"Guanine nucleotide-binding protein, beta subunit";"WD40-repeat-containing domain";"WD40 repeat, conserved site";"G-protein beta WD-40 repeat";"WD40-repeat-containing domain superfamily"#IPR001632;IPR001680;IPR015943;IPR016346;IPR017986;IPR019775;IPR020472;IPR036322
+803	PF00400	803#"G-protein, beta subunit";"WD40 repeat";"WD40/YVTN repeat-like-containing domain superfamily";"Guanine nucleotide-binding protein, beta subunit";"WD40-repeat-containing domain";"WD40 repeat, conserved site";"WD40-repeat-containing domain superfamily"#IPR001632;IPR001680;IPR015943;IPR016346;IPR017986;IPR019775;IPR036322
+803	PF00400	803#"WD40 repeat";"WD40/YVTN repeat-like-containing domain superfamily";"WD40-repeat-containing domain";"WD40 repeat, conserved site";"WD40-repeat-containing domain superfamily"#IPR001680;IPR015943;IPR017986;IPR019775;IPR036322
+803	PF00400	803#"WD40 repeat";"WD40/YVTN repeat-like-containing domain superfamily";"WD40-repeat-containing domain";"WD40-repeat-containing domain superfamily"#IPR001680;IPR015943;IPR017986;IPR036322
+818	PF00405	818#"Transferrin-like domain";"Transferrin family, iron binding site"#IPR001156;IPR018195
+818	PF00405	818#"Transferrin-like domain";"Transferrin";"Transferrin family, iron binding site";"Serotransferrin, mammalian"#IPR001156;IPR016357;IPR018195;IPR030685
+823	PF00412	823#"Zinc finger, LIM-type"#IPR001781
+836	PF00418	836#"Microtubule associated protein,  tubulin-binding repeat"#IPR001084
+837	PF00428	837#""#NA
+858	PF00432	858#"PFTB repeat";"Terpenoid cyclases/protein prenyltransferase alpha-alpha toroid";"Geranylgeranyl transferase type-2 subunit beta"#IPR001330;IPR008930;IPR026873
+858	PF00432	858#"PFTB repeat";"Terpenoid cyclases/protein prenyltransferase alpha-alpha toroid"#IPR001330;IPR008930
+859	PF00433	859#"AGC-kinase, C-terminal";"Protein kinase-like domain superfamily";"Protein kinase, C-terminal";"Serine/threonine-protein kinase RAC alpha/beta"#IPR000961;IPR011009;IPR017892;IPR039027
+861	PF00435	861#NotAnnotatedGold#NA
+861	PF00435	861#"SH3 domain";"Spectrin repeat";"Spectrin/alpha-actinin"#IPR001452;IPR002017;IPR018159
+861	PF00435	861#"Spectrin repeat";"EF-hand domain";"Alpha-actinin 1"#IPR002017;IPR002048;IPR026921
+861	PF00435	861#"Spectrin repeat";"Spectrin/alpha-actinin"#IPR002017;IPR018159
+878	PF00441	878#""#NA
+879	PF00443	879#"Peptidase C19, ubiquitin carboxyl-terminal hydrolase";"Ubiquitin carboxyl-terminal hydrolase USP4";"Ubiquitin specific protease domain";"Papain-like cysteine peptidase superfamily"#IPR001394;IPR028134;IPR028889;IPR038765
+886	PF00450	886#"Peptidase S10, serine carboxypeptidase";"Alpha/Beta hydrolase fold"#IPR001563;IPR029058
+886	PF00450	886#"Peptidase S10, serine carboxypeptidase";"Serine carboxypeptidase, serine active site";"Alpha/Beta hydrolase fold"#IPR001563;IPR018202;IPR029058
+886	PF00450	886#"Peptidase S10, serine carboxypeptidase";"Serine carboxypeptidase, serine active site";"Alpha/Beta hydrolase fold";"Serine carboxypeptidases, histidine active site"#IPR001563;IPR018202;IPR029058;IPR033124
+888	PF00453	888#"Ribosomal protein L20";"Ribosomal protein L20, C-terminal"#IPR005813;IPR035566
+889	PF00454	889#"Phosphatidylinositol 3-/4-kinase, catalytic domain";"Protein kinase-like domain superfamily"#IPR000403;IPR011009
+890	PF00456	890#""#NA
+902	PF00467	902#""#NA
+906	PF00473	906#"Corticotropin-releasing factor";"Urocortin/corticotropin-releasing factor";"Corticotropin-releasing factor conserved site"#IPR000187;IPR003620;IPR018446
+907	PF00474	907#""#NA
+907	PF00474	907#"Sodium/solute symporter";"Sodium/glucose symporter superfamily"#IPR001734;IPR038377
+913	PF00481	913#"PPM-type phosphatase domain";"Protein phosphatase 2C family";"PPM-type phosphatase domain superfamily"#IPR001932;IPR015655;IPR036457
+918	PF00488	918#"DNA mismatch repair protein MutS, C-terminal";"DNA mismatch repair protein MutS-homologue MSH6";"P-loop containing nucleoside triphosphate hydrolase"#IPR000432;IPR015536;IPR027417
+922	PF00494	922#"Squalene/phytoene synthase";"Isoprenoid synthase domain superfamily"#IPR002060;IPR008949
+936	PF00505	936#"High mobility group box domain";"High mobility group box domain superfamily"#IPR009071;IPR036910
+936	PF00505	936#"High mobility group box domain";"Transcription factor TCF/LEF";"High mobility group box domain superfamily"#IPR009071;IPR024940;IPR036910
+936	PF00505	936#"High mobility group box domain";"Transcription factor TCF/LEF";"Transcription factor 7";"High mobility group box domain superfamily"#IPR009071;IPR024940;IPR028785;IPR036910
+943	PF00514	943#"Armadillo";"Armadillo-like helical";"Armadillo-type fold"#IPR000225;IPR011989;IPR016024
+945	PF00515	945#"Tetratricopeptide repeat 1";"Tetratricopeptide-like helical domain superfamily";"Tetratricopeptide repeat-containing domain";"Tetratricopeptide repeat";"Peptidyl-prolyl cis-trans isomerase, FKBP-type"#IPR001440;IPR011990;IPR013026;IPR019734;IPR023566
+960	PF00521	960#"Sushi/SCR/CCP domain";"Sushi/SCR/CCP superfamily"#IPR000436;IPR035976
+962	PF00530	962#"SRCR domain";"SRCR-like domain";"SRCR-like domain superfamily"#IPR001190;IPR017448;IPR036772
+968	PF00531	968#"Death domain";"TNFR/NGFR cysteine-rich region";"Death-like domain superfamily";"Tumour necrosis factor receptor 16"#IPR000488;IPR001368;IPR011029;IPR022325
+968	PF00531	968#"Death domain";"TNFR/NGFR cysteine-rich region";"Death-like domain superfamily";"Tyrosine-protein kinase ephrin type A/B receptor-like";"Tumour necrosis factor receptor 21";"Tumor necrosis factor receptor 21, N-terminal";"Tumor necrosis factor receptor 21, death domain"#IPR000488;IPR001368;IPR011029;IPR011641;IPR022330;IPR034034;IPR034037
+974	PF00534	974#"Glycosyl transferase, family 1";"Chitobiosyldiphosphodolichol beta-mannosyltransferase ALG1-like"#IPR001296;IPR026051
+974	PF00534	974#"Glycosyl transferase, family 1"#IPR001296
+975	PF00535	975#"Glycosyltransferase 2-like";"Nucleotide-diphospho-sugar transferases"#IPR001173;IPR029044
+984	PF00550	984#"Acyl carrier protein (ACP)";"Phosphopantetheine attachment site";"Phosphopantetheine binding ACP domain";"ACP-like superfamily"#IPR003231;IPR006162;IPR009081;IPR036736
+985	PF00551	985#"Phosphoribosylglycinamide formyltransferase, active site";"Formyl transferase, N-terminal";"Formyl transferase, N-terminal domain superfamily"#IPR001555;IPR002376;IPR036477
+1000	PF00561	1000#"Alpha/beta hydrolase fold-1";"Lipase, eukaryotic";"Alpha/Beta hydrolase fold"#IPR000073;IPR025483;IPR029058
+1010	PF00566	1010#""#NA
+1010	PF00566	1010#"Rab-GTPase-TBC domain";"Rab GTPase-activating protein 1";"Rab-GTPase-TBC domain superfamily"#IPR000195;IPR033185;IPR035969
+1010	PF00566	1010#"Rab-GTPase-TBC domain";"Rab-GTPase-TBC domain superfamily"#IPR000195;IPR035969
+1019	PF00571	1019#"CBS domain";"Tryptophan synthase beta subunit-like PLP-dependent enzyme"#IPR000644;IPR036052
+1021	PF00573	1021#"Ribosomal protein L4/L1e";"Ribosomal protein L4 domain superfamily"#IPR002136;IPR023574
+1027	PF00578	1027#"Alkyl hydroperoxide reductase subunit C/ Thiol specific antioxidant";"Thioredoxin domain";"Peroxiredoxin, AhpC-type";"Thioredoxin-like superfamily"#IPR000866;IPR013766;IPR024706;IPR036249
+1033	PF00583	1033#"GNAT domain";"Acyl-CoA N-acyltransferase"#IPR000182;IPR016181
+1048	PF00595	1048#"C2 domain";"C2 domain superfamily";"Toll-interacting protein, C2 domain"#IPR000008;IPR035892;IPR037301
+1048	PF00595	1048#"C2 domain";"PDZ domain";"Regulating synaptic membrane exocytosis protein 2";"C2 domain superfamily";"PDZ superfamily";"Rim-like"#IPR000008;IPR001478;IPR030631;IPR035892;IPR036034;IPR039032
+1048	PF00595	1048#""#NA
+1048	PF00595	1048#"PDZ domain";"LIM domain only protein 7";"PDZ superfamily"#IPR001478;IPR029978;IPR036034
+1048	PF00595	1048#"PDZ domain";"PDZ superfamily"#IPR001478;IPR036034
+1048	PF00595	1048#"PDZ domain";"PH-like domain superfamily";"Syntrophin";"Beta-2-syntrophin";"PDZ superfamily"#IPR001478;IPR011993;IPR015482;IPR028550;IPR036034
+1048	PF00595	1048#"PDZ domain";"Pleckstrin homology domain";"PH-like domain superfamily";"Syntrophin";"Beta-2-syntrophin";"PDZ superfamily"#IPR001478;IPR001849;IPR011993;IPR015482;IPR028550;IPR036034
+1048	PF00595	1048#"PDZ domain";"Rap guanine nucleotide exchange factor 2";"PDZ superfamily"#IPR001478;IPR030739;IPR036034
+1048	PF00595	1048#"PDZ domain";"Syntenin-1";"PDZ superfamily"#IPR001478;IPR030528;IPR036034
+1068	PF00596	1068#""#NA
+1069	PF00605	1069#"Interferon regulatory factor DNA-binding domain";"Interferon regulatory factor-1/2";"Interferon regulatory factor, conserved site";"Interferon regulatory factor 2";"Winged helix-like DNA-binding domain superfamily";"Winged helix DNA-binding domain superfamily"#IPR001346;IPR017431;IPR019817;IPR031218;IPR036388;IPR036390
+1069	PF00605	1069#"Interferon regulatory factor DNA-binding domain";"Interferon regulatory factor 5";"Winged helix-like DNA-binding domain superfamily";"Winged helix DNA-binding domain superfamily"#IPR001346;IPR029838;IPR036388;IPR036390
+1069	PF00605	1069#"Interferon regulatory factor DNA-binding domain";"Interferon regulatory factor, conserved site";"Interferon regulatory factor 1";"Winged helix-like DNA-binding domain superfamily";"Winged helix DNA-binding domain superfamily"#IPR001346;IPR019817;IPR031215;IPR036388;IPR036390
+1069	PF00605	1069#"Interferon regulatory factor DNA-binding domain";"Interferon regulatory factor, conserved site";"Winged helix-like DNA-binding domain superfamily";"Winged helix DNA-binding domain superfamily"#IPR001346;IPR019817;IPR036388;IPR036390
+1079	PF00611	1079#"FCH domain";"AH/BAR domain superfamily";"F-BAR domain";"F-BAR and double SH3 domains protein 2";"F-BAR and double SH3 domains protein"#IPR001060;IPR027267;IPR031160;IPR034934;IPR034936
+1092	PF00615	1092#""#NA
+1092	PF00615	1092#"RGS domain";"RGS, subdomain 1/3";"Regulator of G-protein signalling 1";"RGS domain superfamily"#IPR016137;IPR024066;IPR030409;IPR036305
+1092	PF00615	1092#"RGS domain";"RGS, subdomain 1/3";"Regulator of G-protein signalling 2";"RGS domain superfamily"#IPR016137;IPR024066;IPR034947;IPR036305
+1092	PF00615	1092#"RGS domain";"RGS, subdomain 1/3";"RGS domain superfamily"#IPR016137;IPR024066;IPR036305
+1095	PF00616	1095#"Ras GTPase-activating domain";"Rho GTPase activation protein"#IPR001936;IPR008936
+1099	PF00617	1099#"Ras guanine-nucleotide exchange factors catalytic domain";"Ras guanine-nucleotide exchange factor, conserved site";"Ras guanine nucleotide exchange factor domain superfamily";"Ras-GEF domain-containing family member 1B";"Ras guanine-nucleotide exchange factor catalytic domain superfamily"#IPR001895;IPR019804;IPR023578;IPR030710;IPR036964
+1103	PF00618	1103#"Ras-like guanine nucleotide exchange factor, N-terminal";"Ral guanine nucleotide dissociation stimulator";"Ras guanine nucleotide exchange factor domain superfamily"#IPR000651;IPR015758;IPR023578
+1109	PF00619	1109#"CARD domain";"Death-like domain superfamily";"B-cell lymphoma/leukemia 10/E10"#IPR001315;IPR011029;IPR033238
+1119	PF00620	1119#"C2 domain";"Zinc finger, Btk motif";"Pleckstrin homology domain";"Ras GTPase-activating domain";"Rho GTPase activation protein";"PH-like domain superfamily";"Ras GTPase-activating protein, conserved site";"C2 domain superfamily";"RASA3, PH domain";"Ras GTPase-activating proteins"#IPR000008;IPR001562;IPR001849;IPR001936;IPR008936;IPR011993;IPR023152;IPR035892;IPR037774;IPR039360
+1119	PF00620	1119#""#NA
+1119	PF00620	1119#"Rho GTPase-activating protein domain";"Pleckstrin homology domain";"Rho GTPase activation protein";"PH-like domain superfamily"#IPR000198;IPR001849;IPR008936;IPR011993
+1125	PF00621	1125#"Dbl homology (DH) domain";"Bcr-Abl oncoprotein oligomerisation";"Dbl homology (DH) domain superfamily";"Bcr-Abl oncoprotein oligomerisation domain superfamily";"Abr/Bcr"#IPR000219;IPR015123;IPR035899;IPR036481;IPR037769
+1125	PF00621	1125#"Dbl homology (DH) domain";"Dbl homology (DH) domain superfamily"#IPR000219;IPR035899
+1125	PF00621	1125#"Dbl homology (DH) domain";"Guanine-nucleotide dissociation stimulator, CDC24, conserved site";"Dbl homology (DH) domain superfamily"#IPR000219;IPR001331;IPR035899
+1125	PF00621	1125#"Dbl homology (DH) domain";"Guanine-nucleotide dissociation stimulator, CDC24, conserved site";"PH-like domain superfamily";"Dbl homology (DH) domain superfamily"#IPR000219;IPR001331;IPR011993;IPR035899
+1125	PF00621	1125#"Dbl homology (DH) domain";"Pleckstrin homology domain";"PH-like domain superfamily";"Dbl homology (DH) domain superfamily"#IPR000219;IPR001849;IPR011993;IPR035899
+1142	PF00626	1142#"Villin/Gelsolin";"Gelsolin-like domain";"ADF-H/Gelsolin-like domain superfamily";"Adseverin";"Gelsolin-like domain superfamily"#IPR007122;IPR007123;IPR029006;IPR030012;IPR036180
+1144	PF00627	1144#"UBA-like superfamily";"Ubiquitin-associated domain"#IPR009060;IPR015940
+1156	PF00629	1156#"MAM domain";"Concanavalin A-like lectin/glucanase domain superfamily"#IPR000998;IPR013320
+1156	PF00629	1156#"Sushi/SCR/CCP domain";"MAM domain";"Concanavalin A-like lectin/glucanase domain superfamily";"Sushi/SCR/CCP superfamily"#IPR000436;IPR000998;IPR013320;IPR035976
+1170	PF00632	1170#"HECT domain";"HECT, E3 ligase catalytic domain"#IPR000569;IPR035983
+1170	PF00632	1170#"HECT domain";"WW domain";"HECT, E3 ligase catalytic domain";"WW domain superfamily"#IPR000569;IPR001202;IPR035983;IPR036020
+1173	PF00637	1173#"Clathrin, heavy chain/VPS, 7-fold repeat";"Tetratricopeptide-like helical domain superfamily";"Armadillo-type fold"#IPR000547;IPR011990;IPR016024
+1175	PF00638	1175#"Ran binding domain";"PH-like domain superfamily"#IPR000156;IPR011993
+1177	PF00639	1177#""#NA
+1178	PF00640	1178#"PTB/PI domain";"PH-like domain superfamily"#IPR006020;IPR011993
+1185	PF00641	1185#"G-patch domain";"RNA recognition motif domain";"Zinc finger, RanBP2-type";"Nucleotide-binding alpha-beta plait domain superfamily";"Zinc finger C2H2-type";"RNA-binding protein 5";"RNA-binding protein 5, RNA recognition motif 1";"RNA-binding protein 5, RNA recognition motif 2";"RNA-binding domain superfamily";"Zinc finger, RanBP2-type superfamily"#IPR000467;IPR000504;IPR001876;IPR012677;IPR013087;IPR033094;IPR034991;IPR034993;IPR035979;IPR036443
+1185	PF00641	1185#"Zinc finger, RanBP2-type";"Yaf2/RYBP C-terminal binding motif";"Zinc finger, RanBP2-type superfamily"#IPR001876;IPR033774;IPR036443
+1188	PF00642	1188#"Zinc finger, CCCH-type";"Zinc finger, CCCH-type superfamily"#IPR000571;IPR036855
+1192	PF00643	1192#"B-box-type zinc finger";"Zinc finger, B-box, chordata"#IPR000315;IPR020457
+1200	PF00644	1200#"Poly(ADP-ribose) polymerase, catalytic domain"#IPR012317
+1208	PF00648	1208#"Cysteine peptidase, cysteine active site";"Peptidase C2, calpain, catalytic domain";"Peptidase C2, calpain family";"Calpain-10";"Papain-like cysteine peptidase superfamily"#IPR000169;IPR001300;IPR022684;IPR028791;IPR038765
+1208	PF00648	1208#"Cysteine peptidase, cysteine active site";"Peptidase C2, calpain, catalytic domain";"Peptidase C2, calpain family";"Calpain-1";"Papain-like cysteine peptidase superfamily"#IPR000169;IPR001300;IPR022684;IPR029643;IPR038765
+1208	PF00648	1208#"Peptidase C2, calpain, catalytic domain";"Papain-like cysteine peptidase superfamily"#IPR001300;IPR038765
+1208	PF00648	1208#"Peptidase C2, calpain, catalytic domain";"Peptidase C2, calpain family";"Calpain-1";"Papain-like cysteine peptidase superfamily"#IPR001300;IPR022684;IPR029643;IPR038765
+1211	PF00650	1211#"CRAL-TRIO lipid binding domain";"Kalirin";"CRAL-TRIO lipid binding domain superfamily"#IPR001251;IPR028569;IPR036865
+1211	PF00650	1211#"Glutathione peroxidase";"Thioredoxin-like superfamily"#IPR000889;IPR036249
+1219	PF00651	1219#"BTB/POZ domain";"SKP1/BTB/POZ domain superfamily"#IPR000210;IPR011333
+1243	PF00653	1243#"BIR repeat"#IPR001370
+1243	PF00653	1243#""#NA
+1249	PF00654	1249#""#NA
+1252	PF00658	1252#"Polyadenylate-binding protein/Hyperplastic disc protein";"PABC (PABP) domain"#IPR002004;IPR036053
+1253	PF00659	1253#"POLO box domain";"Plk4, C-terminal polo-box domain";"Serine/threonine-protein kinase Plk4"#IPR000959;IPR033696;IPR033700
+1254	PF00664	1254#""#NA
+1261	PF00675	1261#"Metalloenzyme, LuxS/M16 peptidase-like";"Peptidase M16, N-terminal"#IPR011249;IPR011765
+1264	PF00676	1264#"Dehydrogenase, E1 component";"Thiamin diphosphate-binding fold"#IPR001017;IPR029061
+1265	PF00681	1265#NotAnnotatedGold#NA
+1275	PF00685	1275#"Sulfotransferase domain";"P-loop containing nucleoside triphosphate hydrolase";"Heparan sulfate sulfotransferase"#IPR000863;IPR027417;IPR037359
+1277	PF00688	1277#"TGF-beta, propeptide";"Transforming growth factor-beta-related"#IPR001111;IPR015615
+1277	PF00688	1277#"TGF-beta, propeptide";"Transforming growth factor-beta-related";"Transforming growth factor beta-3";"Transforming growth factor-beta"#IPR001111;IPR015615;IPR015618;IPR016319
+1281	PF00690	1281#"Cation-transporting P-type ATPase, N-terminal";"P-type ATPase, transmembrane domain superfamily";"Calcium-transporting ATPase type 2C member 1"#IPR004014;IPR023298;IPR030336
+1297	PF00719	1297#"Inorganic pyrophosphatase";"Inorganic pyrophosphatase superfamily"#IPR008162;IPR036649
+1299	PF00723	1299#"Phosphorylase kinase alpha/beta subunit";"Six-hairpin glycosidase superfamily";"GH15-like domain"#IPR008734;IPR008928;IPR011613
+1300	PF00725	1300#"Enoyl-CoA hydratase/isomerase";"3-hydroxyacyl-CoA dehydrogenase, C-terminal";"3-hydroxyacyl-CoA dehydrogenase, NAD binding";"3-hydroxyacyl-CoA dehydrogenase, conserved site";"6-phosphogluconate dehydrogenase-like, C-terminal domain superfamily";"Fatty acid oxidation complex, alpha subunit, mitochondrial";"6-phosphogluconate dehydrogenase, domain 2";"Enoyl-CoA hydratase/isomerase, conserved site";"ClpP/crotonase-like domain superfamily";"NAD(P)-binding domain superfamily"#IPR001753;IPR006108;IPR006176;IPR006180;IPR008927;IPR012803;IPR013328;IPR018376;IPR029045;IPR036291
+1303	PF00728	1303#"Glycoside hydrolase family 20, catalytic domain";"Glycoside hydrolase superfamily"#IPR015883;IPR017853
+1308	PF00749	1308#"Rossmann-like alpha/beta/alpha sandwich fold";"Glutamyl/glutaminyl-tRNA synthetase, class Ib, catalytic domain"#IPR014729;IPR020058
+1316	PF00754	1316#"Coagulation factor 5/8 C-terminal domain";"Galactose-binding-like domain superfamily";"Discoidin domain-containing receptor 2"#IPR000421;IPR008979;IPR034299
+1324	PF00755	1324#"Acyltransferase ChoActase/COT/CPT"#IPR000542
+1326	PF00757	1326#"Furin-like cysteine-rich domain";"Growth factor receptor cysteine-rich domain superfamily";"Receptor L-domain superfamily"#IPR006211;IPR009030;IPR036941
+1329	PF00778	1329#""#NA
+1333	PF00780	1333#"Citron homology (CNH) domain"#IPR001180
+1333	PF00780	1333#"Citron homology (CNH) domain";"Mitogen-activated protein (MAP) kinase kinase kinase kinase"#IPR001180;IPR021160
+1335	PF00781	1335#"Diacylglycerol kinase, catalytic domain";"NAD kinase/diacylglycerol kinase-like domain superfamily";"Inorganic polyphosphate/ATP-NAD kinase, N-terminal"#IPR001206;IPR016064;IPR017438
+1340	PF00786	1340#"CRIB domain"#IPR000095
+1340	PF00786	1340#"CRIB domain";"p21 activated kinase binding domain";"CRIB domain superfamily"#IPR000095;IPR033923;IPR036936
+1340	PF00786	1340#""#NA
+1358	PF00788	1358#"Ras-associating (RA) domain";"Afadin";"Ubiquitin-like domain superfamily"#IPR000159;IPR028842;IPR029071
+1358	PF00788	1358#"Ras-associating (RA) domain";"Ubiquitin-like domain superfamily"#IPR000159;IPR029071
+1364	PF00789	1364#""#NA
+1365	PF00790	1365#"VHS domain";"ENTH/VHS"#IPR002014;IPR008942
+1370	PF00792	1370#"Phosphatidylinositol 3-kinase, C2 domain";"Phosphatidylinositol kinase";"C2 domain superfamily"#IPR002420;IPR015433;IPR035892
+1373	PF00794	1373#"Phosphatidylinositol 3-kinase Ras-binding (PI3K RBD) domain";"Phosphatidylinositol kinase";"Ubiquitin-like domain superfamily"#IPR000341;IPR015433;IPR029071
+1376	PF00795	1376#""#NA
+1378	PF00801	1378#"PKD domain";"Immunoglobulin-like fold";"PKD/Chitinase domain";"PKD domain superfamily"#IPR000601;IPR013783;IPR022409;IPR035986
+1383	PF00806	1383#"Pumilio RNA-binding repeat";"Armadillo-like helical";"Armadillo-type fold";"Pumilio homology domain";"Pumilio, RNA binding domain"#IPR001313;IPR011989;IPR016024;IPR033133;IPR033712
+1385	PF00810	1385#"ER lumen protein retaining receptor"#IPR000133
+1386	PF00812	1386#"Ephrin receptor-binding domain";"Cupredoxin";"Ephrin, conserved site";"Ephrin";"Ephrin-B ectodomain"#IPR001799;IPR008972;IPR019765;IPR031328;IPR034255
+1387	PF00814	1387#"Gcp-like domain";"Kae1/TsaD family";"tRNA N6-adenosine threonylcarbamoyltransferase, TsaD"#IPR000905;IPR017861;IPR022450
+1390	PF00822	1390#"Claudin-5";"PMP-22/EMP/MP20/Claudin superfamily";"Claudin";"Claudin, conserved site"#IPR003551;IPR004031;IPR006187;IPR017974
+1394	PF00832	1394#"Ribosomal protein L39e";"Ribosomal protein L39e, conserved site";"Ribosomal protein L39e domain superfamily"#IPR000077;IPR020083;IPR023626
+1395	PF00835	1395#"Target SNARE coiled-coil homology domain";"SNAP-25"#IPR000727;IPR000928
+1396	PF00836	1396#"Stathmin family";"Stathmin, conserved site";"Stathmin superfamily"#IPR000956;IPR030514;IPR036002
+1397	PF00837	1397#"Iodothyronine deiodinase";"Iodothyronine deiodinase, active site";"Thioredoxin-like superfamily"#IPR000643;IPR008261;IPR036249
+1398	PF00838	1398#"Mss4-like superfamily";"Mss4/translationally controlled tumour-associated TCTP";"Translationally controlled tumour protein, conserved site";"Translationally controlled tumour protein";"Translationally controlled tumour protein (TCTP) domain"#IPR011057;IPR011323;IPR018103;IPR018105;IPR034737
+1400	PF00849	1400#"Pseudouridine synthase, RsuA/RluB/C/D/E/F";"Pseudouridine synthase, RluC/RluD, conserved site";"Pseudouridine synthase, catalytic domain superfamily"#IPR006145;IPR006224;IPR020103
+1405	PF00854	1405#"Proton-dependent oligopeptide transporter family"#IPR000109
+1406	PF00855	1406#"PWWP domain";"HDGF-related, PWWP domain"#IPR000313;IPR035496
+1413	PF00858	1413#"Epithelial sodium channel";"Epithelial sodium channel, chordates";"Epithelial sodium channel, conserved site"#IPR001873;IPR004724;IPR020903
+1413	PF00858	1413#"Epithelial sodium channel"#IPR001873
+1413	PF00858	1413#""#NA
+1414	PF00859	1414#"CTF transcription factor/nuclear factor 1"#IPR000647
+1415	PF00860	1415#"Xanthine/uracil permease";"Xanthine/uracil/vitamin C permease";"Solute carrier family 23 member 2"#IPR006042;IPR006043;IPR029956
+1416	PF00864	1416#"P2X purinoreceptor";"P2X7 purinoceptor";"P2X purinoreceptor extracellular domain superfamily"#IPR001429;IPR003050;IPR027309
+1417	PF00867	1417#"XPG/Rad2 endonuclease, eukaryotes";"XPG/Rad2 endonuclease";"XPG-I domain";"Helix-hairpin-helix motif, class 2";"XPG conserved site";"PIN-like domain superfamily";"5'-3' exonuclease, C-terminal domain superfamily"#IPR001044;IPR006084;IPR006086;IPR008918;IPR019974;IPR029060;IPR036279
+1417	PF00867	1417#"XPG/Rad2 endonuclease, eukaryotes";"XPG/Rad2 endonuclease";"XPG N-terminal";"XPG-I domain";"Helix-hairpin-helix motif, class 2";"XPG conserved site";"PIN-like domain superfamily";"5'-3' exonuclease, C-terminal domain superfamily"#IPR001044;IPR006084;IPR006085;IPR006086;IPR008918;IPR019974;IPR029060;IPR036279
+1417	PF00867	1417#"XPG/Rad2 endonuclease";"XPG N-terminal";"XPG-I domain";"Helix-hairpin-helix motif, class 2";"XPG conserved site";"Flap endonuclease 1";"PIN-like domain superfamily";"5'-3' exonuclease, C-terminal domain superfamily"#IPR006084;IPR006085;IPR006086;IPR008918;IPR019974;IPR023426;IPR029060;IPR036279
+1418	PF00868	1418#""#NA
+1420	PF00870	1420#"p53 tumour suppressor family";"p53-like transcription factor, DNA-binding";"p53, DNA-binding domain";"p53/RUNT-type transcription factor, DNA-binding domain superfamily";"Tumour protein p73"#IPR002117;IPR008967;IPR011615;IPR012346;IPR032646
+1427	PF00880	1427#""#NA
+1427	PF00880	1427#"Nebulin repeat"#IPR000900
+1429	PF00883	1429#"Peptidase M17, leucyl aminopeptidase, C-terminal";"Peptidase M17, leucine aminopeptidase/peptidase B"#IPR000819;IPR011356
+1430	PF00884	1430#"Sulfatase, N-terminal";"Alkaline phosphatase-like, alpha/beta/alpha";"Alkaline-phosphatase-like, core domain superfamily";"Sulfatase, conserved site"#IPR000917;IPR017849;IPR017850;IPR024607
+1430	PF00884	1430#"Sulfatase, N-terminal";"N-acetylglucosamine-6-sulfatase, metazoan";"Alkaline phosphatase-like, alpha/beta/alpha";"Alkaline-phosphatase-like, core domain superfamily"#IPR000917;IPR015981;IPR017849;IPR017850
+1430	PF00884	1430#"Sulfatase, N-terminal";"N-acetylglucosamine-6-sulfatase";"N-acetylglucosamine-6-sulfatase, metazoan";"Alkaline phosphatase-like, alpha/beta/alpha";"Alkaline-phosphatase-like, core domain superfamily";"Sulfatase, conserved site"#IPR000917;IPR012251;IPR015981;IPR017849;IPR017850;IPR024607
+1434	PF00888	1434#"Cullin, N-terminal";"Cullin repeat-like-containing domain superfamily"#IPR001373;IPR016159
+1434	PF00888	1434#""#NA
+1436	PF00890	1436#"Fumarate reductase/succinate dehydrogenase, FAD-binding site";"FAD-dependent oxidoreductase 2, FAD binding domain";"Succinate dehydrogenase, flavoprotein subunit";"Succinate dehydrogenase/fumarate reductase, flavoprotein subunit";"Succinate dehydrogenase/fumarate reductase flavoprotein, catalytic domain superfamily";"FAD/NAD(P)-binding domain superfamily";"Fumarate reductase/succinate dehydrogenase flavoprotein-like, C-terminal domain superfamily"#IPR003952;IPR003953;IPR011281;IPR014006;IPR027477;IPR036188;IPR037099
+1440	PF00903	1440#"Glyoxalase/fosfomycin resistance/dioxygenase domain";"Glyoxalase I";"Glyoxalase I, conserved site";"Glyoxalase/Bleomycin resistance protein/Dihydroxybiphenyl dioxygenase";"Vicinal oxygen chelate (VOC) domain"#IPR004360;IPR004361;IPR018146;IPR029068;IPR037523
+1441	PF00907	1441#"Transcription factor, T-box";"p53-like transcription factor, DNA-binding";"Transcription factor, T-box, conserved site";"T-box superfamily"#IPR001699;IPR008967;IPR018186;IPR036960
+1444	PF00916	1444#""#NA
+1444	PF00916	1444#"SLC26A/SulP transporter";"SLC26A/SulP transporter domain";"Pendrin"#IPR001902;IPR011547;IPR030285
+1450	PF00919	1450#"Methylthiotransferase, N-terminal";"Methylthiotransferase, N-terminal domain superfamily"#IPR013848;IPR038135
+1453	PF00928	1453#"Clathrin adaptor, mu subunit";"Clathrin adaptor, mu subunit, conserved site";"Mu homology domain";"AP-2 complex subunit mu, C-terminal superfamily"#IPR001392;IPR018240;IPR028565;IPR036168
+1453	PF00928	1453#"Clathrin adaptor, mu subunit";"Longin-like domain superfamily";"Clathrin adaptor, mu subunit, conserved site";"Mu homology domain";"AP-2 complex subunit mu, C-terminal superfamily"#IPR001392;IPR011012;IPR018240;IPR028565;IPR036168
+1455	PF00930	1455#""#NA
+1458	PF00939	1458#"Solute carrier family 13"#IPR001898
+1460	PF00957	1460#"Synaptobrevin";"Synaptobrevin/Vesicle-associated membrane protein"#IPR001388;IPR016444
+1461	PF00962	1461#"Adenosine/AMP deaminase domain";"Adenosine deaminase-related growth factor";"Metal-dependent hydrolase"#IPR001365;IPR006331;IPR032466
+1461	PF00962	1461#""#NA
+1468	PF00989	1468#"PAS domain";"Myc-type, basic helix-loop-helix (bHLH) domain";"PAS fold";"PAS domain superfamily";"Helix-loop-helix DNA-binding domain superfamily"#IPR000014;IPR011598;IPR013767;IPR035965;IPR036638
+1480	PF00996	1480#"Rab GDI protein";"GDP dissociation inhibitor";"FAD/NAD(P)-binding domain superfamily"#IPR000806;IPR018203;IPR036188
+1481	PF00999	1481#"Na+/H+ exchanger";"Cation/H+ exchanger";"Na+/H+ exchanger, isoform 8";"Cation/H+ exchanger, CPA1 family"#IPR004709;IPR006153;IPR018409;IPR018422
+1482	PF01007	1482#"Potassium channel, inwardly rectifying, Kir6.1";"Potassium channel, inwardly rectifying, Kir, cytoplasmic";"Immunoglobulin E-set";"Potassium channel, inwardly rectifying, Kir"#IPR003278;IPR013518;IPR014756;IPR016449
+1496	PF01030	1496#"Receptor L-domain";"Receptor L-domain superfamily"#IPR000494;IPR036941
+1502	PF01031	1502#"Dynamin central domain";"Dynamin superfamily";"Dynamin-2";"P-loop containing nucleoside triphosphate hydrolase";"Dynamin-type guanine nucleotide-binding (G) domain"#IPR000375;IPR022812;IPR027188;IPR027417;IPR030381
+1507	PF01034	1507#"Syndecan";"Neurexin/syndecan/glycophorin C";"Syndecan/Neurexin domain";"Syndecan, conserved site";"Syndecan-2"#IPR001050;IPR003585;IPR027789;IPR030479;IPR031201
+1511	PF01056	1511#"Transcription regulator Myc";"Transcription regulator Myc, N-terminal"#IPR002418;IPR012682
+1515	PF01062	1515#""#NA
+1522	PF01066	1522#""#NA
+1528	PF01084	1528#"Ribosomal protein S18";"Ribosomal protein S18, conserved site";"Ribosomal protein S18 superfamily"#IPR001648;IPR018275;IPR036870
+1531	PF01086	1531#""#NA
+1533	PF01090	1533#"Ribosomal protein S19e";"Ribosomal protein S19e, conserved site";"Winged helix DNA-binding domain superfamily";"Ribosomal protein S19e domain superfamily"#IPR001266;IPR018277;IPR036390;IPR038111
+1536	PF01093	1536#"Clusterin-like";"Clusterin, C-terminal";"Clusterin"#IPR000753;IPR016015;IPR016016
+1543	PF01103	1543#"Bacterial surface antigen (D15)";"POTRA domain"#IPR000184;IPR034746
+1544	PF01105	1544#"GOLD domain";"Transmembrane emp24 domain-containing protein 7";"TMP21-related";"GOLD domain superfamily"#IPR009038;IPR015718;IPR015720;IPR036598
+1558	PF01130	1558#"CD36 family";"CD36/scavenger receptor class B member 1";"CD36"#IPR002159;IPR005428;IPR033076
+1558	PF01130	1558#"CD36 family";"CD36/scavenger receptor class B member 1"#IPR002159;IPR005428
+1564	PF01138	1564#"Exoribonuclease, phosphorolytic domain 1";"Ribosomal protein S5 domain 2-type fold";"PNPase/RNase PH domain superfamily"#IPR001247;IPR020568;IPR027408
+1567	PF01145	1567#"Prohibitin";"Band 7 domain";"Band 7/SPFH domain superfamily"#IPR000163;IPR001107;IPR036013
+1568	PF01146	1568#"Caveolin";"Caveolin-1";"Caveolin, conserved site"#IPR001612;IPR015504;IPR018361
+1570	PF01150	1570#"Nucleoside phosphatase GDA1/CD39"#IPR000407
+1572	PF01153	1572#"Glypican";"Glypican-3";"Glypican, conserved site"#IPR001863;IPR015501;IPR019803
+1574	PF01158	1574#"Ribosomal protein L36e";"Ribosomal protein L36e domain superfamily"#IPR000509;IPR038097
+1577	PF01166	1577#"TSC-22 / Dip / Bun"#IPR000580
+1590	PF01191	1590#"RNA polymerase, subunit H/Rpb5 C-terminal";"RNA polymerase, subunit H/Rpb5, conserved site";"Archaeal RpoH /eukaryotic RPB5 RNA polymerase subunit";"RPB5-like RNA polymerase subunit";"RNA polymerase Rpb5, N-terminal domain superfamily"#IPR000783;IPR020608;IPR020609;IPR035913;IPR036710
+1595	PF01200	1595#"Ribosomal protein S28e";"Nucleic acid-binding, OB-fold";"Ribosomal protein S28e conserved site"#IPR000289;IPR012340;IPR028626
+1596	PF01201	1596#"Ribosomal protein S8e";"Ribosomal protein S8e, conserved site";"Ribosomal protein S8e/ribosomal biogenesis NSA2"#IPR001047;IPR018283;IPR022309
+1597	PF01207	1597#"tRNA-dihydrouridine synthase";"Aldolase-type TIM barrel";"tRNA-dihydrouridine synthase, conserved site";"DUS-like, FMN-binding domain"#IPR001269;IPR013785;IPR018517;IPR035587
+1598	PF01208	1598#"Uroporphyrinogen decarboxylase (URO-D)";"UROD/MetE-like superfamily"#IPR000257;IPR038071
+1598	PF01208	1598#"Uroporphyrinogen decarboxylase (URO-D)";"Uroporphyrinogen decarboxylase HemE";"UROD/MetE-like superfamily"#IPR000257;IPR006361;IPR038071
+1599	PF01213	1599#"Adenylate cyclase-associated CAP";"Adenylate cyclase-associated CAP, N-terminal";"CAP, conserved site, N-terminal";"Adenylyl cyclase-associated protein CAP1";"Adenylate cyclase-associated CAP, N-terminal  domain superfamily"#IPR001837;IPR013992;IPR018106;IPR028415;IPR036222
+1601	PF01214	1601#"Casein kinase II, regulatory subunit";"Casein kinase II, regulatory subunit, N-terminal";"Casein kinase II subunit beta-like"#IPR000704;IPR016149;IPR035991
+1603	PF01216	1603#"Calsequestrin";"Calsequestrin, conserved site";"Thioredoxin-like superfamily"#IPR001393;IPR018233;IPR036249
+1609	PF01223	1609#"DNA/RNA non-specific endonuclease";"DNA/RNA non-specific endonuclease, active site";"Extracellular Endonuclease, subunit A"#IPR001604;IPR018524;IPR020821
+1612	PF01231	1612#"Indoleamine 2,3-dioxygenase";"Tryptophan/Indoleamine 2,3-dioxygenase-like"#IPR000898;IPR037217
+1615	PF01237	1615#""#NA
+1616	PF01239	1616#"Protein prenyltransferase, alpha subunit"#IPR002088
+1620	PF01248	1620#"Ribosomal protein L7Ae/L30e/S12e/Gadd45";"Growth arrest and DNA damage-inducible protein GADD45";"50S ribosomal protein L30e-like"#IPR004038;IPR024824;IPR029064
+1622	PF01250	1622#"Ribosomal protein S6";"Translation elongation factor EF1B/ribosomal protein S6";"Ribosomal protein S6 superfamily"#IPR000529;IPR014717;IPR035980
+1624	PF01253	1624#"SUI1 domain";"Eukaryotic translation initiation factor SUI1";"SUI1 domain superfamily"#IPR001950;IPR005874;IPR036877
+1625	PF01255	1625#"Decaprenyl diphosphate synthase-like";"Decaprenyl diphosphate synthase-like superfamily";"Dehydrodolichyl diphosphate synthase complex subunit Nus1"#IPR001441;IPR036424;IPR038887
+1630	PF01269	1630#"Fibrillarin";"S-adenosyl-L-methionine-dependent methyltransferase"#IPR000692;IPR029063
+1631	PF01271	1631#"Chromogranin A/B/C";"Chromogranin, conserved site";"Secretogranin-2"#IPR001990;IPR018054;IPR038858
+1634	PF01275	1634#"Myelin proteolipid protein PLP";"Myelin proteolipid protein PLP, conserved site"#IPR001614;IPR018237
+1638	PF01284	1638#"Marvel domain"#IPR008253
+1647	PF01301	1647#""#NA
+1649	PF01302	1649#"CAP Gly-rich domain";"CAP Gly-rich domain superfamily"#IPR000938;IPR036859
+1649	PF01302	1649#"CAP Gly-rich domain";"Kinesin-like protein";"CAP Gly-rich domain superfamily";"Kinesin-like protein KIF13B"#IPR000938;IPR027640;IPR036859;IPR036978
+1649	PF01302	1649#NotAnnotatedGold#NA
+1658	PF01335	1658#""#NA
+1667	PF01347	1667#"Lipid transport protein, N-terminal";"Vitellinogen, beta-sheet N-terminal";"Lipid transport protein, beta-sheet shell"#IPR001747;IPR015816;IPR015819
+1689	PF01363	1689#"FYVE zinc finger";"Zinc finger, FYVE/PHD-type";"Zinc finger, RING/FYVE/PHD-type";"Zinc finger, FYVE-related"#IPR000306;IPR011011;IPR013083;IPR017455
+1697	PF01369	1697#"Sec7 domain";"Sec7, C-terminal domain superfamily";"Sec7 domain superfamily"#IPR000904;IPR023394;IPR035999
+1701	PF01370	1701#"NAD-dependent epimerase/dehydratase";"NAD(P)-binding domain superfamily"#IPR001509;IPR036291
+1710	PF01391	1710#"Collagen triple helix repeat"#IPR008160
+1710	PF01391	1710#""#NA
+1726	PF01398	1726#"JAB1/MPN/MOV34 metalloenzyme domain";"MPN domain";"COP9 signalosome complex subunit 5"#IPR000555;IPR037518;IPR037740
+1734	PF01401	1734#"Peptidase M2, peptidyl-dipeptidase A"#IPR001548
+1754	PF01406	1754#""#NA
+1754	PF01406	1754#"Rossmann-like alpha/beta/alpha sandwich fold";"Cysteinyl-tRNA synthetase/mycothiol ligase";"tRNA synthetases class I, catalytic domain"#IPR014729;IPR024909;IPR032678
+1755	PF01408	1755#"Oxidoreductase, N-terminal";"NAD(P)-binding domain superfamily"#IPR000683;IPR036291
+1757	PF01410	1757#"Fibrillar collagen, C-terminal"#IPR000885
+1758	PF01412	1758#"Arf GTPase activating protein";"ARFGAP/RecO-like zinc finger";"ArfGAP domain superfamily"#IPR001164;IPR037278;IPR038508
+1760	PF01417	1760#"ENTH/VHS";"ENTH  domain";"Epsin, ENTH domain"#IPR008942;IPR013809;IPR039416
+1781	PF01432	1781#"Neurolysin/Thimet oligopeptidase, N-terminal"#IPR024080
+1781	PF01432	1781#"Peptidase M3A/M3B catalytic domain";"Neurolysin/Thimet oligopeptidase, domain 2";"Metallopeptidase, catalytic domain superfamily"#IPR001567;IPR024077;IPR024079
+1782	PF01433	1782#""#NA
+1782	PF01433	1782#"Peptidase M1, alanine aminopeptidase/leukotriene A4 hydrolase";"Peptidase M1, membrane alanine aminopeptidase, N-terminal";"ERAP2 aminopeptidase"#IPR001930;IPR014782;IPR033528
+1782	PF01433	1782#"Protein kinase C-like, phorbol ester/diacylglycerol-binding domain";"Diacylglycerol/phorbol-ester binding";"C2 domain superfamily"#IPR002219;IPR020454;IPR035892
+1785	PF01434	1785#""#NA
+1786	PF01437	1786#""#NA
+1786	PF01437	1786#"Sema domain";"Immunoglobulin-like domain";"Immunoglobulin";"Immunoglobulin-like fold";"WD40/YVTN repeat-like-containing domain superfamily";"PSI domain";"Semaphorin";"Immunoglobulin-like domain superfamily";"Sema domain superfamily"#IPR001627;IPR007110;IPR013151;IPR013783;IPR015943;IPR016201;IPR027231;IPR036179;IPR036352
+1786	PF01437	1786#"Sema domain";"Immunoglobulin subtype";"Immunoglobulin-like domain";"Immunoglobulin-like fold";"WD40/YVTN repeat-like-containing domain superfamily";"PSI domain";"Semaphorin";"Immunoglobulin-like domain superfamily";"Sema domain superfamily"#IPR001627;IPR003599;IPR007110;IPR013783;IPR015943;IPR016201;IPR027231;IPR036179;IPR036352
+1786	PF01437	1786#"Sema domain";"Plexin repeat";"Semaphorin 4F";"WD40/YVTN repeat-like-containing domain superfamily";"PSI domain";"Semaphorin";"Sema domain superfamily"#IPR001627;IPR002165;IPR015512;IPR015943;IPR016201;IPR027231;IPR036352
+1786	PF01437	1786#"Sema domain";"Plexin repeat";"WD40/YVTN repeat-like-containing domain superfamily";"PSI domain";"Plexin family";"Sema domain superfamily"#IPR001627;IPR002165;IPR015943;IPR016201;IPR031148;IPR036352
+1786	PF01437	1786#"Sema domain";"Plexin repeat";"WD40/YVTN repeat-like-containing domain superfamily";"PSI domain";"Semaphorin";"Sema domain superfamily"#IPR001627;IPR002165;IPR015943;IPR016201;IPR027231;IPR036352
+1792	PF01454	1792#"MAGE homology domain";"Melanoma-associated antigen"#IPR002190;IPR037445
+1819	PF01476	1819#"LysM domain";"LysM domain superfamily"#IPR018392;IPR036779
+1821	PF01477	1821#"GPS motif";"Polycystic kidney disease type 1 protein";"PLAT/LH2 domain";"REJ domain";"PLAT/LH2 domain superfamily"#IPR000203;IPR000434;IPR001024;IPR014010;IPR036392
+1821	PF01477	1821#"Lipoxygenase";"PLAT/LH2 domain";"Lipoxygenase, mammalian";"PLAT/LH2 domain superfamily"#IPR000907;IPR001024;IPR001885;IPR036392
+1823	PF01480	1823#""#NA
+1823	PF01480	1823#"PWI domain";"PWI domain superfamily"#IPR002483;IPR036483
+1824	PF01483	1824#"P domain";"Galactose-binding-like domain superfamily"#IPR002884;IPR008979
+1825	PF01485	1825#"IBR domain";"E3 ubiquitin-protein ligase ARIH2";"E3 ubiquitin ligase RBR family"#IPR002867;IPR031126;IPR031127
+1831	PF01496	1831#""#NA
+1831	PF01496	1831#"V-type  ATPase, V0 complex, 116kDa subunit family"#IPR002490
+1837	PF01510	1837#"N-acetylmuramoyl-L-alanine amidase domain";"Peptidoglycan recognition protein family domain, metazoa/bacteria";"Peptidoglycan recognition protein";"N-acetylmuramoyl-L-alanine amidase/PGRP domain superfamily"#IPR002502;IPR006619;IPR015510;IPR036505
+1838	PF01512	1838#"NADH-ubiquinone oxidoreductase 51kDa subunit, FMN-binding domain";"NADH-ubiquinone oxidoreductase 51kDa subunit, FMN-binding domain superfamily"#IPR011538;IPR037225
+1841	PF01529	1841#"Palmitoyltransferase, DHHC domain"#IPR001594
+1845	PF01531	1845#"Glycosyl transferase, family 11"#IPR002516
+1846	PF01532	1846#"Glycoside hydrolase family 47";"Six-hairpin glycosidase-like superfamily";"Seven-hairpin glycosidases"#IPR001382;IPR012341;IPR036026
+1847	PF01534	1847#""#NA
+1848	PF01536	1848#"S-adenosylmethionine decarboxylase";"S-adenosylmethionine decarboxylase, core";"S-adenosylmethionine decarboxylase, conserved site"#IPR001985;IPR016067;IPR018166
+1849	PF01545	1849#"Cation efflux protein";"Cation efflux transmembrane domain superfamily";"Cation efflux protein, cytoplasmic domain superfamily"#IPR002524;IPR027469;IPR036837
+1852	PF01551	1852#"Leukocyte cell-derived chemotaxin 2";"Peptidase M23";"Leukocyte cell-derived chemotaxin 2, chordata"#IPR008663;IPR016047;IPR017381
+1870	PF01566	1870#"NRAMP family"#IPR001046
+1871	PF01569	1871#"Phosphatidic acid phosphatase type 2/haloperoxidase";"Lipid phosphate phosphohydrolase 3";"Phosphatidic acid phosphatase type 2/haloperoxidase superfamily"#IPR000326;IPR028675;IPR036938
+1871	PF01569	1871#"Phosphatidic acid phosphatase type 2/haloperoxidase";"Phosphatidate phosphatase PPAPDC1B";"Phosphatidic acid phosphatase type 2/haloperoxidase superfamily"#IPR000326;IPR032462;IPR036938
+1871	PF01569	1871#"Phosphatidic acid phosphatase type 2/haloperoxidase";"Phosphatidic acid phosphatase type 2/haloperoxidase superfamily"#IPR000326;IPR036938
+1881	PF01590	1881#"GAF domain";"GAF-like domain superfamily"#IPR003018;IPR029016
+1883	PF01591	1883#"Fructose-2,6-bisphosphatase";"6-phosphofructo-2-kinase";"P-loop containing nucleoside triphosphate hydrolase"#IPR003094;IPR013079;IPR027417
+1886	PF01596	1886#""#NA
+1896	PF01603	1896#"Protein phosphatase 2A, regulatory B subunit, B56";"Armadillo-like helical";"Armadillo-type fold"#IPR002554;IPR011989;IPR016024
+1903	PF01625	1903#"Peptide methionine sulphoxide reductase MsrA";"Peptide methionine sulphoxide reductase MsrA superfamily"#IPR002569;IPR036509
+1904	PF01630	1904#"Aldolase-type TIM barrel";"Glycoside hydrolase superfamily";"Hyaluronidase"#IPR013785;IPR017853;IPR018155
+1905	PF01633	1905#"Protein kinase-like domain superfamily"#IPR011009
+1907	PF01648	1907#"4'-phosphopantetheinyl transferase domain";"4'-phosphopantetheinyl transferase domain superfamily"#IPR008278;IPR037143
+1909	PF01652	1909#"Translation Initiation factor eIF- 4e";"Translation Initiation factor eIF- 4e-like"#IPR001040;IPR023398
+1914	PF01667	1914#"Ribosomal protein S27e";"Zinc-binding ribosomal protein"#IPR000592;IPR011332
+1917	PF01694	1917#"Peptidase S54, rhomboid domain";"Rhomboid-like superfamily"#IPR022764;IPR035952
+1917	PF01694	1917#"Peptidase S54, rhomboid";"Peptidase S54, rhomboid domain";"Rhomboid-like superfamily"#IPR002610;IPR022764;IPR035952
+1921	PF01712	1921#"Deoxynucleoside kinase";"P-loop containing nucleoside triphosphate hydrolase";"Deoxynucleoside kinase domain"#IPR002624;IPR027417;IPR031314
+1922	PF01722	1922#"BolA protein";"BolA-like superfamily"#IPR002634;IPR036065
+1924	PF01728	1924#"Ribosomal RNA methyltransferase FtsJ domain";"Mononegavirus L protein 2-O-ribose methyltransferase";"tRNA (cytidine(32)/guanosine(34)-2-O)-methyltransferase, Trm7";"S-adenosyl-L-methionine-dependent methyltransferase"#IPR002877;IPR025786;IPR028590;IPR029063
+1926	PF01735	1926#"Lysophospholipase, catalytic domain";"Acyl transferase/acyl hydrolase/lysophospholipase"#IPR002642;IPR016035
+1930	PF01753	1930#"Zinc finger, MYND-type";"CBFA2T family";"Myeloid transforming gene-related protein-1 (MTGR1)"#IPR002893;IPR013289;IPR013291
+1933	PF01754	1933#""#NA
+1936	PF01755	1936#"Glycosyl transferase, family 25"#IPR002654
+1937	PF01756	1937#"Acyl-CoA oxidase, C-terminal";"Acyl-CoA dehydrogenase-like, C-terminal"#IPR002655;IPR036250
+1940	PF01759	1940#"Netrin domain";"Tissue inhibitor of metalloproteinases-like, OB-fold";"Immunoglobulin-like fold";"Netrin module, non-TIMP type";"Complement C5"#IPR001134;IPR008993;IPR013783;IPR018933;IPR037562
+1946	PF01777	1946#""#NA
+1946	PF01777	1946#"Ribosomal protein L27e";"Translation protein SH3-like domain superfamily";"Ribosomal protein L27e, conserved site";"Ribosomal protein L27e superfamily"#IPR001141;IPR008991;IPR018262;IPR038655
+1948	PF01779	1948#"Ribosomal protein L29e"#IPR002673
+1949	PF01780	1949#"Ribosomal protein L37ae";"Ribosomal protein L37ae/L37e";"Zinc-binding ribosomal protein"#IPR002674;IPR011331;IPR011332
+1950	PF01781	1950#"Ribosomal protein L38e";"Ribosomal protein L38e superfamily"#IPR002675;IPR038464
+1952	PF01791	1952#"DeoC/FbaB/ lacD aldolase";"Deoxyribose-phosphate aldolase";"Aldolase-type TIM barrel"#IPR002915;IPR011343;IPR013785
+1965	PF01823	1965#"Membrane attack complex component/perforin (MACPF) domain";"BMP/retinoic acid-inducible neural-specific protein"#IPR020864;IPR033237
+1965	PF01823	1965#"Membrane attack complex component/perforin (MACPF) domain"#IPR020864
+1967	PF01825	1967#""#NA
+1969	PF01833	1969#"IPT domain";"Immunoglobulin-like fold";"Immunoglobulin E-set";"Exocyst complex component EXOC2/Sec5"#IPR002909;IPR013783;IPR014756;IPR029175
+1972	PF01834	1972#"DNA-repair protein Xrcc1, N-terminal";"Galactose-binding-like domain superfamily"#IPR002706;IPR008979
+1974	PF01835	1974#"Alpha-2-macroglobulin, N-terminal";"TonB box, conserved site"#IPR002890;IPR010916
+1981	PF01839	1981#"Integrin alpha chain";"FG-GAP repeat";"Integrin alpha beta-propellor";"Integrin alpha, N-terminal"#IPR000413;IPR013517;IPR013519;IPR028994
+1981	PF01839	1981#""#NA
+1993	PF01866	1993#"Diphthamide synthesis DHP2, eukaryotes";"Diphthamide synthesis DPH1/DPH2"#IPR010014;IPR016435
+1994	PF01869	1994#"ATPase, BadF/BadG/BcrA/BcrD type"#IPR002731
+1999	PF01883	1999#"MIP18 family-like";"Fe-S cluster assembly domain superfamily"#IPR002744;IPR034904
+2004	PF01912	2004#"Translation initiation factor IF6"#IPR002769
+2005	PF01916	2005#"Deoxyhypusine synthase";"DHS-like NAD/FAD-binding domain superfamily";"Deoxyhypusine synthase superfamily"#IPR002773;IPR029035;IPR036982
+2005	PF01916	2005#""#NA
+2007	PF01926	2007#"GTP binding domain";"GTP1/OBG domain";"P-loop containing nucleoside triphosphate hydrolase";"OBG-type guanine nucleotide-binding (G) domain";"GTP-binding protein, Obg-type";"GTP1/OBG domain superfamily"#IPR006073;IPR006169;IPR027417;IPR031167;IPR035101;IPR036726
+2015	PF01984	2015#"PDCD5-like";"PDCD5-like superfamily"#IPR002836;IPR036883
+2024	PF02017	2024#""#NA
+2031	PF02024	2031#"Leptin";"Four-helical cytokine-like, core"#IPR000065;IPR009079
+2034	PF02037	2034#""#NA
+2041	PF02057	2041#""#NA
+2043	PF02063	2043#"Myristoylated alanine-rich C-kinase substrate MARCKS"#IPR002101
+2044	PF02064	2044#"Protein import receptor MAS20";"Protein import receptor MAS20, metazoan";"Mitochondrial outer membrane translocase complex, Tom20 domain superfamily"#IPR002056;IPR022422;IPR023392
+2045	PF02072	2045#"Prepro-orexin"#IPR001704
+2046	PF02077	2046#"Surfeit locus 4"#IPR002995
+2047	PF02089	2047#""#NA
+2049	PF02100	2049#"Ornithine decarboxylase antizyme";"Acyl-CoA N-acyltransferase";"Ornithine decarboxylase antizyme 1";"Ornithine decarboxylase antizyme superfamily"#IPR002993;IPR016181;IPR029914;IPR038581
+2053	PF02114	2053#"Phosducin, thioredoxin-like domain";"Thioredoxin-like superfamily"#IPR024253;IPR036249
+2055	PF02121	2055#"Phosphatidylinositol transfer protein";"START-like domain superfamily"#IPR001666;IPR023393
+2062	PF02137	2062#"Adenosine deaminase/editase"#IPR002466
+2064	PF02141	2064#"cDENN domain";"WD40 repeat";"dDENN domain";"WD40/YVTN repeat-like-containing domain superfamily";"WD40-repeat-containing domain";"WD40 repeat, conserved site";"WD40-repeat-containing domain superfamily";"Tripartite DENN domain"#IPR001194;IPR001680;IPR005112;IPR015943;IPR017986;IPR019775;IPR036322;IPR037516
+2070	PF02146	2070#""#NA
+2070	PF02146	2070#"Sirtuin family";"Sirtuin, class I";"Sirtuin family, catalytic core domain";"Sirtuin, catalytic core small domain superfamily";"DHS-like NAD/FAD-binding domain superfamily"#IPR003000;IPR017328;IPR026590;IPR026591;IPR029035
+2070	PF02146	2070#"Sirtuin family";"Sirtuin family, catalytic core domain";"Sirtuin, catalytic core small domain superfamily";"DHS-like NAD/FAD-binding domain superfamily"#IPR003000;IPR026590;IPR026591;IPR029035
+2071	PF02148	2071#"Zinc finger, UBP-type";"Zinc finger, RING/FYVE/PHD-type"#IPR001607;IPR013083
+2071	PF02148	2071#"Zinc finger, UBP-type";"Zinc finger, RING/FYVE/PHD-type";"Ubiquitin specific protease, conserved site";"Ubiquitin specific protease domain";"Papain-like cysteine peptidase superfamily"#IPR001607;IPR013083;IPR018200;IPR028889;IPR038765
+2074	PF02149	2074#"Kinase associated domain 1 (KA1)";"KA1 domain/Ssp2, C-terminal";"Serine/threonine-protein kinase MARK/par1"#IPR001772;IPR028375;IPR033624
+2078	PF02157	2078#"Cation-dependent mannose-6-phosphate receptor";"Mannose-6-phosphate receptor binding domain superfamily";"Mannose-6-phosphate receptor"#IPR000296;IPR009011;IPR028927
+2078	PF02157	2078#"Cation-dependent mannose-6-phosphate receptor";"Mannose-6-phosphate receptor"#IPR000296;IPR028927
+2088	PF02171	2088#"Piwi domain";"Ribonuclease H-like superfamily";"Ribonuclease H superfamily"#IPR003165;IPR012337;IPR036397
+2091	PF02173	2091#"cAMP response element binding (CREB) protein";"Coactivator CBP, pKID";"cAMP-responsive element-binding protein 1"#IPR001630;IPR003102;IPR029802
+2093	PF02174	2093#"Pleckstrin homology domain";"IRS-type PTB domain";"PH-like domain superfamily";"Dok1/2/3, PTB domain"#IPR001849;IPR002404;IPR011993;IPR037751
+2094	PF02176	2094#"Zinc finger, TRAF-type";"TRAF-like";"Zinc finger, RING/FYVE/PHD-type";"TNF receptor-associated factor 5"#IPR001293;IPR008974;IPR013083;IPR027130
+2102	PF02178	2102#"High mobility group protein HMGA";"AT hook, DNA-binding motif"#IPR000116;IPR017956
+2103	PF02179	2103#"BAG domain";"BAG domain superfamily"#IPR003103;IPR036533
+2105	PF02185	2105#"HR1 rho-binding domain";"HR1 repeat superfamily"#IPR011072;IPR036274
+2109	PF02187	2109#"GAR domain";"GAR domain superfamily"#IPR003108;IPR036534
+2111	PF02190	2111#"Lon, substrate-binding domain";"PUA-like superfamily"#IPR003111;IPR015947
+2111	PF02190	2111#""#NA
+2118	PF02195	2118#"ParB/Sulfiredoxin";"Sulfiredoxin";"ParB/Sulfiredoxin superfamily"#IPR003115;IPR016692;IPR036086
+2124	PF02198	2124#"Pointed domain";"Sterile alpha motif/pointed domain superfamily";"Friend leukemia integration 1 transcription factor, pointed domain";"Friend leukemia integration 1 transcription factor"#IPR003118;IPR013761;IPR035573;IPR035575
+2127	PF02201	2127#""#NA
+2127	PF02201	2127#"SWIB/MDM2 domain";"SWIB domain";"SWI/SNF complex subunit BAF60B";"SWIB/MDM2 domain superfamily"#IPR003121;IPR019835;IPR030090;IPR036885
+2130	PF02204	2130#"VPS9 domain";"VPS9 domain superfamily"#IPR003123;IPR037191
+2132	PF02205	2132#"WH2 domain";"SCAR/WAVE family"#IPR003124;IPR028288
+2132	PF02205	2132#"WH2 domain";"WAS/WASL-interacting protein family member 1"#IPR003124;IPR028295
+2136	PF02210	2136#"EGF-like domain";"Laminin G domain";"Neurexin/syndecan/glycophorin C";"Concanavalin A-like lectin/glucanase domain superfamily";"Contactin-associated protein-like 2"#IPR000742;IPR001791;IPR003585;IPR013320;IPR029831
+2136	PF02210	2136#"Laminin G domain";"Concanavalin A-like lectin/glucanase domain superfamily"#IPR001791;IPR013320
+2146	PF02212	2146#"Dynamin GTPase effector";"GTPase effector domain";"Dynamin superfamily"#IPR003130;IPR020850;IPR022812
+2150	PF02221	2150#"MD-2-related lipid-recognition domain";"Immunoglobulin E-set"#IPR003172;IPR014756
+2160	PF02251	2160#""#NA
+2169	PF02263	2169#"Guanylate-binding protein, N-terminal";"P-loop containing nucleoside triphosphate hydrolase";"GB1/RHD3-type guanine nucleotide-binding (G) domain"#IPR015894;IPR027417;IPR030386
+2169	PF02263	2169#""#NA
+2173	PF02274	2173#"Glycine/inosamine-phosphate amidinotransferase"#IPR033195
+2176	PF02290	2176#"Signal recognition particle, SRP14 subunit";"Signal recognition particle, SRP9/SRP14 subunit"#IPR003210;IPR009018
+2182	PF02312	2182#"Core-binding factor, beta subunit";"Core-binding factor, beta subunit superfamily"#IPR003417;IPR036552
+2186	PF02319	2186#"E2F/DP family, winged-helix DNA-binding domain";"Transcription factor DP";"Transcription factor DP1";"Winged helix-like DNA-binding domain superfamily"#IPR003316;IPR015648;IPR028313;IPR036388
+2189	PF02320	2189#"Cytochrome b-c1 complex, subunit 6";"Ubiquinol-cytochrome C reductase hinge domain";"Ubiquinol-cytochrome C reductase hinge domain superfamily"#IPR003422;IPR023184;IPR036811
+2191	PF02338	2191#"Peptidase C19, ubiquitin carboxyl-terminal hydrolase";"Ubiquitin carboxyl-terminal hydrolase USP4";"Ubiquitin specific protease domain";"Papain-like cysteine peptidase superfamily"#IPR001394;IPR028134;IPR028889;IPR038765
+2195	PF02351	2195#"GDNF/GAS1"#IPR016017
+2195	PF02351	2195#"Glial cell line-derived neurotrophic factor receptor";"GDNF/GAS1";"GDNF receptor alpha"#IPR003438;IPR016017;IPR037193
+2200	PF02366	2200#"Glycosyl transferase family 39/83";"Glycosyltransferase 39-like"#IPR003342;IPR027005
+2204	PF02374	2204#"Arsenical pump ATPase, ArsA/GET3";"Anion-transporting ATPase-like domain";"P-loop containing nucleoside triphosphate hydrolase";"Arsenical pump ATPase, ArsA/GET3, eukaryotic"#IPR016300;IPR025723;IPR027417;IPR027542
+2207	PF02376	2207#""#NA
+2213	PF02390	2213#"tRNA (guanine-N-7) methyltransferase, Trmb type";"tRNA (guanine-N-7) methyltransferase catalytic subunit Trm8, eukaryote";"S-adenosyl-L-methionine-dependent methyltransferase"#IPR003358;IPR025763;IPR029063
+2215	PF02404	2215#"Stem cell factor";"Four-helical cytokine-like, core"#IPR003452;IPR009079
+2222	PF02453	2222#"Reticulon"#IPR003388
+2224	PF02463	2224#""#NA
+2224	PF02463	2224#"RecF/RecN/SMC, N-terminal";"Structural maintenance of chromosomes protein 5";"P-loop containing nucleoside triphosphate hydrolase"#IPR003395;IPR027131;IPR027417
+2227	PF02469	2227#"FAS1 domain";"EMI domain";"TGF beta-induced protein/periostin";"Transforming growth factor-beta-induced protein ig-h3";"FAS1 domain superfamily"#IPR000782;IPR011489;IPR016666;IPR032954;IPR036378
+2227	PF02469	2227#"FAS1 domain";"Transforming growth factor-beta-induced protein ig-h3";"FAS1 domain superfamily"#IPR000782;IPR032954;IPR036378
+2229	PF02475	2229#"tRNA (guanine(37)-N(1))-methyltransferase, eukaryotic";"S-adenosyl-L-methionine-dependent methyltransferase";"SAM-dependent methyltransferase TRM5/TYW2-type"#IPR025792;IPR029063;IPR030382
+2259	PF02752	2259#"Arrestin";"Arrestin C-terminal-like domain";"Arrestin, C-terminal";"Immunoglobulin E-set"#IPR000698;IPR011022;IPR014752;IPR014756
+2260	PF02755	2260#"RPEL repeat";"MKL/myocardin-like protein 1"#IPR004018;IPR029992
+2278	PF02771	2278#""#NA
+2284	PF02782	2284#"Carbohydrate kinase, FGGY, C-terminal"#IPR018485
+2285	PF02784	2285#"Ornithine/DAP/Arg decarboxylase";"Ornithine decarboxylase";"Orn/DAP/Arg decarboxylase 2, N-terminal";"PLP-binding barrel";"Antizyme inhibitor 1"#IPR000183;IPR002433;IPR022644;IPR029066;IPR031178
+2293	PF02798	2293#"Glutathione S-transferase, Mu class";"Glutathione S-transferase, N-terminal";"Thioredoxin-like superfamily";"Glutathione S-transferase, C-terminal domain superfamily"#IPR003081;IPR004045;IPR036249;IPR036282
+2293	PF02798	2293#"Glutathione S-transferase, Mu class";"Glutathione S-transferase, N-terminal";"Thioredoxin-like superfamily"#IPR003081;IPR004045;IPR036249
+2300	PF02815	2300#"Inositol 1,4,5-trisphosphate receptor";"Ryanodine receptor-related";"MIR motif";"Mir domain superfamily"#IPR000493;IPR015925;IPR016093;IPR036300
+2301	PF02816	2301#"MHCK/EF2 kinase";"Protein kinase-like domain superfamily";"Transient receptor potential cation channel subfamily M member 7"#IPR004166;IPR011009;IPR029601
+2303	PF02820	2303#"Mbt repeat";"Zinc finger, FCS-type";"FCS-type zinc finger superfamily"#IPR004092;IPR012313;IPR038603
+2309	PF02825	2309#""#NA
+2314	PF02826	2314#""#NA
+2315	PF02828	2315#"L27 domain";"L27 domain, C-terminal";"L27 domain superfamily"#IPR004172;IPR014775;IPR036892
+2319	PF02836	2319#"Glycoside hydrolase family 2, catalytic domain";"Galactose-binding-like domain superfamily";"Immunoglobulin-like fold";"Glycoside hydrolase superfamily";"Beta-Galactosidase/glucuronidase domain superfamily"#IPR006103;IPR008979;IPR013783;IPR017853;IPR036156
+2326	PF02845	2326#"Zinc finger, RanBP2-type";"Ubiquitin system component Cue";"Zinc finger, RanBP2-type superfamily"#IPR001876;IPR003892;IPR036443
+2327	PF02847	2327#"Initiation factor eIF-4 gamma, MA3";"MIF4G-like domain superfamily";"Armadillo-type fold"#IPR003891;IPR016021;IPR016024
+2328	PF02854	2328#"MIF4G-like, type 3";"MIF4G-like domain superfamily";"Armadillo-type fold"#IPR003890;IPR016021;IPR016024
+2351	PF02881	2351#"Signal recognition particle, SRP54 subunit, helical bundle";"Signal recognition particle, SRP54 subunit";"SRP/SRP receptor, N-terminal"#IPR013822;IPR022941;IPR036225
+2353	PF02883	2353#"Clathrin adaptor, alpha/beta/gamma-adaptin, appendage, Ig-like subdomain";"Gamma-adaptin ear (GAE) domain";"Clathrin adaptor, appendage, Ig-like subdomain superfamily"#IPR008152;IPR008153;IPR013041
+2355	PF02886	2355#"Lipid-binding serum glycoprotein, C-terminal";"Bactericidal permeability-increasing protein, alpha/beta domain superfamily";"Bactericidal permeability-increasing protein";"BPI/LBP/Plunc family"#IPR001124;IPR017943;IPR030181;IPR032942
+2355	PF02886	2355#"Lipid-binding serum glycoprotein, C-terminal";"Bactericidal permeability-increasing protein, alpha/beta domain superfamily";"Lipid-binding serum glycoprotein, conserved site";"Phospholipid transfer protein";"BPI/LBP/Plunc family"#IPR001124;IPR017943;IPR017954;IPR030179;IPR032942
+2356	PF02891	2356#"Zinc finger, MIZ-type";"Zinc finger, RING/FYVE/PHD-type";"E3 SUMO-protein ligase PIAS2"#IPR004181;IPR013083;IPR027228
+2356	PF02891	2356#"Zinc finger, MIZ-type";"Zinc finger, RING/FYVE/PHD-type"#IPR004181;IPR013083
+2359	PF02893	2359#"GRAM domain";"PH-like domain superfamily";"GRAMDC4, PH-GRAM domain";"GRAM domain-containing protein 4"#IPR004182;IPR011993;IPR037845;IPR037847
+2365	PF02902	2365#"Ulp1 protease family, C-terminal catalytic domain";"Papain-like cysteine peptidase superfamily"#IPR003653;IPR038765
+2366	PF02906	2366#"Iron hydrogenase, large subunit, C-terminal";"Iron hydrogenase"#IPR004108;IPR009016
+2366	PF02906	2366#""#NA
+2373	PF02931	2373#""#NA
+2385	PF02984	2385#"Cyclin, C-terminal domain";"Cyclin D";"Cyclin-like superfamily";"Cyclin"#IPR004367;IPR015451;IPR036915;IPR039361
+2386	PF02985	2386#"HEAT repeat";"Armadillo-like helical";"Armadillo-type fold";"HEAT, type 2";"Serine/threonine-protein phosphatase 2A subunit A, metazoa"#IPR000357;IPR011989;IPR016024;IPR021133;IPR031090
+2389	PF02990	2389#""#NA
+2389	PF02990	2389#"Nonaspanin (TM9SF)"#IPR004240
+2392	PF03002	2392#"Somatostatin";"Somatostatin/Cortistatin, C-terminal"#IPR004250;IPR018142
+2400	PF03031	2400#"FCP1 homology domain";"Dullard phosphatase domain, eukaryotic";"HAD superfamily";"HAD-like superfamily"#IPR004274;IPR011948;IPR023214;IPR036412
+2400	PF03031	2400#"FCP1 homology domain";"HAD superfamily";"HAD-like superfamily"#IPR004274;IPR023214;IPR036412
+2400	PF03031	2400#"FCP1 homology domain";"HAD superfamily";"Mitochondrial import inner membrane translocase subunit Tim50";"HAD-like superfamily"#IPR004274;IPR023214;IPR027111;IPR036412
+2404	PF03045	2404#"DAN";"Cystine knot, C-terminal";"Cerberus";"Cystine-knot cytokine"#IPR004133;IPR006207;IPR016860;IPR029034
+2405	PF03054	2405#"tRNA-specific 2-thiouridylase";"Rossmann-like alpha/beta/alpha sandwich fold";"Adenine nucleotide alpha hydrolase-like domains"#IPR004506;IPR014729;IPR023382
+2408	PF03073	2408#"TspO/MBR-related protein";"Translocator protein";"TspO/MBR-related superfamily"#IPR004307;IPR030164;IPR038330
+2416	PF03095	2416#"Phosphotyrosyl phosphatase activator, PTPA";"PTPA superfamily"#IPR004327;IPR037218
+2417	PF03096	2417#"NDRG";"Alpha/Beta hydrolase fold";"Protein NDRG1"#IPR004142;IPR029058;IPR030693
+2418	PF03097	2418#"BRO1 domain";"BRO1 domain superfamily"#IPR004328;IPR038499
+2420	PF03098	2420#"Haem peroxidase";"Haem peroxidase, animal type";"Peroxidase Pxd-like";"Haem peroxidase domain superfamily, animal type"#IPR010255;IPR019791;IPR029585;IPR037120
+2428	PF03114	2428#""#NA
+2438	PF03143	2438#"Translation elongation factor EFTu/EF1A, C-terminal";"Translation elongation factor EF1A/initiation factor IF2gamma, C-terminal"#IPR004160;IPR009001
+2440	PF03145	2440#"Zinc finger, RING-type";"E3 ubiquitin-protein ligase SIN-like";"TRAF-like";"Zinc finger, SIAH-type";"Zinc finger, RING/FYVE/PHD-type";"Seven-in-absentia protein, TRAF-like domain"#IPR001841;IPR004162;IPR008974;IPR013010;IPR013083;IPR018121
+2441	PF03151	2441#"Sugar phosphate transporter domain"#IPR004853
+2449	PF03165	2449#""#NA
+2451	PF03166	2451#""#NA
+2451	PF03166	2451#"SMAD domain, Dwarfin-type";"SMAD/FHA domain superfamily";"Dwarfin";"SMAD-like domain superfamily"#IPR001132;IPR008984;IPR013790;IPR017855
+2457	PF03178	2457#"Cleavage/polyadenylation specificity factor, A subunit, C-terminal";"WD40/YVTN repeat-like-containing domain superfamily"#IPR004871;IPR015943
+2458	PF03179	2458#"Vacuolar (H+)-ATPase G subunit"#IPR005124
+2460	PF03188	2460#"Cytochrome b561/ferric reductase transmembrane"#IPR006593
+2465	PF03224	2465#""#NA
+2474	PF03247	2474#"Prothymosin/parathymosin"#IPR004931
+2476	PF03253	2476#"Urea transporter";"Ammonium/urea transporter"#IPR004937;IPR029020
+2482	PF03291	2482#""#NA
+2484	PF03298	2484#"Stanniocalcin"#IPR004978
+2485	PF03311	2485#"Cornichon"#IPR003377
+2486	PF03343	2486#"SNU66/SART1 family"#IPR005011
+2488	PF03345	2488#"Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48kDa subunit"#IPR005013
+2489	PF03348	2489#"Serine incorporator/TMS membrane protein";"Serine incorporator 3"#IPR005016;IPR029557
+2493	PF03360	2493#"Glycosyl transferase, family 43";"Nucleotide-diphospho-sugar transferases"#IPR005027;IPR029044
+2494	PF03364	2494#"Coenzyme Q-binding protein COQ10, START domain";"START-like domain superfamily"#IPR005031;IPR023393
+2495	PF03366	2495#"YEATS";"Yaf9/YEATS4";"YEATS superfamily"#IPR005033;IPR037989;IPR038704
+2495	PF03366	2495#"YEATS";"YEATS superfamily"#IPR005033;IPR038704
+2497	PF03372	2497#"Endonuclease/exonuclease/phosphatase";"Endonuclease/exonuclease/phosphatase superfamily"#IPR005135;IPR036691
+2497	PF03372	2497#""#NA
+2504	PF03435	2504#"Saccharopine dehydrogenase, NADP binding domain";"NAD(P)-binding domain superfamily"#IPR005097;IPR036291
+2505	PF03446	2505#"6-phosphogluconate dehydrogenase, NADP-binding";"6-phosphogluconate dehydrogenase";"NAD(P)-binding domain superfamily"#IPR006115;IPR006183;IPR036291
+2517	PF03467	2517#"UPF3 domain";"Nucleotide-binding alpha-beta plait domain superfamily";"Regulator of nonsense transcripts 3A";"RNA-binding domain superfamily"#IPR005120;IPR012677;IPR034978;IPR035979
+2517	PF03467	2517#"UPF3 domain";"Nucleotide-binding alpha-beta plait domain superfamily";"UPF3B, RNA recognition motif-like domain";"RNA-binding domain superfamily"#IPR005120;IPR012677;IPR034979;IPR035979
+2529	PF03528	2529#"Rabaptin";"Rabaptin coiled-coil domain";"Rabaptin-5beta"#IPR003914;IPR018514;IPR029882
+2531	PF03531	2531#"Structure-specific recognition protein";"SSRP1 domain";"SSRP1 domain superfamily"#IPR000969;IPR024954;IPR038167
+2537	PF03577	2537#"Peptidase C69, dipeptidase A"#IPR005322
+2538	PF03587	2538#"Ribosomal biogenesis, methyltransferase, EMG1/NEP1";"tRNA (guanine-N1-)-methyltransferase, N-terminal";"Alpha/beta knot methyltransferases"#IPR005304;IPR029026;IPR029028
+2540	PF03607	2540#"Doublecortin domain";"Doublecortin domain-containing protein 2";"Doublecortin domain superfamily"#IPR003533;IPR033036;IPR036572
+2541	PF03615	2541#"Transcription regulator GCM domain";"GCM domain superfamily"#IPR003902;IPR036115
+2542	PF03623	2542#"Focal adhesion kinase, targeting (FAT) domain";"Focal adhesion kinase, targeting (FAT) domain superfamily"#IPR005189;IPR036137
+2546	PF03638	2546#"CRC domain";"Lin-54 family";"Tesmin/TSO1-like CXC domain"#IPR005172;IPR028307;IPR033467
+2547	PF03643	2547#"Arrestin, C-terminal";"Immunoglobulin E-set";"Vacuolar protein sorting protein 26 related"#IPR014752;IPR014756;IPR028934
+2548	PF03645	2548#"Tctex-1";"Tctex-1-like superfamily"#IPR005334;IPR038586
+2551	PF03662	2551#""#NA
+2554	PF03690	2554#"Metal-dependent protein hydrolase"#IPR003226
+2555	PF03694	2555#"Erg28"#IPR005352
+2567	PF03792	2567#"PBX"#IPR005542
+2575	PF03810	2575#"Importin-beta, N-terminal domain";"Armadillo-like helical";"Armadillo-type fold"#IPR001494;IPR011989;IPR016024
+2583	PF03820	2583#""#NA
+2602	PF03908	2602#"Sec20"#IPR005606
+2615	PF03952	2615#"Enolase";"Enolase, N-terminal";"Enolase-like, N-terminal"#IPR000941;IPR020811;IPR029017
+2625	PF03998	2625#"Small-subunit processome, Utp11"#IPR007144
+2629	PF04032	2629#"RNAse P, Rpr2/Rpp21 subunit"#IPR007175
+2631	PF04046	2631#"PSP, proline-rich"#IPR006568
+2632	PF04048	2632#"Nuclear hormone receptor, ligand-binding domain";"Zinc finger, nuclear hormone receptor-type";"Nuclear hormone receptor";"Nuclear receptor ROR";"Zinc finger, NHR/GATA-type";"Nuclear hormone receptor-like domain superfamily"#IPR000536;IPR001628;IPR001723;IPR003079;IPR013088;IPR035500
+2632	PF04048	2632#"Sec8 exocyst complex component specific domain"#IPR007191
+2633	PF04049	2633#"Cdc23";"Tetratricopeptide-like helical domain superfamily"#IPR007192;IPR011990
+2643	PF04078	2643#"CCR4-NOT transcription complex subunit 9";"Armadillo-like helical"#IPR007216;IPR011989
+2645	PF04083	2645#"Partial AB-hydrolase lipase domain";"Alpha/Beta hydrolase fold"#IPR006693;IPR029058
+2646	PF04089	2646#"BRICHOS domain"#IPR007084
+2647	PF04091	2647#""#NA
+2649	PF04096	2649#"Peptidase S59, nucleoporin";"Peptidase S59, nucleoporin superfamily";"Nuclear pore complex protein NUP98-NUP96";"Nucleoporin peptidase S59-like"#IPR007230;IPR036903;IPR037637;IPR037665
+2652	PF04099	2652#"Trafficking protein particle complex subunit";"Longin-like domain superfamily"#IPR007233;IPR011012
+2653	PF04103	2653#"CD20-like family";"Transmembrane protein 176A/B"#IPR007237;IPR009281
+2656	PF04109	2656#"Autophagy-related protein 9"#IPR007241
+2657	PF04110	2657#"Ubiquitin-like protein Atg12";"Ubiquitin-like domain superfamily"#IPR007242;IPR029071
+2658	PF04111	2658#"Atg6/Beclin";"Beclin-1";"Atg6/Beclin C-terminal domain superfamily"#IPR007243;IPR032913;IPR038274
+2659	PF04113	2659#"GPI transamidase component PIG-T"#IPR007245
+2660	PF04116	2660#"Fatty acid hydroxylase"#IPR006694
+2661	PF04118	2661#"Dopey, N-terminal"#IPR007249
+2665	PF04137	2665#"Endoplasmic reticulum oxidoreductin 1";"ERO1-like superfamily"#IPR007266;IPR037192
+2665	PF04137	2665#""#NA
+2667	PF04142	2667#"Nucleotide-sugar transporter"#IPR007271
+2668	PF04144	2668#"SCAMP"#IPR007273
+2669	PF04145	2669#"Ctr copper transporter"#IPR007274
+2675	PF04188	2675#"GPI mannosyltransferase 2"#IPR007315
+2677	PF04194	2677#"Programmed cell death protein 2, C-terminal"#IPR007320
+2684	PF04263	2684#""#NA
+2684	PF04263	2684#"Thiamin pyrophosphokinase";"Thiamin pyrophosphokinase, catalytic domain";"Thiamin pyrophosphokinase, catalytic domain superfamily"#IPR006282;IPR007371;IPR036759
+2686	PF04281	2686#"Mitochondrial import receptor subunit Tom22"#IPR005683
+2690	PF04366	2690#"Ysc84 actin-binding domain"#IPR007461
+2695	PF04402	2695#""#NA
+2706	PF04437	2706#"RINT-1/Tip20"#IPR007528
+2707	PF04438	2707#"Zinc finger, HIT-type"#IPR007529
+2708	PF04440	2708#"Dysbindin"#IPR007531
+2710	PF04487	2710#"CITED"#IPR007576
+2713	PF04502	2713#"CWC16 protein"#IPR007590
+2715	PF04505	2715#"CD225/Dispanin family"#IPR007593
+2729	PF04563	2729#"RNA polymerase, beta subunit, protrusion";"DNA-directed RNA polymerase, subunit 2"#IPR007644;IPR015712
+2733	PF04564	2733#"U box domain";"Zinc finger, RING/FYVE/PHD-type"#IPR003613;IPR013083
+2737	PF04571	2737#"Lipin, N-terminal";"Phosphatidate phosphatase LPIN1"#IPR007651;IPR028794
+2750	PF04622	2750#""#NA
+2762	PF04683	2762#"Proteasomal ubiquitin receptor Rpn13/ADRM1";"Proteasomal ubiquitin receptor Rpn13/ADRM1 superfamily"#IPR006773;IPR038633
+2767	PF04707	2767#""#NA
+2767	PF04707	2767#"PRELI/MSF1 domain";"Slowmo/Ups family"#IPR006797;IPR037365
+2770	PF04710	2770#"Pellino family"#IPR006800
+2772	PF04714	2772#"BCL7"#IPR006804
+2774	PF04718	2774#"ATP synthase, F0 complex, subunit G, mitochondrial";"Mitochondrial ATP synthase subunit g, animal"#IPR006808;IPR016702
+2775	PF04719	2775#"TAFII28-like protein";"Histone-fold"#IPR006809;IPR009072
+2783	PF04749	2783#"PLAC8 motif-containing protein"#IPR006461
+2785	PF04756	2785#"Oligosaccharyl transferase complex, subunit OST3/OST6"#IPR021149
+2786	PF04758	2786#"Ribosomal protein S30"#IPR006846
+2788	PF04791	2788#"LMBR1-like membrane protein";"Lipocalin-interacting membrane receptor"#IPR006876;IPR008075
+2789	PF04799	2789#"Fzo/mitofusin HR2 domain";"Mitofusin-1";"Mitofusin family"#IPR006884;IPR027088;IPR027094
+2791	PF04801	2791#"DNA-directed RNA polymerase III subunit Rpc5"#IPR006886
+2801	PF04818	2801#"CID domain";"RNA polymerase II-binding domain";"ENTH/VHS"#IPR006569;IPR006903;IPR008942
+2804	PF04824	2804#"Rad21/Rec8-like protein, C-terminal, eukaryotic";"Winged helix DNA-binding domain superfamily"#IPR006909;IPR036390
+2810	PF04832	2810#"SOUL haem-binding protein";"Regulatory factor, effector binding domain superfamily"#IPR006917;IPR011256
+2812	PF04841	2812#"Vps16, N-terminal";"Vacuolar protein sorting-associated protein 16"#IPR006926;IPR016534
+2823	PF04855	2823#"SNF5/SMARCB1/INI1"#IPR006939
+2828	PF04884	2828#"Root UVB sensitive family"#IPR006968
+2836	PF04906	2836#"Tweety"#IPR006990
+2839	PF04923	2839#"Ninjurin";"Ninjurin1"#IPR007007;IPR015639
+2840	PF04928	2840#""#NA
+2844	PF04935	2844#"Surfeit locus 6";"Ribosomal RNA-processing protein 14/surfeit locus protein 6, C-terminal domain"#IPR007019;IPR029190
+2846	PF04949	2846#"RAB6-interacting golgin"#IPR007033
+2847	PF04960	2847#""#NA
+2850	PF04969	2850#"CS domain";"HSP20-like chaperone";"NudC family";"NudC domain-containing protein 2, p23 domain"#IPR007052;IPR008978;IPR037898;IPR037902
+2852	PF04970	2852#"LRAT-like domain";"FAM84B"#IPR007053;IPR028815
+2854	PF04988	2854#"A-kinase anchoring protein 95 (AKAP95)";"Zinc finger C2H2 AKAP95-type"#IPR007071;IPR034736
+2857	PF05004	2857#"Interferon-related developmental regulator, N-terminal"#IPR007701
+2861	PF05010	2861#"Transforming acidic coiled-coil-containing protein, C-terminal"#IPR007707
+2862	PF05018	2862#"Cilia/flagella-associated protein 20/WDR90/C3orf67"#IPR007714
+2864	PF05024	2864#"N-acetylglucosaminyl transferase component"#IPR007720
+2867	PF05041	2867#"Pecanex"#IPR007735
+2871	PF05049	2871#"Immunity-related GTPases-like";"P-loop containing nucleoside triphosphate hydrolase";"IRG-type guanine nucleotide-binding (G) domain"#IPR007743;IPR027417;IPR030385
+2874	PF05063	2874#"MT-A70-like"#IPR007757
+2874	PF05063	2874#"MT-A70-like";"mRNA (2-O-methyladenosine-N(6)-)-methyltransferase";"S-adenosyl-L-methionine-dependent methyltransferase"#IPR007757;IPR025848;IPR029063
+2879	PF05090	2879#""#NA
+2884	PF05129	2884#"Transcription elongation factor 1";"Transcription elongation factor 1 superfamily"#IPR007808;IPR038567
+2886	PF05147	2886#"Lanthionine synthetase C-like";"Six-hairpin glycosidase-like superfamily";"LanC-like protein, eukaryotic"#IPR007822;IPR012341;IPR020464
+2887	PF05154	2887#"TM2 domain"#IPR007829
+2893	PF05193	2893#"Peptidase M16, C-terminal";"Metalloenzyme, LuxS/M16 peptidase-like"#IPR007863;IPR011249
+2896	PF05197	2896#"TRIC channel"#IPR007866
+2904	PF05225	2904#"DNA binding HTH domain, Psq-type";"Homeobox-like domain superfamily"#IPR007889;IPR009057
+2906	PF05241	2906#"Emopamil-binding protein";"EXPERA domain"#IPR007905;IPR033118
+2909	PF05255	2909#""#NA
+2915	PF05291	2915#"Bystin"#IPR007955
+2916	PF05296	2916#"Taste receptor type 2"#IPR007960
+2920	PF05347	2920#"Complex 1 LYR protein";"LYR motif-containing protein 2"#IPR008011;IPR026868
+2921	PF05348	2921#"Proteasome maturation factor Ump1"#IPR008012
+2925	PF05368	2925#"NmrA-like domain";"NAD(P)-binding domain superfamily"#IPR008030;IPR036291
+2927	PF05383	2927#""#NA
+2927	PF05383	2927#"Protein of unknown function DM15";"La-type HTH domain";"Winged helix-like DNA-binding domain superfamily";"Winged helix DNA-binding domain superfamily"#IPR006607;IPR006630;IPR036388;IPR036390
+2933	PF05434	2933#"TMEM9"#IPR008853
+2937	PF05456	2937#"Eukaryotic translation initiation factor 4E binding";"Eukaryotic translation initiation factor 4E-binding protein 1"#IPR008606;IPR037582
+2939	PF05461	2939#"Apolipoprotein L"#IPR008405
+2941	PF05485	2941#""#NA
+2941	PF05485	2941#"THAP-type zinc finger";"THAP domain-containing protein 1";"THAP-type zinc finger superfamily"#IPR006612;IPR026516;IPR038441
+2941	PF05485	2941#"THAP-type zinc finger";"THAP domain-containing protein 3";"THAP-type zinc finger superfamily"#IPR006612;IPR026520;IPR038441
+2944	PF05495	2944#""#NA
+2955	PF05602	2955#""#NA
+2961	PF05624	2961#"Immunoglobulin subtype";"LISCH7";"Immunoglobulin-like domain superfamily"#IPR003599;IPR008664;IPR036179
+2965	PF05644	2965#"Miff/Tango-11"#IPR008518
+2966	PF05648	2966#"Peroxisomal biogenesis factor 11"#IPR008733
+2967	PF05649	2967#"Peptidase M13";"Peptidase M13, N-terminal domain";"Neprilysin"#IPR000718;IPR008753;IPR029727
+2969	PF05669	2969#"Mediator complex, subunit Med31";"Mediator complex, subunit Med31 domain superfamily"#IPR008831;IPR038089
+2972	PF05680	2972#"ATP synthase, F0 complex, subunit E, mitochondrial"#IPR008386
+2974	PF05699	2974#"HAT, C-terminal dimerisation domain";"Ribonuclease H-like superfamily"#IPR008906;IPR012337
+2976	PF05712	2976#"MRG";"MRG domain";"Mortality factor 4-like protein 2";"MRG, C-terminal domain superfamily"#IPR008676;IPR026541;IPR038012;IPR038217
+2983	PF05739	2983#"Target SNARE coiled-coil homology domain"#IPR000727
+2983	PF05739	2983#"Target SNARE coiled-coil homology domain";"Syntaxin-3"#IPR000727;IPR031186
+2984	PF05741	2984#"Nanos/Xcat2";"Zinc finger, nanos-type";"Nanos domain superfamily"#IPR008705;IPR024161;IPR038129
+2986	PF05760	2986#"Immediate early response"#IPR008653
+2989	PF05773	2989#"Zinc finger, RING-type";"RWD domain";"Zinc finger, RING/FYVE/PHD-type";"Ubiquitin-conjugating enzyme/RWD-like";"E3 ubiquitin-protein ligase RNF25"#IPR001841;IPR006575;IPR013083;IPR016135;IPR039133
+2992	PF05783	2992#"Dynein 1 light intermediate chain";"Dynein family light intermediate chain"#IPR008467;IPR022780
+2999	PF05817	2999#"Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit Swp1"#IPR008814
+2999	PF05817	2999#""#NA
+3002	PF05827	3002#"ATPase, V1 complex, subunit S1"#IPR008388
+3003	PF05835	3003#"Synaphin"#IPR008849
+3007	PF05891	3007#"Alpha-N-methyltransferase NTM1";"S-adenosyl-L-methionine-dependent methyltransferase"#IPR008576;IPR029063
+3010	PF05920	3010#"Homeobox domain";"Homeobox KN domain";"Homeobox-like domain superfamily"#IPR001356;IPR008422;IPR009057
+3015	PF05978	3015#"Ion channel regulatory protein, UNC-93";"MFS transporter superfamily"#IPR010291;IPR036259
+3020	PF06031	3020#"SERTA domain"#IPR009263
+3021	PF06046	3021#"Exocyst complex component EXOC3/Sec6"#IPR010326
+3022	PF06060	3022#"Mesothelin";"Stereocilin-related";"Mesothelin-like protein"#IPR010335;IPR026664;IPR026672
+3024	PF06079	3024#""#NA
+3025	PF06083	3025#"Interleukin-17 family";"Interleukin-17, chordata";"Cystine-knot cytokine"#IPR010345;IPR020440;IPR029034
+3026	PF06105	3026#"Gamma-secretase subunit Aph-1"#IPR009294
+3027	PF06110	3027#"Protein of unknown function DUF953, thioredoxin-like";"Thioredoxin-like superfamily"#IPR010357;IPR036249
+3028	PF06113	3028#"BRCA1-A complex subunit BRE"#IPR010358
+3039	PF06211	3039#"BMP and activin membrane-bound inhibitor"#IPR009345
+3047	PF06292	3047#"Calcium-dependent secretion activator domain";"Munc13 homology 1";"Calcium-dependent secretion activator"#IPR010439;IPR014770;IPR033227
+3048	PF06293	3048#"Protein kinase domain";"Tyrosine-protein kinase, active site";"Protein kinase-like domain superfamily";"Serine/threonine-protein kinase Bud32"#IPR000719;IPR008266;IPR011009;IPR022495
+3052	PF06309	3052#"Torsin";"P-loop containing nucleoside triphosphate hydrolase";"Torsin-4A"#IPR010448;IPR027417;IPR030551
+3064	PF06365	3064#"CD34/Podocalyxin";"Podocalyxin"#IPR013836;IPR017403
+3070	PF06387	3070#"Neuronal vesicle trafficking-associated protein"#IPR009431
+3077	PF06413	3077#"Neugrin/Rrg9"#IPR010487
+3078	PF06417	3078#"TMEM85/ER membrane protein complex subunit 4"#IPR009445
+3081	PF06456	3081#"Arfaptin homology (AH) domain";"Islet cell autoantigen 1/Ica1-like";"AH/BAR domain superfamily"#IPR010504;IPR024114;IPR027267
+3085	PF06466	3085#""#NA
+3090	PF06468	3090#"Spondin, N-terminal";"Spondin, N-terminal domain superfamily"#IPR009465;IPR038678
+3093	PF06472	3093#"ABC transporter type 1, transmembrane domain";"ABC transporter type 1, transmembrane domain superfamily"#IPR011527;IPR036640
+3093	PF06472	3093#"ABC transporter type 1, transmembrane domain";"ATP-binding cassette sub-family D member 3"#IPR011527;IPR031241
+3095	PF06473	3095#"FGF binding 1"#IPR010510
+3102	PF06524	3102#"Zinc finger protein NOA36"#IPR010531
+3104	PF06553	3104#"BNIP3"#IPR010548
+3107	PF06588	3107#""#NA
+3119	PF06679	3119#"Protein of unknown function DUF1180"#IPR009565
+3120	PF06682	3120#"Store-operated calcium entry-associated regulatory factor"#IPR009567
+3125	PF06733	3125#""#NA
+3141	PF06910	3141#"Male enhanced antigen 1"#IPR009685
+3142	PF06920	3142#"Dedicator of cytokinesis, C-terminal";"Armadillo-type fold";"Dedicator of cytokinesis";"Dedicator of cytokinesis 9";"DHR-2 domain"#IPR010703;IPR016024;IPR026791;IPR026796;IPR027357
+3142	PF06920	3142#"Dedicator of cytokinesis, C-terminal";"Dedicator of cytokinesis";"Dedicator of cytokinesis 9";"DHR-2 domain"#IPR010703;IPR026791;IPR026796;IPR027357
+3143	PF06936	3143#"Selenoprotein S"#IPR009703
+3145	PF06963	3145#"Ferroporti-1"#IPR009716
+3146	PF06979	3146#"TMEM70 family"#IPR009724
+3150	PF07047	3150#"Optic atrophy 3-like"#IPR010754
+3153	PF07064	3153#"Ribosome control protein 1";"WD40/YVTN repeat-like-containing domain superfamily";"WD40-repeat-containing domain superfamily"#IPR009771;IPR015943;IPR036322
+3155	PF07074	3155#"Translocon-associated protein subunit gamma"#IPR009779
+3163	PF07147	3163#"Ribosomal protein L37/S30"#IPR010793
+3164	PF07156	3164#"Prenylcysteine lyase";"Prenylcysteine oxidase"#IPR010795;IPR017046
+3168	PF07177	3168#"Neuralized homology repeat (NHR) domain";"Neuralized"#IPR006573;IPR037962
+3170	PF07189	3170#"Splicing factor 3B subunit 5/RDS3 complex subunit 10";"Splicing factor 3B, subunit 5"#IPR009846;IPR017089
+3171	PF07200	3171#"Modifier of rudimentary, Modr";"ESCRT assembly domain";"Vacuolar protein sorting-associated protein 37"#IPR009851;IPR037202;IPR037859
+3172	PF07202	3172#"T-complex protein 10, C-terminal domain";"T-complex protein 10 family";"Centromere protein J"#IPR009852;IPR026581;IPR033068
+3173	PF07225	3173#"NADH:ubiquinone oxidoreductase, subunit NDUFB4"#IPR009866
+3175	PF07258	3175#"COMM domain";"COMMD1 N-terminal domain";"COMM domain-containing protein 1"#IPR017920;IPR033776;IPR037351
+3175	PF07258	3175#"COMM domain";"COMM domain-containing protein 3"#IPR017920;IPR037355
+3177	PF07281	3177#"Insulin-induced protein family"#IPR025929
+3181	PF07324	3181#""#NA
+3184	PF07393	3184#"Exocyst complex component Sec10-like";"Exocyst complex component EXOC5/Sec10"#IPR009976;IPR033960
+3187	PF07426	3187#"Dynactin subunit p22"#IPR009991
+3194	PF07525	3194#"SOCS box domain";"Ankyrin repeat-containing domain";"SOCS box-like domain superfamily";"Ankyrin repeat-containing domain superfamily";"Ankyrin repeat and SOCS box protein 1, SOCS box domain"#IPR001496;IPR020683;IPR036036;IPR036770;IPR037331
+3196	PF07528	3196#""#NA
+3198	PF07531	3198#"TAFH/NHR1";"CBFA2T family";"TAFH/NHR1 domain superfamily"#IPR003894;IPR013289;IPR037249
+3203	PF07534	3203#"TLDc domain"#IPR006571
+3213	PF07575	3213#"Nucleoporin Nup85-like"#IPR011502
+3214	PF07645	3214#"EGF-like calcium-binding domain";"EGF-like calcium-binding, conserved site";"Fibulin 3/4/5";"Fibulin-5"#IPR001881;IPR018097;IPR037287;IPR037288
+3214	PF07645	3214#"EGF-type aspartate/asparagine hydroxylation site";"EGF-like domain";"EGF-like calcium-binding domain";"EGF-like calcium-binding, conserved site"#IPR000152;IPR000742;IPR001881;IPR018097
+3214	PF07645	3214#"EGF-type aspartate/asparagine hydroxylation site";"EGF-like domain";"EGF-like calcium-binding domain";"GPCR, family 2, CD97 antigen";"EGF-like calcium-binding, conserved site"#IPR000152;IPR000742;IPR001881;IPR003056;IPR018097
+3214	PF07645	3214#"EGF-type aspartate/asparagine hydroxylation site";"EGF-like domain";"EGF-like calcium-binding domain";"Growth factor receptor cysteine-rich domain superfamily";"EGF-like calcium-binding, conserved site"#IPR000152;IPR000742;IPR001881;IPR009030;IPR018097
+3214	PF07645	3214#"EGF-type aspartate/asparagine hydroxylation site";"EGF-like domain";"EGF-like calcium-binding domain";"Growth factor receptor cysteine-rich domain superfamily";"EGF-like, conserved site";"EGF-like calcium-binding, conserved site"#IPR000152;IPR000742;IPR001881;IPR009030;IPR013032;IPR018097
+3214	PF07645	3214#""#NA
+3247	PF07651	3247#"ENTH/VHS";"AP180 N-terminal homology (ANTH) domain";"ENTH  domain";"Phosphoinositide-binding clathrin adaptor, domain 2";"Phosphatidylinositol-binding clathrin assembly protein"#IPR008942;IPR011417;IPR013809;IPR014712;IPR030412
+3247	PF07651	3247#"VHS domain";"GAT domain";"ENTH/VHS";"GAT domain superfamily"#IPR002014;IPR004152;IPR008942;IPR038425
+3247	PF07651	3247#"VHS domain";"GAT domain";"ENTH/VHS";"Target of Myb protein 1";"TOM1-like protein 1";"GAT domain superfamily"#IPR002014;IPR004152;IPR008942;IPR014645;IPR027428;IPR038425
+3249	PF07653	3249#"SH3 domain";"MPP1, SH3 domain";"SH3-like domain superfamily"#IPR001452;IPR035475;IPR036028
+3249	PF07653	3249#"SH3 domain";"Rho guanine nucleotide exchange factor 7, SH3 domain";"SH3-like domain superfamily"#IPR001452;IPR035789;IPR036028
+3313	PF07686	3313#"Immunoglobulin-like domain";"Immunoglobulin V-set domain";"Immunoglobulin-like fold";"Immunoglobulin-like domain superfamily";"CD86, IgV domain"#IPR007110;IPR013106;IPR013783;IPR036179;IPR037677
+3313	PF07686	3313#"Immunoglobulin subtype";"Immunoglobulin-like domain";"Immunoglobulin V-set domain";"Immunoglobulin-like fold";"CD8 alpha subunit";"Immunoglobulin-like domain superfamily"#IPR003599;IPR007110;IPR013106;IPR013783;IPR015468;IPR036179
+3313	PF07686	3313#"Immunoglobulin subtype";"Immunoglobulin-like domain";"Immunoglobulin V-set domain";"Immunoglobulin-like fold";"Immunoglobulin-like domain superfamily"#IPR003599;IPR007110;IPR013106;IPR013783;IPR036179
+3313	PF07686	3313#"Immunoglobulin subtype";"Immunoglobulin-like domain";"Immunoglobulin V-set domain";"Immunoglobulin-like fold";"Immunoglobulin-like domain superfamily";"Triggering receptor expressed on myeloid cells 1"#IPR003599;IPR007110;IPR013106;IPR013783;IPR036179;IPR039141
+3313	PF07686	3313#NotAnnotatedGold#NA
+3349	PF07690	3349#"Major facilitator superfamily";"Major facilitator superfamily domain";"MFS transporter superfamily"#IPR011701;IPR020846;IPR036259
+3352	PF07707	3352#"BTB/Kelch-associated";"Influenza virus NS1A-binding protein"#IPR011705;IPR029849
+3355	PF07714	3355#"FERM domain";"Protein kinase domain";"Serine-threonine/tyrosine-protein kinase, catalytic domain";"Tyrosine-protein kinase, active site";"Protein kinase-like domain superfamily";"Protein kinase, ATP binding site";"Band 4.1 domain";"Tyrosine-protein kinase, catalytic domain";"SH2 domain superfamily"#IPR000299;IPR000719;IPR001245;IPR008266;IPR011009;IPR017441;IPR019749;IPR020635;IPR036860
+3355	PF07714	3355#"FERM domain";"Protein kinase domain";"SH2 domain";"Serine-threonine/tyrosine-protein kinase, catalytic domain";"Tyrosine-protein kinase, active site";"Protein kinase-like domain superfamily";"Tyrosine-protein kinase, non-receptor Jak/Tyk2";"Protein kinase, ATP binding site";"FERM central domain";"Band 4.1 domain";"Tyrosine-protein kinase, catalytic domain";"SH2 domain superfamily"#IPR000299;IPR000719;IPR000980;IPR001245;IPR008266;IPR011009;IPR016251;IPR017441;IPR019748;IPR019749;IPR020635;IPR036860
+3355	PF07714	3355#"Protein kinase domain";"SH2 domain";"Serine-threonine/tyrosine-protein kinase, catalytic domain";"Tyrosine-protein kinase, active site";"Protein kinase-like domain superfamily";"Protein kinase, ATP binding site";"Tyrosine-protein kinase, catalytic domain";"Tyrosine-protein kinase Fer";"Fes/Fps/Fer, SH2 domain";"SH2 domain superfamily"#IPR000719;IPR000980;IPR001245;IPR008266;IPR011009;IPR017441;IPR020635;IPR028539;IPR035849;IPR036860
+3362	PF07716	3362#"Basic-leucine zipper domain";"CCAAT/enhancer-binding protein, chordates"#IPR004827;IPR016468
+3362	PF07716	3362#"Basic-leucine zipper domain"#IPR004827
+3364	PF07717	3364#"Domain of unknown function DUF1605"#IPR011709
+3364	PF07717	3364#""#NA
+3375	PF07742	3375#"Anti-proliferative protein";"Protein BTG1";"BTG-like domain superfamily"#IPR002087;IPR033330;IPR036054
+3375	PF07742	3375#"Anti-proliferative protein";"Protein BTG2";"BTG-like domain superfamily"#IPR002087;IPR033328;IPR036054
+3377	PF07748	3377#"Galactose mutarotase-like domain superfamily";"Glycosyl hydrolase family 38, C-terminal"#IPR011013;IPR011682
+3381	PF07773	3381#"Domain of unknown function DUF1619"#IPR011677
+3385	PF07807	3385#"Protein RED, C-terminal"#IPR012492
+3386	PF07808	3386#"RED-like, N-terminal"#IPR012916
+3395	PF07884	3395#"Vitamin K epoxide reductase"#IPR012932
+3396	PF07885	3396#"Two pore domain potassium channel, TASK family";"Two pore domain potassium channel";"Potassium channel domain"#IPR003092;IPR003280;IPR013099
+3402	PF07933	3402#""#NA
+3408	PF07974	3408#"EGF-like domain";"EGF-like domain, extracellular";"Integrin beta subunit";"Integrin beta-like protein 1"#IPR000742;IPR013111;IPR015812;IPR027070
+3408	PF07974	3408#"EGF-like domain, extracellular";"Integrin beta subunit";"Integrin beta-like protein 1"#IPR013111;IPR015812;IPR027070
+3408	PF07974	3408#""#NA
+3417	PF07989	3417#""#NA
+3418	PF07992	3418#NotAnnotatedGold#NA
+3418	PF07992	3418#"Pyridine nucleotide-disulphide oxidoreductase, class I, active site";"FAD/NAD(P)-binding domain";"FAD/NAD(P)-binding domain superfamily"#IPR012999;IPR023753;IPR036188
+3418	PF07992	3418#"Sulphide quinone-reductase";"FAD/NAD(P)-binding domain";"FAD/NAD(P)-binding domain superfamily"#IPR015904;IPR023753;IPR036188
+3421	PF08007	3421#"JmjC domain"#IPR003347
+3421	PF08007	3421#""#NA
+3424	PF08030	3424#"Ferric reductase, NAD binding domain";"Ferredoxin-NADP reductase (FNR), nucleotide-binding domain"#IPR013121;IPR039261
+3427	PF08066	3427#""#NA
+3449	PF08161	3449#"Uncharacterised domain NUC173";"Armadillo-type fold"#IPR012978;IPR016024
+3496	PF08337	3496#"Sema domain";"Plexin repeat";"IPT domain";"Rho GTPase activation protein";"Plexin, cytoplasmic RasGAP domain";"Immunoglobulin-like fold";"Immunoglobulin E-set";"WD40/YVTN repeat-like-containing domain superfamily";"PSI domain";"Plexin family";"Sema domain superfamily"#IPR001627;IPR002165;IPR002909;IPR008936;IPR013548;IPR013783;IPR014756;IPR015943;IPR016201;IPR031148;IPR036352
+3496	PF08337	3496#"Sema domain";"Plexin repeat";"IPT domain";"Rho GTPase activation protein";"Plexin, cytoplasmic RasGAP domain";"Immunoglobulin-like fold";"WD40/YVTN repeat-like-containing domain superfamily";"PSI domain";"Plexin family";"Sema domain superfamily"#IPR001627;IPR002165;IPR002909;IPR008936;IPR013548;IPR013783;IPR015943;IPR016201;IPR031148;IPR036352
+3497	PF08347	3497#"CTNNB1 binding, N-teminal";"Transcription factor TCF/LEF"#IPR013558;IPR024940
+3499	PF08351	3499#"tRNA(Met) cytidine acetyltransferase TmcA, N-terminal";"TmcA/NAT10/Kre33"#IPR013562;IPR032672
+3501	PF08357	3501#"SEFIR domain"#IPR013568
+3508	PF08389	3508#"Armadillo-like helical";"Exportin-1/Importin-beta-like";"Armadillo-type fold"#IPR011989;IPR013598;IPR016024
+3509	PF08390	3509#"TRAM1-like protein"#IPR013599
+3512	PF08397	3512#"IMD/I-BAR domain";"AH/BAR domain superfamily";"I-BAR domain containing protein MIM";"I-BAR domain containing protein MIM/ABBA"#IPR013606;IPR027267;IPR027682;IPR030127
+3513	PF08416	3513#"PTB/PI domain";"PH-like domain superfamily";"Tensin/EPS8 phosphotyrosine-binding domain";"Epidermal growth factor receptor kinase substrate 8";"Epidermal growth factor receptor kinase substrate, phosphotyrosine-binding domain"#IPR006020;IPR011993;IPR013625;IPR030222;IPR033928
+3517	PF08434	3517#"Ribosomal protein L1, 3-layer alpha/beta-sandwich";"Ribosomal protein L1-like";"Ribosomal protein L1/ribosomal biogenesis protein"#IPR016095;IPR023674;IPR028364
+3517	PF08434	3517#"von Willebrand factor, type A";"Calcium-activated chloride channel protein, chordata";"Calcium-activated chloride channel, N-terminal";"von Willebrand factor A-like domain superfamily"#IPR002035;IPR004727;IPR013642;IPR036465
+3520	PF08442	3520#"Succinate--CoA synthetase, beta subunit";"ATP-grasp fold";"ATP-grasp fold, succinyl-CoA synthetase-type";"ATP-grasp fold, subdomain 1"#IPR005809;IPR011761;IPR013650;IPR013815
+3520	PF08442	3520#"Succinate--CoA synthetase, beta subunit";"ATP-grasp fold, succinyl-CoA synthetase-type";"ATP-grasp fold, subdomain 1";"Succinyl-CoA synthetase-like";"Succinyl-CoA synthetase, beta subunit, conserved site"#IPR005809;IPR013650;IPR013815;IPR016102;IPR017866
+3525	PF08477	3525#"P-loop containing nucleoside triphosphate hydrolase"#IPR027417
+3530	PF08491	3530#"Squalene epoxidase";"FAD/NAD(P)-binding domain superfamily"#IPR013698;IPR036188
+3532	PF08511	3532#"Ubiquinone biosynthesis protein COQ9";"COQ9"#IPR012762;IPR013718
+3533	PF08513	3533#"LIS1 homology motif";"LIS1, N-terminal"#IPR006594;IPR037190
+3540	PF08519	3540#"DNA polymerase III, clamp loader complex, gamma/delta/delta subunit, C-terminal";"DNA replication factor RFC1, C-terminal"#IPR008921;IPR013725
+3540	PF08519	3540#"DNA replication factor RFC1, C-terminal"#IPR013725
+3544	PF08534	3544#"Redoxin";"Thioredoxin domain";"Thioredoxin-like superfamily";"Peroxiredoxin-5-like"#IPR013740;IPR013766;IPR036249;IPR037944
+3546	PF08544	3546#"GHMP kinase, C-terminal domain";"GHMP kinase, C-terminal domain superfamily"#IPR013750;IPR036554
+3564	PF08640	3564#"HAT (Half-A-TPR) repeat";"Tetratricopeptide-like helical domain superfamily";"U3 small nucleolar RNA-associated protein 6"#IPR003107;IPR011990;IPR013949
+3568	PF08662	3568#"Translation initiation factor, beta propellor-like domain";"WD40/YVTN repeat-like-containing domain superfamily"#IPR013979;IPR015943
+3569	PF08694	3569#"Ubiquitin-fold modifier-conjugating enzyme 1";"Ubiquitin-conjugating enzyme/RWD-like"#IPR014806;IPR016135
+3574	PF08702	3574#"Fibrinogen, alpha/beta/gamma chain, coiled coil domain";"Fibrinogen alpha chain"#IPR012290;IPR037579
+3579	PF08709	3579#"Inositol 1,4,5-trisphosphate receptor";"Inositol 1,4,5-trisphosphate/ryanodine receptor";"Ryanodine receptor-related";"MIR motif";"Mir domain superfamily"#IPR000493;IPR014821;IPR015925;IPR016093;IPR036300
+3586	PF08725	3586#"Integrin beta subunit, cytoplasmic domain";"Integrin beta subunit";"Integrin beta-1 subunit"#IPR014836;IPR015812;IPR027071
+3595	PF08774	3595#"Zinc finger, Rad18-type putative";"tRNA endonuclease-like domain superfamily";"VRR-NUC domain";"Fanconi-associated nuclease 1-like"#IPR006642;IPR011856;IPR014883;IPR033315
+3596	PF08776	3596#"VASP tetramerisation";"ENA/VASP-like protein";"VASP tetramerisation domain superfamily"#IPR014885;IPR034319;IPR038023
+3598	PF08782	3598#""#NA
+3599	PF08784	3599#"Nucleic acid-binding, OB-fold";"Replication factor A protein 2";"Replication protein A, C-terminal";"Winged helix-like DNA-binding domain superfamily";"Winged helix DNA-binding domain superfamily"#IPR012340;IPR014646;IPR014892;IPR036388;IPR036390
+3602	PF08806	3602#"Selenoprotein F/M";"Thioredoxin-like superfamily";"Selenoprotein F/M superfamily"#IPR014912;IPR036249;IPR038219
+3607	PF08912	3607#"Pleckstrin homology domain";"Protein kinase C-like, phorbol ester/diacylglycerol-binding domain";"PH-like domain superfamily";"Rho binding domain";"Rho-associated protein kinase 2"#IPR001849;IPR002219;IPR011993;IPR015008;IPR029878
+3610	PF08916	3610#"PH-like domain superfamily";"Phenylalanine zipper";"SH2B adapter protein 2";"SH2B adapter protein";"Phenylalanine zipper superfamily"#IPR011993;IPR015012;IPR030520;IPR030523;IPR036290
+3646	PF09058	3646#"L27-1";"L27 domain superfamily"#IPR015143;IPR036892
+3656	PF09073	3656#"Bud22 domain";"Bud22/Serum response factor-binding protein 1"#IPR015158;IPR037393
+3661	PF09177	3661#"Target SNARE coiled-coil homology domain";"Syntaxin/epimorphin, conserved site";"SNARE";"Syntaxin 6, N-terminal"#IPR000727;IPR006012;IPR010989;IPR015260
+3663	PF09184	3663#"Protein phosphatase 4 core regulatory subunit R2"#IPR015267
+3670	PF09258	3670#"Exostosin , C-terminal";"Nucleotide-diphospho-sugar transferases"#IPR015338;IPR029044
+3684	PF09289	3684#"Osteonectin-like, conserved site";"Follistatin-like, N-terminal";"Follistatin/Osteonectin EGF domain";"SPARC"#IPR001999;IPR003645;IPR015369;IPR037641
+3700	PF09379	3700#"FERM domain";"FERM, N-terminal";"FERM conserved site";"Ubiquitin-like domain superfamily"#IPR000299;IPR018979;IPR019747;IPR029071
+3700	PF09379	3700#""#NA
+3707	PF09380	3707#""#NA
+3711	PF09429	3711#"WW domain binding protein 11"#IPR019007
+3714	PF09443	3714#"EGF-type aspartate/asparagine hydroxylation site";"Sushi/SCR/CCP domain";"EGF-like domain";"EGF-like calcium-binding domain";"EGF-like, conserved site";"EGF-like calcium-binding, conserved site";"Sushi/SCR/CCP superfamily"#IPR000152;IPR000436;IPR000742;IPR001881;IPR013032;IPR018097;IPR035976
+3716	PF09457	3716#"EF-hand domain";"EF-hand domain pair";"Rab-binding domain FIP-RBD";"FIP-RBD, C-terminal domain superfamily"#IPR002048;IPR011992;IPR019018;IPR037245
+3718	PF09497	3718#"Mediator complex, subunit Med12"#IPR019035
+3720	PF09507	3720#"DNA polymerase subunit Cdc27"#IPR019038
+3727	PF09732	3727#"Cactin, C-terminal"#IPR019134
+3731	PF09738	3731#"Leucine-rich repeat flightless-interacting protein 1/2"#IPR019139
+3734	PF09746	3734#"Membralin"#IPR019144
+3738	PF09754	3738#"Proteasome assembly chaperone 2";"Proteasome assembly chaperone 2 superfamily"#IPR019151;IPR038389
+3742	PF09766	3742#""#NA
+3745	PF09775	3745#"Keratinocyte-associated protein 2"#IPR018614
+3747	PF09787	3747#"Golgin subfamily A member 5"#IPR019177
+3748	PF09788	3748#""#NA
+3750	PF09799	3750#"Uncharacterised protein family, transmembrane-17"#IPR019184
+3751	PF09806	3751#"Cyclin-dependent kinase 2-associated protein 1/2"#IPR017266
+3752	PF09809	3752#"Ribosomal protein L27/L41, mitochondrial"#IPR019189
+3753	PF09811	3753#"Essential protein Yae1, N-terminal"#IPR019191
+3754	PF09815	3754#"XK-related protein"#IPR018629
+3755	PF09816	3755#"Transcription elognation factor  Eaf, N-terminal";"EAF family"#IPR019194;IPR027093
+3759	PF10034	3759#"Dpy-19/Dpy-19-like";"Probable C-mannosyltransferase DPY19L3"#IPR018732;IPR030039
+3760	PF10036	3760#""#NA
+3761	PF10037	3761#"Pentatricopeptide repeat";"Tetratricopeptide-like helical domain superfamily";"28S ribosomal protein S27, mitochondrial";"MRPS27/PTCD2"#IPR002885;IPR011990;IPR019266;IPR034913
+3765	PF10157	3765#"BLOC-1-related complex subunit 6"#IPR019314
+3767	PF10165	3767#"Guanine nucleotide exchange factor, Ric8"#IPR019318
+3768	PF10168	3768#""#NA
+3769	PF10174	3769#""#NA
+3774	PF10183	3774#"NADH:ubiquinone oxidoreductase, ESSS subunit"#IPR019329
+3776	PF10186	3776#"UV radiation resistance protein/autophagy-related protein 14";"C2 domain superfamily"#IPR018791;IPR035892
+3778	PF10197	3778#"CBF1-interacting co-repressor CIR, N-terminal domain"#IPR019339
+3786	PF10228	3786#"Histone PARylation factor 1"#IPR019361
+3788	PF10239	3788#"FAM98"#IPR018797
+3789	PF10240	3789#"Multivesicular body subunit 12";"UMA domain";"MABP domain"#IPR018798;IPR023340;IPR023341
+3791	PF10243	3791#"TRAF3-interacting protein 1"#IPR018799
+3792	PF10248	3792#"Myeloid leukemia factor"#IPR019376
+3793	PF10249	3793#"NADH-ubiquinone oxidoreductase, subunit 10"#IPR019377
+3795	PF10254	3795#"Phosphofurin acidic cluster sorting protein 1"#IPR019381
+3801	PF10269	3801#"Transmembrane Fragile-X-F-associated protein"#IPR019396
+3804	PF10277	3804#"Frag1/DRAM/Sfk1";"DNA damage-regulated autophagy modulator protein 2"#IPR019402;IPR032990
+3805	PF10291	3805#"Muniscin C-terminal";"AH/BAR domain superfamily";"Mu homology domain";"F-BAR domain only protein 1"#IPR018808;IPR027267;IPR028565;IPR030121
+3806	PF10309	3806#"Nucleotide-binding alpha-beta plait domain superfamily";"Nuclear cap-binding protein subunit 3"#IPR012677;IPR019416
+3815	PF10377	3815#"Autophagy-related protein 11, C-terminal"#IPR019460
+3816	PF10390	3816#""#NA
+3816	PF10390	3816#"RNA polymerase II elongation factor ELL, N-terminal";"ELL/occludin family";"RNA polymerase II elongation factor ELL2";"Winged helix DNA-binding domain superfamily"#IPR019464;IPR031176;IPR031179;IPR036390
+3823	PF10408	3823#""#NA
+3823	PF10408	3823#"Ubiquitin conjugation factor E4, core"#IPR019474
+3825	PF10409	3825#"Tensin phosphatase, C2 domain"#IPR014020
+3828	PF10421	3828#"2-5-oligoadenylate synthetase, conserved site";"2'-5'-oligoadenylate synthetase 1, domain 2/C-terminal";"2'-5'-oligoadenylate synthase";"2'-5'-oligoadenylate synthetase, domain 2 superfamily"#IPR006117;IPR018952;IPR026774;IPR038121
+3828	PF10421	3828#"2-5-oligoadenylate synthetase, N-terminal";"2'-5'-oligoadenylate synthetase 1, domain 2/C-terminal";"2'-5'-oligoadenylate synthase";"2'-5'-oligoadenylate synthetase, domain 2 superfamily"#IPR006116;IPR018952;IPR026774;IPR038121
+3833	PF10433	3833#"WD40/YVTN repeat-like-containing domain superfamily";"DNA damage-binding protein 1"#IPR015943;IPR031297
+3839	PF10495	3839#"Pericentrin/AKAP-450 centrosomal targeting domain";"A-kinase anchor protein 9/Pericentrin"#IPR019528;IPR028745
+3860	PF10558	3860#"Mitochondrial 18kDa protein"#IPR019560
+3869	PF10602	3869#"Tetratricopeptide-like helical domain superfamily";"26S proteasome regulatory subunit Rpn7/COP9 signalosome complex subunit 1";"26S Proteasome non-ATPase regulatory subunit 6"#IPR011990;IPR019585;IPR035268
+3875	PF10613	3875#"Ionotropic glutamate receptor";"Ionotropic glutamate receptor, L-glutamate and glycine-binding domain"#IPR001320;IPR019594
+3876	PF10660	3876#"Iron sulphur domain-containing, mitoNEET, N-terminal"#IPR019610
+3878	PF10744	3878#"Mediator complex, subunit Med1"#IPR019680
+3880	PF10914	3880#"EXPERA domain"#IPR033118
+3881	PF10937	3881#"Ribosomal protein S36, mitochondrial"#IPR020373
+3882	PF10961	3882#"Selenoprotein SelK/SelG"#IPR024491
+3884	PF11028	3884#"Protein of unknown function DUF2723"#IPR021280
+3885	PF11069	3885#"Protein of unknown function DUF2870"#IPR021298
+3886	PF11107	3886#"Fanconi anemia group F protein, metazoa";"Fanconi anemia group F protein";"FANCF, C-terminal domain superfamily"#IPR025825;IPR035428;IPR038505
+3887	PF11261	3887#"Interferon regulatory factor 2-binding protein 1 & 2, zinc finger"#IPR022750
+3896	PF11566	3896#"PI31 proteasome regulator,  N-terminal"#IPR021625
+3899	PF11571	3899#"Mediator complex, subunit Med27"#IPR021627
+3904	PF11616	3904#""#NA
+3907	PF11628	3907#"T-cell surface glycoprotein CD3 zeta subunit/High affinity IgE receptor gamma subunit"#IPR021663
+3908	PF11640	3908#"Serine/threonine-protein kinase ATM";"Telomere-length maintenance and DNA damage repair"#IPR015519;IPR021668
+3914	PF11788	3914#"NUDIX hydrolase-like domain superfamily";"Ribosomal protein L46";"Mitochondrial ribosomal protein L46 NUDIX"#IPR015797;IPR021757;IPR033650
+3916	PF11802	3916#"Centromere protein Cenp-K"#IPR020993
+3920	PF11841	3920#"Armadillo-like helical";"Armadillo-type fold";"Domain of unknown function DUF3361";"Engulfment and cell motility protein 2"#IPR011989;IPR016024;IPR024574;IPR030713
+3926	PF11878	3926#""#NA
+3932	PF11904	3932#"Ankyrin repeat-containing domain";"Ankyrin repeat domain-containing protein 13";"Ankyrin repeat-containing domain superfamily"#IPR020683;IPR021832;IPR036770
+3933	PF11928	3933#"Early growth response protein"#IPR021849
+3938	PF11935	3938#""#NA
+3940	PF11938	3940#"Domain of unknown function DUF3456"#IPR021852
+3943	PF11957	3943#""#NA
+3943	PF11957	3943#"THO complex, subunit THOC1"#IPR021861
+3945	PF11968	3945#"S-adenosylmethionine-dependent methyltransferase Bmt2-like";"S-adenosyl-L-methionine-dependent methyltransferase"#IPR021867;IPR029063
+3952	PF11976	3952#"Ubiquitin domain";"Rad60/SUMO-like domain";"Ubiquitin-like domain superfamily";"Sumo domain"#IPR000626;IPR022617;IPR029071;IPR033950
+3955	PF12009	3955#NotAnnotatedGold#NA
+3959	PF12020	3959#"Chemokine-like protein, FAM19A2"#IPR020350
+3960	PF12036	3960#"EGF-like domain";"EGF-like, conserved site";"NGX6/PGAP6/MYMK"#IPR000742;IPR013032;IPR021910
+3961	PF12038	3961#"Glycosyltransferase family 1, N-terminal"#IPR022701
+3971	PF12068	3971#"Domain of unknown function DUF3548"#IPR021935
+3976	PF12110	3976#"Nuclear protein 96";"Nucleoporin peptidase S59-like";"Nucleoporin Nup145"#IPR021967;IPR037665;IPR037672
+3980	PF12129	3980#"Transcription factor homeodomain, male germ-cell"#IPR021980
+3982	PF12146	3982#"Serine aminopeptidase, S33";"Alpha/Beta hydrolase fold"#IPR022742;IPR029058
+3994	PF12265	3994#""#NA
+3997	PF12287	3997#"Cytoplasmic activation/proliferation-associated protein-1 C term";"Caprin"#IPR022070;IPR028816
+4002	PF12317	4002#"Intraflagellar transport complex B protein 46"#IPR022088
+4009	PF12372	4009#"Huntingtin";"Armadillo-like helical";"Armadillo-type fold";"Huntingtin, middle-repeat";"Huntingtin family"#IPR000091;IPR011989;IPR016024;IPR024613;IPR028426
+4013	PF12424	4013#"Plasma membrane calcium transporting P-type ATPase, C-terminal";"Plasma membrane calcium-transporting ATPase 1"#IPR022141;IPR030320
+4017	PF12455	4017#"Dynein associated protein";"Dynactin subunit 1"#IPR022157;IPR027663
+4028	PF12534	4028#"LRRC8, pannexin-like TM region";"LRRC8"#IPR021040;IPR038960
+4030	PF12537	4030#""#NA
+4037	PF12584	4037#"TRAPP II complex, TRAPPC10"#IPR022233
+4046	PF12632	4046#"Vezatin";"Myosin-binding domain"#IPR026858;IPR026859
+4063	PF12701	4063#""#NA
+4069	PF12738	4069#"BRCT domain";"Guanine nucleotide exchange factor Ect2";"BRCT domain superfamily"#IPR001357;IPR026817;IPR036420
+4082	PF12796	4082#"Ankyrin repeat";"Ankyrin repeat-containing domain";"Ankyrin repeat-containing domain superfamily";"Histone-lysine N-methyltransferase EHMT2"#IPR002110;IPR020683;IPR036770;IPR038034
+4082	PF12796	4082#"Ankyrin repeat";"Ankyrin repeat-containing domain";"Ankyrin repeat-containing domain superfamily"#IPR002110;IPR020683;IPR036770
+4166	PF12998	4166#""#NA
+4167	PF12999	4167#"Glucosidase 2 subunit beta";"Glucosidase II beta subunit, N-terminal";"LDL receptor-like superfamily"#IPR026874;IPR028146;IPR036055
+4169	PF13000	4169#"Acetyl-coenzyme A transporter 1";"MFS transporter superfamily"#IPR024371;IPR036259
+4170	PF13001	4170#"Armadillo-type fold";"Proteasome component Ecm29"#IPR016024;IPR024372
+4173	PF13015	4173#""#NA
+4196	PF13193	4196#"AMP-binding enzyme, C-terminal domain";"Fatty acid transport protein 3"#IPR025110;IPR030307
+4205	PF13246	4205#""#NA
+4213	PF13324	4213#"Cyclin-D1-binding protein 1"#IPR026907
+4213	PF13324	4213#""#NA
+4217	PF13365	4217#"Peptidase S1C";"Peptidase S1, PA clan";"PDZ superfamily"#IPR001940;IPR009003;IPR036034
+4232	PF13414	4232#"Tetratricopeptide-like helical domain superfamily";"Tetratricopeptide repeat-containing domain";"Tetratricopeptide repeat";"UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110kDa subunit"#IPR011990;IPR013026;IPR019734;IPR037919
+4235	PF13415	4235#"Kelch-type beta propeller"#IPR015915
+4236	PF13417	4236#"Glutaredoxin";"Glutathione S-transferase, N-terminal";"Prostaglandin E synthase 2";"Prostaglandin E synthase 2, C-terminal";"Thioredoxin-like superfamily";"Glutathione S-transferase, C-terminal domain superfamily"#IPR002109;IPR004045;IPR034334;IPR034335;IPR036249;IPR036282
+4240	PF13424	4240#"Tetratricopeptide-like helical domain superfamily";"Tetratricopeptide repeat-containing domain";"Tetratricopeptide repeat"#IPR011990;IPR013026;IPR019734
+4248	PF13426	4248#""#NA
+4257	PF13445	4257#"B-box-type zinc finger";"Zinc finger, RING-type";"Zinc finger, RING/FYVE/PHD-type";"Zinc finger, RING-type, conserved site";"RING-type zinc-finger, LisH dimerisation motif"#IPR000315;IPR001841;IPR013083;IPR017907;IPR027370
+4277	PF13460	4277#"NAD(P)-binding domain";"NAD(P)-binding domain superfamily"#IPR016040;IPR036291
+4280	PF13476	4280#""#NA
+4283	PF13489	4283#"Methyltransferase-like";"S-adenosyl-L-methionine-dependent methyltransferase"#IPR026113;IPR029063
+4290	PF13506	4290#"Ceramide glucosyltransferase";"Nucleotide-diphospho-sugar transferases"#IPR025993;IPR029044
+4294	PF13516	4294#"Leucine-rich repeat";"Leucine-rich repeat domain superfamily"#IPR001611;IPR032675
+4295	PF13517	4295#"T-cell immunomodulatory protein"#IPR024881
+4307	PF13561	4307#"Short-chain dehydrogenase/reductase, conserved site";"NAD(P)-binding domain superfamily"#IPR020904;IPR036291
+4323	PF13621	4323#"JmjC domain";"Hypoxia-inducible factor 1-alpha inhibitor"#IPR003347;IPR027445
+4325	PF13637	4325#"Ankyrin repeat-containing domain";"Ankyrin repeat-containing domain superfamily";"G patch domain and ankyrin repeat-containing protein 1"#IPR020683;IPR036770;IPR039146
+4332	PF13639	4332#"Zinc finger, RING-type";"APC10/DOC domain";"Galactose-binding-like domain superfamily";"Zinc finger, RING/FYVE/PHD-type"#IPR001841;IPR004939;IPR008979;IPR013083
+4342	PF13673	4342#"GNAT domain";"Acyl-CoA N-acyltransferase";"Cysteine-rich protein 2-binding protein"#IPR000182;IPR016181;IPR037829
+4343	PF13676	4343#"Toll/interleukin-1 receptor homology (TIR) domain";"Death domain";"Death-like domain superfamily";"Myeloid differentiation primary response protein MyD88";"MyD88, death domain";"Toll/interleukin-1 receptor homology (TIR) domain superfamily"#IPR000157;IPR000488;IPR011029;IPR017281;IPR034249;IPR035897
+4349	PF13716	4349#"CRAL-TRIO lipid binding domain";"CRAL-TRIO lipid binding domain superfamily"#IPR001251;IPR036865
+4359	PF13771	4359#"Zinc finger, PHD-type";"Zinc finger, FYVE/PHD-type";"Zinc finger, RING/FYVE/PHD-type";"Extended PHD (ePHD) domain"#IPR001965;IPR011011;IPR013083;IPR034732
+4363	PF13774	4363#"Longin domain";"Longin-like domain superfamily"#IPR010908;IPR011012
+4370	PF13831	4370#"Zinc finger, PHD-type";"Zinc finger, FYVE/PHD-type";"Zinc finger, RING/FYVE/PHD-type"#IPR001965;IPR011011;IPR013083
+4381	PF13847	4381#"Methyltransferase domain";"Protein-lysine N-methyltransferase Efm4/METTL10";"S-adenosyl-L-methionine-dependent methyltransferase"#IPR025714;IPR026635;IPR029063
+4385	PF13855	4385#"Cysteine-rich flanking region, C-terminal";"Leucine-rich repeat";"Leucine-rich repeat, typical subtype";"Leucine-rich repeat domain superfamily"#IPR000483;IPR001611;IPR003591;IPR032675
+4385	PF13855	4385#"Leucine-rich repeat";"Leucine-rich repeat, typical subtype";"Leucine-rich repeat domain superfamily"#IPR001611;IPR003591;IPR032675
+4385	PF13855	4385#"Leucine-rich repeat";"Toll-like receptor 8";"Leucine-rich repeat domain superfamily"#IPR001611;IPR027175;IPR032675
+4385	PF13855	4385#"VWFC domain";"Leucine-rich repeat";"Leucine-rich repeat, typical subtype";"Leucine-rich repeat domain superfamily"#IPR001007;IPR001611;IPR003591;IPR032675
+4425	PF13857	4425#"Ankyrin repeat";"Ankyrin repeat-containing domain";"Ankyrin repeat-containing domain superfamily"#IPR002110;IPR020683;IPR036770
+4425	PF13857	4425#""#NA
+4428	PF13862	4428#"BCP1 family"#IPR025602
+4433	PF13874	4433#"Nucleoporin Nup54/Nup57/Nup44";"Nucleoporin Nup54, alpha-helical domain"#IPR024864;IPR025712
+4436	PF13880	4436#"N-acetyltransferase ESCO1";"N-acetyltransferase ESCO, acetyl-transferase domain"#IPR026656;IPR028009
+4437	PF13882	4437#"Neurofascin/L1/NrCAM, C-terminal domain"#IPR026966
+4465	PF13905	4465#"Thioredoxin-like fold";"Thioredoxin domain";"Thioredoxin-like superfamily"#IPR012336;IPR013766;IPR036249
+4469	PF13909	4469#"Zinc finger C2H2-type";"Zinc finger C2H2 superfamily"#IPR013087;IPR036236
+4470	PF13912	4470#"Zinc finger C2H2-type";"Zinc finger C2H2 superfamily";"Mds1 and Evi1 complex locus protein"#IPR013087;IPR036236;IPR036970
+4481	PF13913	4481#"Zinc finger C2HC domain-containing protein 1C"#IPR026104
+4490	PF13923	4490#"Zinc finger, RING/FYVE/PHD-type"#IPR013083
+4498	PF13927	4498#"Cysteine-rich flanking region, C-terminal";"Leucine-rich repeat";"Leucine-rich repeat, typical subtype";"Immunoglobulin subtype 2";"Immunoglobulin subtype";"Immunoglobulin-like domain";"Immunoglobulin I-set";"Immunoglobulin-like fold";"Leucine-rich repeat domain superfamily";"Peroxidasin";"Immunoglobulin-like domain superfamily"#IPR000483;IPR001611;IPR003591;IPR003598;IPR003599;IPR007110;IPR013098;IPR013783;IPR032675;IPR034828;IPR036179
+4525	PF13932	4525#"tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG-related";"tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG";"GidA associated domain 3";"FAD/NAD(P)-binding domain superfamily"#IPR002218;IPR004416;IPR026904;IPR036188
+4532	PF14051	4532#""#NA
+4538	PF14291	4538#"Ribonuclease H-like superfamily";"Domain of unknown function DUF4371"#IPR012337;IPR025398
+4539	PF14324	4539#NotAnnotatedGold#NA
+4554	PF14513	4554#"EF-hand domain pair";"Diacylglycerol kinase type I, N-terminal";"Diacylglycerol kinase";"DGK type I, N-terminal domain superfamily"#IPR011992;IPR029477;IPR037607;IPR038199
+4560	PF14551	4560#"DNA replication licensing factor Mcm7";"Nucleic acid-binding, OB-fold";"MCM N-terminal domain";"Mini-chromosome maintenance protein";"MCM OB domain"#IPR008050;IPR012340;IPR027925;IPR031327;IPR033762
+4568	PF14560	4568#"Ubiquitin domain";"Ubiquitin-like domain superfamily";"CAP Gly-rich domain superfamily"#IPR000626;IPR029071;IPR036859
+4571	PF14572	4571#"Phosphoribosyltransferase domain";"Ribose-phosphate pyrophosphokinase";"Phosphoribosyltransferase-like"#IPR000836;IPR005946;IPR029057
+4572	PF14580	4572#"Leucine-rich repeat";"Leucine-rich repeat, typical subtype";"Centriolin";"Leucine-rich repeat domain superfamily"#IPR001611;IPR003591;IPR028640;IPR032675
+4572	PF14580	4572#"Leucine-rich repeat";"Leucine-rich repeat, typical subtype";"Leucine-rich repeat domain superfamily"#IPR001611;IPR003591;IPR032675
+4572	PF14580	4572#"Leucine-rich repeat";"Leucine-rich repeat, typical subtype";"U2A'/phosphoprotein 32 family A, C-terminal";"Leucine-rich repeat domain superfamily"#IPR001611;IPR003591;IPR003603;IPR032675
+4572	PF14580	4572#"Scramblase"#IPR005552
+4572	PF14580	4572#"U2A'/phosphoprotein 32 family A, C-terminal";"Leucine-rich repeat domain superfamily"#IPR003603;IPR032675
+4575	PF14599	4575#"Zinc finger, CHY-type";"Zinc finger, RING/FYVE/PHD-type";"Zinc finger, CTCHY-type";"Zinc finger, CTCHY-type superfamily"#IPR008913;IPR013083;IPR017921;IPR037275
+4577	PF14604	4577#"Neutrophil cytosol factor P40";"SH3 domain";"Neutrophil cytosol factor P40, SH3 domain";"SH3-like domain superfamily";"PX domain superfamily"#IPR000919;IPR001452;IPR035541;IPR036028;IPR036871
+4577	PF14604	4577#"PB1 domain";"Neutrophil cytosol factor P40";"SH3 domain";"Phox homologous domain";"Neutrophil cytosol factor P40, PB1 domain";"Neutrophil cytosol factor 4, PX domain";"Neutrophil cytosol factor P40, SH3 domain";"SH3-like domain superfamily";"PX domain superfamily"#IPR000270;IPR000919;IPR001452;IPR001683;IPR034853;IPR034912;IPR035541;IPR036028;IPR036871
+4577	PF14604	4577#"SH3 domain";"Phox homologous domain";"SH3 and PX domain-containing protein 2B";"SH3PXD2B, SH3 domain 1";"SH3PXD2B, SH3 domain 2";"SH3-like domain superfamily";"PX domain superfamily";"SH3PXD2, PX domain"#IPR001452;IPR001683;IPR030512;IPR035477;IPR035478;IPR036028;IPR036871;IPR037961
+4591	PF14608	4591#"Zinc finger, CCCH-type"#IPR000571
+4595	PF14634	4595#"Zinc finger, RING-type";"Six-bladed beta-propeller, TolB-like";"NHL repeat, subgroup";"Zinc finger, RING/FYVE/PHD-type";"Zinc finger, RING-type, conserved site"#IPR001841;IPR011042;IPR013017;IPR013083;IPR017907
+4600	PF14664	4600#""#NA
+4602	PF14670	4602#"EGF-like domain";"Fibronectin type III";"Membrane attack complex component/perforin (MACPF) domain";"Astrotactin";"Fibronectin type III superfamily"#IPR000742;IPR003961;IPR020864;IPR026995;IPR036116
+4602	PF14670	4602#"EGF-like domain";"Neuregulin, C-terminal";"Immunoglobulin subtype 2";"Immunoglobulin subtype";"Immunoglobulin-like domain";"EGF-like, conserved site";"Immunoglobulin I-set";"Immunoglobulin-like fold";"Neuregulin-1";"Immunoglobulin-like domain superfamily"#IPR000742;IPR002154;IPR003598;IPR003599;IPR007110;IPR013032;IPR013098;IPR013783;IPR018250;IPR036179
+4602	PF14670	4602#"Immunoglobulin subtype 2";"Immunoglobulin subtype";"Immunoglobulin-like domain";"Immunoglobulin I-set";"Immunoglobulin-like fold";"Neuregulin-1";"Immunoglobulin-like domain superfamily"#IPR003598;IPR003599;IPR007110;IPR013098;IPR013783;IPR018250;IPR036179
+4608	PF14671	4608#"Dual specificity protein phosphatase CDC14A";"Protein-tyrosine phosphatase-like";"Dual specificity/tyrosine protein phosphatase, N-terminal"#IPR026068;IPR029021;IPR029260
+4619	PF14712	4619#"Snapin";"Snapin/Pallidin/Snn1"#IPR017246;IPR028119
+4624	PF14719	4624#"PTB/PI domain";"PH-like domain superfamily";"Phosphotyrosine interaction domain containing 1";"PID1, PTB domain"#IPR006020;IPR011993;IPR039112;IPR039114
+4625	PF14724	4625#"Sphingomyelin phosphodiesterase 4"#IPR024129
+4626	PF14727	4626#"Parathyroid hormone-responsive B1";"PTHB1, N-terminal domain"#IPR026511;IPR028073
+4628	PF14728	4628#"Parathyroid hormone-responsive B1";"PTHB1, C-terminal domain"#IPR026511;IPR028074
+4633	PF14752	4633#"Receptor for retinol uptake STRA6"#IPR026612
+4639	PF14782	4639#"Ciliary BBSome complex subunit 2, C-terminal domain"#IPR029333
+4642	PF14791	4642#"DNA polymerase beta, thumb domain";"DNA polymerase, thumb domain superfamily"#IPR029398;IPR037160
+4653	PF14839	4653#"Tumour protein p53-inducible nuclear protein";"Tumor protein p53-inducible nuclear protein 1"#IPR029431;IPR029556
+4654	PF14843	4654#"Furin-like cysteine-rich domain";"Growth factor receptor cysteine-rich domain superfamily";"Receptor L-domain superfamily"#IPR006211;IPR009030;IPR036941
+4661	PF14893	4661#"Paraneoplastic antigen Ma";"Paraneoplastic antigen Ma1"#IPR026523;IPR026528
+4665	PF14935	4665#"Transmembrane protein 138"#IPR024133
+4666	PF14936	4666#"Tumor protein p53-inducible protein 11"#IPR028266
+4667	PF14938	4667#"NSF attachment protein";"Tetratricopeptide-like helical domain superfamily"#IPR000744;IPR011990
+4672	PF14959	4672#"Gamma-secretase-activating protein family";"Gamma-secretase-activating protein, C-terminal domain"#IPR026172;IPR028010
+4684	PF15009	4684#"Stimulator of interferon genes protein";"Stimulator of interferon genes protein, C-terminal";"Stimulator of interferon genes protein, C-terminal domain superfamily"#IPR029158;IPR033952;IPR038623
+4692	PF15068	4692#"Refilin family"#IPR028215
+4694	PF15130	4694#"Protein of unknown function DUF4566"#IPR027903
+4695	PF15133	4695#"Protein of unknown function DUF4569"#IPR027869
+4707	PF15250	4707#"Raftlin family"#IPR028169
+4710	PF15255	4710#"FAM21/CAPZIP domain"#IPR029341
+4721	PF15302	4721#"Putative monooxygenase p33MONOX"#IPR026759
+4730	PF15376	4730#"Protein of unknown function DUF4603"#IPR027871
+4740	PF15501	4740#"Nuclear protein MDM1"#IPR029136
+4745	PF15684	4745#"Active regulator of SIRT1"#IPR023262
+4764	PF15907	4764#""#NA
+4765	PF15925	4765#"SOSS complex subunit C"#IPR031821
+4776	PF15982	4776#"Transmembrane protein 135, N-terminal domain"#IPR031926
+4776	PF15982	4776#"Transmembrane protein 135";"Transmembrane protein 135, N-terminal domain"#IPR026749;IPR031926
+4780	PF16014	4780#"Histone deacetylase complex subunit SAP130";"Histone deacetylase complex subunit SAP130, C-terminal domain"#IPR024137;IPR031963
+4790	PF16044	4790#"Protein of unknown function DUF4796"#IPR032016
+4791	PF16045	4791#"LIS1 homology motif"#IPR006594
+4796	PF16094	4796#"Proteasome assembly chaperone 1"#IPR016565
+4797	PF16114	4797#"Succinate--CoA synthetase, beta subunit";"ATP-citrate lyase/succinyl-CoA ligase";"ATP-grasp fold";"ATP-grasp fold, succinyl-CoA synthetase-type";"ATP-grasp fold, subdomain 1";"Succinyl-CoA synthetase-like";"Succinyl-CoA synthetase, beta subunit, conserved site";"Succinate--CoA ligase [ADP-forming] subunit beta, mitochondrial"#IPR005809;IPR005811;IPR011761;IPR013650;IPR013815;IPR016102;IPR017866;IPR034723
+4797	PF16114	4797#"Succinyl-CoA synthetase-like";"Succinyl-CoA synthetase, beta subunit, conserved site";"ATP-citrate synthase, citrate-binding domain"#IPR016102;IPR017866;IPR032263
+4813	PF16186	4813#"Armadillo-like helical";"Armadillo-type fold";"Atypical Arm repeat"#IPR011989;IPR016024;IPR032413
+4824	PF16212	4824#""#NA
+4824	PF16212	4824#"P-type ATPase";"Cation-transporting P-type ATPase, N-terminal";"Cation-transporting P-type ATPase, C-terminal";"P-type ATPase, subfamily IIA, PMR1-type";"P-type ATPase, A domain superfamily";"P-type ATPase, phosphorylation site";"HAD superfamily";"P-type ATPase, transmembrane domain superfamily";"P-type ATPase, cytoplasmic domain N";"Calcium-transporting ATPase type 2C member 1";"HAD-like superfamily"#IPR001757;IPR004014;IPR006068;IPR006413;IPR008250;IPR018303;IPR023214;IPR023298;IPR023299;IPR030336;IPR036412
+4832	PF16300	4832#"Coronin";"WD40/YVTN repeat-like-containing domain superfamily";"Coronin 1C"#IPR015505;IPR015943;IPR027333
+4837	PF16399	4837#""#NA
+4839	PF16401	4839#"Domain of unknown function DUF5009"#IPR032176
+4841	PF16420	4841#"Ubiquitin-like modifier-activating enzyme Atg7";"Ubiquitin-like modifier-activating enzyme Atg7, N-terminal"#IPR006285;IPR032197
+4847	PF16457	4847#"Phosphoinositide phospholipase C family";"Pleckstrin homology domain";"PH-like domain superfamily";"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2"#IPR001192;IPR001849;IPR011993;IPR028381
+4848	PF16470	4848#"Peptidase S8, pro-domain";"Peptidase S8, pro-domain superfamily"#IPR032815;IPR038466
+4854	PF16471	4854#"JNK-interacting protein, leucine zipper II";"RH2 domain"#IPR032486;IPR034744
+4876	PF16533	4876#"Stromal interaction molecule 1";"Stromal interaction molecule, Orai1-activating region";"Stromal interaction molecule"#IPR030463;IPR032393;IPR037608
+4882	PF16551	4882#"Protein quaking, putative nuclear localisation signal";"K Homology domain, type 1 superfamily"#IPR032367;IPR036612
+4883	PF16558	4883#NotAnnotatedGold#NA
+4887	PF16574	4887#"Centrosomal protein of 290kDa";"Centrosomal protein of 290kDa, coiled-coil region"#IPR026201;IPR032321
+4895	PF16641	4895#NotAnnotatedGold#NA
+4898	PF16661	4898#""#NA
+4901	PF16672	4901#"Ragulator complex protein LAMTOR5"#IPR024135
+4918	PF16746	4918#NotAnnotatedGold#NA
+4918	PF16746	4918#"Phosphatidylinositol-specific phospholipase C, X domain";"AH/BAR domain superfamily"#IPR000909;IPR027267
+4930	PF16881	4930#"Lipoyl synthase";"Elp3/MiaB/NifB";"Radical SAM";"Aldolase-type TIM barrel";"Lipoyl synthase, N-terminal"#IPR003698;IPR006638;IPR007197;IPR013785;IPR031691
+4932	PF16884	4932#"GroES-like superfamily"#IPR011032
+4932	PF16884	4932#""#NA
+4937	PF16906	4937#""#NA
+4939	PF16969	4939#"Signal recognition particle subunit SRP68"#IPR026258
+4943	PF17045	4943#"Centrosomal protein of 63kDa";"Centrosomal protein Cep63/Deup1, N-terminal"#IPR029608;IPR031470
+4945	PF17048	4945#"Neutral/alkaline nonlysosomal ceramidase";"Neutral/alkaline non-lysosomal ceramidase, C-terminal";"Neutral ceramidase, C-terminal domain superfamily"#IPR006823;IPR031331;IPR038445
+4950	PF17135	4950#""#NA
