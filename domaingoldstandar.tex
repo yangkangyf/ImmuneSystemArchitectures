@@ -9,6 +9,7 @@
 \usepackage{hyperref}
 \usepackage[square,numbers,sort&compress]{natbib}
 \newcommand{\TODO}[1]{\begingroup\color{red}#1\endgroup}
+\newcommand{\PFS}[1]{\begingroup\color{blue}#1\endgroup}
 \usepackage{booktabs}
 \usepackage{color}
 \usepackage{booktabs}
@@ -55,113 +56,213 @@ on complete protein? or splitting  by protein domains?}
 
 \section{Introduction}
 
-The challenge of having a feasible and fast tool to characterize the sequences 
-of many new genomes of non-model organisms has been increasing the need to 
-develop strategies that extract the maximum information of the gen architecture. 
-This trend has become the last purpose of the gene annotation where given a 
-candidate coding sequence its biological function is assigned to further 
-functional or evolutionary studies \cite{aken2016ensembl} 
-\cite{birney2004overview} \cite{ashburner2000gene} \cite{tatusov2000cog} 
-\cite{tatusova2016ncbi}. 
+\PFS{In the last years genomes of non-model organisms have become available
+  at a rapidly accelerating rate. As a consequence, their annotation and
+  comparative analysis has become a task limited by time and resource
+  consumption. Gene architectures serve as a convenient and relatively
+  easily accessible source of information about an organism's metabolic and
+  regulatory capabilities, and allow the efficient extraction of candidates
+  for subsequent, more detailed functional or evolutionary studies
+  \cite{aken2016ensembl,birney2004overview,ashburner2000gene,tatusov2000cog,tatusova2016ncbi}.}
+  
+\PFS{Conceptually, gene annotation comprises two tasks: first the
+  identification of genomic subregions that code for proteins, and second
+  the assignment of functionality. Often, both issues are addressed
+  simultaneously, using sequence similarity to identify homologs of a query
+  with known function and the same time using homology as argument to
+  transfer functional annotation. The complexity of eukaryotic genes, with
+  its extensive use of alternative splicing and alternative transcription
+  starts, however, makes the identification of homologs, and in particular
+  the distinction of orthologs and paralogs, a non-trivial, and often
+  surprisingly difficult task \cite{yandell2012}. In addition,
+  homology-based annotation is by definition limited to know query sets of
+  sufficiently well-characterized genes, typically from model organisms.}
 
-Nevertheless, to annotate, researchers tackle two main computational problems, 
-one to detect first on genomic subregions the corresponding coding regions and 
-then after or simultaneously assign functionality. Due to the broad complexity 
-of the regulation of the eukaryotic gene expression which relies on 
-the recognition of alternative motifs of subsequences that ends in alternatives 
-transcripts is today more harder the definition of a gene boundary making the 
-annotation a more complex task than CDS predictions\cite{yandell2012}. 
+\PFS{Modern gene annotation pipelines therefore are built around
+  probabilistic models that are trained on known gene structures. The first
+  generation of such tools, such as \texttt{GENSCAN} \cite{genescan}
+  primarily focused on promoter signals, intron/exon boundaries, and
+  polyadenylation signals \cite{claverie}. State-of-the-art tools, such as
+  \texttt{AUGUSTUS} \cite{augustus} or \texttt{GeneID} \cite{Blanco:2007}
+  accept diverse types of training data, in particular RNA-seq based
+  transcript information. The underlying model can be implemented in very
+  different ways: while \texttt{AUGUSTUS} is a generalized Generalized
+  Hidden Markov, a rules-based heuristic is used in \texttt{GeneID}. In the
+  case of a select few model organisms, gene annotation has evolved into
+  major, long-term data curation projects such as VEGA-HAVANA and GENCODE
+  for the human genome. \TODO{*** Include a couple of more sentences and a
+    more inclusive list of the major curation projects ***} Well curated
+  gene models are in important resource also for training gene models for
+  application to related species.}
 
-At the begining, gene annotation was based on ab initio methods that screened 
-for  specific signals  in eukaryotic genes, such as TATA box signals, 
-exon/intronic definitions and polyadenylation signals \cite{claverie}. Tools 
-like GENSCAN introduced originally a probabilistic model of human gene structure 
-\cite{genescan}. Then, in 2005 a great advance in the annotation processes was 
-got by the introduction of the tool AUGUSTUS \cite{augustus} which allows quite 
-accurately gene prediction and today there are versions that can be trained by 
-integrating RNAseq data, short cDNAs etc. AUGUSTUS corresponds to the 
-Generalized Hidden Markov Model. Other methods as GeneID \cite{Blanco:2007} uses 
-a rules-based heuristic method to assemble the typical signals of genes in a 
-product or model more likely. In the post-genomic era, gene annotation 
-pipelines have been handled the heterogeneity of the available expression 
-information of ESTs, RNA-seq or proteomic data in two main ways: by manual 
-curation as such as the VEGA-HAVANA project of the Wellcome Trust Sanger 
-Institute and by using automated process or hybrids methods which integrate 
-homologies with coherent patterns of known genes of other species to 
-characterize all the functional elements that make up the genes, ending with the 
-assignment of a biological function to a genomic sequence \cite{aken2016ensembl} 
-\cite{birney2004overview}. 
-For the case of vertebrates as well as some tunicate species which are the 
-closest relatives to vertebrates \cite{delsuc2006} their genomes have undergone 
-a rigorous annotation process widely accepted in comparative genomics of 
-vertebrates such as the annotation pipeline of the European molecular biology 
-laboratory (EMBL) that integrates the experimental information of 70 vertebrate 
-and other metazoan species on the genome browser Ensembl \cite{aken2016ensembl}.
+\PFS{The annotation of genes and open reading frames is complemented by
+  systematic efforts to establish homology -- and in particular orthology
+  -- information \TODO{ref}. This in turn is forms the basis for defining a
+  function-based gene nomenclatures \TODO{cite HGNC}, and efforts to
+  achieve a systematic, orthogy-aware nomenclature at least across some
+  important clades \TODO{** mention VGNC for vertebrated **}
+  \cite{aken2016ensembl} \cite{birney2004overview}. As a group, vertebrate
+  genomes certainly feature the most thoroughly curated and and most
+  complete functional annotation.}
 
-In this work we focused on some species of the sub-phylum Tunicata since are 
-key organisms to study the evolution of the immune system due to its 
-phylogenetic position on the Tree of Life just before the biological phenomenon 
-known as the immunology big-bang that gave rise to the origin of the Adaptive 
-Immune System \cite{bernstein1996}. Additionaly, this group is characterized by 
-the great diversity of style of life and the world widely distribution in 
-ecological niches that might force them to design different immune response to 
-survive in their habitats. Since tunicates can live as solitary sessile or 
-pelagic or to live in colonies they have complex relationships between the 
-environment, so diversity in the composition of gene of the immune system is 
-expected  \cite{carroll2008evo, berna2014evolutionary}. 
+In this work we focus on the sub-phylum Tunicata. As sister group of the
+vertebrates they occupy a key position in the Tree of Life to understand
+the prerequisites for key innovations in the vertebrate lineage. Here, we
+are in particular concerned with the evolution of the immune system just
+before the ``immunology big-bang'' \cite{bernstein1996} that gave rise to
+the origin of the Adaptive Immune System. Like other invertebrates,
+Tunicata rely on innate immunity only \cite{franchi2017}. However, they
+feature a great diversity of life-styles and the world widely distribution
+in ecological niches that may have forced them to evolve different immune
+responses to ensure survival in their respective habitats. Since tunicates
+can live as solitary sessile or pelagic or to live in colonies they have
+complex relationships between the environment, so diversity in the
+composition of gene of the immune system is expected
+\cite{carroll2008evo,berna2014evolutionary}.
 
-Nevertheless, the global importance of this group, the genomic studies are 
-scarce as the comparative as well. So far, the genomes of three solitary 
-ascidians have been annotated: the sessiles \textit{Ciona savignyi} and 
-\textit{Ciona intestinalis} mapped on its $14$ chromosomes \cite{dehal2002draft, 
-small2007haplome} and the pelagic \textit {Oikopleura dioica} 
-\cite{denoeud2010plasticity}, \cite{seo2001miniature}. However, for colonial 
-ascidians, only the genome of \textit{Botrillus schlosseri} mapped to $13$ 
-chromosomes \cite{voskoboynik2013genome} and recently the detection of ncRNAs in 
-the draft genome of the carpet sea squirt \textit{Didemnum vexillum} 
-\cite{velandia2016a} are available.  From preliminary comparative genomics 
-between some tunicates and genomes of some chordates have been identified 
-expansion of gene families by events of local duplications, but also gene loss. 
-Some genes conserved between the amphioxus and the human have also been 
-identified based on the tunicate genome of \textit{C. intestinalis}. The 
-complexity of the genomic organization of those tunicates has led to different 
-authors to formulate the idea of the existence in their evolution of processes 
-of genomic re-structuring in all or some tunicates genomes 
-\cite{putnam2008amphioxus}. In addition, since the rate of evolution of other 
-chordates has been constant, it is considered that in the tunicates evolution 
-rates are high and therefore specific patterns of organization of all their 
-genes are expected \cite{putnam2008amphioxus, berna2014evolutionary}. Based on 
-complex events that might shape the variety of tunicate genome structure we 
-posit that they might act not only in the evolution of the genome architecture 
-but also in the evolution of complex systems like the immune system. To study 
-that idea we based first on Paalsson, et al. 2007 who claimed that the immune 
-system comes from a few ancestral proteins, selected and fixed throughout the 
-evolution and proposed that the entire immune system has been based 
-fundamentally from nine ancestral domains which are conserved throughout the 
-evolution of multiple organisms \cite{paalsson2007building}. We propose in this 
-survey to use protein domains as the most elementary evolutionary module of the 
-immune system to built a picture of domain architectures turnover that might 
-resemble the effect of evolutionary driving force that led to the complexity of 
-the immune system in tunicates. Since domain variability implies new protein 
-organizations (without considering that there is also re-ordering of exons), 
-then it is extremely interesting to describe if the domain variability would 
-have favored the creation of new protein architectures that could be positively 
-selected in tunicates\cite{paalsson2007building}. Therefore data used in this 
-survey are built on the domains of receptors associated with the innate 
-immune system of known canonical architectures. Our alternative  homology 
-search is 
-proposed to complement the classical homologies searches like BLAST which are 
-not very sensitive to traceback homologues relationships among gene with complex 
-structures\cite{Buckley64}. In some genes of the inmune system is not rare to 
-find copies and reshuffling of domains. In this survey we searched for canonical 
-and like-canonical protein domain architecture of the innate immune system genes 
-since similar to other invertebrates, tunicates rely only on innate 
-immunology\cite{franchi2017}. We designed different comparison strategies for a 
-flexible screening of architectures since tandem copies or rearrangement of 
-domains have been reported in the evolution of domains in proteins 
-\cite{Forslund2012}.
+Despite the global importance of this group, genomic studies and
+comparative analyses have remained scarce so far. So far only the genomes
+of three solitary ascidians have been annotated in substantial depth so
+far: the sessiles \textit{Ciona savignyi} and \textit{Ciona intestinalis}
+mapped on its $14$ chromosomes \cite{dehal2002draft, small2007haplome} and
+the pelagic \textit{Oikopleura dioica}
+\cite{denoeud2010plasticity,seo2001miniature}. More recently, the genome of
+a single colonial ascidians, \textit{Botrillus schlosseri} (assembled to
+$13$ chromosomes) \cite{voskoboynik2013genome} has become available.
+The carpet sea squirt \textit{Didemnum vexillum} has been sequenced and
+analyzed for its ncRNAs \cite{velandia2016a}. To-date only a very
+fragmented draft assembly is available, however.
+
+Comparisons between tunicate and other chordate genomes have identified
+both expansions of gene families but also substantial losses
+\TODO{References needed}. The genomic organization of tunicates, as
+exemplified by \textit{Ciona} and \textit{Oikopleura} shows substantial
+differences compared to both vertebrates and amphioxus, the common outgroup
+to the Olfactores \cite{delsuc2006}, and has led different authors to
+formulate the idea of the existence in their evolution of processes of
+genomic re-structuring in all or some tunicates genomes
+\cite{putnam2008amphioxus}.  \TODO{since you say ``different authors'', we
+  need several reference here!}  While the other chordate lineages have
+maintained a fairly constant rate of evolution, tunicates feature a
+systematically accelerated rate of evolution which likely is linked to
+specific patterns of organization of their entire gene complement
+\cite{putnam2008amphioxus, berna2014evolutionary}.
+
+We suspect, therefore, that the chordate immune system also has undergone
+substantial changes, restructuring, and diversification. As a first step
+towards understanding the evolution of the chordate immune system we
+generate her a global overview based on the hypothesis of Paalsson \emph{et
+  al.} \cite{paalsson2007building} that the immune system derives from a
+small number of ancestral proteins comprising nine ancestral domains.  We
+therefore focus in this survey on protein domains as the most elementary
+evolutionary building blocks of the immune system and investigate the
+turnover of domain architectures as a means to capture at a global level
+the evolutionary driving force that led to the complexity of the immune
+system in tunicates. In particular, we are interested in the emergence of
+novel protein architectures throughout the Tunicata. In order to focus on
+gene families that are likely associated with immune system functions, we
+consider genes constructed from domains of receptors that are known to be
+associated with the innate immune system. It is not uncommon in inmune
+system is not rare to find copies and reshuffling of domains
+\cite{Forslund2012} \TODO{more references}.  We therefore employ here a
+domain-based approach to homology search to overcome the limitations of
+classical homology search schemes in the face of domain-level changes.
+
+\section*{Theory}
+
+We represent each protein $a$ as an ordered sequence $P(a)$ of domains. In
+practice the domains depend on one of several annotation systems, a point
+to which we will return below. Two proteins can then be compared a
+different levels of stringency:
+\begin{itemize}
+\item[\textbf{O}] \TODO{What exactly is the match criterion?: Do you need
+    that every domain of the query
+    $Q=(Q_1,Q_2,\dots,Q_n)\in \boldsymbol{\mathfrak{G}}$ matches the
+    domain list $(P_1(a),P_2(a),\dots,P_m(a))$ of a target protein AND that
+    the order is preserved? }
+\item[\textbf{D}] \TODO{For the writing below you require that the target
+    shares two distinct domains with the query list $Q$? Is this correct?
+    Or do you mean that you need at least one match for all distinct
+    domains and consider only hits with at least two distinct
+    domains. Again I could not parse your writing below.} By construction
+  every match w.r.t.\ \textbf{O} is also a match w.r.t\ \textbf{D}.
+\item[\textbf{B}] The domain-based comparisons are complemented by a simple
+  \texttt{blast}-based sequence comparison between the query protein
+  sequences used to construct $Q$ and the target protein
+  sequence. Parameter settings are described in Materials \& Methods.
+\item[\textbf{A}] \TODO{I cannot understand how this is different from
+    \textbf{O}. } 
+\end{itemize}
+
+
+The different annotation systems and comparison methods have been
+integrated into a single workflow summarized in
+Fig.~\ref{fig:workflow_golden}. The query $\boldsymbol{\mathfrak{G}}$
+comprises for each protein $a$ a domain lists $P_m(a)$ that is specific for
+each domain annotation system $m$, that is, one of \textsl{Pfam},
+\textsl{TIGRFAM}, \textsl{Superfamily}, \textsl{Gene3D} and
+\textsl{Panther}. For details on the construction of the domain lists we
+refer to Materials \& Methods. In the initial step, comparisons are
+performed separately for the different annotation systems $m$. 
+
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[scale=0.17]{figures/completeALLWorkflow3}
+\caption{\textbf{A.} Workflow to generate $\boldsymbol{\mathfrak{G}}$. Innate 
+immune system databases were used to obtain the accession numbers of the 
+related proteins. Next, domain annotation was accesed throught \texttt{biomaRt} 
+from \texttt{Ensembl} (v.81). Post processing include reduction of the 
+consecutive repetitions of protein domains and finally, the definition of 
+$\boldsymbol{\mathfrak{G}}$. \textbf{B.} Methodological steps to obtain innate 
+immune system candidates based on $\boldsymbol{\mathfrak{G}}$ definition. 
+Used programs from software packages (HHMer and blast) and in-house 
+\texttt{Perl} scripts have been highlighted in blue. In green are indicated the 
+\texttt{Perl} scripts that perform the reduction function and each step of 
+comparison of architectures (A, B, D, O).}  
+\label{workflow_golden}
+\end{center}
+\end{figure}
 
 \section*{Methods and Materials}
+
+
+\subsection*{Comparison Strategies} \label{comparison}
+
+List of gene architecture from tunicates and the other chordates were
+greedily \TODO{what does greedily mean here?} compared with elements from
+$\boldsymbol{\mathfrak{G}}$ by each $m$ using the followed strategies
+\textbf{O}rder, \textbf{D}isorder, \textbf{B}last homology and
+\textbf{A}rquitecture or (\textbf{O, D, B, A}) respectively.
+
+\subsection*{Reduction system} \label{reduction}
+
+\TODO{This subsection need complete rewriting. First the Theory section
+  needs to be cleaned up.} 
+
+To set out our work, we have defined a reference \textsl{gold standard set}. 
+Our survey started building a raw set of domains as follow: let be $G^{a}_{m} = 
+(P_i,P_{i+1},\ldots,P_{i+k})$ a sub-sequence of ordered domains $P$ in each 
+protein $a$ of the innate immune system of organisms taking from 
+\texttt{InnateDB} and \texttt{Insect Innate Immunity Database} (IIID) which have 
+been annotated by $m$ annotation system given by $m$ where $m$ belongs to one of 
+the following sources \textsl{Pfam}, \textsl{TIGRFAM}, \textsl{Superfamily}, 
+\textsl{Gene3D} and \textsl{Panther}. Since each domain $P$ has a starting $s_k$ 
+and ending $e_k$ point in $a$, we defined an order $P_i \prec P_j$ if and only 
+if $s_i \le s_j$. Next, we join all the domains in each protein $a$ by each 
+annotation $m$ as \[\bigcup G^{a}_{m}\]
+
+Since is very commonly found copies of domains in proteins of the immune 
+system, consecutive domains in $G^{a}_{m}$ were reduced to a list of unique 
+representative domains $P$ if $P_i = P_{i+1}$. From now on we will refer to this 
+new set as \textsl{gold standard set} $\boldsymbol{\mathfrak{G}}$ (Figure 
+\ref{workflow_golden}A).
+  
+
+
+
+
+
+
 
 \subsection*{Protein domain architectures of reference}
 We started with annotated and curated genes from \texttt{InnateDB} 
@@ -210,36 +311,9 @@ of chosen Chordates. As an outgroup, a set of $2$ species from Echinorderms:
 additionally $1$ Hemichordate specie: \textit{Saccoglossus kowalevskii} were 
 studied. The protein database sources are described in Additional File 1. 
 
-\subsection*{Reduction system} \label{reduction}
-To set out our work, we have defined a reference \textsl{gold standard set}. 
-Our survey started building a raw set of domains as follow: let be $G^{a}_{m} = 
-(P_i,P_{i+1},\ldots,P_{i+k})$ a sub-sequence of ordered domains $P$ in each 
-protein $a$ of the innate immune system of organisms taking from 
-\texttt{InnateDB} and \texttt{Insect Innate Immunity Database} (IIID) which have 
-been annotated by $m$ annotation system given by $m$ where $m$ belongs to one of 
-the following sources \textsl{Pfam}, \textsl{TIGRFAM}, \textsl{Superfamily}, 
-\textsl{Gene3D} and \textsl{Panther}. Since each domain $P$ has a starting $s_k$ 
-and ending $e_k$ point in $a$, we defined an order $P_i \prec P_j$ if and only 
-if $s_i \le s_j$. Next, we join all the domains in each protein $a$ by each 
-annotation $m$ as \[\bigcup G^{a}_{m}\]
 
-Since is very commonly found copies of domains in proteins of the immune 
-system, consecutive domains in $G^{a}_{m}$ were reduced to a list of unique 
-representative domains $P$ if $P_i = P_{i+1}$. From now on we will refer to this 
-new set as \textsl{gold standard set} $\boldsymbol{\mathfrak{G}}$ (Figure 
-\ref{workflow_golden}A).
-
-\subsection*{Comparison Strategies} \label{comparison}
-In order to detect in tunicate species architectures from the \textsl{gold 
-standard set} $\boldsymbol{\mathfrak{G}}$, we designed four scanning 
-strategies. For practical reasons pair-wise comparisons were performed between 
-the same annotation system $m$, i.e., architectures from \textsl{Pfam} in one 
-tunicate specie were compared to the subset of architecture $m$ of type 
-\textsl{Pfam} on the protein $a$ in $\boldsymbol{\mathfrak{G}}$. List of gene 
-architecture from tunicates and the other chordates were greedily compared with 
-elements from $\boldsymbol{\mathfrak{G}}$ by each $m$ using the followed 
-strategies \textbf{O}rder, \textbf{D}isorder, \textbf{B}last homology and 
-\textbf{A}rquitecture or (\textbf{O, D, B, A}) respectively.
+\TODO{the following is rather incomprehensible. The concepts need to be
+  described in the Theory section. see there.} 
 
 \subsubsection*{Architecture Comparison Strategies}
 \subsubsection*{\textit{\textbf{O}rder comparison}}
@@ -478,23 +552,6 @@ the pipeline \TODO{Name of my pipeline!}.
 %\item The identity have to be equal to $100$\%. 
 %\end{itemize}
 
-\begin{figure}[htb]
-\begin{center}
-\includegraphics[scale=0.17]{figures/completeALLWorkflow3}
-\caption{\textbf{A.} Workflow to generate $\boldsymbol{\mathfrak{G}}$. Innate 
-immune system databases were used to obtain the accession numbers of the 
-related proteins. Next, domain annotation was accesed throught \texttt{biomaRt} 
-from \texttt{Ensembl} (v.81). Post processing include reduction of the 
-consecutive repetitions of protein domains and finally, the definition of 
-$\boldsymbol{\mathfrak{G}}$. \textbf{B.} Methodological steps to obtain innate 
-immune system candidates based on $\boldsymbol{\mathfrak{G}}$ definition. 
-Used programs from software packages (HHMer and blast) and in-house 
-\texttt{Perl} scripts have been highlighted in blue. In green are indicated the 
-\texttt{Perl} scripts that perform the reduction function and each step of 
-comparison of architectures (A, B, D, O).}  
-\label{workflow_golden}
-\end{center}
-\end{figure}
 
 %\begin{figure}[htbp]
 %\begin{center}

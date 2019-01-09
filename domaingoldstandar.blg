@@ -1,49 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: domaingoldstandar.aux
 The style file: abbrvnat.bst
 Database file #1: biblio.bib
 Database file #2: otherbibio.bib
 Warning--I didn't find a database entry for ""
-You've used 31 entries,
+You've used 32 entries,
             2773 wiz_defined-function locations,
-            842 strings with 12310 characters,
-and the built_in function-call counts, 19466 in all, are:
-= -- 1646
-> -- 1618
+            850 strings with 12575 characters,
+and the built_in function-call counts, 20035 in all, are:
+= -- 1700
+> -- 1648
 < -- 12
-+ -- 544
-- -- 513
-* -- 1874
-:= -- 3117
-add.period$ -- 109
-call.type$ -- 31
-change.case$ -- 255
-chr.to.int$ -- 31
-cite$ -- 62
-duplicate$ -- 653
-empty$ -- 1239
-format.name$ -- 560
-if$ -- 3924
++ -- 554
+- -- 522
+* -- 1930
+:= -- 3204
+add.period$ -- 114
+call.type$ -- 32
+change.case$ -- 261
+chr.to.int$ -- 32
+cite$ -- 64
+duplicate$ -- 674
+empty$ -- 1285
+format.name$ -- 570
+if$ -- 4044
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 32
-newline$ -- 179
-num.names$ -- 124
-pop$ -- 444
+missing$ -- 33
+newline$ -- 186
+num.names$ -- 128
+pop$ -- 452
 preamble$ -- 1
-purify$ -- 225
+purify$ -- 230
 quote$ -- 0
-skip$ -- 565
+skip$ -- 580
 stack$ -- 0
-substring$ -- 731
-swap$ -- 55
+substring$ -- 769
+swap$ -- 56
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 336
+type$ -- 347
 warning$ -- 0
-while$ -- 141
+while$ -- 145
 width$ -- 0
-write$ -- 442
+write$ -- 459
 (There was 1 warning)
