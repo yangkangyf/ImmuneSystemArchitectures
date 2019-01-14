@@ -10,6 +10,7 @@
 \usepackage[square,numbers,sort&compress]{natbib}
 \newcommand{\TODO}[1]{\begingroup\color{red}#1\endgroup}
 \newcommand{\PFS}[1]{\begingroup\color{blue}#1\endgroup}
+\newcommand{\CAVH}[1]{\begingroup\color{green}#1\endgroup}
 \usepackage{booktabs}
 \usepackage{color}
 \usepackage{booktabs}
@@ -26,7 +27,6 @@
 \usepackage{lineno}
 \linenumbers
 
-\newcommand{\CAVH}[1]{\begingroup\color{red}#1\endgroup}
 \newcommand{\ADD}[1]{\begingroup\color{blue}#1\endgroup}
 \begin{document}
 \title{A new strategy to characterize the domain architecture structure of 
@@ -142,13 +142,13 @@ to the Olfactores \cite{delsuc2006}, and has led different authors to
 formulate the idea of the existence in their evolution of processes of
 genomic re-structuring in all or some tunicates genomes
 \cite{putnam2008amphioxus}.  \TODO{since you say ``different authors'', we
-  need several reference here!}  While the other chordate lineages have
+  need several reference here!}  While the other chm.31051ordate lineages have
 maintained a fairly constant rate of evolution, tunicates feature a
 systematically accelerated rate of evolution which likely is linked to
 specific patterns of organization of their entire gene complement
 \cite{putnam2008amphioxus, berna2014evolutionary}.
 
-We suspect, therefore, that the chordate immune system also has undergone
+We suspect, therefore, that the chordate immune sysm.31051tem also has undergone
 substantial changes, restructuring, and diversification. As a first step
 towards understanding the evolution of the chordate immune system we
 generate her a global overview based on the hypothesis of Paalsson \emph{et
@@ -164,46 +164,54 @@ gene families that are likely associated with immune system functions, we
 consider genes constructed from domains of receptors that are known to be
 associated with the innate immune system. It is not uncommon in inmune
 system is not rare to find copies and reshuffling of domains
-\cite{Forslund2012} \TODO{more references}.  We therefore employ here a
+\cite{Forslund2012} \TODO{more references}. We therefore employ here a
 domain-based approach to homology search to overcome the limitations of
 classical homology search schemes in the face of domain-level changes.
 
 \section*{Theory}
 
 We represent each protein $a$ as an ordered sequence $P(a)$ of domains. In
-practice the domains depend on one of several annotation systems, a point
-to which we will return below. Two proteins can then be compared a
-different levels of stringency:
+practice the domains depend on one of several annotation systems, \CAVH{but 
+in this study only annotations from \texttt{Pfam} were considered}. Two 
+proteins can then be compared a different levels of stringency (\CAVH{after the 
+application of the domain reduction, explained in section \textit{Reduction 
+System}}):
 \begin{itemize}
-\item[\textbf{O}] \TODO{What exactly is the match criterion?: Do you need
+\item[\textbf{O}rder] \TODO{What exactly is the match criterion?: Do you need
     that every domain of the query
     $Q=(Q_1,Q_2,\dots,Q_n)\in \boldsymbol{\mathfrak{G}}$ matches the
     domain list $(P_1(a),P_2(a),\dots,P_m(a))$ of a target protein AND that
     the order is preserved? }
-\item[\textbf{D}] \TODO{For the writing below you require that the target
+    \CAVH{Refers to the comparison of the $Q_n$ and $Pn(a)$ domains. It is 
+required that order is preserved and also the domain lists have to be the 
+same. Repetitions from query and subject are represented by one domain.}
+\item[\textbf{Disorder}] \TODO{For the writing below you require that the target
     shares two distinct domains with the query list $Q$? Is this correct?
     Or do you mean that you need at least one match for all distinct
     domains and consider only hits with at least two distinct
     domains. Again I could not parse your writing below.} By construction
   every match w.r.t.\ \textbf{O} is also a match w.r.t\ \textbf{D}.
-\item[\textbf{B}] The domain-based comparisons are complemented by a simple
+  \CAVH{The second case refers to set comparisons between $Q_n$ and $P_m(a)$. 
+The number of common elements ($Q_n \cap P_m(a)$) must be the same number of 
+elements in $Q_n$ and in $P_m(a)$. In this case, the order does not be 
+preserved.} 
+\item[\textbf{Blast}] The domain-based comparisons are complemented by a simple
   \texttt{blast}-based sequence comparison between the query protein
   sequences used to construct $Q$ and the target protein
   sequence. Parameter settings are described in Materials \& Methods.
-\item[\textbf{A}] \TODO{I cannot understand how this is different from
-    \textbf{O}. } 
+\item[\textbf{Architecture}] \TODO{I cannot understand how this is different 
+from \textbf{O}.} \CAVH{Because Order and Disorder strategies consider 
+proteins with $> 2$ domains, it is required to detect those candidates with 
+only one domain family. Here was used the implementation by the RADS program. 
+That allow the comparison of architectures and provide the comparison of 
+domain strings based on a Pfam v.30 identity matrix score \cite{Terrapon:2014}. 
+It is useful to detect not only homodomain proteins, but also homology 
+relations between domains with different accession numbers.}  
 \end{itemize}
-
 
 The different annotation systems and comparison methods have been
 integrated into a single workflow summarized in
-Fig.~\ref{fig:workflow_golden}. The query $\boldsymbol{\mathfrak{G}}$
-comprises for each protein $a$ a domain lists $P_m(a)$ that is specific for
-each domain annotation system $m$, that is, one of \textsl{Pfam},
-\textsl{TIGRFAM}, \textsl{Superfamily}, \textsl{Gene3D} and
-\textsl{Panther}. For details on the construction of the domain lists we
-refer to Materials \& Methods. In the initial step, comparisons are
-performed separately for the different annotation systems $m$. 
+Fig.~\ref{fig:workflow_golden}.
 
 \begin{figure}[htb]
 \begin{center}
@@ -219,7 +227,7 @@ Used programs from software packages (HHMer and blast) and in-house
 \texttt{Perl} scripts have been highlighted in blue. In green are indicated the 
 \texttt{Perl} scripts that perform the reduction function and each step of 
 comparison of architectures (A, B, D, O).}  
-\label{workflow_golden}
+\label{fig:workflow_golden}
 \end{center}
 \end{figure}
 
@@ -240,24 +248,21 @@ $\boldsymbol{\mathfrak{G}}$ by each $m$ using the followed strategies
   needs to be cleaned up.} 
 
 To set out our work, we have defined a reference \textsl{gold standard set}. 
-Our survey started building a raw set of domains as follow: let be $G^{a}_{m} = 
+Our survey started building a raw set of domains as follow: let be $G^{a} = 
 (P_i,P_{i+1},\ldots,P_{i+k})$ a sub-sequence of ordered domains $P$ in each 
 protein $a$ of the innate immune system of organisms taking from 
 \texttt{InnateDB} and \texttt{Insect Innate Immunity Database} (IIID) which have 
-been annotated by $m$ annotation system given by $m$ where $m$ belongs to one of 
-the following sources \textsl{Pfam}, \textsl{TIGRFAM}, \textsl{Superfamily}, 
-\textsl{Gene3D} and \textsl{Panther}. Since each domain $P$ has a starting $s_k$ 
-and ending $e_k$ point in $a$, we defined an order $P_i \prec P_j$ if and only 
-if $s_i \le s_j$. Next, we join all the domains in each protein $a$ by each 
-annotation $m$ as \[\bigcup G^{a}_{m}\]
+been annotated by \textit{Pfam} database. Since each domain $P$ has a starting 
+$s_k$ and ending $e_k$ point in $a$, we defined an order $P_i \prec P_j$ if and 
+only if $s_i \le s_j$. Next, we join all the domains in each protein $a$ as 
+\[\bigcup G^{a}\]
 
 Since is very commonly found copies of domains in proteins of the immune 
-system, consecutive domains in $G^{a}_{m}$ were reduced to a list of unique 
+system, consecutive domains in $G^{a}$ were reduced to a list of unique 
 representative domains $P$ if $P_i = P_{i+1}$. From now on we will refer to this 
 new set as \textsl{gold standard set} $\boldsymbol{\mathfrak{G}}$ (Figure 
 \ref{workflow_golden}A).
   
-
 
 
 
@@ -328,7 +333,7 @@ we defined the number $Q^{a}_{m}{success(o)}$
 \begin{equation}
   Q^a_{m}{success(o)}=\left\{
   \begin{array}{@{}ll@{}}
-    1, & \textsl{if}\ P_{i} \leq \mathcal{P}_{k} \\
+    1, & \textsl{if}\ P_{i} = \mathcal{P}_{k} \\
     0, & \textsl{otherwise}
   \end{array}\right.
 \end{equation} 
@@ -347,7 +352,11 @@ Now the rules are defined as follows:
 \begin{equation}
   Q^a_{m}{success(d)}=\left\{
   \begin{array}{@{}ll@{}}
-    1, & Q^a_{m} \subseteq  \boldsymbol{\mathfrak{G}} \quad and \quad \left|Q^a_{m}\right| \geq 2 \\
+    %1, & Q^a_{m} \subseteq  \boldsymbol{\mathfrak{G}} \quad and \quad 
+%\left|Q^a_{m}\right| \geq 2 \\ Re-defined it was wrong written.
+    1, & \left|Q^a_{m} \cap \boldsymbol{\mathfrak{G}}\right| = 
+\left|Q^a_{m}\right| = \left|\boldsymbol{\mathfrak{G}}\right| \quad and \quad 
+\left|Q^a_{m}\right| \geq 2 \\
     0, & \textsl{otherwise}
   \end{array}\right.
 \end{equation}
