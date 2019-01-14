@@ -37,9 +37,6 @@ proteins of the innate inmune system in tunicate species}
 Brown, Adriaan Gittenberger, \\ Peter F. Stadler and Clara I. 
 Berm\'{u}dez-Santana}
 
-% Use \authorrunning{Short Title} for an abbreviated version of
-% your contribution title if the original one is too long
-%\date{}
 
 \maketitle
 
@@ -54,7 +51,7 @@ on complete protein? or splitting  by protein domains?}
 \item Adapt draft to journal template...\TODO{Which one?}. 
 \end{itemize}
 
-\section{Introduction}
+\section*{Introduction}
 
 \PFS{In the last years genomes of non-model organisms have become available
   at a rapidly accelerating rate. As a consequence, their annotation and
@@ -148,7 +145,7 @@ systematically accelerated rate of evolution which likely is linked to
 specific patterns of organization of their entire gene complement
 \cite{putnam2008amphioxus, berna2014evolutionary}.
 
-We suspect, therefore, that the chordate immune sysm.31051tem also has undergone
+We suspect, therefore, that the chordate immune system also has undergone
 substantial changes, restructuring, and diversification. As a first step
 towards understanding the evolution of the chordate immune system we
 generate her a global overview based on the hypothesis of Paalsson \emph{et
@@ -182,36 +179,36 @@ System}}):
     $Q=(Q_1,Q_2,\dots,Q_n)\in \boldsymbol{\mathfrak{G}}$ matches the
     domain list $(P_1(a),P_2(a),\dots,P_m(a))$ of a target protein AND that
     the order is preserved? }
-    \CAVH{Refers to the comparison of the $Q_n$ and $Pn(a)$ domains. It is 
-required that order is preserved and also the domain lists have to be the 
-same. Repetitions from query and subject are represented by one domain.}
+    \CAVH{Refers to the comparison of the $Q$ and $P(a)$ domains. It is 
+required that order and the domain lists are preserved, too. Repetitions from 
+query and subject are represented by one domain.}
 \item[\textbf{Disorder}] \TODO{For the writing below you require that the target
     shares two distinct domains with the query list $Q$? Is this correct?
     Or do you mean that you need at least one match for all distinct
     domains and consider only hits with at least two distinct
     domains. Again I could not parse your writing below.} By construction
   every match w.r.t.\ \textbf{O} is also a match w.r.t\ \textbf{D}.
-  \CAVH{The second case refers to set comparisons between $Q_n$ and $P_m(a)$. 
-The number of common elements ($Q_n \cap P_m(a)$) must be the same number of 
-elements in $Q_n$ and in $P_m(a)$. In this case, the order does not be 
+  \CAVH{The Disorder case refers to set comparisons between $Q$ and $P(a)$. 
+The number of common elements ($Q \cap P(a)$) must be the same number of 
+elements in $Q$ and in $P(a)$. In this case, the order does not be 
 preserved.} 
 \item[\textbf{Blast}] The domain-based comparisons are complemented by a simple
   \texttt{blast}-based sequence comparison between the query protein
   sequences used to construct $Q$ and the target protein
   sequence. Parameter settings are described in Materials \& Methods.
 \item[\textbf{Architecture}] \TODO{I cannot understand how this is different 
-from \textbf{O}.} \CAVH{Because Order and Disorder strategies consider 
-proteins with $> 2$ domains, it is required to detect those candidates with 
-only one domain family. Here was used the implementation by the RADS program. 
-That allow the comparison of architectures and provide the comparison of 
-domain strings based on a Pfam v.30 identity matrix score \cite{Terrapon:2014}. 
-It is useful to detect not only homodomain proteins, but also homology 
-relations between domains with different accession numbers.}  
+from \textbf{O}.} \CAVH{Because Order and Disorder strategies works with 
+proteins with $> 2$ domain types (heterodomain proteins), it is required to 
+detect those candidates with only one domain family (homodomain proteins). 
+Here, was used the implementation by the \texttt{RADS} program  
+\cite{Terrapon:2014}. The string of domains comparisons are based on 
+an identity matrix score build from Pfam v.30. It is useful to detect not only 
+homodomain proteins, but also homology relations between domains with different 
+accession numbers.}  
 \end{itemize}
 
-The different annotation systems and comparison methods have been
-integrated into a single workflow summarized in
-Fig.~\ref{fig:workflow_golden}.
+The different annotation systems and comparison methods have been integrated 
+into a single workflow summarized in Figure \ref{fig:workflow_golden}.
 
 \begin{figure}[htb]
 \begin{center}
@@ -226,13 +223,13 @@ immune system candidates based on $\boldsymbol{\mathfrak{G}}$ definition.
 Used programs from software packages (HHMer and blast) and in-house 
 \texttt{Perl} scripts have been highlighted in blue. In green are indicated the 
 \texttt{Perl} scripts that perform the reduction function and each step of 
-comparison of architectures (A, B, D, O).}  
+comparison of architectures (A, B, D, O). \TODO{Clean with new and correct 
+definitions.}}  
 \label{fig:workflow_golden}
 \end{center}
 \end{figure}
 
 \section*{Methods and Materials}
-
 
 \subsection*{Comparison Strategies} \label{comparison}
 
@@ -261,14 +258,10 @@ Since is very commonly found copies of domains in proteins of the immune
 system, consecutive domains in $G^{a}$ were reduced to a list of unique 
 representative domains $P$ if $P_i = P_{i+1}$. From now on we will refer to this 
 new set as \textsl{gold standard set} $\boldsymbol{\mathfrak{G}}$ (Figure 
-\ref{workflow_golden}A).
+\ref{fig:workflow_golden}A).
   
 
-
-
-
-
-
+  
 \subsection*{Protein domain architectures of reference}
 We started with annotated and curated genes from \texttt{InnateDB} 
 \cite{Breuer01012013} and \texttt{Insect Innate Immunity Database} (IIID) 
@@ -325,47 +318,48 @@ studied. The protein database sources are described in Additional File 1.
 
 To trace back similar architecture organizations between annotated genes in 
 tunicates with the architectures in the \textsl{gold standard set}, tunicate 
-domain architectures were represented as query sets  $Q^{a}_{m} = 
+domain architectures were represented as query sets  $Q(a) = 
 (\mathcal{P}_k,\mathcal{P}_{k+1},\ldots,\mathcal{P}_n)$ and are defined as a 
-sub-sequence of ordered domains $\mathcal{P}$ in each protein $a$ by $m$ like  
-was previously defined. Comparing the order between $P_i$s and $\mathcal{P}_i$s 
-we defined the number $Q^{a}_{m}{success(o)}$
+sub-sequence of ordered domains $\mathcal{P}$ in each protein $a$. Comparing 
+the order between $P_i$s and $\mathcal{P}_i$s we defined the number 
+$Q(a){success}(o)$
+
 \begin{equation}
-  Q^a_{m}{success(o)}=\left\{
+  Q(a){success(o)}=\left\{
   \begin{array}{@{}ll@{}}
     1, & \textsl{if}\ P_{i} = \mathcal{P}_{k} \\
     0, & \textsl{otherwise}
   \end{array}\right.
 \end{equation} 
 
-If $Q^a_{m}{success(o)} = 1$ we say that exist in $\boldsymbol{\mathfrak{G}}$ 
+If $Q(a){success(o)} = 1$ we say that exist in $\boldsymbol{\mathfrak{G}}$ 
 an architecture organization preserving order equal to an architecture 
-organization $Q^{a}_{m}$. If $Q^a_{m}{success(o)} = 0$ then we say those 
+organization $Q(a)$. If $Q(a){success(o)} = 0$ then we say those 
 architectures are not related.
 
 \subsubsection*{\textit{\textbf{D}isorder comparison}}
 Since rearrangements of domains are also expected we used a second more 
-flexible comparison between elements of $Q^{a}_{m}$ and 
+flexible comparison between elements of $Q(a)$ and 
 $\boldsymbol{\mathfrak{G}}$ without considering order in $\mathcal{P}$ domains. 
 Now the rules are defined as follows:
 
 \begin{equation}
-  Q^a_{m}{success(d)}=\left\{
+  Q(a){success(d)}=\left\{
   \begin{array}{@{}ll@{}}
     %1, & Q^a_{m} \subseteq  \boldsymbol{\mathfrak{G}} \quad and \quad 
 %\left|Q^a_{m}\right| \geq 2 \\ Re-defined it was wrong written.
-    1, & \left|Q^a_{m} \cap \boldsymbol{\mathfrak{G}}\right| = 
-\left|Q^a_{m}\right| = \left|\boldsymbol{\mathfrak{G}}\right| \quad and \quad 
-\left|Q^a_{m}\right| \geq 2 \\
+    1, & \left|Q^a \cap \boldsymbol{\mathfrak{G}}\right| = 
+\left|Q^a\right| = \left|\boldsymbol{\mathfrak{G}}\right| \quad and \quad 
+\left|Q^a\right| \geq 2 \\
     0, & \textsl{otherwise}
   \end{array}\right.
 \end{equation}
 
-If $Q^a_{m}{success(d)} = 1$ we say that exist in $\boldsymbol{\mathfrak{G}}$ 
-an architecture composition similar to an architecture organization $Q^{a}_{m}$. 
-If $Q^a_{m}{success(d)} = 0$ then we say those architectures are not related. 
+If $Q(a){success(d)} = 1$ we say that exist in $\boldsymbol{\mathfrak{G}}$ 
+an architecture composition similar to an architecture organization $Q(a)$. 
+If $Q(a){success(d)} = 0$ then we say those architectures are not related. 
 Note that here the order of domains  is not a constrain to classify a query set 
-$Q^a_{m}$ as success.
+$Q(a)$ as success.
 
 \subsubsection*{\textbf{B}last homology comparison}
 A classical homology strategy with \texttt{blastp} was used \cite{Korf:2003}. 
@@ -380,7 +374,7 @@ blastall -p blastp -d <DB> -i <QUERY> -f 9 -F `m S' -M BLOSUM45 -e 100 -b
 were filtered candidate homologous if they satisfied:
 \begin{itemize}
 \item E-value $\leq 0.001$.
-\item Coverage to query length $\geq 60$ \%.
+\item Coverage to query length $\geq 60$\%.
 \item Identity $\geq 30$\%.
 \end{itemize}
 
