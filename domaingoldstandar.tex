@@ -668,8 +668,10 @@ those genomes, in Table \ref{table:distribution_prot} are referenced as
 \textsl{Ciro} and \textsl{Oidi} in parenthesis, respectively} and with 
 \texttt{AUGUSTUS} for \textit{D. vexillum}. Finally, the last group is composed 
 by the outgroup species from hemichordates: \textit{S.\ kowalevskii} and from 
-echinoderms: \textit{P.\ miniata} and \textit{S.\ purpuratus}, where the 
-\textbf{ABDO} predictions have been calculated applying the automated 
+echinoderms: \textit{P.\ miniata} and \textit{S.\ purpuratus} and the species 
+from tunicates that have available annotations from protein sequences 
+(\textit{M.\ occidentalis}, \textit{M.\ oculata} and \textit{B.\ leachii}) 
+where the \textbf{ABDO} predictions have been calculated applying the automated 
 pipeline \TODO{NAME\_PIPELINE} generated in this study.
 
 At the same time, Table \ref{table:distribution_prot} summarizes the final 
@@ -677,20 +679,23 @@ innate immune system candidates, based on homology architecture strategies
 (\textbf{ABDO}), which have been reported independently, too. The final number 
 of innate immune system proteins set is described on column \textbf{Total Prot. 
 ISS}, which was obtained after merging steps on the ABDO results. 
-
+%Following values based on the calculated numbers from: supportFileProteins.xlsx
 When all the strategies were applied, always the B strategy reported higher 
 frequencies of protein candidates in comparison to the O or D; and those 
 results are more similar to the A strategy, which does not have a previous 
 reduction step. In overall, those results show a highest distribution from 
-annotated immune system proteins in vertebrates (median = $63.49$\% $\pm 
-4.87$, n=3), in comparison to tunicates (median = $31.88$\% $\pm 22.27$, n=12), 
-cephalochordates ($43.14$\%, n=1), and the outgroup composed by hemichordates 
-($42.89$\%, n=1) and echinoderms (median = $45.15$\% $\pm 11.56$, n=2). High 
+annotated immune system proteins in vertebrates (median = $53.06$\% $\pm 
+2.91$, n=3), in comparison to tunicates (median = $27.15$\% $\pm 20.97$, n=12), 
+cephalochordates ($16.69$\%, n=1), and the outgroup composed by hemichordates 
+($41.32$\%, n=1) and echinoderms (median = $43.85$\% $\pm 12.08$, n=2). High 
 standard deviation in tunicates are a consequence of the inclusion of the new 
 draft genomes (from \textit{C.\ oblonga} and \textit{P.\ viridis}), where the 
 prediction of genes was \textsl{de novo} by \texttt{GeneID}. In this context, 
 only considering the tunicates genomes that had a previous annotation, the 
-estimated values changed: (median =$40.21$\% $\pm 13.37$, n=8).
+estimated values changed: (median =$36.65$\% $\pm 13.55$, n=8). \CAVH{Inside 
+this clade, through colonial (median=$37.28$\% $\pm 18.57$) and solitary 
+($37.92$\% $\pm 11.98$) species there is not significant differences on the 
+medians (Kruskal-Wallis rank sum test, $p=0.8815, \alpha=0.05$).}
 
 \begin{sidewaystable}
 \small
@@ -863,14 +868,15 @@ and $4 = (ABDO)$; that is $10$ from $15$ possible combinations, because $(AO,
 BO)$ always map to $(ADO, BDO)$, due $D \subseteq O$ and additionally, $B$ has 
 not been considered at all because this comparison does not represent a pure 
 architecture relation, due complete sequence is used in the pairwise alignment 
-against $\boldsymbol{\mathfrak{G}}$ protein sequences. At the same time, 
-this described distribution of relationships against 
+against $\boldsymbol{\mathfrak{G}}$ protein sequences. 
+
+At the same time, this described distribution of relationships against 
 $\boldsymbol{\mathfrak{G}}$ proteins shows a highest number of proteins that 
 have been detected as innate immune system candidates by only $1$ architecture 
-strategy. Additionally, the number of candidates that have been detected with 
-all the strategies (set $4$) reported frequencies $\leq 5000$ proteins on the 
+strategy. The number of candidates that have been detected with 
+all the strategies (set $4$) reported frequencies $\leq 3100$ proteins on the 
 subject species, reporting the highest distribution on the specie \textit{D.\ 
-rerio}. This group represents, along all the comparisons, the most conserved 
+rerio}. This group represents, along all the comparisons the most conserved 
 set of immune proteins respect to the defined $\boldsymbol{\mathfrak{G}}$. 
 
 Considering in overall the immune system proteins along all the studied 
