@@ -590,8 +590,8 @@ the pipeline \TODO{Name of my pipeline!}.
 proteins}
 In order to detect orthologous groups among innate immune system candidates, 
 proteins that reported the same architecture relationships respect to the gold 
-standard proteins, were compared with \texttt{ProteinOrtho} 
-(v.5.16) \cite{Lechner2011}, as follows:
+standard proteins, were compared using \texttt{ProteinOrtho} (v.5.16) \cite{Lechner2011}, 
+as follows:
 
 %In order to detect orthology relationships among immune system candidates, CDS 
 %sequences that correspond to the protein domains related to the immune system 
@@ -610,20 +610,32 @@ proteinortho5.pl -force -graph -clean -keep -step=3
 -project=<name-project> <fasta files>
 \end{lstlisting}
 
-Detected 1:1 or co-orthologous relationships between pre-defined groups of 
-orthology were obtained with \texttt{Perl} script. At the same time, available 
-annotation from $\boldsymbol{\mathfrak{G}}$ were obtained from \texttt{Ensembl} 
-using \texttt{biomaRt}. For protein candidates that belongs from studied 
-species and shared orthologous relations with a $\boldsymbol{\mathfrak{G}}$ 
-protein, the retrieved annotation from from \texttt{Ensembl} and 
-\texttt{Interpro} accession numbers were associated and reported.
+As described earlier (Figure \ref{fig:FrecEstrat}A), studied species could be grouped
+into $5$ clades: echinorderms, hemichordates, cephalochordates (CE), tunicates(TU) and vertebrates(VE); which have been used as a reference to make orthology comparisons. In this case, the species that belong
+from echinoderms and hemichordates have been designed as \textsl{Outgroup} (OU) and 
+$\boldsymbol{\mathfrak{G}}$  species (GO) have been always considered, in order to create orthology
+comparisons as follows:
+\begin{itemize}
+ \item TTO1: OU, CE, TU, VE, GO. (All species and Golden).
+ \item TTO2: CE, TU, VE, GO. (Chordata and Golden).
+ \item TTO3: CE, TU, GO. (Cephalochordata, Tunicata and Golden).
+ \item TTO4: TU, VE, GO. (Vertebrata, Tunicata and Golden).
+ \item TTO5: TU, GO. (Tunicata and Golden).
+\end{itemize}
+
+For all of the defined treatments (TTOs), detected 1:1 and co-orthologous relationships between 
+pre-defined architecture groups of orthology were obtained with a \texttt{Perl} script.
+
+At the same time, available annotation from $\boldsymbol{\mathfrak{G}}$ were obtained from 
+\texttt{Ensembl} using \texttt{biomaRt}.For protein candidates that belongs from studied 
+species and shared orthologous relations with a $\boldsymbol{\mathfrak{G}}$ protein, the 
+retrieved annotation from from \texttt{Ensembl} and \texttt{Interpro} accession numbers were 
+associated and reported.
 
 \subsection*{Gain and losses of domains}
 
-Derived from our orthologous relationships we obtained raw and family-specific 
-presence/absence matrices of domains. The combined presence/absence matrices 
-were subjected to analysis with Count \cite{csuros2010}, reconstructing the 
-family history by Dollo parsimony. The phylogenetic distribution of this species 
+Reconstruction of family history using Dollo's parsimony was achieved with \texttt{Count} \cite{csuros2010}, using the orthology results. The presence/absence matrices were obtained using
+a \texttt{Perl} script and the The phylogenetic distribution of this species 
 were obtained from \TODO{[71]} for tunicates, and for the other organisms from 
 Ensembl compara \TODO{[72]}.
 
