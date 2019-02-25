@@ -593,14 +593,6 @@ proteins that reported the same architecture relationships respect to the gold
 standard proteins, were compared using \texttt{ProteinOrtho} (v.5.16) \cite{Lechner2011}, 
 as follows:
 
-%In order to detect orthology relationships among immune system candidates, CDS 
-%sequences that correspond to the protein domains related to the immune system 
-%were compared. With the identification of the orthology sets, the number of 
-%accession that have been associated to the correspondent mRNAs and with the 
-%associated sequence, CDSs for each protein was retrieved, thereby a strategy 
-%with the CDS's fragments where applied running \texttt{ProteinOrtho} v.5.16. 
-%\cite{Lechner2011} using the \texttt{Poff} extension of synteny, as follows:
-
 \begin{lstlisting}[language=bash, breaklines=true]
 proteinortho5.pl -force -graph -clean -keep -project=<name-project> 
 -step=1 <fasta files>
@@ -643,7 +635,7 @@ Ensembl compara \TODO{[72]}.
 
 \subsection*{Global distribution of domains}
 
-A total of $8846$ genes associated with the innate immune system were recovered 
+A total of $8846$ annotated genes associated with the innate immune system were retrieved 
 from \texttt{InnateDB}, of which $7043$ and $1803$ belong to human and mouse 
 respectively. After interfaced these records with Ensembl Genome Browser a total 
 of $35136$ and $5179$ proteins were identified. Next, to integrate domains 
@@ -653,24 +645,24 @@ $393$ ($368$), \textsl{A. mellifera} $170$($106$), \textsl{D. melanogaster}
 $298$($242$), \textsl{A. gambiae} $366$ ($333$) and \textsl{A. pisum} 
 $85$($81$), the number in parenthesis corresponds to the \textsl{bone fide} 
 annotation in \texttt{Ensembl}. Finally the domain structure was traced back 
-with \texttt{Biomart} in \texttt{Ensembl}. With the final set of domains we 
-built the \textsl{gold standard} set $\boldsymbol{\mathfrak{G}}$ as described 
-in Additional File 2. 
+with \texttt{biomaRt} in \texttt{Ensembl}. Then, as described in Additional File 2, 
+\textsl{gold standard} set ($\boldsymbol{\mathfrak{G}}$) was conformed.
 
 \subsection*{\textbf{ABDO} strategy comparisons of domains} \label{subODB}
 
-The distribution of genes and proteins that belong from \textsl{gold standard set} 
-$\boldsymbol{\mathfrak{G}}$ is shown on Additional File 2: Table 1, where most 
-of the current innate immune system proteins belongs from human ($84.74$\%) and 
-mouse ($12.51$\%). In order to compare $\boldsymbol{\mathfrak{G}}$ to the query 
-species, the previously explained \textbf{ABDO} strategies were applied. As 
-shown in Additional File 1: Table 1, exists $4$ different groups of 
-species: those ones that have been annotated in \texttt{Ensembl} as: 
+The number of genes and proteins that have been included into $\boldsymbol{\mathfrak{G}}$ 
+is described in Additional File 2: Table 1. In general, most of the current 
+annotations belongs from human ($84.74$\%) and mouse ($12.51$\%) and inside the 
+annotation of insects, \TODO{XXX} is the most frequent. Those candidates were used 
+as query arquitectures that have been compared through previously described \textbf{ABDO} 
+strategies to the subject species (Additional File 1: Table1). Taking advantage of the
+current annotation state is possible to group the query species as follows:
+1) those ones that have been annotated in \texttt{Ensembl} as
 \textit{C.\ robusta}, \textit{C.\ savignyi}, \textit{P.\ marinus}, \textit{D.\ 
-rerio} and \textit{L.\ chalumnae}. Also, those ones that have gene and 
+rerio} and \textit{L.\ chalumnae}. Also, 2) those ones that have gene and 
 protein annotations but, in independent databases and without the prediction 
-of domains, as: \textit{B.\ floridae}, \textit{B.\ schlosseri} and \textit{O.\ 
-dioica}. The other third one is composed by those genomes that have a \textsl{de 
+of domains, like \textit{B.\ floridae}, \textit{B.\ schlosseri} and \textit{O.\ 
+dioica}. The 3) group is composed by those genomes that have a \textsl{de 
 novo} assembly, as: \textit{D.\ vexillum}, \textit{C.\ oblonga} and 
 \textit{P.\ viridis}, which did not reported predictions of genes or 
 proteins, then this prediction were performed as described in Methods and 
@@ -678,7 +670,7 @@ Materials with the \texttt{GeneID} program using the previously constructed
 gene models from \textit{C.\ robusta} and \textit{O.\ dioica}\footnote{For 
 those genomes, in Table \ref{table:distribution_prot} are referenced as 
 \textsl{Ciro} and \textsl{Oidi} in parenthesis, respectively} and with 
-\texttt{AUGUSTUS} for \textit{D. vexillum}. Finally, the last group is composed 
+\texttt{AUGUSTUS} for \textit{D. vexillum}. Finally, the last group 4) is composed 
 by the outgroup species from hemichordates: \textit{S.\ kowalevskii} and from 
 echinoderms: \textit{P.\ miniata} and \textit{S.\ purpuratus} and the species 
 from tunicates that have available annotations from protein sequences 
