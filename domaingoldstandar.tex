@@ -638,50 +638,60 @@ Ensembl compara \TODO{[72]}.
 A total of $8846$ annotated genes associated with the innate immune system were retrieved 
 from \texttt{InnateDB}, of which $7043$ and $1803$ belong to human and mouse 
 respectively. After interfaced these records with Ensembl Genome Browser a total 
-of $35136$ and $5179$ proteins were identified. Next, to integrate domains 
-from the source \texttt{Insect Innate Immunity Database} (IIID) a total of 
-$1312$ proteins were recovered distributed as follows: \textsl{N. vitripennis} 
-$393$ ($368$), \textsl{A. mellifera} $170$($106$), \textsl{D. melanogaster} 
-$298$($242$), \textsl{A. gambiae} $366$ ($333$) and \textsl{A. pisum} 
-$85$($81$), the number in parenthesis corresponds to the \textsl{bone fide} 
-annotation in \texttt{Ensembl}. Finally the domain structure was traced back 
-with \texttt{biomaRt} in \texttt{Ensembl}. Then, as described in Additional File 2, 
-\textsl{gold standard} set ($\boldsymbol{\mathfrak{G}}$) was conformed.
+of $35136$ and $5179$ proteins were identified. Next, to integrate annotations from
+the source \texttt{Insect Innate Immunity Database} (IIID) a total of $1312$ proteins were
+recovered and were accessed as follows: \textsl{N. vitripennis} $393$ ($368$), 
+\textsl{A. mellifera} $170$($106$), \textsl{D. melanogaster} $298$($242$), \textsl{A. gambiae}
+$366$ ($333$) and \textsl{A. pisum} $85$($81$), the number in parenthesis corresponds to 
+the \textsl{bone fide} annotation in \texttt{Ensembl}. Finally the domain structure was 
+traced back with \texttt{biomaRt} in \texttt{Ensembl}. Then, as described in Additional 
+File 2, \textsl{gold standard} set ($\boldsymbol{\mathfrak{G}}$) was conformed.
 
 \subsection*{\textbf{ABDO} strategy comparisons of domains} \label{subODB}
 
 The number of genes and proteins that have been included into $\boldsymbol{\mathfrak{G}}$ 
 is described in Additional File 2: Table 1. In general, most of the current 
 annotations belongs from human ($84.74$\%) and mouse ($12.51$\%) and inside the 
-annotation of insects, \TODO{XXX} is the most frequent. Those candidates were used 
-as query arquitectures that have been compared through previously described \textbf{ABDO} 
-strategies to the subject species (Additional File 1: Table1). Taking advantage of the
-current annotation state is possible to group the query species as follows:
-1) those ones that have been annotated in \texttt{Ensembl} as
+annotation of insects, \textit{N. vitripennis} ($33.14$\%) is the most frequent. 
+Those candidates were used as query arquitectures that have been compared through previously 
+described \textbf{ABDO} strategies to the subject species (Additional File 1: Table1). 
+Taking advantage of the current annotation state is possible to group the query 
+species as follows: 1) those ones that have been annotated in \texttt{Ensembl} as
 \textit{C.\ robusta}, \textit{C.\ savignyi}, \textit{P.\ marinus}, \textit{D.\ 
-rerio} and \textit{L.\ chalumnae}. Also, 2) those ones that have gene and 
-protein annotations but, in independent databases and without the prediction 
-of domains, like \textit{B.\ floridae}, \textit{B.\ schlosseri} and \textit{O.\ 
-dioica}. The 3) group is composed by those genomes that have a \textsl{de 
-novo} assembly, as: \textit{D.\ vexillum}, \textit{C.\ oblonga} and 
-\textit{P.\ viridis}, which did not reported predictions of genes or 
-proteins, then this prediction were performed as described in Methods and 
-Materials with the \texttt{GeneID} program using the previously constructed 
-gene models from \textit{C.\ robusta} and \textit{O.\ dioica}\footnote{For 
-those genomes, in Table \ref{table:distribution_prot} are referenced as 
-\textsl{Ciro} and \textsl{Oidi} in parenthesis, respectively} and with 
-\texttt{AUGUSTUS} for \textit{D. vexillum}. Finally, the last group 4) is composed 
-by the outgroup species from hemichordates: \textit{S.\ kowalevskii} and from 
-echinoderms: \textit{P.\ miniata} and \textit{S.\ purpuratus} and the species 
-from tunicates that have available annotations from protein sequences 
-(\textit{M.\ occidentalis}, \textit{M.\ oculata} and \textit{B.\ leachii}) 
-where the \textbf{ABDO} predictions have been calculated applying the automated 
-pipeline \TODO{NAME\_PIPELINE} generated in this study.
+rerio} and \textit{L.\ chalumnae}. Also, 2) those that have gene and protein annotations 
+but, in independent databases and without the prediction of domains, like \textit{B.\ floridae}, 
+\textit{B.\ schlosseri} and \textit{O.\ dioica}. The 3) group is composed by those 
+genomes that have a \textsl{de novo} assembly, as: \textit{D.\ vexillum}, \textit{C.\ oblonga} and 
+\textit{P.\ viridis}, which did not reported predictions of genes or proteins, then this 
+prediction were performed as described in \textsl{Methods and Materials} with the 
+\texttt{GeneID} program using the previously constructed gene models from 
+\textit{C.\ robusta} and \textit{O.\ dioica}\footnote{For those genomes, in Table 
+\ref{table:distribution_prot} are referenced as \textsl{Ciro} and \textsl{Oidi} in parenthesis,
+respectively} and with \texttt{AUGUSTUS} for \textit{D. vexillum}. Finally, the last group 4)
+is composed by the outgroup species from hemichordates: \textit{S.\ kowalevskii} and from 
+echinoderms: \textit{P.\ miniata} and \textit{S.\ purpuratus} and the species from 
+tunicates that have available annotations from protein sequences (\textit{M.\ occidentalis}, 
+\textit{M.\ oculata} and \textit{B.\ leachii}) where the \textbf{ABDO} predictions have 
+been calculated applying the automated pipeline \TODO{NAME\_PIPELINE} generated in this study.
 
-At the same time, Table \ref{table:distribution_prot} summarizes the final 
-innate immune system candidates, based on homology architecture strategies 
-(\textbf{ABDO}), which have been reported independently, too. The final number 
-of innate immune system proteins set is described on column \textbf{Total Prot. 
+Current annotation of genes and proteins could reflect the state of assembly
+or annotation efforts on subject species. As pointed out in Table \ref{table:distribution_prot}
+is possible to calculate a relationship between the distribution of annotated genes ($g$) and 
+their protein-coding products ($p$), as:
+$p/g$. 
+
+For \textit{P.\ miniata}, \textit{B.\ floridae}, \textit{O. dioica}, 
+\textit{B.\ schlosseri} and \textit{B.\ leachii}, this number reflect an 1:1 relation, indicating
+that the annotation for genes are strictly limited for protein-coding. Larger numbers of 
+proteins have been detected on \textit{de novo} predictions of genes strategy, where the genomes 
+from \textit{C.\ oblonga} and \textit{P.\ viridis} reported higher number of possible protein
+products. After retrieving or predicting the protein domain annotation, a reduced number of 
+proteins with domains could be identified, specifically for aforementioned genomes, less than
+$1\%$ of those results had a succesfull domain annotation. Next with these subset of proteins,
+domain architectures could be identified, appliying the \textsl{Reduction function} described 
+earlier. After independent methods of comparison againgst $\boldsymbol{\mathfrak{G}}$, the 
+number of candidates are described for each homology architecture strategy (\textbf{ABDO}).
+The final number of innate immune system proteins set is described on column \textbf{Total Prot. 
 ISS}, which was obtained after merging steps on the ABDO results. 
 %Following values based on the calculated numbers from: supportFileProteins.xlsx
 When all the strategies were applied, always the B strategy reported higher 
@@ -696,9 +706,9 @@ standard deviation in tunicates are a consequence of the inclusion of the new
 draft genomes (from \textit{C.\ oblonga} and \textit{P.\ viridis}), where the 
 prediction of genes was \textsl{de novo} by \texttt{GeneID}. In this context, 
 only considering the tunicates genomes that had a previous annotation, the 
-estimated values changed: (median =$36.65$\% $\pm 13.55$, n=8). \CAVH{Inside 
-this clade, through colonial (median=$37.28$\% $\pm 18.57$) and solitary 
-($37.92$\% $\pm 11.98$) species there is not significant differences on the 
+estimated values changed: (median =$36.65$\% $\pm 13.55$, n=8). Specifically,
+\CAVH{inside this clade, through colonial (median=$37.28$\% $\pm 18.57$) and solitary 
+($37.92$\% $\pm 11.98$) tunicates there is not significant differences on the 
 medians (Kruskal-Wallis rank sum test, $p=0.8815, \alpha=0.05$).}
 
 \begin{sidewaystable}
@@ -779,24 +789,62 @@ last column \textbf{IIS} refers to: Innate Immune system.}
 \label{table:distribution_prot}
 \end{sidewaystable}
 
+%%%% Discussion about Homology architecture strategies
+According to the definition in Material and Methods and Figure \ref{fig:ABDO}, 
+previously defined homology architecture strategies rely on different pairwise 
+comparisons, exclusively on protein domain architectures. $\boldsymbol{\mathfrak{G}}$
+proteins represent the current annotated proteins on innate immune system and 
+their correspondent protein architectures represented as the reducted architectures
+(after reduction function). Both, $\boldsymbol{\mathfrak{G}}$ proteins and 
+architectures are used as queries in order to perform pairwise comparisons with
+subject proteins. In this case, A (architecture) comparison considers all the
+annotated protein domains (not reducted) and make a comparison based on a precomputed 
+similarity matrix of \TODO{hidden markov profiles} in \texttt{RADS} \cite{}.   
+B (blast) comparisons does not considers protein domains, but the complete sequence
+of the query and the subject proteins, in this case, at least a $70$ \% of similarity 
+to be considered as a true candidate. D (disorder) and O (order) compare the 
+reducted architectures, in this case for the first one, all valid combinations of 
+architectures are valid on the subject protein, while the number and the identity of
+the \texttt{Pfam} families are conserved. This is not the case of O, where the order
+of protein domain architecture is an additional requirement to consider a homologous
+subject. 
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.3]{figures/ABDO}%
+\caption{Detail of comparisons between query and subject protein domains with 
+	different pairwise comparisons: A, B, D, O.}
+\label{fig:ABDO}
+\end{figure}
+%%%%%%%
+
 Due the application of ABDO strategies was independently, it is possible to 
 identify the relationships between the query species and the 
 $\boldsymbol{\mathfrak{G}}$ species in the final set of immune system 
 candidates through an architecture relationships. As shown in Figure 
-\ref{fig:FrecEstrat}A different combinations of possible architecture 
-comparison strategies have been merged to four different sets, according to the 
+\ref{fig:FrecEstrat}A different combinations of possibles architecture 
+comparisons strategies have been merged to four different sets, organized by the 
 number of (ABDO) strategies that reported a successfully architecture 
-comparisons. Here, $1 = (A, D)$; $2 = (AB, AD, BD, DO)$; $3 = (ABD, ADO, BDO)$ 
+comparison. Here, $1 = (A, D)$; $2 = (AB, AD, BD, DO)$; $3 = (ABD, ADO, BDO)$ 
 and $4 = (ABDO)$; that is $10$ from $15$ possible combinations, because $(AO, 
 BO)$ always map to $(ADO, BDO)$, due $D \subseteq O$ and additionally, $B$ has 
 not been considered at all because this comparison does not represent a pure 
 architecture relation, due complete sequence is used in the pairwise alignment 
 against $\boldsymbol{\mathfrak{G}}$ protein sequences. 
 
+%%%%Biological discussion about homology strategies of architectures
+From each considered homology comparison, is possible to define their biological
+meaning, based on the predetermined constrains on the pairwise comparison.
+
+
+%%%%
+
+
+
 At the same time, this described distribution of relationships against 
-$\boldsymbol{\mathfrak{G}}$ proteins shows a highest number of proteins that 
+$\boldsymbol{\mathfrak{G}}$ architectures shows a highest number of subjects that 
 have been detected as innate immune system candidates by only $1$ architecture 
-strategy. The number of candidates that have been detected with 
+strategy, most of them with A. The number of candidates that have been detected with 
 all the strategies (set $4$) reported frequencies $\leq 3100$ proteins on the 
 subject species, reporting the highest distribution on the specie \textit{D.\ 
 rerio}. This group represents, along all the comparisons the most conserved 
