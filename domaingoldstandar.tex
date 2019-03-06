@@ -4,14 +4,13 @@
 \usepackage[letterpaper, margin=1.5cm]{geometry}
 \usepackage{graphicx}
 \usepackage[english]{babel}
-\usepackage[utf8]{inputenc}
+\usepackage[utf8x]{inputenc}
 \usepackage{amsmath,amsfonts,amssymb}
 \usepackage{hyperref}
 \usepackage[square,numbers,sort&compress]{natbib}
 \newcommand{\TODO}[1]{\begingroup\color{red}#1\endgroup}
 \newcommand{\PFS}[1]{\begingroup\color{blue}#1\endgroup}
 \newcommand{\CAVH}[1]{\begingroup\color{green}#1\endgroup}
-\usepackage{booktabs}
 \usepackage{color}
 \usepackage{booktabs}
 \newcommand{\tabitem}{\llap{}}
@@ -834,8 +833,46 @@ against $\boldsymbol{\mathfrak{G}}$ protein sequences.
 
 %%%%Biological discussion about homology strategies of architectures
 From each considered homology comparison, is possible to define their biological
-meaning, based on the predetermined constrains on the pairwise comparison.
+meaning, based on the predetermined constrains on the pairwise comparison. In this
+case: \textsl{A} comparisons relies only in the arrangement of the protein domains as a 
+string \cite{} (CITE RADS), this comparison takes into account similarity scores
+between the protein domain models from Pfam. In this case, as shown in Figure
+\ref{fig:FrecEstrat}A, the high number of proteins corresponds to homodomain proteins
+or proteins with only one annotated domain. This group are restricted to be detected
+only by the A strategy, the other group, detected by only \textsl{D}, are proteins 
+that reported the same number and type of protein domains, but does not conserve 
+the arrangement respect to the query $\boldsymbol{\mathfrak{G}}$ architecture.
+Next group, corresponds to proteins that have been detected by $2$ homology 
+architecture methods. In this case, AB combines not only the domain arrangement detected
+by RADS but also, local similarity scores between conserved regions are enough to report
+high scores using \texttt{blast}.
 
+\begin{table}[ht!]
+\centering
+\begin{center}
+\begin{tabular}{p{2cm}p{2cm}p{5cm}}
+\toprule
+\textbf{Group} & \textbf{Strategy} & \textbf{Description}\\
+1 & A & Homodomain proteins or proteins with only one annotated domain. \\
+& D & Proteins that reported the same number and type of protein domains, but does 
+not conserve the arrangement respect to the query $\boldsymbol{\mathfrak{G}}$ architecture. \\
+\midrule
+2 & AB &\\
+& AD &\\
+& BD &\\
+& DO &\\
+\midrule
+3 & ABD &\\
+& ADO &\\
+& BDO &\\
+\midrule
+4 & ABDO &\\
+\bottomrule
+\end{tabular}
+\end{center}
+\caption{Biological meaning of combination of architecture strategies.}
+\label{table:biologicalexplanation}
+\end{table}
 
 %%%%
 
