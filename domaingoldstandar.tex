@@ -854,11 +854,12 @@ high scores using \texttt{blast}.
 \toprule
 \textbf{Group} & \textbf{Strategy} & \textbf{Description}\\
 1 & A & Homodomain proteins or proteins with only one annotated domain. \\
-& D & Proteins that reported the same number and type of protein domains, but does 
+& D & Proteins that reported the same number and type of domains, but does 
 not conserve the arrangement respect to the query $\boldsymbol{\mathfrak{G}}$ architecture. \\
 \midrule
-2 & AB &\\
-& AD &\\
+2 & AB & Combines both, domain arrangement detected by RADS and local similarity scores 
+between conserved regions that are enough to report high scores using \texttt{blast}. \\
+& AD & P\\
 & BD &\\
 & DO &\\
 \midrule
