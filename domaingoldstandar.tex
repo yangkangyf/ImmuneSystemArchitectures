@@ -61,7 +61,7 @@ on complete protein? or splitting  by protein domains?}
   for subsequent, more detailed functional or evolutionary studies
   \cite{aken2016ensembl,birney2004overview,ashburner2000gene,tatusov2000cog,tatusova2016ncbi}.}
   
-\PFS{Conceptually, gene annotation comprises two tasks: first the
+  \PFS{Conceptually, gene annotation comprises two tasks: first the
   identification of genomic subregions that code for proteins, and second
   the assignment of functionality. Often, both issues are addressed
   simultaneously, using sequence similarity to identify homologs of a query
@@ -74,7 +74,7 @@ on complete protein? or splitting  by protein domains?}
   homology-based annotation is by definition limited to know query sets of
   sufficiently well-characterized genes, typically from model organisms.}
 
-\PFS{Modern gene annotation pipelines therefore are built around
+  \PFS{Modern gene annotation pipelines therefore are built around
   probabilistic models that are trained on known gene structures. The first
   generation of such tools, such as \texttt{GENSCAN} \cite{genescan}
   primarily focused on promoter signals, intron/exon boundaries, and
@@ -87,17 +87,17 @@ on complete protein? or splitting  by protein domains?}
   case of a select few model organisms, gene annotation has evolved into
   major, long-term data curation projects such as VEGA-HAVANA and GENCODE
   for the human genome. \TODO{*** Include a couple of more sentences and a
-    more inclusive list of the major curation projects ***} Well curated
+  more inclusive list of the major curation projects ***} Well curated
   gene models are in important resource also for training gene models for
   application to related species.}
-
-\PFS{The annotation of genes and open reading frames is complemented by
+  
+  \PFS{The annotation of genes and open reading frames is complemented by
   systematic efforts to establish homology -- and in particular orthology
   -- information \TODO{ref}. This in turn is forms the basis for defining a
   function-based gene nomenclatures \TODO{cite HGNC}, and efforts to
   achieve a systematic, orthogy-aware nomenclature at least across some
   important clades \TODO{** mention VGNC for vertebrated **}
-  \cite{aken2016ensembl} \cite{birney2004overview}. As a group, vertebrate
+  \cite{aken2016ensembl, birney2004overview}. As a group, vertebrate
   genomes certainly feature the most thoroughly curated and and most
   complete functional annotation.}
 
@@ -847,34 +847,67 @@ architecture methods. In this case, AB combines not only the domain arrangement 
 by RADS but also, local similarity scores between conserved regions are enough to report
 high scores using \texttt{blast}.
 
-\begin{table}[ht!]
+\begin{sidewaystable}
+\small
 \centering
 \begin{center}
-\begin{tabular}{p{2cm}p{2cm}p{5cm}}
+\begin{tabular}{p{1cm}p{1.2cm}p{9cm}p{8cm}} 
 \toprule
-\textbf{Group} & \textbf{Strategy} & \textbf{Description}\\
-1 & A & Homodomain proteins or proteins with only one annotated domain. \\
+\textbf{Group} & \textbf{Strategy} & \textbf{Description}& \textbf{Example}\\
+1 & A & Homodomain proteins or proteins with only one annotated domain & Q:ENSP00000332353 (hsa):
+\textbf{PF02460,PF02460} \\ S:Boleac.CG.SB\_v3.S462.g10171.01.p 
+(bole):\textbf{PF02460,PF02460}\\
 & D & Proteins that reported the same number and type of domains, but does 
-not conserve the arrangement respect to the query $\boldsymbol{\mathfrak{G}}$ architecture. \\
+not conserve the arrangement respect to the query $\boldsymbol{\mathfrak{G}}$ architecture. &
+Q:ENSP00000358159 (hsa): \textbf{PF00270;PF00271;PF02889} S:Moocci.CG.ELv1\_2.S377548.g10787.01.p (mlis)
+: \textbf{PF02889;PF00270;PF00271} \\
 \midrule
 2 & AB & Combines both, domain arrangement detected by RADS and local similarity scores 
-between conserved regions that are enough to report high scores using \texttt{blast}. \\
-& AD & P\\
-& BD &\\
-& DO &\\
+between conserved regions that are enough to report high scores using \texttt{blast}. & \\
+& AD & Proteins that did not reported a strict domain arrangement, but all the same kind of
+domains are reported. & Q:ENSP00000284320 (hsa) : \textbf{PF00515,PF13181,PF13181,PF13181,PF13181}
+S:PMI\_006942 (pami): \textbf{PF13181,PF00515} \\
+& BD & Proteins that shares the same kinds of domains and also reported local similarities in overall
+protein sequence in a pairwise alignment with \texttt{blastp} & Q: ENSP00000481034 (hsa): 
+\textbf{PF07974,PF00008} S: ENSCSAVP00000003313 (cisa): 
+\textbf{PF00008,PF00008,PF00008,PF00008,PF00008,PF00008,PF07974,PF00008,PF00008,PF07974,
+PF07974,PF00008,PF00008,PF00008,PF00008,PF07974,PF00008,PF00008,PF00008,PF00008,PF00008,PF00008,
+PF07974,PF00008,PF00008,PF00008,PF00008,PF00008,PF00008,PF00008,PF07974} \\
+& DO & Proteins that reported the same arrangement and types of domains \TODO{I detected a bug in RADS
+program. Seems that the architecture strategy somethimes missed true candidates, I wrote an email to
+the people from RADS team} &   
+Q: ENSP00000225614 (hsa): \textbf{PF10509,PF00288,PF08544} 
+S: XP\_796432.3 (stpu): \textbf{PF10509,PF00288,PF08544}\\
 \midrule
-3 & ABD &\\
-& ADO &\\
-& BDO &\\
+3 & ABD & Proteins that does not strictly share the same domain arrangement
+but the architecture homology is enough to report a true candidates, this 
+result is also supported by the pairwise comparison by \texttt{blast} and 
+additionally, all the same protein families conserved between query and subject & 
+Q: ENSMUSP00000118471 (mmu): \textbf{PF01421,PF00090,PF05986,PF00090,PF00090}
+S:ENSCSAVP00000002867 (cisa): \textbf{PF01421,PF00090,PF05986}\\
+& ADO & Proteins that strictly shares the same domain arrangement
+and domain families. This group fails in \texttt{blast} searches, so
+it means that homology is supported only by pure architecture. & 
+Q: ENSP00000233330 (hsa): \textbf{PF08174,PF00169}
+S: g15075.t1 (dive): \textbf{PF08174,PF00169}\\ 
+& BDO & Those proteins would be the complete strategy, there is no reason
+to discart A, because exits D and O. \TODO{I detected a bug in RADS program. Seems 
+that the architecture strategy somethimes missed true candidates, I wrote an 
+email to the people from RADS team} & 
+Q: ENSP00000367421 (hsa): \textbf{PF02828,PF00595,PF07653,PF00625}
+S: XP\_791632.3 (stpu): \textbf{PF02828,PF00595,PF07653,PF00625}\\
 \midrule
-4 & ABDO &\\
+4 & ABDO & Proteins that reported the most conserved architecture
+and sequence homology. Those ones shares the same protein arrangement, 
+types of domains and also local homology at pairwise comparisons. &
+Q: ENSP00000358159 (hsa): \textbf{PF00270,PF00271,PF02889,PF00270,PF00271,PF02889}
+S: GSOIDP00013289001 (oidi): \textbf{PF00270,PF00271,PF02889,PF00270,PF00271,PF02889}\\
 \bottomrule
 \end{tabular}
 \end{center}
 \caption{Biological meaning of combination of architecture strategies.}
 \label{table:biologicalexplanation}
-\end{table}
-
+\end{sidewaystable}
 %%%%
 
 
