@@ -24,7 +24,7 @@
 \usepackage{rotating}
 %Put lines numbers in the document
 \usepackage{lineno}
-\linenumbers
+\linenumbers{}
 
 \newcommand{\ADD}[1]{\begingroup\color{blue}#1\endgroup}
 \begin{document}
@@ -47,7 +47,7 @@ process: Clara and Ernesto.}
 strategies}
 \item \TODO{If yes, what is the best option to detect protein orthologs. Based 
 on complete protein? or splitting  by protein domains?}
-\item Adapt draft to journal template...\TODO{Which one?}. 
+\item Adapt draft to journal template.\TODO{Which one?}. 
 \end{itemize}
 
 \section*{Introduction}
@@ -92,8 +92,8 @@ on complete protein? or splitting  by protein domains?}
   application to related species.}
   
   \PFS{The annotation of genes and open reading frames is complemented by
-  systematic efforts to establish homology -- and in particular orthology
-  -- information \TODO{ref}. This in turn is forms the basis for defining a
+  systematic efforts to establish homology \-\- and in particular orthology
+  \-\- information \TODO{ref}. This in turn is forms the basis for defining a
   function-based gene nomenclatures \TODO{cite HGNC}, and efforts to
   achieve a systematic, orthogy-aware nomenclature at least across some
   important clades \TODO{** mention VGNC for vertebrated **}
@@ -167,8 +167,8 @@ classical homology search schemes in the face of domain-level changes.
 \section*{Theory}
 
 We represent each protein $a$ as an ordered sequence $P(a)$ of domains. In
-practice the domains depend on one of several annotation systems, \CAVH{but 
-in this study only annotations from \texttt{Pfam} were considered}. Two 
+practice the domains depend on one of several annotation systems, 
+\CAVH{but in this study only annotations from \texttt{Pfam} were considered}. Two 
 proteins can then be compared a different levels of stringency (\CAVH{after the 
 application of the domain reduction, explained in section \textit{Reduction 
 System}}):
@@ -176,7 +176,7 @@ System}}):
 \item[\textbf{O}rder] \TODO{What exactly is the match criterion?: Do you need
     that every domain of the query
     $Q=(Q_1,Q_2,\dots,Q_n)\in \boldsymbol{\mathfrak{G}}$ matches the
-    domain list $(P_1(a),P_2(a),\dots,P_m(a))$ of a target protein AND that
+    domain list $ (P_1(a),P_2(a),\dots,P_m(a))$ of a target protein AND that
     the order is preserved? }
     \CAVH{Refers to the comparison of the $Q$ and $P(a)$ domains. It is 
 required that order and the domain lists are preserved, too. Repetitions from 
@@ -207,7 +207,7 @@ accession numbers.}
 \end{itemize}
 
 The different annotation systems and comparison methods have been integrated 
-into a single workflow summarized in Figure \ref{fig:workflow_golden}.
+into a single workflow summarized in Figure~\ref{fig:workflow_golden}.
 
 \begin{figure}[htb]
 \begin{center}
@@ -230,7 +230,7 @@ definitions.}}
 
 \section*{Methods and Materials}
 
-\subsection*{Comparison Strategies} \label{comparison}
+\subsection*{Comparison Strategies}\label{comparison}
 
 List of gene architecture from tunicates and the other chordates were
 greedily \TODO{what does greedily mean here?} compared with elements from
@@ -238,7 +238,7 @@ $\boldsymbol{\mathfrak{G}}$ by each $m$ using the followed strategies
 \textbf{O}rder, \textbf{D}isorder, \textbf{B}last homology and
 \textbf{A}rquitecture or (\textbf{O, D, B, A}) respectively.
 
-\subsection*{Reduction system} \label{reduction}
+\subsection*{Reduction system}\label{reduction}
 
 \TODO{This subsection need complete rewriting. First the Theory section
   needs to be cleaned up.} 
@@ -256,10 +256,8 @@ only if $s_i \le s_j$. Next, we join all the domains in each protein $a$ as
 Since is very commonly found copies of domains in proteins of the immune 
 system, consecutive domains in $G^{a}$ were reduced to a list of unique 
 representative domains $P$ if $P_i = P_{i+1}$. From now on we will refer to this 
-new set as \textsl{gold standard set} $\boldsymbol{\mathfrak{G}}$ (Figure 
-\ref{fig:workflow_golden}A).
-  
-
+new set as \textsl{gold standard set} $\boldsymbol{\mathfrak{G}}$ 
+(Figure~\ref{fig:workflow_golden}A).
   
 \subsection*{Protein domain architectures of reference}
 We started with annotated and curated genes from \texttt{InnateDB} 
@@ -285,13 +283,13 @@ Accession numbers from \texttt{NCBI} were translated into the accession number
 of \texttt{Ensembl}. Then, we proceed to retrieve the data of insects in a 
 similar way like in human and mouse. A reference set of domains was obtained 
 independently by each domain annotation database after using a \textsl{reduction 
-system} described in \textsl{Reduction function subsection}\ref{reduction}. We 
+system} described in \textsl{Reduction function subsection}~\ref{reduction}. We 
 used the \textsl{gold standard} set for further comparisons of domain 
 architectures of $17$ studied species described on Additional File 1.
 
 \subsection*{Re-assembly of \textit{D. vexillum} genome}
 \TODO{Include information about re-assembly strategy from D. vexillum, 
-methodological steps...}
+methodological steps.}
 
 \subsection*{Genomic data sources}
 
@@ -308,8 +306,8 @@ of chosen Chordates. As an outgroup, a set of $2$ species from Echinorderms:
 additionally $1$ Hemichordate specie: \textit{Saccoglossus kowalevskii} were 
 studied. The protein database sources are described in Additional File 1. 
 
-\TODO{the following is rather incomprehensible. The concepts need to be
-  described in the Theory section. see there.} 
+\TODO{the following is rather incomprehensible. The concepts need to be described in the Theory sect 
+see there.} 
 
 \subsubsection*{Architecture Comparison Strategies}
 \subsubsection*{\textit{\textbf{O}rder comparison}}
@@ -382,23 +380,23 @@ architectures composed by only one domain that had not been taken into account
 with the O,D,B strategies. In order to complement the search strategies, a
 comparison between \textsl{gold standard} architectures and query architectures 
 was performed applying the methodology reported 
-by 
-\texttt{RADS}\footnote{\url{http://domainworld.uni-muenster.de/programs/rads/} 
-} \cite{Terrapon:2014}. First, a domain architecture database was created 
-with the \textsl{gold standard} domains using the program: 
+by \texttt{RADS}\footnote{http://domainworld.uni-muenster.de/programs/rads/}\cite{Terrapon:2014}.
+
+First, a domain architecture database was created with the \textsl{gold standard} domains using the program:
 \begin{lstlisting}[language=bash, breaklines=true]
-makeRadsDB -i <DOMAIN_DISTRIBUTION1> <DOMAIN_DISTRIBUTION2> -s 
-<Seq_fasta_1> <Seq_fasta_2> seqFile2.fa -o <OUT_DB>}. 
-\end{lstlisting} 
-And the comparison was applied against all the query architectures with: 
-\begin{lstlisting}[language=bash, breaklines=true]
-rads -c -d <DB> -m <Matrix> -q <Input> -o <OUT_FILE>
+makeRadsDB -i <DOMAIN-DISTRIBUTION1> <DOMAIN-DISTRIBUTION2> -s <Seqfasta1> <Seqfasta2> seqFile2.fa -o <OUT-DB>.
 \end{lstlisting}
-Where DB, corresponds to the output file OUT\_DB from makeRadsDB. Matrix file 
+
+And the comparison was applied against all the query architectures with: 
+
+\begin{lstlisting}[language=bash, breaklines=true]
+rads -c -d <DB> -m <Matrix> -q <Input> -o <OUTFILE>
+\end{lstlisting} 
+
+Where DB corresponds to the output file from \texttt{makeRadsDB}. Matrix file 
 (pfam-30.dsm) was obtained directly from \texttt{RADS} site; Input file 
 correspond to the domain's distribution organised as pfam\_scan output 
-file. Final candidates were retrieved if reported a similarity normalized score 
-$\geq 0.75$.
+file. Final candidates were retrieved if reported a similarity normalized score $\geq 0.75$.
 
 \subsection*{Merging output of comparison strategies}
 In order to identify the best candidates to be related with the immune 
@@ -459,7 +457,7 @@ domain architecture in these proteins, previously described approach had been
 applied, including the comparison against the \textsl{gold standard} set. The O, 
 D, B and A strategies were merged generating the candidates that were 
 overlapping between all the strategies, as described on Figure 
-\ref{workflow_golden}.
+~\ref{workflow_golden}.
 
 \subsubsection*{Draft genomes without annotation}
 
@@ -482,8 +480,8 @@ genes, and additionally the set of possible protein candidates in a
 \texttt{fasta} format. Over those candidates \texttt{HMMer} was ran to detect 
 domains that intersect with the mapped HMMs in $\boldsymbol{\mathfrak{G}}$. 
 Again, filters by each $m$ was used, the \textsl{Reduction 
-system}\ref{reduction} step and comparison strategies \textbf{O, D, B, A} were 
-done (Figure \ref{workflow_golden}).
+system}~\ref{reduction} step and comparison strategies \textbf{O, D, B, A} were 
+done (Figure~\ref{workflow_golden}).
 
 For the draft genome of the carpet sea squirt \textit{D. vexillum} 
 \cite{velandia2016a} a \textit{de novo} gene prediction was performed 
@@ -500,7 +498,7 @@ the pipeline \TODO{Name of my pipeline!}.
 %The nucleotide sequences and the genome coordinates were retrieved for 
 %each protein domain that belongs from homologous architectures, inferred from 
 %the comparison strategies against \textsl{gold standard}. As shown in Figure 
-%\ref{proteindomains2cds}, the required steps to infer this information for the 
+%~\ref{proteindomains2cds}, the required steps to infer this information for the 
 %majority of domains, relies on CDS sequences and annotations at genome level. 
 %In 
 %case of \textsl{O. dioica}, \textsl{B. schlosseri} and \textsl{B. floridae}, 
@@ -601,17 +599,18 @@ proteinortho5.pl -force -graph -clean -keep -step=3
 -project=<name-project> <fasta files>
 \end{lstlisting}
 
-As described earlier (Figure \ref{fig:FrecEstrat}A), studied species could be grouped
-into $5$ clades: echinorderms, hemichordates, cephalochordates (CE), tunicates(TU) and vertebrates(VE); which have been used as a reference to make orthology comparisons. In this case, the species that belong
+As described earlier (Figure~\ref{fig:FrecEstrat}A), studied species could be grouped
+into $5$ clades: echinorderms, hemichordates, cephalochordates (CE), tunicates (TU) and vertebrates 
+(VE); which have been used as a reference to make orthology comparisons. In this case, the species that belong
 from echinoderms and hemichordates have been designed as \textsl{Outgroup} (OU) and 
 $\boldsymbol{\mathfrak{G}}$  species (GO) have been always considered, in order to create orthology
 comparisons as follows:
 \begin{itemize}
- \item TTO1: OU, CE, TU, VE, GO. (All species and Golden).
- \item TTO2: CE, TU, VE, GO. (Chordata and Golden).
- \item TTO3: CE, TU, GO. (Cephalochordata, Tunicata and Golden).
- \item TTO4: TU, VE, GO. (Vertebrata, Tunicata and Golden).
- \item TTO5: TU, GO. (Tunicata and Golden).
+ \item TTO1: OU, CE, TU, VE, GO (All species and Golden).
+ \item TTO2: CE, TU, VE, GO (Chordata and Golden).
+ \item TTO3: CE, TU, GO (Cephalochordata, Tunicata and Golden).
+ \item TTO4: TU, VE, GO (Vertebrata, Tunicata and Golden).
+ \item TTO5: TU, GO (Tunicata and Golden).
 \end{itemize}
 
 For all of the defined treatments (TTOs), detected 1:1 and co-orthologous relationships between 
@@ -640,13 +639,13 @@ respectively. After interfaced these records with Ensembl Genome Browser a total
 of $35136$ and $5179$ proteins were identified. Next, to integrate annotations from
 the source \texttt{Insect Innate Immunity Database} (IIID) a total of $1312$ proteins were
 recovered and were accessed as follows: \textsl{N. vitripennis} $393$ ($368$), 
-\textsl{A. mellifera} $170$($106$), \textsl{D. melanogaster} $298$($242$), \textsl{A. gambiae}
-$366$ ($333$) and \textsl{A. pisum} $85$($81$), the number in parenthesis corresponds to 
+\textsl{A. mellifera} $170$ ($106$), \textsl{D. melanogaster} $298$ ($242$), \textsl{A. gambiae}
+$366$ ($333$) and \textsl{A. pisum} $85$ ($81$), the number in parenthesis corresponds to 
 the \textsl{bone fide} annotation in \texttt{Ensembl}. Finally the domain structure was 
 traced back with \texttt{biomaRt} in \texttt{Ensembl}. Then, as described in Additional 
 File 2, \textsl{gold standard} set ($\boldsymbol{\mathfrak{G}}$) was conformed.
 
-\subsection*{\textbf{ABDO} strategy comparisons of domains} \label{subODB}
+\subsection*{\textbf{ABDO} strategy comparisons of domains}\label{subODB}
 
 The number of genes and proteins that have been included into $\boldsymbol{\mathfrak{G}}$ 
 is described in Additional File 2: Table 1. In general, most of the current 
@@ -655,18 +654,18 @@ annotation of insects, \textit{N. vitripennis} ($33.14$\%) is the most frequent.
 Those candidates were used as query arquitectures that have been compared through previously 
 described \textbf{ABDO} strategies to the subject species (Additional File 1: Table1). 
 Taking advantage of the current annotation state is possible to group the query 
-species as follows: 1) those ones that have been annotated in \texttt{Ensembl} as
+species as follows: 1.\ those ones that have been annotated in \texttt{Ensembl} as
 \textit{C.\ robusta}, \textit{C.\ savignyi}, \textit{P.\ marinus}, \textit{D.\ 
-rerio} and \textit{L.\ chalumnae}. Also, 2) those that have gene and protein annotations 
+rerio} and \textit{L.\ chalumnae}. Also, 2.\ those that have gene and protein annotations 
 but, in independent databases and without the prediction of domains, like \textit{B.\ floridae}, 
-\textit{B.\ schlosseri} and \textit{O.\ dioica}. The 3) group is composed by those 
+\textit{B.\ schlosseri} and \textit{O.\ dioica}. The 3.\  group is composed by those 
 genomes that have a \textsl{de novo} assembly, as: \textit{D.\ vexillum}, \textit{C.\ oblonga} and 
 \textit{P.\ viridis}, which did not reported predictions of genes or proteins, then this 
 prediction were performed as described in \textsl{Methods and Materials} with the 
 \texttt{GeneID} program using the previously constructed gene models from 
 \textit{C.\ robusta} and \textit{O.\ dioica}\footnote{For those genomes, in Table 
-\ref{table:distribution_prot} are referenced as \textsl{Ciro} and \textsl{Oidi} in parenthesis,
-respectively} and with \texttt{AUGUSTUS} for \textit{D. vexillum}. Finally, the last group 4)
+~\ref{table:distribution_prot} are referenced as \textsl{Ciro} and \textsl{Oidi} in parenthesis,
+respectively} and with \texttt{AUGUSTUS} for \textit{D. vexillum}. Finally, the last group 4.\ 
 is composed by the outgroup species from hemichordates: \textit{S.\ kowalevskii} and from 
 echinoderms: \textit{P.\ miniata} and \textit{S.\ purpuratus} and the species from 
 tunicates that have available annotations from protein sequences (\textit{M.\ occidentalis}, 
@@ -674,7 +673,7 @@ tunicates that have available annotations from protein sequences (\textit{M.\ oc
 been calculated applying the automated pipeline \TODO{NAME\_PIPELINE} generated in this study.
 
 Current annotation of genes and proteins could reflect the state of assembly
-or annotation efforts on subject species. As pointed out in Table \ref{table:distribution_prot}
+or annotation efforts on subject species. As pointed out in Table~\ref{table:distribution_prot}
 is possible to calculate a relationship between the distribution of annotated genes ($g$) and 
 their protein-coding products ($p$), as:
 $p/g$. 
@@ -694,7 +693,7 @@ The final number of innate immune system proteins set is described on column \te
 ISS}, which was obtained after merging steps on the ABDO results. 
 %Following values based on the calculated numbers from: supportFileProteins.xlsx
 When all the strategies were applied, always the B strategy reported higher 
-frequencies of protein candidates in comparison to the O or D; and those 
+frequencies of protein candidates in comparison to the O or D. Those 
 results are more similar to the A strategy, which does not have a previous 
 reduction step. In overall, those results show a highest distribution from 
 annotated immune system proteins in vertebrates (median = $53.06$\% $\pm 
@@ -717,30 +716,30 @@ medians (Kruskal-Wallis rank sum test, $p=0.8815, \alpha=0.05$).}
 \centering
 \begin{tabular}{p{3.2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2.1cm}p{2.7cm}p{2.6cm}}
 \toprule
-\textbf{Specie}&        \textbf{Annotated Genes}&\textbf{Annotated Proteins}&\textbf{Annotated Prot. with domains}&\textbf{Orderded Prot}&\textbf{Disorder Prot}&\textbf{Blast Prot}&\textbf{Architecture}&\textbf{Total Prot IS} \\ 
+\textbf{Specie}&\textbf{Annotated Genes}&\textbf{Annotated Proteins}&\textbf{Annotated Prot with domains}&\textbf{Orderded Prot}&\textbf{Disorder Prot}&\textbf{Blast Prot}&\textbf{Architecture}&\textbf{Total Prot IS} \\ 
 \midrule
-\textsl{P. miniata}&    $30399$&$30399$&$20192$($66.42$)&$1936$($6.37$)&$2161$($7.11$)&$11577$($38.08$)&$17006$($55.94$)&$17151$($56.42$)\\
-\textsl{S. purpuratus}& $33663$&$35786$&$23640$($66.06$)&$3248$($9.08$)&$3542$($9.90$)&$15420$($43.09$)&$19811$($55.36$)&$19964$($55.79$)\\
-\textsl{S. kowalevskii}&        $32367$&$22111$&$14888$($67.33$)&$1973$($8.92$)&$2152$($9.73$)&$9737$($44.04$)&$12398$($56.07$)&$12505$($56.56$)\\
+\textsl{P. miniata}&    $30399$&$30399$&$20192$ ($66.42$)&$1936$ ($6.37$)&$2161$ ($7.11$)&$11577$ ($38.08$)&$17006$ ($55.94$)&$17151$ ($56.42$)\\
+\textsl{S. purpuratus}& $33663$&$35786$&$23640$ ($66.06$)&$3248$ ($9.08$)&$3542$ ($9.90$)&$15420$ ($43.09$)&$19811$ ($55.36$)&$19964$ ($55.79$)\\
+\textsl{S. kowalevskii}&        $32367$&$22111$&$14888$ ($67.33$)&$1973$ ($8.92$)&$2152$ ($9.73$)&$9737$ ($44.04$)&$12398$ ($56.07$)&$12505$ ($56.56$)\\
 \midrule
-\textsl{B. floridae}&   $50817$&$50817$&$25430$($50.04$)&$5499$($10.82$)&$4183$($8.23$)&$21767$($42.83$)&$21000$($41.32$)&$8480$($16.69$)\\
+\textsl{B. floridae}&   $50817$&$50817$&$25430$ ($50.04$)&$5499$ ($10.82$)&$4183$ ($8.23$)&$21767$ ($42.83$)&$21000$ ($41.32$)&$8480$ ($16.69$)\\
 \midrule
-\textsl{O. dioica}&     $17212$&$17212$&$5709$($33.17$)&$1342$($7.80$)&$955$($5.55$)&$4577$($26.59$)&$4797$($27.87$)&$4808$($27.93$)\\
-\textsl{M. occidentalis}&       $30639$&$33023$&$13050$($39.52$)&$1195$($3.62$)&$1281$($3.88$)&$7170$($21.71$)&$11192$($33.89$)&$11243$($34.05$)\\
-\textsl{M. oculata}&    $15313$&$16616$&$9985$($60.09$)&$1336$($8.04$)&$1419$($8.54$)&$6615$($39.81$)&$8472$($50.99$)&$8523$($51.29$)\\
-\textsl{B. schlosseri}& $46519$&$46519$&$8709$($18.72$)&$1790$($3.85$)&$1264$($2.72$)&$6148$($13.22$)&$6765$($14.54$)&$6846$($14.72$)\\
-\textsl{B. leachii }&   $15839$&$15839$&$9833$($62.08$)&$1271$($8.02$)&$1422$($8.98$)&$6243$($39.42$)&$8174$($51.61$)&$8284$($52.30$)\\
-\textsl{C. robusta}&       $17153$&$17304$&$12917$($74.65$)&$1668$($9.64$)&$1160$($6.70$)&$6005$($34.70$)&$6436$($37.19$)&$4565$($26.38$)\\
-\textsl{C. savignyi}&   $12172$&$20157$&$17101$($84.84$)&$2087$($10.35$)&$1215$($6.03$)&$10049$($49.85$)&$10079$($50.00$)&$10206$($50.63$)\\
-\textsl{P. viridis} (Ciro)&     $6077$&$2221773$&$2806$($0.13$)&$56$($0.00$)&$61$($0.00$)&$12724$($0.57$)&$1968$($0.09$)&$1972$($0.09$)\\
-\textsl{P. viridis} (Oidi)&     $3025$&$1811030$&$2110$($0.12$)&$60$($0.00$)&$66$($0.00$)&$10329$($0.57$)&$1404$($0.08$)&$1408$($0.08$)\\
-\textsl{D. vexillum}&   $26546$&$72326$&$36075$($49.88$)&$2920$($4.04$)&$3654$($5.05$)&$16889$($23.35$)&$28198$($38.99$)&$28686$($39.66$)\\
-\textsl{C. oblonga} (Ciro)&     $19507$&$1174882$&$4032$($0.34$)&$120$($0.01$)&$125$($0.01$)&$4070$($0.35$)&$2893$($0.25$)&$2902$($0.25$)\\
-\textsl{C. oblonga} (Oidi)&     $4832$&$950470$&$2856$($0.30$)&$125$($0.01$)&$135$($0.01$)&$8746$($0.92$)&$1990$($0.21$)&$1997$($0.21$)\\
+\textsl{O. dioica}&     $17212$&$17212$&$5709$ ($33.17$)&$1342$ ($7.80$)&$955$ ($5.55$)&$4577$ ($26.59$)&$4797$ ($27.87$)&$4808$ ($27.93$)\\
+\textsl{M. occidentalis}&       $30639$&$33023$&$13050$ ($39.52$)&$1195$ ($3.62$)&$1281$ ($3.88$)&$7170$ ($21.71$)&$11192$ ($33.89$)&$11243$ ($34.05$)\\
+\textsl{M. oculata}&    $15313$&$16616$&$9985$ ($60.09$)&$1336$ ($8.04$)&$1419$ ($8.54$)&$6615$ ($39.81$)&$8472$ ($50.99$)&$8523$ ($51.29$)\\
+\textsl{B. schlosseri}& $46519$&$46519$&$8709$ ($18.72$)&$1790$ ($3.85$)&$1264$ ($2.72$)&$6148$ ($13.22$)&$6765$ ($14.54$)&$6846$ ($14.72$)\\
+\textsl{B. leachii }&   $15839$&$15839$&$9833$ ($62.08$)&$1271$ ($8.02$)&$1422$ ($8.98$)&$6243$ ($39.42$)&$8174$ ($51.61$)&$8284$ ($52.30$)\\
+\textsl{C. robusta}&       $17153$&$17304$&$12917$ ($74.65$)&$1668$ ($9.64$)&$1160$ ($6.70$)&$6005$ ($34.70$)&$6436$ ($37.19$)&$4565$ ($26.38$)\\
+\textsl{C. savignyi}&   $12172$&$20157$&$17101$ ($84.84$)&$2087$ ($10.35$)&$1215$ ($6.03$)&$10049$ ($49.85$)&$10079$ ($50.00$)&$10206$ ($50.63$)\\
+\textsl{P. viridis} (Ciro)&     $6077$&$2221773$&$2806$ ($0.13$)&$56$ ($0.00$)&$61$ ($0.00$)&$12724$ ($0.57$)&$1968$ ($0.09$)&$1972$ ($0.09$)\\
+\textsl{P. viridis} (Oidi)&     $3025$&$1811030$&$2110$ ($0.12$)&$60$ ($0.00$)&$66$ ($0.00$)&$10329$ ($0.57$)&$1404$ ($0.08$)&$1408$ ($0.08$)\\
+\textsl{D. vexillum}&   $26546$&$72326$&$36075$ ($49.88$)&$2920$ ($4.04$)&$3654$ ($5.05$)&$16889$ ($23.35$)&$28198$ ($38.99$)&$28686$ ($39.66$)\\
+\textsl{C. oblonga} (Ciro)&     $19507$&$1174882$&$4032$ ($0.34$)&$120$ ($0.01$)&$125$ ($0.01$)&$4070$ ($0.35$)&$2893$ ($0.25$)&$2902$ ($0.25$)\\
+\textsl{C. oblonga} (Oidi)&     $4832$&$950470$&$2856$ ($0.30$)&$125$ ($0.01$)&$135$ ($0.01$)&$8746$ ($0.92$)&$1990$ ($0.21$)&$1997$ ($0.21$)\\
 \midrule
-\textsl{P. marinus}&    $13114$&$11444$&$10623$($92.83$)&$1650$($14.42$)&$1145$($10.01$)&$6227$($54.41$)&$6025$($52.65$)&$6072$($53.06$)\\
-\textsl{D. rerio}&      $31953$&$44489$&$42625$($95.81$)&$11762$($26.44$)&$4108$($9.23$)&$28031$($63.01$)&$29523$($66.36$)&$23892$($53.70$)\\
-\textsl{L. chalumnae}&  $22628$&$23603$&$22059$($93.46$)&$4461$($18.90$)&$2185$($9.26$)&$9127$($38.67$)&$12767$($54.09$)&$11416$($48.37$)\\
+\textsl{P. marinus}&    $13114$&$11444$&$10623$ ($92.83$)&$1650$ ($14.42$)&$1145$ ($10.01$)&$6227$ ($54.41$)&$6025$ ($52.65$)&$6072$ ($53.06$)\\
+\textsl{D. rerio}&      $31953$&$44489$&$42625$ ($95.81$)&$11762$ ($26.44$)&$4108$ ($9.23$)&$28031$ ($63.01$)&$29523$ ($66.36$)&$23892$ ($53.70$)\\
+\textsl{L. chalumnae}&  $22628$&$23603$&$22059$ ($93.46$)&$4461$ ($18.90$)&$2185$ ($9.26$)&$9127$ ($38.67$)&$12767$ ($54.09$)&$11416$ ($48.37$)\\
 \bottomrule
 \end{tabular}
 \caption{Final distribution of annotated genes and found candidate Innate
@@ -752,7 +751,7 @@ last column \textbf{IIS} refers to: Innate Immune system.}
 
 %%%% Discussion about Homology architecture strategies
 %%%%%%%%%%
-According to the definition in Material and Methods and Figure \ref{fig:ABDO}, 
+According to the definition in Material and Methods and Figure~\ref{fig:ABDO}, 
 previously defined homology architecture strategies rely on different pairwise 
 comparisons, exclusively on protein domain architectures. $\boldsymbol{\mathfrak{G}}$
 proteins represent the current annotated proteins on innate immune system and 
@@ -784,12 +783,12 @@ Due the application of ABDO strategies was independently, it is possible to
 identify the relationships between the query species and the 
 $\boldsymbol{\mathfrak{G}}$ species in the final set of immune system 
 candidates through an architecture relationships. As shown in Figure 
-\ref{fig:FrecEstrat}A different combinations of possibles architecture 
+~\ref{fig:FrecEstrat}A different combinations of possibles architecture 
 comparisons strategies have been merged to four different sets, organized by the 
 number of (ABDO) strategies that reported a successfully architecture 
 comparison. Here, $1 = (A, D)$; $2 = (AB, AD, BD, DO)$; $3 = (ABD, ADO, BDO)$ 
-and $4 = (ABDO)$; that is $10$ from $15$ possible combinations, because $(AO, 
-BO)$ always map to $(ADO, BDO)$, due $D \subseteq O$ and additionally, $B$ has 
+and $4 = (ABDO)$; that is $10$ from $15$ possible combinations, because $ (AO, 
+BO)$ always map to $ (ADO, BDO)$, due $D \subseteq O$ and additionally, $B$ has 
 not been considered at all because this comparison does not represent a pure 
 architecture relation, due complete sequence is used in the pairwise alignment 
 against $\boldsymbol{\mathfrak{G}}$ protein sequences. 
@@ -800,7 +799,7 @@ meaning based on the predetermined constrains on the pairwise comparison. In thi
 case: \textsl{A} comparisons relies only in the arrangement of the protein domains as a 
 string \cite{} (CITE RADS), this comparison takes into account similarity scores
 between the protein domain models from Pfam. In this case, as shown in Figure
-\ref{fig:FrecEstrat}A, the high number of proteins corresponds to homodomain proteins
+~\ref{fig:FrecEstrat}A, the high number of proteins corresponds to homodomain proteins
 or proteins with only one annotated domain. This group are restricted to be detected
 only by the A strategy, the other group, detected by only \textsl{D}, are proteins 
 that reported the same number and type of protein domains, but does not conserve 
@@ -828,43 +827,43 @@ Q:ENSP00000358159 (hsa): \textbf{PF00270;PF00271;PF02889} S:Moocci.CG.ELv1\_2.S3
 2 & AB & Combines both, domain arrangement detected by RADS and local similarity scores 
 between conserved regions that are enough to report high scores using \texttt{blast}. & \\
 & AD & Proteins that did not reported a strict domain arrangement, but all the same kind of
-domains are reported. & Q:ENSP00000284320 (hsa) : \textbf{PF00515,PF13181,PF13181,PF13181,PF13181}
+domains are reported. & Q:ENSP00000284320 (hsa):\textbf{PF00515,PF13181,PF13181,PF13181,PF13181}
 S:PMI\_006942 (pami): \textbf{PF13181,PF00515} \\
 & BD & Proteins that shares the same kinds of domains and also reported local similarities in overall
-protein sequence in a pairwise alignment with \texttt{blastp} & Q: ENSP00000481034 (hsa): 
-\textbf{PF07974,PF00008} S: ENSCSAVP00000003313 (cisa): 
+protein sequence in a pairwise alignment with \texttt{blastp} & Q:ENSP00000481034 (hsa): 
+\textbf{PF07974,PF00008} S:ENSCSAVP00000003313 (cisa): 
 \textbf{PF00008,PF00008,PF00008,PF00008,PF00008,PF00008,PF07974,PF00008,PF00008,PF07974,
 PF07974,PF00008,PF00008,PF00008,PF00008,PF07974,PF00008,PF00008,PF00008,PF00008,PF00008,PF00008,
 PF07974,PF00008,PF00008,PF00008,PF00008,PF00008,PF00008,PF00008,PF07974} \\
 & DO & Proteins that reported the same arrangement and types of domains \TODO{I detected a bug in RADS
 program. Seems that the architecture strategy somethimes missed true candidates, I wrote an email to
 the people from RADS team} &   
-Q: ENSP00000225614 (hsa): \textbf{PF10509,PF00288,PF08544} 
-S: XP\_796432.3 (stpu): \textbf{PF10509,PF00288,PF08544}\\
+Q:ENSP00000225614 (hsa): \textbf{PF10509,PF00288,PF08544} 
+S:XP\_796432.3 (stpu): \textbf{PF10509,PF00288,PF08544}\\
 \midrule
 3 & ABD & Proteins that does not strictly share the same domain arrangement
 but the architecture homology is enough to report a true candidates, this 
 result is also supported by the pairwise comparison by \texttt{blast} and 
 additionally, all the same protein families conserved between query and subject & 
-Q: ENSMUSP00000118471 (mmu): \textbf{PF01421,PF00090,PF05986,PF00090,PF00090}
+Q:ENSMUSP00000118471 (mmu): \textbf{PF01421,PF00090,PF05986,PF00090,PF00090}
 S:ENSCSAVP00000002867 (cisa): \textbf{PF01421,PF00090,PF05986}\\
 & ADO & Proteins that strictly shares the same domain arrangement
 and domain families. This group fails in \texttt{blast} searches, so
 it means that homology is supported only by pure architecture. & 
-Q: ENSP00000233330 (hsa): \textbf{PF08174,PF00169}
-S: g15075.t1 (dive): \textbf{PF08174,PF00169}\\ 
+Q:ENSP00000233330 (hsa): \textbf{PF08174,PF00169}
+S:g15075.t1 (dive): \textbf{PF08174,PF00169}\\ 
 & BDO & Those proteins would be the complete strategy, there is no reason
 to discart A, because exits D and O. \TODO{I detected a bug in RADS program. Seems 
 that the architecture strategy somethimes missed true candidates, I wrote an 
 email to the people from RADS team} & 
-Q: ENSP00000367421 (hsa): \textbf{PF02828,PF00595,PF07653,PF00625}
-S: XP\_791632.3 (stpu): \textbf{PF02828,PF00595,PF07653,PF00625}\\
+Q:ENSP00000367421 (hsa): \textbf{PF02828,PF00595,PF07653,PF00625}
+S:XP\_791632.3 (stpu): \textbf{PF02828,PF00595,PF07653,PF00625}\\
 \midrule
 4 & ABDO & Proteins that reported the most conserved architecture
 and sequence homology. Those ones shares the same protein arrangement, 
 types of domains and also local homology at pairwise comparisons. &
-Q: ENSP00000358159 (hsa): \textbf{PF00270,PF00271,PF02889,PF00270,PF00271,PF02889}
-S: GSOIDP00013289001 (oidi): \textbf{PF00270,PF00271,PF02889,PF00270,PF00271,PF02889}\\
+Q:ENSP00000358159 (hsa): \textbf{PF00270,PF00271,PF02889,PF00270,PF00271,PF02889}
+S:GSOIDP00013289001 (oidi): \textbf{PF00270,PF00271,PF02889,PF00270,PF00271,PF02889}\\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -872,8 +871,6 @@ S: GSOIDP00013289001 (oidi): \textbf{PF00270,PF00271,PF02889,PF00270,PF00271,PF0
 \label{table:biologicalexplanation}
 \end{sidewaystable}
 %%%%
-
-
 
 At the same time, this described distribution of relationships against 
 $\boldsymbol{\mathfrak{G}}$ architectures shows a highest number of subjects that 
@@ -887,7 +884,7 @@ set of immune proteins respect to the defined $\boldsymbol{\mathfrak{G}}$.
 Considering in overall the immune system proteins along all the studied 
 species, it is possible to identify the proportion of shared innate immune 
 system proteins respect to $\boldsymbol{\mathfrak{G}}$ species (Figure 
-\ref{fig:FrecEstrat}B). Mainly those relationships have been detected with human 
+~\ref{fig:FrecEstrat}B). Mainly those relationships have been detected with human 
 and mouse proteins, as described earlier those $\boldsymbol{\mathfrak{G}}$ 
 species reported the most frequent proteins in $\boldsymbol{\mathfrak{G}}$ set. 
 %Why Cisa has less mmu shared proteins respect to Ciro? They are sister species!
@@ -895,15 +892,17 @@ species reported the most frequent proteins in $\boldsymbol{\mathfrak{G}}$ set.
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.43]{figures/unitedComparedGOLD}%
-\caption{\textbf{A)}Frequency of detected proteins with defined architecture
+\caption{
+\textbf{A}Frequency of detected proteins with defined architecture
 comparison strategies classified according to the number of possible combinations of 
 architecture strategies (described in more detail in main text), 
-against $\boldsymbol{\mathfrak{G}}$. \textbf{B)} Mean shared proportion 
+against $\boldsymbol{\mathfrak{G}}$. \textbf{B} Mean shared proportion 
 homology architecture against gold standard species. \textsf{naviP=}\textit{N.\ 
 vitripennis}, \textsf{apmeP=}\textit{A.\ mellifera}, \textsf{drmeP=}\textit{D.\ 
 melanogaster}, \textsf{angaP=}\textit{A.\ gambiae} and 
 \textsf{acpiP=}\textit{A.\ pisum}; and Mammals: 
-\textsf{mmuP=}\textit{M.\ musculus} and \textsf{hsaP=}\textit{H.\ sapiens}.}
+\textsf{mmuP=}\textit{M.\ musculus} and \textsf{hsaP=}\textit{H.\ sapiens}.
+}
 \label{fig:FrecEstrat}
 \end{figure}
 
@@ -913,7 +912,7 @@ melanogaster}, \textsf{angaP=}\textit{A.\ gambiae} and
 
 Obtaining the protein domain architectures after their detection by ABDO 
 strategies, the distribution of the number of domains was studied (Figure 
-\ref{fig:domainDistr}A). All the studied organisms were grouped in $5$ 
+~\ref{fig:domainDistr}A). All the studied organisms were grouped in $5$ 
 defined taxonomical clades as follows: \textbf{Echi} = Echinodermata, 
 \textbf{Hemi} = Hemichordata, \textbf{Ceph} = Cephalochordata, \textbf{Tuni} = 
 Tunicata and \textbf{Vert} = Vertebrata, following the sub-phylum assignment on 
@@ -927,12 +926,12 @@ showed similar density distributions. Also, few proteins are composed by more
 than $5$ different types of domains, but the current distributions shows, in 
 all clades, a very long heavy tails with \TODO{$\ge 20$ domains types}.
 
-Meanwhile, Figures \ref{fig:domainDistr}B and C, shows the distribution of 
+Meanwhile, Figures~\ref{fig:domainDistr}B and C, shows the distribution of 
 protein architectures on homodomain and heterodomain proteins along studied 
 species, respectively. For homodomain proteins, $2304$ domain architectures 
 were detected along innate immune proteins in echinoderms ($54.1$\%), 
 hemichordates ($51.3$\%), cephalochordates ($37.0$\%), tunicates ($43.1$\%) and 
-vertebrates($52.9$\%). This distribution also shows a high variation in 
+vertebrates ($52.9$\%). This distribution also shows a high variation in 
 total number of architectures of one type of domain in echinoderms and 
 tunicates, respect to vertebrates (an excluding Hemichordates and 
 Cephalochordates that have $n=1$). \TODO{Please, explain this with a more 
@@ -949,15 +948,15 @@ of proteins. Specifically, for all clades, was possible to calculate
 the percentage of found architectures respect to the total number of 
 heterodomain architectures for all clades: echinoderms ($42.3$\%), 
 hemichordates ($45.0$\%), cephalochordates ($47.1$\%), tunicates 
-($22.5$\%) and vertebrates($50.8$\%). In more detail, 
-Figure \ref{fig:domainDistr}C shows the average of found protein architectures 
+($22.5$\%) and vertebrates ($50.8$\%). In more detail, 
+Figure~\ref{fig:domainDistr}C shows the average of found protein architectures 
 along all the clades. Both, the presence percentage and the average number of 
 architectures shows a reduced number of found architectures on tunicates 
 proteins, in comparison to other species of chordates and the outgroup species. 
 Also, a high variability is evident for the complete Tunicata clade. \TODO{Maybe 
 make a stat test?, please make a plot!}.  
 
-As a complement for heterodomain proteins, Figure \ref{fig:domainDistr}D 
+As a complement for heterodomain proteins, Figure~\ref{fig:domainDistr}D 
 represent the top $5$ proteins architectures domains along all defined clades. 
 This distribution is dominated by only $10$ domains that are spanned along 
 the protein architectures. By this way, the most frequent domain is an 
@@ -972,20 +971,20 @@ been detected in this list. The most conserved along those clades are: P-kinase
 homology domain (PF00169). 
 
 \TODO{When the architecture distribution is considered, the most frequent along 
-all species are described on Table \ref{tab:mostConservedArch}. Change 
+all species are described on Table~\ref{tab:mostConservedArch}. Change 
 this table describing by specie, clade or even describe the matrix based on 1:1 
 orthologous proteins.}
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.53]{figures/completeDistributionDomains} \\
-\includegraphics[scale=0.38]{figures/heterodomains_distr}
-\caption{\textbf{A)} Domain distribution of innate immune system proteins along 
-studied 
-bilateria species. \textbf{B)} Homodomain architecture distribution. 
-\textbf{C)} Multidomain architecture distribution. \textbf{Echi:} 
+%\includegraphics[scale=0.38]{figures/heterodomains_distr}
+\caption{
+\textbf{A} Homodomain architecture distribution. 
+\textbf{B} Multidomain architecture distribution. \textbf{Echi:} 
 Echinodermata, \textbf{Hemi:} Hemichordata, \textbf{Ceph:} Cephalochordata, 
-\textbf{Tuni:} Tunicata and \textbf{Vert:} Vertebrata.}
+\textbf{Tuni:} Tunicata and \textbf{Vert:} Vertebrata.
+}
 \label{fig:domainDistr}
 \end{figure}
 
@@ -997,16 +996,14 @@ this table for one more complete table with the most conserved along species? Ad
 \toprule
 \textbf{Architecture} & \textbf{Annotation} & \textbf{References}\\
 \midrule
-PF00134,PF16899 & Cyclin\_N,Cyclin\_C\_2 & ?\\
+PF00134,PF16899 & Cyclin\_N,Cyclin\_C\_2 & NA\\
 PF00651,PF07707 &  BTB,BACK & 
 \url{https://www.ncbi.nlm.nih.gov/pubmed/15544948}\\
 PF00688,PF00019 & TGFb\_propeptide,TGF\_beta & 
-\url{
-https://www.sciencedirect.com/science/article/pii/S0145305X03001812?via\%3Dihub}
-\\
-PF04851,PF00271 & ResIII,Helicase\_C & ?\\
-PF07707,PF01344 & BACK,Kelch\_1 & ?\\
-PF15227,PF00643 & zf-C3HC4\_4,zf-B\_box & ? \\
+\url{https://www.sciencedirect.com/science/article/pii/S0145305X03001812?via\%3Dihub}\\
+PF04851,PF00271 & ResIII,Helicase\_C & NA\\
+PF07707,PF01344 & BACK,Kelch\_1 & NA\\
+PF15227,PF00643 & zf-C3HC4\_4,zf-B\_box & NA \\
 \bottomrule
 \end{tabular}
 \label{tab:mostConservedArch}
@@ -1036,7 +1033,7 @@ and PF07707:PF01344). At the same time, based in the same matrix it is possible
 to reconstruct the architecture domain history along all studied species by Dollo 
 parsimony \cite{} with \texttt{Count}\cite{csuros2010}. 
 
-As represented on Figure \ref{fig:dollooneone},  a set of $1477$ architectures 
+As represented on Figure~\ref{fig:dollooneone},  a set of $1477$ architectures 
 are shared in the base of the \TODO{Deuterostomia?} and in both clades: 
 chordates and ambulacrarians report only gains (g) events. In this way, at the 
 base of Chordata $1619$ architectures have been partially loss (l) in Cephalochordata
@@ -1065,11 +1062,11 @@ Finally, inside vertebrates the highest number of architectures are present on
 gains at the base of Osteichthyes (g:102, l:178).
 
 As mentioned earlier, is possible divide the architecture domains into: homodomain 
-and heterodomain. Figure \ref{fig:domainDistr}A shows that homodomain proteins 
+and heterodomain. Figure~\ref{fig:domainDistr}A shows that homodomain proteins 
 are the most frequent in all clades in comparison to heterodomain proteins, 
 except for cephalochordates. In order to analyze the evolutionary history of 
 heterodomain orthologous proteins (1:1), the evolutionary history reconstruction 
-using Dollo parsimony was applied as described earlier (Figure \ref{fig:dollooneoneheterodomain}). A $437$ of $1133$ architectures were shared 
+using Dollo parsimony was applied as described earlier (Figure~\ref{fig:dollooneoneheterodomain}). A $437$ of $1133$ architectures were shared 
 between Deuterostomata, again showing gain events at Ambulacraria (g:29) and 
 Chordata (g:113). Cepahlochordata lost about $42$\% of the ancestral architectures 
 for chordates, while in Olfactores predominate gain events (g:130, l:9). The 
@@ -1116,10 +1113,10 @@ reporting those data? or is more convenient to plot by some way?}
 \item \TODO{Because the paper is about innate immune system, I was looking for 
 categories which I could classify the final architectures. I have found a nice classification
 specifically for tunicates on \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5465252/pdf/fimmu-08-00674.pdf} but I have to take some examples for each category and look it into
-the found candidates...Another option is on this systematic revision of domains: \url{https://www.sciencedirect.com/science/article/pii/S0378111918311119?via\%3Dihub}.}.
+the found candidates. Another option is on this systematic revision of domains: \url{https://www.sciencedirect.com/science/article/pii/S0378111918311119?via\%3Dihub}.}.
 \item \TODO{Dollo parsimony could be applied for analize gain and loss of protein architectures?.}
-\item \TODO{I could represent the protein architectures as drawings of the proteins, or a comparison between species, but for the most important ones in innate immune system, there is lot of information...}
-\item \TODO{I would like to report the ABDO method. I have the program, mainly Perl scripts and glue code in bash...or maybe in a server?}
+\item \TODO{I could represent the protein architectures as drawings of the proteins, or a comparison between species, but for the most important ones in innate immune system, there is lot of information.}
+\item \TODO{I would like to report the ABDO method. I have the program, mainly Perl scripts and glue code in bash or maybe in a server?}
 \end{itemize}
 
 \section*{Conclusions}
