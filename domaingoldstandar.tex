@@ -222,9 +222,8 @@ immune system candidates based on $\boldsymbol{\mathfrak{G}}$ definition.
 Used programs from software packages (HHMer and blast) and in-house 
 \texttt{Perl} scripts have been highlighted in blue. In green are indicated the 
 \texttt{Perl} scripts that perform the reduction function and each step of 
-comparison of architectures (A, B, D, O). \TODO{Clean with new and correct 
-definitions.}}  
-\label{fig:workflow_golden}
+comparison of architectures (A, B, D, O). \TODO{Clean with new and correct definitions.}
+}\label{fig:workflow_golden}
 \end{center}
 \end{figure}
 
@@ -276,9 +275,8 @@ information from the \texttt{IIID} was used to obtain data of insects like
 \textsl{Nasonia vitripennis}, \textsl{Apis mellifera}, \textsl{Drosophila 
 melanogaster}, \textsl{Anopheles gambiae} and \textsl{Acyrthosiphon pisum}. The 
 latter genomes were chosen because both have annotations on \textsl{NCBI} and 
-\textsl{Ensembl}. For those cases, genes annotated on \texttt{IIID} were 
-retrieved using \texttt{Batch Entrez}\footnote{\url{
-https://www.ncbi.nlm.nih.gov/sites/batchentrez}}. 
+\textsl{Ensembl}. For those cases, genes annotated on \texttt{IIID} were retrieved using \texttt{Batch Entrez}\footnote{\url{https://www.ncbi.nlm.nih.gov/sites/batchentrez}}. 
+
 Accession numbers from \texttt{NCBI} were translated into the accession number 
 of \texttt{Ensembl}. Then, we proceed to retrieve the data of insects in a 
 similar way like in human and mouse. A reference set of domains was obtained 
@@ -470,13 +468,10 @@ with the following parameters:
 geneid -3 -P <Parameter file> <FASTA FILE> -A >> <GFF3 file>
 \end{lstlisting}
 
-Here the \textit{Parameter file} was fetched via \texttt{FTP} for the 
-tunicates: \textsl{C. intestinalis}\footnote{
-ftp://genome.crg.es/pub/software/geneid/cintestinalis.param\_Apr\_26\_2006} and 
-\textsl{O.dioica}\footnote{
-ftp://genome.crg.es/pub/software/geneid/odioica.param\_Nov\_10\_2006}. The final 
-result was a \texttt{GFF3} file describing the coordinates on the candidate 
-genes, and additionally the set of possible protein candidates in a 
+Here the \textit{Parameter file} was fetched via \texttt{FTP} for the tunicates: \textsl{C. intestinalis}\footnote{ftp://genome.crg.es/pub/software/geneid/cintestinalis.param\_Apr\_26\_2006} and 
+\textsl{O.dioica}\footnote{ftp://genome.crg.es/pub/software/geneid/odioica.param\_Nov\_10\_2006}.
+The final result was a \texttt{GFF3} file describing the coordinates on the 
+candidate genes, and additionally the set of possible protein candidates in a 
 \texttt{fasta} format. Over those candidates \texttt{HMMer} was ran to detect 
 domains that intersect with the mapped HMMs in $\boldsymbol{\mathfrak{G}}$. 
 Again, filters by each $m$ was used, the \textsl{Reduction 
@@ -717,8 +712,8 @@ subject.
 \centering
 \includegraphics[scale=0.3]{figures/ABDO}%
 \caption{Detail of comparisons between query and subject protein domains with 
-	different pairwise comparisons: A, B, D, O.}
-\label{fig:ABDO}
+	different pairwise comparisons: A, B, D, O}
+~\label{fig:ABDO}
 \end{figure}
 
 %Following values based on the calculated numbers from: supportFileProteins.xlsx
@@ -736,19 +731,20 @@ into account unless the relationship was reported by another strategy.
 
 On the final results (described on Table~\ref{table:distribution_prot}, last column),
 in overall exists a highest distribution from  annotated immune system proteins 
-in vertebrates (median = $53.06$\% $\pm 2.91$, n=$3$), in comparison to tunicates 
-(median = $27.15$\% $\pm 21.26$, n=$12$), cephalochordates ($16.69$\%, n=1), and 
-the outgroup composed by hemichordates ($56.56$\%, n=1) and echinoderms (median = 
+in vertebrates (median = $54.48$\% $\pm 7.41$, n=$3$), in comparison to tunicates 
+(median = $31.08$\% $\pm 21.58$, n=$12$), cephalochordates ($41.67$\%, n=$1$), and 
+the outgroup composed by hemichordates ($56.56$\%, n=$1$) and echinoderms (median = 
 $56.105$\% $\pm 0.445$, n=$2$). High standard deviation in tunicates are a consequence 
 of the inclusion of the new draft genomes (from \textit{C.\ oblonga} and \textit{P.\ viridis}), 
 where the prediction of genes was \textsl{de novo} by \texttt{GeneID}. In this context, 
 only considering the tunicates genomes that had a previous annotation, the 
-estimated values changed: (median =$36.855$\% $\pm 12.9$, n=8). Specifically, inside this 
+estimated values changed: (median =$38.565$\% $\pm 12.23$, n=$8$). Specifically, inside this 
 clade, through colonial (median=$39.66$\% $\pm 15.61$, n=$3$) and solitary 
-($34.05$\% $\pm 10.85$, n=$5$) tunicates there is not significant differences on the 
+($37.47$\% $\pm 9.20$, n=$5$) tunicates there is not significant differences on the 
 medians percentages (Kruskal-Wallis rank sum test, $p=0.8815, \alpha=0.05$).
 %Code executed on: /homes/biertank/cristian/Desktop/Paper_Domains_Figures_Code/StatCalculation/testDifferences.r
 
+%Please copy complete table on K70!
 \begin{sidewaystable}
 \small
 \centering
@@ -760,14 +756,15 @@ medians percentages (Kruskal-Wallis rank sum test, $p=0.8815, \alpha=0.05$).
 \textsl{S. purpuratus}&$33663$&$35786$&$23640$ ($66.06$)&$3248$ ($9.08$)&$3542$ ($9.90$)&$15420$ ($43.09$)&$19811$ ($55.36$)&$19964$ ($55.79$)\\
 \textsl{S. kowalevskii}&$32367$&$22111$&$14888$ ($67.33$)&$1973$ ($8.92$)&$2152$ ($9.73$)&$9737$ ($44.04$)&$12398$ ($56.07$)&$12505$ ($56.56$)\\
 \midrule
-\textsl{B. floridae}&$50817$&$50817$&$25430$ ($50.04$)&$5499$ ($10.82$)&$4183$ ($8.23$)&$21767$ ($42.83$)&$21000$ ($41.32$)&$8480$ ($16.69$)\\
+\textsl{B. floridae}&$50817$&$50817$&$25430$ ($50.04$)&$5499$ ($10.82$)&$4183$ ($8.23$)&$21767$ ($42.83$)&$21000$ ($41.32$)&$21173$ ($41.67$)\\
 \midrule
-\textsl{O. dioica}&$17212$&$17212$&$5709$ ($33.17$)&$1342$ ($7.80$)&$955$ ($5.55$)&$4577$ ($26.59$)&$4797$ ($27.87$)&$4808$ ($27.93$)\\
+\textsl{O. dioica}&$17212$&$17212$&$5709$ ($33.17$)&$1342$ ($7.80$)&$955$ ($5.55$)&$4577$ ($26.59$)&$4797$ ($27.87$)&$4836$ ($28.10$)\\
 \textsl{M. occidentalis}&$30639$&$33023$&$13050$ ($39.52$)&$1195$ ($3.62$)&$1281$ ($3.88$)&$7170$ ($21.71$)&$11192$ ($33.89$)&$11243$ ($34.05$)\\
 \textsl{M. oculata}&$15313$&$16616$&$9985$ ($60.09$)&$1336$ ($8.04$)&$1419$ ($8.54$)&$6615$ ($39.81$)&$8472$ ($50.99$)&$8523$ ($51.29$)\\
-\textsl{B. schlosseri}&$46519$&$46519$&$8709$ ($18.72$)&$1790$ ($3.85$)&$1264$ ($2.72$)&$6148$ ($13.22$)&$6765$ ($14.54$)&$6846$ ($14.72$)\\
+\textsl{B. schlosseri}&$46519$&$46519$&$8709$ ($18.72$)&$1790$ ($3.85$)&$1264$ ($2.72$)&$6148$ ($13.22$)&$6765$ ($14.54$)&$6847$ ($14.72$)\\
+
 \textsl{B. leachii }&$15839$&$15839$&$9833$ ($62.08$)&$1271$ ($8.02$)&$1422$ ($8.98$)&$6243$ ($39.42$)&$8174$ ($51.61$)&$8284$ ($52.30$)\\
-\textsl{C. robusta}&$17153$&$17304$&$12917$ ($74.65$)&$1668$ ($9.64$)&$1160$ ($6.70$)&$6005$ ($34.70$)&$6436$ ($37.19$)&$4565$ ($26.38$)\\
+\textsl{C. robusta}&$17153$&$17304$&$12917$ ($74.65$)&$1668$ ($9.64$)&$1160$ ($6.70$)&$6005$ ($34.70$)&$6436$ ($37.19$)&$6484$ ($37.47$)\\
 \textsl{C. savignyi}&$12172$&$20157$&$17101$ ($84.84$)&$2087$ ($10.35$)&$1215$ ($6.03$)&$10049$ ($49.85$)&$10079$ ($50.00$)&$10206$ ($50.63$)\\
 \textsl{P. viridis} (Ciro)&$6077$&$2221773$&$2806$ ($0.13$)&$56$ ($0.00$)&$61$ ($0.00$)&$12724$ ($0.57$)&$1968$ ($0.09$)&$1972$ ($0.09$)\\
 \textsl{P. viridis} (Oidi)&$3025$&$1811030$&$2110$ ($0.12$)&$60$ ($0.00$)&$66$ ($0.00$)&$10329$ ($0.57$)&$1404$ ($0.08$)&$1408$ ($0.08$)\\
@@ -775,16 +772,15 @@ medians percentages (Kruskal-Wallis rank sum test, $p=0.8815, \alpha=0.05$).
 \textsl{C. oblonga} (Ciro)&$19507$&$1174882$&$4032$ ($0.34$)&$120$ ($0.01$)&$125$ ($0.01$)&$4070$ ($0.35$)&$2893$ ($0.25$)&$2902$ ($0.25$)\\
 \textsl{C. oblonga} (Oidi)&$4832$&$950470$&$2856$ ($0.30$)&$125$ ($0.01$)&$135$ ($0.01$)&$8746$ ($0.92$)&$1990$ ($0.21$)&$1997$ ($0.21$)\\
 \midrule
-\textsl{P. marinus}&$13114$&$11444$&$10623$ ($92.83$)&$1650$ ($14.42$)&$1145$ ($10.01$)&$6227$ ($54.41$)&$6025$ ($52.65$)&$6072$ ($53.06$)\\
-\textsl{D. rerio}&$31953$&$44489$&$42625$ ($95.81$)&$11762$ ($26.44$)&$4108$ ($9.23$)&$28031$ ($63.01$)&$29523$ ($66.36$)&$23892$ ($53.70$)\\
-\textsl{L. chalumnae}&$22628$&$23603$&$22059$ ($93.46$)&$4461$ ($18.90$)&$2185$ ($9.26$)&$9127$ ($38.67$)&$12767$ ($54.09$)&$11416$ ($48.37$)\\
+\textsl{P. marinus}&$13114$&$11444$&$10623$ ($92.83$)&$1650$ ($14.42$)&$1145$ ($10.01$)&$6227$ ($54.41$)&$6025$ ($52.65$)&$6073$ ($53.07$)\\
+\textsl{D. rerio}&$31953$&$44489$&$42625$ ($95.81$)&$11762$ ($26.44$)&$4108$ ($9.23$)&$28031$ ($63.01$)&$29523$ ($66.36$)&$29607$ ($66.55$)\\
+\textsl{L. chalumnae}&$22628$&$23603$&$22059$ ($93.46$)&$4461$ ($18.90$)&$2185$ ($9.26$)&$9127$ ($38.67$)&$12767$ ($54.09$)&$12858$ ($54.48$)\\
 \bottomrule
 \end{tabular}
 \caption{Final distribution of annotated genes and found candidate Innate
 Immune system proteins. The percentage in relation of the total of annotated
 proteins (column \textit{Annotated Proteins}) is reported in parenthesis. In
-last column \textbf{IIS} refers to: Innate Immune system.}
-\label{table:distribution_prot}
+last column \textbf{IIS} refers to: Innate Immune system.}\label{table:distribution_prot}
 \end{sidewaystable}
 
 Due the application of ABDO strategies was independently, it is possible to 
@@ -802,14 +798,23 @@ architecture relation, due complete sequence is used in the pairwise alignment
 against $\boldsymbol{\mathfrak{G}}$ protein sequences. 
 
 %%%%Biological discussion about homology strategies of architectures
-The biological meaning of those combined groups is explained on Table~\ref{table:biologicalexplanation},
-where defined groups have specific properties that allow classify the 
-reported relationships between $\boldsymbol{\mathfrak{G}}$ and subject proteins.
-Additionally with Figures~\ref{fig:FrecEstrat}A and B, is possible to identify
-that exists a big group the innate immune system proteins that are identified as homodomain proteins,
- as shown for group $1$. In this case, $\sim87$\% of \textit{D. vexillum} proteins corresponds to
-homodomain proteins.  
+The biological meaning of the domain homology strategies is explained on 
+Table~\ref{table:biologicalexplanation}. Relationships between subject
+proteins and their detected $\boldsymbol{\mathfrak{G}}$ proteins have explained
+by one or many ABDO comparisons for the same pair of proteins, it means that
+for each protein could exists one or more $\boldsymbol{\mathfrak{G}}$ proteins that
+have been detected by exclusively one ABDO method or more. In the first case, is
+possible to analyze the influence of defined methodologies to find new innate
+immune system candidates. As shown in Figure~\ref{fig:relation}, a relationship
+between the number of $\boldsymbol{\mathfrak{G}}$ proteins and $\boldsymbol{\mathfrak{G}}$
+species, was calculated and then the complete number of subject species was 
+used to compare all of the ABDO strategies. As explained earlier, those strategies
+could be grouped by the number of coincident strategies that detected the same relation 
+(gray region on the top of plot). 
 
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Please explain Fig of relationships and based on values and groups, please
+%% detect if exists significative differences. 
 
 \TODO{Please draw very simply the following relations on table 2.}
 \begin{sidewaystable}
@@ -856,8 +861,7 @@ S:GSOIDP00013289001 (oidi): \textbf{PF00270,PF00271,PF02889,PF00270,PF00271,PF02
 \bottomrule
 \end{tabular}
 \end{center}
-\caption{Biological meaning of combination of architecture strategies.}
-\label{table:biologicalexplanation}
+\caption{Biological meaning of combination of architecture strategies.}\label{table:biologicalexplanation}
 \end{sidewaystable}
 %%%%
 
@@ -876,28 +880,32 @@ system proteins respect to $\boldsymbol{\mathfrak{G}}$ species (Figure
 ~\ref{fig:FrecEstrat}B). Mainly those relationships have been detected with human 
 and mouse proteins, as described earlier those $\boldsymbol{\mathfrak{G}}$ 
 species reported the most frequent proteins in $\boldsymbol{\mathfrak{G}}$ set. 
-%Why Cisa has less mmu shared proteins respect to Ciro? They are sister species!
 
 \begin{figure}[ht!]
-\centering
-\includegraphics[scale=0.43]{figures/unitedComparedGOLD}%
-\caption{
-\textbf{A}Frequency of detected proteins with defined architecture
-comparison strategies classified according to the number of possible combinations of 
-architecture strategies (described in more detail in main text), 
-against $\boldsymbol{\mathfrak{G}}$. \textbf{B} Mean shared proportion 
-homology architecture against gold standard species. \textsf{naviP=}\textit{N.\ 
-vitripennis}, \textsf{apmeP=}\textit{A.\ mellifera}, \textsf{drmeP=}\textit{D.\ 
-melanogaster}, \textsf{angaP=}\textit{A.\ gambiae} and 
-\textsf{acpiP=}\textit{A.\ pisum}; and Mammals: 
-\textsf{mmuP=}\textit{M.\ musculus} and \textsf{hsaP=}\textit{H.\ sapiens}.
-}
-\label{fig:FrecEstrat}
+	\centering
+	\includegraphics[scale=0.43]{figures/unitedComparedGOLD}
+	\caption{\textbf{A}Frequency of detected proteins with defined architecture
+		comparison strategies classified according to the number of possible combinations of 
+		architecture strategies (described in more detail in main text),
+		against $\boldsymbol{\mathfrak{G}}$. \textbf{B} Mean shared proportion 
+		homology architecture against gold standard species. \textsf{naviP=}\textit{N.\ 
+		vitripennis}, \textsf{apmeP=}\textit{A.\ mellifera}, \textsf{drmeP=}\textit{D.\ 
+		melanogaster}, \textsf{angaP=}\textit{A.\ gambiae} and 
+		\textsf{acpiP=}\textit{A.\ pisum}; and Mammals: 
+		\textsf{mmuP=}\textit{M.\ musculus} and \textsf{hsaP=}\textit{H.\ sapiens}.
+	}\label{fig:FrecEstrat}
 \end{figure}
 
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.5]{figures/relationGoldenABDO}
+	\caption{Relationship between number of $\boldsymbol{\mathfrak{G}}$ proteins and
+	their correspondent species for each ABDO strategy. Results have been grouped
+	according to the number of combined ABDO strategies that detected the relationship
+	between query and subject protein.}\label{fig:relation}
+\end{figure}
 
-\subsection*{Relationships between Innate Immune system candidates} 
-\label{Orthology}
+\subsection*{Relationships between Innate Immune system candidates}\label{Orthology}
 
 Obtaining the protein domain architectures after their detection by ABDO 
 strategies, the distribution of the number of domains was studied (Figure 
@@ -968,13 +976,11 @@ orthologous proteins.}
 \centering
 \includegraphics[scale=0.53]{figures/completeDistributionDomains} \\
 %\includegraphics[scale=0.38]{figures/heterodomains_distr}
-\caption{
-\textbf{A} Homodomain architecture distribution. 
-\textbf{B} Multidomain architecture distribution. \textbf{Echi:} 
-Echinodermata, \textbf{Hemi:} Hemichordata, \textbf{Ceph:} Cephalochordata, 
-\textbf{Tuni:} Tunicata and \textbf{Vert:} Vertebrata.
-}
-\label{fig:domainDistr}
+\caption{\textbf{A} Homodomain architecture distribution. 
+	\textbf{B} Multidomain architecture distribution. \textbf{Echi:} 
+	Echinodermata, \textbf{Hemi:} Hemichordata, \textbf{Ceph:} Cephalochordata, 
+	\textbf{Tuni:} Tunicata and \textbf{Vert:} Vertebrata.
+}\label{fig:domainDistr}
 \end{figure}
 
 \begin{table}[ht!]
@@ -994,8 +1000,7 @@ PF04851,PF00271 & ResIII,Helicase\_C & NA\\
 PF07707,PF01344 & BACK,Kelch\_1 & NA\\
 PF15227,PF00643 & zf-C3HC4\_4,zf-B\_box & NA \\
 \bottomrule
-\end{tabular}
-\label{tab:mostConservedArch}
+\end{tabular}\label{tab:mostConservedArch}
 \end{center}
 \end{table}
 
@@ -1073,16 +1078,14 @@ architectures ($525$).
 \centering
 \includegraphics[scale=0.53]{figures/provisionalDollo} \\
 \caption{Evolutionary history of 1:1 orthologous protein architectures in 
-Deuterostomata. \TODO{This is a temporal image, while I'm sure about numbers}}
-\label{fig:dollooneone}
+Deuterostomata. \TODO{This is a temporal image, while I'm sure about numbers}}\label{fig:dollooneone}
 \end{figure}
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.53]{figures/provisionalDolloHeterodomains} \\
 \caption{Evolutionary history of 1:1 orthologous \textbf{heterodomain} protein 
-architectures in Deuterostomata.}
-\label{fig:dollooneoneheterodomain}
+architectures in Deuterostomata.}\label{fig:dollooneoneheterodomain}
 \end{figure}
 
 In the same way, from the $27311$ relations that have been detected, 
