@@ -693,20 +693,19 @@ According to the definitions in Material and Methods and Figure~\ref{fig:ABDO},
 previously defined homology architecture strategies relies on different pairwise 
 comparisons, exclusively on protein domain architectures. $\boldsymbol{\mathfrak{G}}$
 proteins represent the current annotated proteins on innate immune system and 
-their correspondent protein architectures represented as the reducted architectures
-(after reduction function). Both, $\boldsymbol{\mathfrak{G}}$ proteins and 
-architectures are used as queries in order to perform pairwise comparisons with
-subject proteins. In this case, A (architecture) comparison considers all the
-annotated protein domains and make a comparison based on a precomputed 
-similarity matrix of \TODO{hidden markov profiles} in \texttt{RADS} \cite{Terrapon:2014}.   
-B (blast) comparisons does not considers protein domains, but the complete sequence
-of the query and the subject proteins, in this case, at least a $70$ \% of similarity 
-to be considered as a true candidate. D (disorder) and O (order) compare the 
-reducted architectures, in this case for the first one, all valid combinations of 
-architectures are valid on the subject protein, while the number and the identity of
-the \texttt{Pfam} families are conserved. This is not the case of O, where the order
-of protein domain architecture is an additional requirement to consider a homologous
-subject. 
+their correspondent protein architectures represented as the reducted architectures.
+Both, $\boldsymbol{\mathfrak{G}}$ proteins and architectures are used as queries 
+in order to perform pairwise comparisons with subject proteins. In this case, 
+A (architecture) comparison considers all the annotated protein domains and make a 
+comparison based on a precomputed similarity matrix of \TODO{hidden markov profiles} 
+in \texttt{RADS} \cite{Terrapon:2014}. B (blast) comparisons does not considers protein 
+domains, but the complete sequence of the query and the subject proteins, in this case, 
+at least a $70$ \% of similarity has to be considered as a true candidate. D (disorder) 
+and O (order) compare the reducted architectures, in this case for the first one, 
+all valid combinations of architectures are valid on the subject protein, while the 
+number and the identity of the \texttt{Pfam} families are conserved. This is not the case 
+of O, where the order of protein domain architecture is an additional requirement to 
+consider a homologous subject. 
 
 \begin{figure}[ht!]
 \centering
@@ -730,18 +729,20 @@ possible sequence homology reported with B results, in this approach was not tak
 into account unless the relationship was reported by another strategy.
 
 On the final results (described on Table~\ref{table:distribution_prot}, last column),
-in overall exists a highest distribution from  annotated immune system proteins 
+in overall exists a highest distribution from annotated immune system proteins 
 in vertebrates (median = $54.48$\% $\pm 7.41$, n=$3$), in comparison to tunicates 
 (median = $31.08$\% $\pm 21.58$, n=$12$), cephalochordates ($41.67$\%, n=$1$), and 
 the outgroup composed by hemichordates ($56.56$\%, n=$1$) and echinoderms (median = 
-$56.105$\% $\pm 0.445$, n=$2$). High standard deviation in tunicates are a consequence 
-of the inclusion of the new draft genomes (from \textit{C.\ oblonga} and \textit{P.\ viridis}), 
-where the prediction of genes was \textsl{de novo} by \texttt{GeneID}. In this context, 
-only considering the tunicates genomes that had a previous annotation, the 
-estimated values changed: (median =$38.565$\% $\pm 12.23$, n=$8$). Specifically, inside this 
-clade, through colonial (median=$39.66$\% $\pm 15.61$, n=$3$) and solitary 
-($37.47$\% $\pm 9.20$, n=$5$) tunicates there is not significant differences on the 
-medians percentages (Kruskal-Wallis rank sum test, $p=0.8815, \alpha=0.05$).
+$56.105$\% $\pm 0.445$, n=$2$) shows similar distributions. High standard deviation in 
+tunicates are a consequence of the inclusion of the new draft genomes 
+(from \textit{C.\ oblonga} and \textit{P.\ viridis}), where the prediction of genes 
+was \textsl{de novo} by \texttt{GeneID}. In this context, only considering the tunicates 
+genomes that had a previous annotation, the estimated values changed 
+(median =$38.565$\% $\pm 12.23$, n=$8$) and shown in general, the same reduced values. 
+Distinction between colonial (median=$39.66$\% $\pm 15.61$, n=$3$) and 
+solitary ($37.47$\% $\pm 9.20$, n=$5$) tunicates does not reported a significant differences
+when compared the medians of final reported percentages (Kruskal-Wallis rank sum test,
+$p=0.8815, \alpha=0.05$).
 %Code executed on: /homes/biertank/cristian/Desktop/Paper_Domains_Figures_Code/StatCalculation/testDifferences.r
 
 %Please copy complete table on K70!
@@ -783,40 +784,67 @@ proteins (column \textit{Annotated Proteins}) is reported in parenthesis. In
 last column \textbf{IIS} refers to: Innate Immune system.}\label{table:distribution_prot}
 \end{sidewaystable}
 
-Due the application of ABDO strategies was independently, it is possible to 
+Due to the application of ABDO strategies was independently, it is possible to 
 identify the relationships between the query species and the 
 $\boldsymbol{\mathfrak{G}}$ species in the final set of immune system 
-candidates through an architecture relationships. As shown in Figure 
-~\ref{fig:FrecEstrat}A different combinations of possibles architecture 
-comparisons strategies have been merged to four different sets, organized by the 
-number of (ABDO) strategies that reported a successfully architecture 
-comparison. Here, $1 = (A, D)$; $2 = (AB, AD, BD)$; $3 = (ABD, ADO)$ 
+candidates through the architecture relationships. Different combinations of 
+possible architecture comparisons strategies have been merged to four different 
+sets, organized by the number of (ABDO) strategies that reported a successfully
+architecture comparison. Here, $1 = (A, D)$; $2 = (AB, AD, BD)$; $3 = (ABD, ADO)$ 
 and $4 = (ABDO)$; that is $8$ from $15$ possible combinations, because $ (AO, 
 BO)$ always map to $ (ADO, BDO)$, due $D \subseteq O$ and additionally, $B$ has 
 not been considered at all because this comparison does not represent a pure 
 architecture relation, due complete sequence is used in the pairwise alignment 
-against $\boldsymbol{\mathfrak{G}}$ protein sequences. 
+against $\boldsymbol{\mathfrak{G}}$ protein sequences. Additionaly to this,
+the biological relevance and examples for each of the resulted relations are
+explained on Table~\ref{table:biologicalexplanation}.
 
 %%%%Biological discussion about homology strategies of architectures
-The biological meaning of the domain homology strategies is explained on 
-Table~\ref{table:biologicalexplanation}. Relationships between subject
-proteins and their detected $\boldsymbol{\mathfrak{G}}$ proteins have explained
-by one or many ABDO comparisons for the same pair of proteins, it means that
-for each protein could exists one or more $\boldsymbol{\mathfrak{G}}$ proteins that
-have been detected by exclusively one ABDO method or more. In the first case, is
-possible to analyze the influence of defined methodologies to find new innate
-immune system candidates. As shown in Figure~\ref{fig:relation}, a relationship
-between the number of $\boldsymbol{\mathfrak{G}}$ proteins and $\boldsymbol{\mathfrak{G}}$
-species, was calculated and then the complete number of subject species was 
-used to compare all of the ABDO strategies. As explained earlier, those strategies
-could be grouped by the number of coincident strategies that detected the same relation 
-(gray region on the top of plot). 
+Based on the final results, the nature of the relationships between subject 
+proteins and their correspondent $\boldsymbol{\mathfrak{G}}$ proteins could be explained 
+by \textit{one} or \textit{many} ABDO comparisons. For the first case, subject protein
+and their correspondent $\boldsymbol{\mathfrak{G}}$ proteins could be well-characterized based
+on the description in Table~\ref{table:biologicalexplanation}. According to Figure XX, those
+proteins explain at least the XX\% of the relationships, the other group (that represent YY\%),
+are composed by those query proteins that reported more relations and the relations against
+$\boldsymbol{\mathfrak{G}}$, could not be easily classified as described in
+Table~\ref{table:biologicalexplanation}. 
+
+The relevance to make this distinction is to compare the final number of proteins
+that have been detected independently by each ABDO strategies. As shown in Figure~\ref{fig:relation}, 
+a relationship between the number of $\boldsymbol{\mathfrak{G}}$ proteins 
+and $\boldsymbol{\mathfrak{G}}$ species, was calculated in Y axis and then, the complete number
+of subject species was used to compare all of the ABDO strategies. Comparisons have been grouped
+based on the pre-defined groups of strategies (gray region on the top of plot). In the
+group number 1, A strategy recovered all the homodomain proteins with only one annotated domain 
+($\sim 78$)\% and the rest are heterodomain proteins with almost similar arrangement of domains,
+but without big differences. In comparison to D strategy, A allowed to recognize a higher 
+number of proteins and those proteins belong from $\geq 3$ $\boldsymbol{\mathfrak{G}}$ species. D
+candidates, are represented by a small subset of heterodomain architectures ($\sim 183$) that
+could not be included in A because their domains organization disrupt the overall arrangement
+that have been defined for A to be consider as positive. Group $2$ are dominated by AB strategy,
+where the arrangement of A has been supported by the sequence homology evaluated by \texttt{blastp}.
+In this case, the number of related $\boldsymbol{\mathfrak{G}}$ species and proteins are lower in
+comparison to the last group. AD and BD, does not shows too much candidates, as far the D results 
+are few, the possible combinations are possible but not present in more than $3$ 
+$\boldsymbol{\mathfrak{G}}$ species. In Group $3$, where all candidates are heterodomain proteins,
+ADO and ABD strategies are at some point antagonist, because the strict order 
+criteria applied on the first one and not in the second strategy and also, the sequence 
+homology is disrupted in the first group. Most of the detected candidates established 
+a relationship based on the order and have been detected at the most in $5$ 
+$\boldsymbol{\mathfrak{G}}$ species and at the maximum with $120$ species. The group 4, combines
+all the considered strategies and represents the set of proteins that reported a
+conserved arrangement in the domain distribution, both in reduced architecture and the
+complete domain annotation. For this group, $\boldsymbol{\mathfrak{G}}$ proteins belong from 
+at the maximum from $4$ s$\boldsymbol{\mathfrak{G}}$ species and one subject protein 
+reported relationships at the most with $35$ $\boldsymbol{\mathfrak{G}}$ proteins.
+\TODO{Maybe create another Supplemental files with the plot of proteins and species?
+please look into: /homes/biertank/cristian/Desktop/Final\_Figures\_paper\_domains/Code}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%% Please explain Fig of relationships and based on values and groups, please
 %% detect if exists significative differences. 
 
-\TODO{Please draw very simply the following relations on table 2.}
 \begin{sidewaystable}
 \small
 \centering
@@ -824,7 +852,12 @@ could be grouped by the number of coincident strategies that detected the same r
 \begin{tabular}{p{1cm}p{1.2cm}p{9cm}p{10cm}} 
 \toprule
 \textbf{Group} & \textbf{Strategy} & \textbf{Description}& \textbf{Example}\\
-1 & A & Homodomain proteins or proteins with only one annotated domain & 
+1 & A & Homodomain or heterodomain proteins that reported almost the same arrangement
+of protein domains in comparison to $\boldsymbol{\mathfrak{G}}$ proteins. Particulary, 
+heterodomains escaped from Order strategy because their protein arrangement does not
+follow a strict distribution in query protein, but these variations does not have a big
+influence in the final score calculation. At the same time, homodomain proteins reported
+ only one domain on their annotations, so also have been not considered into D or O strategies & 
 \textbf{PF02460,PF02460} S:Boleac.CG.SB\_v3.S462.g10171.01.p (bole):\textbf{PF02460,PF02460}\\
 & D & Proteins that reported the same number and type of domains, but does 
 not conserve the arrangement respect to the query $\boldsymbol{\mathfrak{G}}$ architecture. &
@@ -865,56 +898,79 @@ S:GSOIDP00013289001 (oidi): \textbf{PF00270,PF00271,PF02889,PF00270,PF00271,PF02
 \end{sidewaystable}
 %%%%
 
-At the same time, this described distribution of relationships against 
-$\boldsymbol{\mathfrak{G}}$ architectures shows a highest number of subjects that 
-have been detected as innate immune system candidates by only $1$ architecture 
-strategy, most of them with A. The number of candidates that have been detected with 
-all the strategies (set $4$) reported frequencies $\leq 3100$ proteins on the 
-subject species, reporting the highest distribution on the specie \textit{D.\ 
-rerio}. This group represents, along all the comparisons the most conserved 
-set of immune proteins respect to the defined $\boldsymbol{\mathfrak{G}}$. 
-
-Considering in overall the immune system proteins along all the studied 
-species, it is possible to identify the proportion of shared innate immune 
-system proteins respect to $\boldsymbol{\mathfrak{G}}$ species (Figure 
-~\ref{fig:FrecEstrat}B). Mainly those relationships have been detected with human 
-and mouse proteins, as described earlier those $\boldsymbol{\mathfrak{G}}$ 
-species reported the most frequent proteins in $\boldsymbol{\mathfrak{G}}$ set. 
+The use of a defined set of $\boldsymbol{\mathfrak{G}}$ species allowed the detection of
+the related candidate proteins on the subject species. As shown in Figure~\ref{fig:FrecEstrat},
+it is possible to identify the proportion of shared innate immune system proteins 
+respect to $\boldsymbol{\mathfrak{G}}$ species (Figure~\ref{fig:FrecEstrat}). 
+As discussed earlier, most of those relationships have been detected with human proteins and
+some of them with mouse ones, in general the pattern is conserved along all considered species
+in this study, but it could be a consequence of the number of initial candidates on the
+$\boldsymbol{\mathfrak{G}}$ proteins, as described on Additional File 2 (Table \TODO{XY}).
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[scale=0.43]{figures/unitedComparedGOLD}
-	\caption{\textbf{A}Frequency of detected proteins with defined architecture
-		comparison strategies classified according to the number of possible combinations of 
-		architecture strategies (described in more detail in main text),
-		against $\boldsymbol{\mathfrak{G}}$. \textbf{B} Mean shared proportion 
-		homology architecture against gold standard species. \textsf{naviP=}\textit{N.\ 
-		vitripennis}, \textsf{apmeP=}\textit{A.\ mellifera}, \textsf{drmeP=}\textit{D.\ 
-		melanogaster}, \textsf{angaP=}\textit{A.\ gambiae} and 
-		\textsf{acpiP=}\textit{A.\ pisum}; and Mammals: 
-		\textsf{mmuP=}\textit{M.\ musculus} and \textsf{hsaP=}\textit{H.\ sapiens}.
-	}\label{fig:FrecEstrat}
-\end{figure}
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[scale=0.5]{figures/relationGoldenABDO}
+	\includegraphics[scale=0.7]{figures/relationGoldenABDO}
 	\caption{Relationship between number of $\boldsymbol{\mathfrak{G}}$ proteins and
 	their correspondent species for each ABDO strategy. Results have been grouped
 	according to the number of combined ABDO strategies that detected the relationship
 	between query and subject protein.}\label{fig:relation}
 \end{figure}
 
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[scale=0.7]{figures/proportionsGOLD}
+  \caption{Mean shared proportion homology architecture against 
+    gold standard species. \textsf{naviP=}\textit{N.\ vitripennis}, 
+    \textsf{apmeP=}\textit{A.\ mellifera}, \textsf{drmeP=}\textit{D.\ melanogaster}, 
+    \textsf{angaP=}\textit{A.\ gambiae} and \textsf{acpiP=}\textit{A.\ pisum}; 
+    and Mammals: \textsf{mmuP=}\textit{M.\ musculus} and 
+  \textsf{hsaP=}\textit{H.\ sapiens}.}\label{fig:FrecEstrat}
+\end{figure}
+
+
 \subsection*{Relationships between Innate Immune system candidates}\label{Orthology}
 
-Obtaining the protein domain architectures after their detection by ABDO 
-strategies, the distribution of the number of domains was studied (Figure 
-~\ref{fig:domainDistr}A). All the studied organisms were grouped in $5$ 
-defined taxonomical clades as follows: \textbf{Echi} = Echinodermata, 
-\textbf{Hemi} = Hemichordata, \textbf{Ceph} = Cephalochordata, \textbf{Tuni} = 
-Tunicata and \textbf{Vert} = Vertebrata, following the sub-phylum assignment on 
-Additional File 1:Table 1. It was possible to identify a high number of 
-proteins that only reported $1$ protein domain type (homodomain proteins).
+Current detected innate immune system candidates on subject species represent
+a set of annotated proteins that could be subject of better annotations or
+classifications based on calculated information given by this study. So, 
+when detected protein architectures were considered, is possible to obtain 
+parameters from this sample of proteins, like the identity of the domain profiles. 
+For this feature in Figure~\ref{fig:domainDistr} the distribution of protein architectures, 
+is shown. In order to describe the nature of the architectures, their composition could be
+classified as: homodomain (by the same type of domains) or  heterodomains (more than one 
+domain type). By practical means all the species was grouped in $5$ taxonomical clades as:
+\textbf{Echi} = Echinodermata, \textbf{Hemi} = Hemichordata, \textbf{Ceph} = Cephalochordata, 
+\textbf{Tuni} = Tunicata and \textbf{Vert} = Vertebrata, following the sub-phylum 
+assignment on Additional File 1:Table 1. Homodomain proteins are depicted on 
+Figure~\ref{fig:domainDistr}A, where a total number of $9368$ homodomain architectures 
+were detected along all species: echinoderms ($21.4$\%), hemichordates ($18.8$\%), 
+cephalochordates ($16.24$\%), tunicates ($22.21$\%) and vertebrates ($21.78$\%). 
+This distribution also shows a high variation in total number of architectures of 
+one type of domain in echinoderms and tunicates, respect to vertebrates 
+
+In this homodomain set, the most frequent protein architecture with 
+current annotation from \texttt{Pfam} is Rhodopsin-like receptor 
+(PF00001) for echinoderms, hemichordates and vertebrates, while for 
+Cephalochordata was LRR\_8 (PF13855) and for tunicates the Protein 
+Kinase domain (PF00069). 
+
+ 
+%%%HOMO
+%  Clade        SD     Mean  Min  Max  N Total
+%1  Ceph        NA 1521.000 1521 1521  1  1521
+%2 Echin  98.28784 1835.500 1766 1905  2  3671
+%3  Hemi        NA 1721.000 1721 1721  1  1721
+%4  Tuni 423.51523 1058.667  467 1727 12 12704
+%5  Vert 362.95225 1543.667 1213 1932  3  4631
+
+%ORDER
+% PF00069  Tuni  2326
+% PF00001  Vert  1307
+% PF00001 Echin  1182
+% PF13855  Ceph  1049
+% PF00001  Hemi   477
+
+%%
 Despite the similarity of this results along all clades, distribution 
 from \textsl{B.\ floridae} (Cephalochordata) showed also higher number of 
 proteins with $2$ and $3$ types of domains with similar numbers as reported 
@@ -922,23 +978,7 @@ on vertebrates; but not in echinoderms, hemichordates and tunicates, that
 showed similar density distributions. Also, few proteins are composed by more 
 than $5$ different types of domains, but the current distributions shows, in 
 all clades, a very long heavy tails with \TODO{$\ge 20$ domains types}.
-
-Meanwhile, Figures~\ref{fig:domainDistr}B and C, shows the distribution of 
-protein architectures on homodomain and heterodomain proteins along studied 
-species, respectively. For homodomain proteins, $2304$ domain architectures 
-were detected along innate immune proteins in echinoderms ($54.1$\%), 
-hemichordates ($51.3$\%), cephalochordates ($37.0$\%), tunicates ($43.1$\%) and 
-vertebrates ($52.9$\%). This distribution also shows a high variation in 
-total number of architectures of one type of domain in echinoderms and 
-tunicates, respect to vertebrates (an excluding Hemichordates and 
-Cephalochordates that have $n=1$). \TODO{Please, explain this with a more 
-detailed plot or data for tunicates and echinoderms.}.
-
-In this homodomain set, the most frequent protein architecture with 
-current annotation from \texttt{Pfam} database is: Rhodopsin-like receptor 
-(PF00001) for echinoderms, hemichordates and vertebrates, while for 
-Cephalochordata was Cytochrome P450 (PF00067) and for tunicates the Protein 
-Kinase domain (PF00069). 
+%%
 
 A number of $1936$ heterodomain architectures have been detected along the set 
 of proteins. Specifically, for all clades, was possible to calculate 
