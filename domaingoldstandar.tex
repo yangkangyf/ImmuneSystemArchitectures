@@ -942,9 +942,9 @@ domain type). By practical means all the species was grouped in $5$ taxonomical 
 \textbf{Echi} = Echinodermata, \textbf{Hemi} = Hemichordata, \textbf{Ceph} = Cephalochordata, 
 \textbf{Tuni} = Tunicata and \textbf{Vert} = Vertebrata, following the sub-phylum 
 assignment on Additional File 1:Table 1. Homodomain proteins are depicted on 
-Figure~\ref{fig:domainDistr}A, where a total number of $9368$ homodomain architectures 
-were detected along all species: echinoderms ($21.4$\%), hemichordates ($18.8$\%), 
-cephalochordates ($16.24$\%), tunicates ($22.21$\%) and vertebrates ($21.78$\%). 
+Figure~\ref{fig:domainDistr}A, where a total number of $2375$ homodomain architectures 
+were detected along all species: echinoderms ($77.28$\%), hemichordates ($72.56$\%), 
+cephalochordates ($64.04$\%), tunicates ($44.58$\%) and vertebrates ($65$\%). 
 This distribution also shows a high variation in total number of architectures of 
 one type of domain in echinoderms and tunicates, respect to vertebrates 
 
@@ -956,12 +956,12 @@ Kinase domain (PF00069).
 
  
 %%%HOMO
-%  Clade        SD     Mean  Min  Max  N Total
-%1  Ceph        NA 1521.000 1521 1521  1  1521
-%2 Echin  98.28784 1835.500 1766 1905  2  3671
-%3  Hemi        NA 1721.000 1721 1721  1  1721
-%4  Tuni 423.51523 1058.667  467 1727 12 12704
-%5  Vert 362.95225 1543.667 1213 1932  3  4631
+%  Clade        SD     Mean  Min  Max  N Total Est Perc<Total>
+%1  Ceph        NA 1521.000 1521 1521  1  1521 1521 0.6404
+%2 Echin  98.28784 1835.500 1766 1905  2  3671 1835.5 0.7728
+%3  Hemi        NA 1721.000 1721 1721  1  1721 1721 0.7256
+%4  Tuni 423.51523 1058.667  467 1727 12 12704 1058.7 0.4458
+%5  Vert 362.95225 1543.667 1213 1932  3  4631 1543.7 0.65
 
 %ORDER
 % PF00069  Tuni  2326
@@ -980,18 +980,50 @@ than $5$ different types of domains, but the current distributions shows, in
 all clades, a very long heavy tails with \TODO{$\ge 20$ domains types}.
 %%
 
-A number of $1936$ heterodomain architectures have been detected along the set 
-of proteins. Specifically, for all clades, was possible to calculate 
-the percentage of found architectures respect to the total number of 
-heterodomain architectures for all clades: echinoderms ($42.3$\%), 
-hemichordates ($45.0$\%), cephalochordates ($47.1$\%), tunicates 
-($22.5$\%) and vertebrates ($50.8$\%). In more detail, 
-Figure~\ref{fig:domainDistr}C shows the average of found protein architectures 
-along all the clades. Both, the presence percentage and the average number of 
-architectures shows a reduced number of found architectures on tunicates 
-proteins, in comparison to other species of chordates and the outgroup species. 
-Also, a high variability is evident for the complete Tunicata clade. \TODO{Maybe 
-make a stat test?, please make a plot!}.  
+%%Hetero
+%  Clade    SD  Mean   Min   Max     N Total Est Perc
+%  <fct> <dbl> <dbl> <dbl> <dbl> <int> <int> <1S> <Total>
+%1 Ceph   NA    937    937   937     1   937 937 0.464
+%2 Echin  90.5  834    770   898     2  1668 834 0.413
+%3 Hemi   NA    861    861   861     1   861 861 0.426
+%4 Tuni  263.   408     46   717    12  4896 408 0.202
+%5 Vert  434.  1072.   638  1505     3  3217 1072.3 0.531
+%%%
+
+% Vert 431 PF13912,PF13913 C2H2-type zinc finger,zinc-finger of a C2HC-type
+% Tuni 556 PF00651,PF07707,PF01344,PF13964 BTB/POZ domain,BTB And C-terminal Kelch,Kelch motif,Kelch_6
+% Ceph 269 PF00651,PF07707,PF01344,PF13964 BTB/POZ domain,BTB And C-terminal Kelch,Kelch motif,Kelch_6
+% Hemi 116 PF02931,PF02932 Neur_chan_LBD,Neur_chan_memb
+% Echin 181 PF15227,PF00643 zf-C3HC4_4,B-box zinc finger
+
+%%%%
+
+A total of $2020$ heterodomain architectures have been detected along all
+the set of proteins. Specifically, for all clades, was possible to calculate 
+the average found percentage of architectures respect to the total number of 
+heterodomain architectures for all clades: echinoderms ($41.3$\%), 
+hemichordates ($42.6$\%), cephalochordates ($46.4$\%), tunicates 
+($20.2$\%) and vertebrates ($53.1$\%). 
+
+\TODO{Are the resulting heterodomain architectures the product of the combination 
+  of protein domains? There is a recurrent protein domain into the architectures?
+could be those values statistically significant?}
+
+
+%In more detail, Figure~\ref{fig:domainDistr}C shows the average of found protein architectures 
+%along all the clades. Both, the presence percentage and the average number of 
+%architectures shows a reduced number of found architectures on tunicates 
+%proteins, in comparison to other species of chordates and the outgroup species. 
+%Also, a high variability is evident for the complete Tunicata clade. \TODO{Maybe 
+%make a stat test?, please make a plot!}.  
+
+\TODO{Here is possible to make an n-gram analysis in order to identify the 
+meaningful domain associations given all the IIS architectures. Maybe is
+a good idea to include the sequences from the golden standard, or maybe, 
+make this analysis independently.}
+\TODO{So, the idea is calculate all the frequencies of bigrams and also,
+calculate the counts of those elements, choosing the most frequent}
+
 
 As a complement for heterodomain proteins, Figure~\ref{fig:domainDistr}D 
 represent the top $5$ proteins architectures domains along all defined clades. 
