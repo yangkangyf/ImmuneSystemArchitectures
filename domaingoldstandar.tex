@@ -591,10 +591,9 @@ it is not a good deal to calculate that using the complete chain of domains, bec
 the combination of domains is not that fixed and probably the results are scarse. So, 
 it is better to consider only the last previous state, and be defined with a Markov assumption,
 more precisely with a first order Markov process (chains as bigrams). 
-Bigrams were calculated using the XX package \cite{} in R, and next, the calculation of the estimated
-probability was performed as suggested in \cite{Yu:2019}:
+The calculation of the estimated probability was performed as suggested in \cite{Yu:2019}:
 \begin{equation}\label{eqEST}
-P_{MLE} (d_n|d_{n-1}) = \frac{C (d_{n-1},d_n)}{ C (d_{n-1})}
+P_{MLE} (d_n|d_{n-1}) = \frac{C (d_{n-1},d_n)}{C (d_{n-1})}
 \end{equation}
 Where, $C(d_{n-1},d_n)$ is the absolute frequency of the bigram and $C(d_{n-1})$ is the number
 of bigrams where $d_{n-1}$ is present. So, the way to calculate the probability of 
@@ -603,15 +602,15 @@ calculated bigrams as described in \cite{Jurafsky:2018Book}, as follows:
 
 \begin{equation}\label{eqFinalProd}
   \begin{split}
-    P(w_1^n) \approx \prod_{k=1}^n P(w_k|w_{k-1}) \\ %d_1,\ldots,d_n) & = P(d_1) \times P(d_2|d_1) \\
+    P(w_1^n) \approx \prod_{k=1}^n P(w_k|w_{k-1}) \\ 
   \end{split}
 \end{equation}
-
 Where $w_1^n = (w_1, w_2, \dots, w_{n-1})$ is the complete domain architecture, with $n$ domains.
 
-All the bigram probabilities was organized (\texttt{tidyverse}~\cite{wickham:2017}), calculated 
+All the bigram probabilities was formated (\texttt{tidyverse}~\cite{wickham:2017}), calculated 
 (\texttt{tidytext}~\cite{Wickham:2016}) and plotted (\texttt{igraph}~\cite{Csardi:2006}, 
-\texttt{ggraph}~\cite{Pedersen:2018} and ggplot2~\cite{Wickham:2016a}) as a network with the packages in R.
+\texttt{ggraph}~\cite{Pedersen:2018} and ggplot2~\cite{Wickham:2016a}) as a network with 
+\texttt{R}.
 
 \subsection*{Orthology detection between candidate innate immune system 
 proteins}
@@ -1041,23 +1040,52 @@ heterodomain architectures for all clades: echinoderms ($41.3$\%),
 hemichordates ($42.6$\%), cephalochordates ($46.4$\%), tunicates 
 ($20.2$\%) and vertebrates ($53.1$\%). 
 
-After perform the n-gram analyses as suggested in \cite{Yu:2019}, on
-all the domain architectures, the probability of each architecture and the 
-relative frequency of the bi-grams were calculated. As shown in Figure~\ref{fig:probArch}, 
-the distribution of the probability of the architectures in both, homodomain and heterodomain
-arrangements reported a unimodal and bimodal density. Both, reported long tails which 
-corresponds to architectures thar are the most probables along the complete set of 
-architectures related with the IIS, but in the distribution of homodomains reported
-most probable architectures (i.e. PF00069 (Protein kinase domain), PF00169 (PH domain), 
-PF00595 (PDZ domain), PF00076 (RRM\_1 or RNA recognition motif) and PF00400 (WD domain)), 
-arount 3 times more probable than the most probable heterodomain. For heterodomains, all the
-most common architectures are composed by two domains and are related with DD function as:
-PF08953 (DUF1899)-PF00400 (WD domain); PF13855 (Leucine rich repeat)-PF01582 (TIR domain); 
-PF00270 (DEAD/DEAH box helicase)-PF00271 (Helicase conserved C-terminal domain); 
-PF13912 (C2H2-type zinc finger)-PF00096(Zinc finger, C2H2 type) and 
-PF13927 (Ig\_3)-PF07679(Immunoglobulin I-set domain) 
-(for complete list see Supplemental File X). 
-\TODO{Please create Supplemental File with all table}.
+As a complement, an n-gram analisis was performed on the final set of IIS domain
+architectures to calculate their associated probability. As suggested \cite{Yu:2019}
+n-gram analyses could be used to calculate the relative frequency of bigrams and 
+also the probability over final set of protein architectures.
+
+In accordance to the Materials and Methods, bigrams have been derivated from the
+n-gram analisis and as an intermediate results, absolute and relative frequencies
+were calculated. With this information, was possible to identify the most 
+frequent bigrams, including the N-terminus and the C-terminus, along hetero/homo 
+domain architectures. Figure~\ref{fig:bigramNet} shows the network of the most
+frequent bigrams, and the vertices represent the bigram relationship between
+domains ($w_1 \rightarrow w_2$). Both, N and C-terminus are central nodes but 
+with opposite order relations, as expected due the arrangement inside the bi-gram. 
+
+%Another sets of frequent relations are composed by: PF00090
+%(Thrombospondin type 1 domain, always as $w_1$), PF01826 
+%(Trypsin Inhibitor like cysteine rich domain, both), PF00094 
+%(Willebrand factor type D domain, both) and PF08742 (C8 domain, both).
+
+%PF13855 (Leucine rich repeat, both) as a central node, 
+%PF01463 (Leucine rich repeat C-terminal domain, both),
+%PF01462 (Leucine rich repeat N-terminal domain, both),
+%N-terminal (as $w_1$) and C-terminal (as $w_2$).
+
+%PF00041 (Fibronectin type III domain, both),
+%PF07679 (Immunoglobulin I-set domain, both),
+%PF13927 (Immunoglobulin domain Ig 3, both),
+%PF13895 (Immunoglobulin domain Ig 2, as $w_2$).
+
+%PF00169 (Pleckstrin homology domain, both),
+%PF00621 (RhoGEF domain,both).
+
+As shown in Figure~\ref{fig:probArch}, the distribution of the probability of the 
+architectures in both, homodomain and heterodomain arrangements reported a unimodal 
+and bimodal density. Both, reported long tails which corresponds to architectures thar
+are the most probables along the complete set of architectures related with the IIS, 
+but specifically the distribution of homodomains reported the most probable 
+architectures (i.e. PF00069 (Protein kinase domain), PF00169 (PH domain), PF00595 (PDZ domain),
+PF00076 (RRM\_1 or RNA recognition motif) and PF00400 (WD domain)). In average, around 3 times
+more probable than the most probable heterodomain proteins. By the same way, inside 
+heterodomains the $5$ most probable architectures are: PF08953 (DUF1899)-PF00400 (WD domain); 
+PF13855 (Leucine rich repeat)-PF01582 (TIR domain); PF00270 (DEAD/DEAH box helicase)-PF00271 
+(Helicase conserved C-terminal domain); PF13912 (C2H2-type zinc finger)-PF00096
+(Zinc finger, C2H2 type) and PF13927 (Ig\_3)-PF07679(Immunoglobulin I-set domain)
+(for complete list see Supplemental File X), in general the majority of those architectures
+are composed by $2$ domains. \TODO{Please create Supplemental File with all table}.
 
 %> summary(hom$Prob)
 %     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
@@ -1068,6 +1096,14 @@ PF13927 (Ig\_3)-PF07679(Immunoglobulin I-set domain)
 
 At the same time, the complete \TODO{talk about Figure~\ref{fig:bigramNet}}. 
 
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[scale=0.3]{figures/network_10_bigrams}
+  \includegraphics[scale=0.3]{figures/network_10_NO_bigrams}
+  \caption{Bi-grams network. Only was considered those bigrams that
+  have been reported $\geq 10$ along all the architectures.
+  X corresponds to N-terminus and Z to the C-terminus.}\label{fig:bigramNet}
+\end{figure}
 
 \begin{figure}[ht!]
   \centering
@@ -1075,15 +1111,6 @@ At the same time, the complete \TODO{talk about Figure~\ref{fig:bigramNet}}.
   \caption{Density of probabilities of final hetero/homodomain architectures related to the 
   innate immune system.}\label{fig:probArch}
 \end{figure}
-
-\begin{figure}[ht!]
-  \centering
-  \includegraphics[scale=0.4]{figures/network_10_bigrams}
-  \caption{Bi-grams network. Only was considered those bigrams that
-  have been reported $\geq 10$ along all the architectures.
-  X corresponds to N-terminus and Z to the C-terminus.}\label{fig:bigramNet}
-\end{figure}
-
 
 %In more detail, Figure~\ref{fig:domainDistr}C shows the average of found protein architectures 
 %along all the clades. Both, the presence percentage and the average number of 
