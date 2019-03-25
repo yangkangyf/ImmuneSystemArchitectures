@@ -950,17 +950,24 @@ $\boldsymbol{\mathfrak{G}}$ proteins, as described on Additional File 2 (Table \
 	between query and subject protein.}\label{fig:relation}
 \end{figure}
 
-\begin{figure}[ht!]
-  \centering
-  \includegraphics[scale=0.7]{figures/proportionsGOLD}
-  \caption{Mean shared proportion homology architecture against 
-    gold standard species. \textsf{naviP=}\textit{N.\ vitripennis}, 
-    \textsf{apmeP=}\textit{A.\ mellifera}, \textsf{drmeP=}\textit{D.\ melanogaster}, 
-    \textsf{angaP=}\textit{A.\ gambiae} and \textsf{acpiP=}\textit{A.\ pisum}; 
-    and Mammals: \textsf{mmuP=}\textit{M.\ musculus} and 
-  \textsf{hsaP=}\textit{H.\ sapiens}.}\label{fig:FrecEstrat}
-\end{figure}
 
+\begin{figure}
+  \begin{tabular}{lcr}
+    \begin{minipage}{0.6\textwidth}
+    \centering
+    \includegraphics[scale=0.7]{figures/proportionsGOLD}
+    \end{minipage}
+    & \qquad &
+    \begin{minipage}{0.35\textwidth}
+    \caption{Mean shared proportion homology architecture against 
+      gold standard species. \textsf{naviP=}\textit{N.\ vitripennis}, 
+      \textsf{apmeP=}\textit{A.\ mellifera}, \textsf{drmeP=}\textit{D.\ melanogaster}, 
+      \textsf{angaP=}\textit{A.\ gambiae} and \textsf{acpiP=}\textit{A.\ pisum}; 
+      and Mammals: \textsf{mmuP=}\textit{M.\ musculus} and 
+    \textsf{hsaP=}\textit{H.\ sapiens}.}\label{fig:FrecEstrat}
+    \end{minipage}
+  \end{tabular}
+\end{figure}
 
 \subsection*{Relationships between Innate Immune system candidates}\label{Orthology}
 
@@ -1034,7 +1041,7 @@ all clades, a very long heavy tails with \TODO{$\ge 20$ domains types}.
 %Please, all the results after bigram model are in: ''~/Desktop/Final_Figures_paper_domains/Code/calculate_estimation_probability.sh``
 %And results are the table: table.txt and the plot distr_bigrams.pdf
 A total of $2020$ heterodomain architectures have been detected along all
-the set of proteins. Specifically, for all clades, was possible to calculate 
+the set of protein. Specifically, for all clades, was possible to calculate 
 the average found percentage of architectures respect to the total number of 
 heterodomain architectures for all clades: echinoderms ($41.3$\%), 
 hemichordates ($42.6$\%), cephalochordates ($46.4$\%), tunicates 
@@ -1051,26 +1058,63 @@ were calculated. With this information, was possible to identify the most
 frequent bigrams, including the N-terminus and the C-terminus, along hetero/homo 
 domain architectures. Figure~\ref{fig:bigramNet} shows the network of the most
 frequent bigrams, and the vertices represent the bigram relationship between
-domains ($w_1 \rightarrow w_2$). Both, N and C-terminus are central nodes but 
-with opposite order relations, as expected due the arrangement inside the bi-gram. 
+domains ($w_1 \rightarrow w_2$). In Figure~\ref{fig:bigramNet}A both, N and C-terminus 
+are central nodes but with opposite order relations as expected, due the arrangement 
+inside the bi-gram. When both terminals are not considered into the graph, 
+only relationships of domains have been considered (Figure~\ref{fig:bigramNet}B), in
+this case, $8$ clusters of bigrams have been detected and their associated
+annotation could be retrieved from the own domain annotation on \texttt{Pfam}. In
+this case as shown in Table~\ref{tab:meansDomains}, domains are related with
+cell surface receptors, coagulation, cell-adhesion, membrane-bound proteins and
+calcium dependent proteins (Group 1). Group 2 is composed by various plasma proteins
+and cysteine-rich proteins. Group 3 are characterized by Zinc finger containinig proteins
+that tipically takes part of molecular scaffolds between protein and other molecules\footnote{
+\url{https://www.ebi.ac.uk/interpro/potm/2007_3/Page1.htm}}. In Group 4, a conserved
+transduction domain as RhoGEF\footnote{\url{http://www.ebi.ac.uk/interpro/entry/IPR000219}} 
+and recruiting domain PH\footnote(\url{http://www.ebi.ac.uk/interpro/entry/IPR001849})
+are related also in the signal transduction pathways. Group 5 is composed by the conserved
+ibronectin domains III, that is commonly identified on cell-surface receptors and extracellular
+proteins\footnote{\url{http://www.ebi.ac.uk/interpro/entry/IPR003961}} and also a 
+complete set of Ig domains, which are related in recognition, bindind and adhesion
+processes, particulary the folding of this domains is similar to FN3, cadherin and 
+cytokine domains, but differs in their functions \cite{Barclay:2003}. Group 6 are composed
+by repeated recognition leucine rich patterns that have been detected on
+different species and are recognized as key domains in protein-protein interaction or
+recognition\footnote{\url{https://pfam.xfam.org/family/PF13855}}. Direct interactions
+with DNA are connected with the folding task of DEAD box helicales, which are related 
+to RNA metabolism processes\footnote{\url{http://www.ebi.ac.uk/interpro/entry/IPR011545}}
+(Group 7). Finally, Group 8 are composed by the conserved Ankyrin repeats that have
+been classified as one of the most common protein-protein interaction 
+domains\footnote{\url{http://www.ebi.ac.uk/interpro/entry/IPR002110}}. It is important
+to point out that protein domains have been classified in terms of bigrams and their
+absolute distribution along all dectected combinations of domains, but this
+frequent adjacencies or relations could be explained due biological functions, where
+most of the protein domains are taking part on recognition, transduction or modification
+taks inside/outside the cell.
 
-%Another sets of frequent relations are composed by: PF00090
-%(Thrombospondin type 1 domain, always as $w_1$), PF01826 
-%(Trypsin Inhibitor like cysteine rich domain, both), PF00094 
-%(Willebrand factor type D domain, both) and PF08742 (C8 domain, both).
-
-%PF13855 (Leucine rich repeat, both) as a central node, 
-%PF01463 (Leucine rich repeat C-terminal domain, both),
-%PF01462 (Leucine rich repeat N-terminal domain, both),
-%N-terminal (as $w_1$) and C-terminal (as $w_2$).
-
-%PF00041 (Fibronectin type III domain, both),
-%PF07679 (Immunoglobulin I-set domain, both),
-%PF13927 (Immunoglobulin domain Ig 3, both),
-%PF13895 (Immunoglobulin domain Ig 2, as $w_2$).
-
-%PF00169 (Pleckstrin homology domain, both),
-%PF00621 (RhoGEF domain,both).
+\begin{table}
+\centering
+\begin{tabular}{p{1cm}p{1.5cm}p{7cm}p{5cm}}
+  \toprule 
+  \textbf{Group} & \textbf{Numer of domains} & \textbf{Central Domain} & \textbf{Other domains} \\
+  \midrule 
+  1 & 6 & PF07645 (Calcium-binding EGF domain)& PF00058 (Low-density lipoprotein receptor repeat class B),
+  PF14670 (Coagulation Factor Xa inhibitory site), PF00683 (TB domain), PF00008 (EGF-like domain), 
+  PF02210 (Laminin G domain) \\
+  2 & 4 & PF01826 (Trypsin Inhibitor like cysteine rich domain), PF00094 (von Willebrand factor type D domain), 
+  PF08742 (C8 domain) & PF00090 (Thrombospondin type 1 domain)\\
+  3 & 2 & PF13912 (C2H2-type zinc finger), PF00096 (Zinc finger, C2H2 type) & NA \\
+  4 & 2 & PF00169 (Pleckstrin homology domain), PF00621 (RhoGEF domain) & NA \\
+  5 & 4 & PF00041 (Fibronectin type III domain), PF07679 (Immunoglobulin I-set domain), 
+  PF13927 (Immunoglobulin domain Ig 3), PF13895 (Immunoglobulin domain Ig 2) & NA \\
+  6 & 3 & PF01462 (Leucine rich repeat N-terminal domain), PF13855 (Leucine rich repeat),
+  PF01463 (Leucine rich repeat C-terminal domain) & NA \\
+  7 & 2 & PF00270 (DEAD/DEAH box helicase), PF00271 (Helicase conserved C-terminal domain) & NA \\
+  8 & 2 & PF00023 (Ankyrin repeat), PF12796 (Ankyrin repeats (3 copies)) & NA \\
+  \bottomrule 
+\end{tabular}
+\caption{Annnotation of bigram groups and network clusters. \TODO{Maybe on Supp info.}}\label{tab:meansDomains}
+\end{table}
 
 As shown in Figure~\ref{fig:probArch}, the distribution of the probability of the 
 architectures in both, homodomain and heterodomain arrangements reported a unimodal 
@@ -1096,17 +1140,25 @@ are composed by $2$ domains. \TODO{Please create Supplemental File with all tabl
 
 At the same time, the complete \TODO{talk about Figure~\ref{fig:bigramNet}}. 
 
-\begin{figure}[ht!]
-  \centering
-  \includegraphics[scale=0.7]{figures/distr_bigrams_complete} \\
-  \caption{Density of probabilities of final hetero/homodomain architectures related to the 
+
+\begin{figure}
+  \begin{tabular}{lcr}
+    \begin{minipage}{0.6\textwidth}
+    \centering
+    \includegraphics[scale=0.6]{figures/distr_bigrams_complete} 
+    \end{minipage}
+    & \qquad &
+    \begin{minipage}{0.35\textwidth}
+    \caption{Density of probabilities of final hetero/homodomain architectures related to the
   innate immune system.}\label{fig:probArch}
+    \end{minipage}
+  \end{tabular}
 \end{figure}
 
 \begin{figure}[ht!]
   \centering
-  \includegraphics[scale=0.3]{figures/network_10_bigrams}
-  \includegraphics[scale=0.3]{figures/network_10_NO_bigrams}
+  \includegraphics[scale=0.2]{figures/bigramsFinal}
+  %\includegraphics[scale=0.3]{figures/network_10_NO_bigrams}
   \caption{Bi-grams network. Only was considered those bigrams that
   have been reported $\geq 10$ along all the architectures.
   X corresponds to N-terminus and Z to the C-terminus.}\label{fig:bigramNet}
@@ -1134,7 +1186,7 @@ been detected in this list. The most conserved along those clades are: P-kinase
 homology domain (PF00169). 
 
 \TODO{When the architecture distribution is considered, the most frequent along 
-	all species are described on Addtional file. Change  this table 
+	all species are described on Addtional file. Change this table 
 	describing by specie, clade or even describe the matrix based on 1:1 
 	orthologous proteins.
 }
