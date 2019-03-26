@@ -42,11 +42,6 @@ Berm\'{u}dez-Santana}
 \begin{itemize}
 \item \TODO{Include information about D.vexillum sequencing and assembly 
 process: Clara and Ernesto.}
-\item \TODO{Change everything related with another databases different to Pfam}. 
-\item \TODO{Discuss about the biological meaning of the different architecture 
-strategies}
-\item \TODO{If yes, what is the best option to detect protein orthologs. Based 
-on complete protein? or splitting  by protein domains?}
 \item Adapt draft to journal template.\TODO{Which one?}. 
 \end{itemize}
 
@@ -1084,7 +1079,7 @@ domains. Group 3 are characterized by Zinc finger containinig proteins
 that tipically takes part of molecular scaffolds between protein and other molecules\footnote{
 \url{https://www.ebi.ac.uk/interpro/potm/2007_3/Page1.htm}}. Inside Group 4, a conserved
 transduction domain as RhoGEF\footnote{\url{http://www.ebi.ac.uk/interpro/entry/IPR000219}} 
-and recruiting domain PH\footnote(\url{http://www.ebi.ac.uk/interpro/entry/IPR001849})
+and recruiting domain PH\footnote{\url{http://www.ebi.ac.uk/interpro/entry/IPR001849}}
 are related also in the signal transduction pathways. Group 5 is composed by the conserved
 Fibronectin domains III (FN3), that is commonly identified on cell-surface receptors 
 and extracellular proteins\footnote{\url{http://www.ebi.ac.uk/interpro/entry/IPR003961}} 
@@ -1175,105 +1170,77 @@ are composed by $2$ domains. \TODO{Please create Supplemental File with all tabl
 %Protein clusters made by the commmon protein architecture
 Once protein candidates were detected by ABDO strategies on studied species, 
 a further step is the identification of the biological relevance of the 
-new detected protein candidates. Applying a clustering strategy was
-possible to identify the intrinsic relationships between 
-$\boldsymbol{\mathfrak{G}}$ and the new identified proteins, based on common 
-protein domain architectures. In this way $4787$ groups were created and to 
-access for orthology relationships with described methodology with \texttt{ProteinOrtho}.
-The first step to study those relations is the identification of orthologous (1:1) 
-or co-orthologous (1:many or many:many) groups. A total of $30782$ 
-relations were detected, from them: $52.55$\% reports 1:1 relationships, while
-co-orthologs are represented by $47.45$\%. Inside 1:1 relations, exists $3726$
-that includes at least one protein from golden species, most of them are relations
-that involved $2$ species ($52.20$\%) and the complete distribution reach a maximum
-of $15$ species but it was detected only in $1$ orthology group. Then, in order
-to identify the phylogenetically distribution of those 1:1 proteins, a presence/absence 
-matrix was calculated and phylogenetic tree of studied species
-was obtained from \cite{} to calculate evolutionary history of orthologous proteins from IIS
-by Dollo parsimony \cite{}.
+new detected protein candidates. Applying a clustering strategy 
+based on sharing the same group of $\boldsymbol{\mathfrak{G}}$ proteins,
+allow to create $4787$ groups to access for orthology relationships with 
+described methodology through \texttt{ProteinOrtho}. After retriving the
+results the first step to study those relations is the identification of 
+orthologous (1:1) or co-orthologous (1:many or many:many) groups. 
+A total of $30782$ relations were detected, from them: $52.55$\% reported 1:1 
+relationships, while co-orthologs are represented by $47.45$\%. Inside 1:1 relations, 
+exists $3726$ that includes at least one $\boldsymbol{\mathfrak{G}}$ protein 
+and most of them are relations involved $2$ species ($52.20$\%) and 
+the distribution reach a maximum of $15$ species but it was detected only 
+in $1$ orthology group. 
 
 %Analize results from Trees!
 
-In this way, was identified $2740$ architectures related
-with 1:1 relations and was possible to identify $38$ architectures
-%(23 architectures conserved + 15 conserved in all species and at least one of 
-%the calculated gene model ciro or oidi for clob or pevi) 
-that are conserved in all species (\TODO{Describe all at new Supp. File?}). 
-Most of this conserved set of architectures corresponds to homodomain proteins, 
-except for $3$ heterodomain architectures (PF00134:PF16899,PF04851:PF00271 
-and PF07707:PF01344). At the same time, based in the same matrix it is possible 
-to reconstruct the architecture domain history along all studied species by Dollo 
-parsimony \cite{} with \texttt{Count}\cite{csuros2010}. 
+Then, in order to identify the phylogenetically distribution of those 1:1 
+proteins, a presence/absence matrix was calculated and phylogenetic tree 
+of studied species was obtained from \cite{} to calculate evolutionary history 
+of orthologous proteins from IIS by the Dollo parsimony \cite{}.
 
-As represented on Figure~\ref{fig:dollooneone},  a set of $1477$ architectures 
+As represented on Figure~\ref{fig:dollooneone}, a set of $1593$ architectures 
 are shared in the base of the \TODO{Deuterostomia?} and in both clades: 
 chordates and ambulacrarians report only gains (g) events. In this way, at the 
-base of Chordata $1619$ architectures have been partially loss (l) in Cephalochordata
-(l:986) in comparison to Olfactores (l:20, g:276) that reported an additional 
-set of gained architectures. In the divergence between \textit{Tunicata} 
-and \textit{Vertebrata}, both clades reported specific gains and losses, but with a 
-higher number of losses that could be traced in the base of vertebrates (l:483, g:62).
-Gain and loss in tunicates could be traced (g:18,l:145), but not at the same magnitude
-as occurred in vertebrates, with $1748$ architectures. More than $70.25$\% of those architectures have been lost in \textit{O. dioica} (Appendicularians) and also reporting 
-a very few number of gains (g:7). \TODO{The clade that groups} \textsl{Stolidobranchia, Phlebobranchia and Aplousobranchia} increased the total number of architectures. 
+base of Chordata could be identified $g=109$ and in comparison to \textit{Ambulacraria}
+the pattern was the same but with fewer gains $g=36$. In total \texttt{Chordata}
+reported $1702$ present domain architectures, which have been lost about
+$l=843$ in \textit{Cepahlochordata} without any gain events. In comparison
+to \textit{Olfactores}, this group reported few losses and a clade-specific gains 
+(l=$34$, g=$262$). In the divergence between \textit{Tunicata} and 
+\textit{Vertebrata}, both clades reported specific gains and losses, but with a 
+higher number of losses that could be traced in the base of vertebrates 
+($l=409$, $g=35$). Gain and loss in tunicates could be traced ($g=16$,$l=181$), but not with
+the same magnitude as occurred in vertebrates, reporting at the end $1765$ architectures in
+the base of the clade. More into details, about $73.94$\% of those architectures 
+have been lost in \textit{O. dioica} (Appendicularians) and also reporting a very 
+few number of gains ($g=11$). \TODO{The clade that groups} \textsl{Stolidobranchia, 
+Phlebobranchia and Aplousobranchia} increased the total number of architectures. 
 In comparison, more loss events have been detected in the clade (Phlebobranchia +
-Aplousobranchia) (g:17, l:386) than Stolidobranchia (g:34, l:232). In overall through
-those clades is important to note that Aplousobranchia reported 
-between almost twice loss events (g:6,l:523) than Phlebobranchia (g:2, l:283) and Stolidobranchia (g:34, l:232). At the same time, exists a high number of lost 
+Aplousobranchia) ($g=13$, $l=368$) than Stolidobranchia ($g=30$, $l=308$). In 
+overall through those clades is important to note that Aplousobranchia reported 
+between almost $1.7\times$ loss events ($g=3$, $l=531$) than Phlebobranchia ($g=2$, $l=307$) 
+and Stolidobranchia ($g=30$, $l=308$). At the same time, exists a high number of lost 
 architectures in species where \textit{de novo} gene prediction was predicted (with 
-gene models from \textit{C.\ robusta} and \textit{O.\ dioica} using \texttt{GeneID}). At 
-the end, final numbers of orthologous architectures are reported for each 
-specie. Specie-specific or clade-specific gains resulted for \textit{P.\ miniata} 
-the highest number of specific architectures. In terms of numbers, 
-Stolidobranchia reported, in average, biggest values of architectures ($972.5$) 
-than Aplousobranchia ($634$) and Phlebobranchia ($617$), despite the high number 
-of gains registered on \textit{C.\ savignyi} (g:37, l:284), in general at the 
-base of the Stolidobranchia happened a similar gain event (g:34, l:232). 
-Finally, inside vertebrates the highest number of architectures are present on 
-\textit{D.\ rerio}, not only the specie-specific gain events (g:86,l:319), but also 
-gains at the base of Osteichthyes (g:102, l:178).
+gene models from \textit{C.\ robusta} and \textit{O.\ dioica} using \texttt{GeneID}). 
 
-As mentioned earlier, is possible divide the architecture domains into: homodomain 
-and heterodomain. Figure~\ref{fig:domainDistr}A shows that homodomain proteins 
-are the most frequent in all clades in comparison to heterodomain proteins, 
-except for cephalochordates. In order to analyze the evolutionary history of 
-heterodomain orthologous proteins (1:1), the evolutionary history reconstruction 
-using Dollo parsimony was applied as described earlier (Figure~\ref{fig:dollooneoneheterodomain}). A $437$ of $1133$ architectures were shared 
-between Deuterostomata, again showing gain events at Ambulacraria (g:29) and 
-Chordata (g:113). Cepahlochordata lost about $42$\% of the ancestral architectures 
-for chordates, while in Olfactores predominate gain events (g:130, l:9). The 
-ancestral number of heterodomain architectures in Tunicata are $595$, specifically 
-in \textit{O.\ dioica} report the most higher loss of domains $73.9$\%. 
-At thre same time, Stolidobranchia shows higher heterodomain architectures in 
-comparison to Phlebobranchia and Aplousobranchia. A number of $526$ heterodomain
- architectures are at the base of vertebrates, and about $48,8$\% are lost in 
- \textsl{P.\ marinus} (g:8, l:257). In contrast, Osteichthyes reported few loss and 
- 10 times gain events (g:80, l:30). At the end, not only in vertebrates, but in all 
-analyzed species, \textit{D.\ rerio} report the biggest number of heterodomain 
-architectures ($525$).
+%Here calculating the average of specie-specific architectures based on the
+%terminal numbers
+In terms of numbers, Stolidobranchia reported in average, biggest value of 
+architectures ($924.5 \pm 153.61$, $n=4$) than Aplousobranchia 
+($518.3 \pm 244.62$, $n=3$) and Phlebobranchia ($547.5 \pm 272.96$, $n=4$).
+And inside tunicates, \textit{D.\ vexillum} reported the highest number of
+gains ($g=24$, $l=163$). At the same time, inside vertebrates the 
+highest number of architectures are present on \textit{D.\ rerio}, 
+not only the specie-specific gain events ($g=152$, $l=185$), but also 
+gains at the base of Osteichthyes ($g=122$, $l=131$). 
 
 \begin{figure}[ht!]
-\centering
-\includegraphics[scale=0.53]{figures/provisionalDollo} \\
+\centering 
+\includegraphics[scale=0.63]{figures/oneoneDollo} \\
 \caption{Evolutionary history of 1:1 orthologous protein architectures in 
-Deuterostomata. \TODO{This is a temporal image, while I'm sure about numbers}}\label{fig:dollooneone}
+Deuterostomata. \TODO{This is a temporal image, because I have to plot better this tree}}\label{fig:dollooneone}
 \end{figure}
 
-\begin{figure}[ht!]
-\centering
-\includegraphics[scale=0.53]{figures/provisionalDolloHeterodomains} \\
-\caption{Evolutionary history of 1:1 orthologous \textbf{heterodomain} protein 
-architectures in Deuterostomata.}\label{fig:dollooneoneheterodomain}
-\end{figure}
+\texttt{Interpro} annotations was retrieved with \texttt{biomaRt} for 
+those $\boldsymbol{\mathfrak{G}}$ proteins that have been identified
+as 1:1 orthologs of IIS candidates on studied species.
+\TODO{How visualize those results?}
 
-In the same way, from the $27311$ relations that have been detected, 
-those ones that have been classified as 1:1 orthology ($14510$) reported a 
-sub-set of $2732$ groups have at least one $\boldsymbol{\mathfrak{G}}$ protein.
-From co-orthologous comparisons ($12801$) were detected and a subset 
-of $5293$ have at least one $\boldsymbol{\mathfrak{G}}$ protein. 
-For those sub-sets with $\boldsymbol{\mathfrak{G}}$ proteins was possible 
-to retrieve the \texttt{Interpro} annotation using \texttt{biomaRt}. 
-\TODO{Final tables are reported in Additional Files 3 (oneone\_heterodomains\_annotation\_proteins.txt, oneone\_homodomains\_annotation\_proteins.txt)}.
+\TODO{Final tables are reported in Additional Files 3 
+(oneone\_heterodomains\_annotation\_proteins.txt, 
+oneone\_homodomains\_annotation\_proteins.txt)}
 
 \TODO{TODO:}
 \begin{itemize}
