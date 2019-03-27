@@ -89,8 +89,8 @@ process: Clara and Ernesto.}
   \PFS{The annotation of genes and open reading frames is complemented by
   systematic efforts to establish homology \-\- and in particular orthology
   \-\- information \TODO{ref}. This in turn is forms the basis for defining a
-  function-based gene nomenclatures \TODO{cite HGNC}, and efforts to
-  achieve a systematic, orthogy-aware nomenclature at least across some
+  function-based gene nomenclatures \cite{Braschi:2017}, and efforts to
+  achieve a systematic, orthology-aware nomenclature at least across some
   important clades \TODO{** mention VGNC for vertebrated **}
   \cite{aken2016ensembl, birney2004overview}. As a group, vertebrate
   genomes certainly feature the most thoroughly curated and and most
@@ -112,17 +112,25 @@ composition of gene of the immune system is expected
 \cite{carroll2008evo,berna2014evolutionary}.
 
 Despite the global importance of this group, genomic studies and
-comparative analyses have remained scarce so far. So far only the genomes
-of three solitary ascidians have been annotated in substantial depth so
-far: the sessiles \textit{Ciona savignyi} and \textit{Ciona intestinalis}
+comparative analyses have remained scarce so far. Only the genomes
+of three solitary ascidians have been annotated in substantial depth:
+the sessiles \textit{Ciona savignyi} and \textit{Ciona intestinalis}
 mapped on its $14$ chromosomes \cite{dehal2002draft, small2007haplome} and
-the pelagic \textit{Oikopleura dioica}
-\cite{denoeud2010plasticity,seo2001miniature}. More recently, the genome of
-a single colonial ascidians, \textit{Botrillus schlosseri} (assembled to
-$13$ chromosomes) \cite{voskoboynik2013genome} has become available.
+the pelagic \textit{Oikopleura dioica}\cite{denoeud2010plasticity,seo2001miniature}. 
+And specifically a prediction of miRNAs families were reported for the
+solitary \textit{Halocynthia roretzi}\cite{Wang2017} and tree species 
+from Molgula sp. (\textit{Molgula occidentalis}, \textit{Molgula oculata} 
+and \textit{Molgula occulta})\cite{Stolfi:2014} repored fragmented assemblies
+in order to test the idea of developmental system drift along ascidians.
+More recently, the genome of colonial ascidians, \textit{Botrillus schlosseri} 
+(assembled to $13$ chromosomes) \cite{voskoboynik2013genome} has become available.
 The carpet sea squirt \textit{Didemnum vexillum} has been sequenced and
 analyzed for its ncRNAs \cite{velandia2016a}. To-date only a very
-fragmented draft assembly is available, however.
+fragmented draft assembly is available, however. A genome-wide
+analisis of the genome sequence from \textit{Botrylloides leachii}\cite{Blanchoud2018} 
+reported $1778$ scaffolds and the only one organism of Salpids: 
+\textit{Salpa thompsoni}\cite{Obergfell2016} reporting a preliminary
+genome assembly that shares along other tunicates high mutation rates.  
 
 Comparisons between tunicate and other chordate genomes have identified
 both expansions of gene families but also substantial losses
@@ -133,11 +141,11 @@ to the Olfactores \cite{delsuc2006}, and has led different authors to
 formulate the idea of the existence in their evolution of processes of
 genomic re-structuring in all or some tunicates genomes
 \cite{putnam2008amphioxus}.  \TODO{since you say ``different authors'', we
-  need several reference here!}  While the other chm.31051ordate lineages have
+  need several reference here!}  While the other chordate lineages have
 maintained a fairly constant rate of evolution, tunicates feature a
 systematically accelerated rate of evolution which likely is linked to
 specific patterns of organization of their entire gene complement
-\cite{putnam2008amphioxus, berna2014evolutionary}.
+\cite{putnam2008amphioxus, berna2014evolutionary, Obergfell2016}.
 
 We suspect, therefore, that the chordate immune system also has undergone
 substantial changes, restructuring, and diversification. As a first step
@@ -398,7 +406,7 @@ strategies were merged and combined with a \texttt{Perl} script. Candidates
 that have been detected only by Blast (B) strategy were not taken into 
 account. Considering all other possible combinations of strategies, it is 
 important to note that $O \subset D$, it means that combinations as O, OB, OA, 
-OBA are not possible. In this way the remaining combinations $10$ were 
+OBA are not possible. In this way the remaining combinations $8$ were 
 considered to detect the candidates for the innate immune system.
 
 \subsection*{Cleaning specific Hidden Markov Models (HMMs) for each 
@@ -450,7 +458,7 @@ domain architecture in these proteins, previously described approach had been
 applied, including the comparison against the \textsl{gold standard} set. The O, 
 D, B and A strategies were merged generating the candidates that were 
 overlapping between all the strategies, as described on Figure 
-~\ref{workflow_golden}.
+~\ref{fig:workflow_golden}.
 
 \subsubsection*{Draft genomes without annotation}
 
@@ -471,7 +479,7 @@ candidate genes, and additionally the set of possible protein candidates in a
 domains that intersect with the mapped HMMs in $\boldsymbol{\mathfrak{G}}$. 
 Again, filters by each $m$ was used, the \textsl{Reduction 
 system}~\ref{reduction} step and comparison strategies \textbf{O, D, B, A} were 
-done (Figure~\ref{workflow_golden}).
+done (Figure~\ref{fig:workflow_golden}).
 
 For the draft genome of the carpet sea squirt \textit{D. vexillum} 
 \cite{velandia2016a} a \textit{de novo} gene prediction was performed 
@@ -574,7 +582,7 @@ the pipeline \TODO{Name of my pipeline!}.
 %\end{figure}
 
 \subsection*{N-gram analysis on protein domain architectures}
-In order to identify the most frequent protein domain along all the heterodomain
+In order to identify the most frequent protein domain along all the protein 
 architectures, the final set of strings was analysed as suggested on \cite{Yu:2019}.
 In general, the probability of a complete protein, assuming domains as tokens, could be
 defined as the chain rule of probability \cite{Jurafsky:2018Book}:
@@ -584,9 +592,9 @@ P(d_1,\ldots,d_n) = P(d_1) \times P(d_2|d_1) \times P(d_3|d_1,d_2) \times \cdots
 As noted by \cite{Yu:2019}, before the application of this chain rule, 
 it is not a good deal to calculate that using the complete chain of domains, because in this case
 the combination of domains is not that fixed and probably the results are scarse. So, 
-it is better to consider only the last previous state, and be defined with a Markov assumption,
-more precisely with a first order Markov process (chains as bigrams). 
-The calculation of the estimated probability was performed as suggested in \cite{Yu:2019}:
+it is better to consider only the last previous state, and be defined a first order Markov 
+process (chains as bigrams). The calculation of the estimated probability was 
+performed as suggested in \cite{Yu:2019}:
 \begin{equation}\label{eqEST}
 P_{MLE} (d_n|d_{n-1}) = \frac{C (d_{n-1},d_n)}{C (d_{n-1})}
 \end{equation}
@@ -623,27 +631,29 @@ proteinortho5.pl -force -graph -clean -keep -step=3
 -project=<name-project> <fasta files>
 \end{lstlisting}
 
-As described earlier (Figure~\ref{fig:FrecEstrat}A), studied species could be grouped
-into $5$ clades: echinorderms, hemichordates, cephalochordates (CE), tunicates (TU) and vertebrates 
-(VE); which have been used as a reference to make orthology comparisons. In this case, the species that belong
+Studied species could be grouped into $5$ clades: echinorderms, hemichordates, 
+cephalochordates (CE), tunicates (TU) and vertebrates (VE); which have been used 
+as a reference to make orthology comparisons. In this case, the species that belong
 from echinoderms and hemichordates have been designed as \textsl{Outgroup} (OU) and 
-$\boldsymbol{\mathfrak{G}}$  species (GO) have been always considered, in order to create orthology
-comparisons as follows: OU, CE, TU, VE, GO (All species and Golden). Detected 1:1 and 
+$\boldsymbol{\mathfrak{G}}$ species (GO) have been always considered, in order to create 
+orthology comparisons as follows: OU, CE, TU, VE, GO (All species and Golden). Detected 1:1 and 
 co-orthologous relationships between pre-defined architecture groups of orthology 
-were obtained with a \texttt{Perl} script.
+were obtained with a \texttt{Perl} script, as described in \cite{Lechner2011}.
 
 At the same time, available annotation from $\boldsymbol{\mathfrak{G}}$ were obtained from 
-\texttt{Ensembl} using \texttt{biomaRt}.For protein candidates that belongs from studied 
+\texttt{Ensembl} using \texttt{biomaRt}. For protein candidates that belongs from studied 
 species and shared orthologous relations with a $\boldsymbol{\mathfrak{G}}$ protein, the 
-retrieved annotation from from \texttt{Ensembl} and \texttt{Interpro} accession numbers were 
+retrieved annotation from \texttt{Ensembl} and \texttt{Interpro} accession numbers were 
 associated and reported.
 
 \subsection*{Gain and losses of domains}
 
-Reconstruction of family history using Dollo's parsimony was achieved with \texttt{Count} \cite{csuros2010}, using the orthology results. The presence/absence matrices were obtained using
-a \texttt{Perl} script and the The phylogenetic distribution of this species 
-were obtained from \TODO{[71]} for tunicates, and for the other organisms from 
-Ensembl compara \TODO{[72]}.
+Reconstruction of family history using Dollo's parsimony was 
+achieved with \texttt{Count} \cite{csuros2010}, using the orthology 
+results. The presence/absence matrices were obtained using a \texttt{Perl} script 
+and the phylogenetic distribution of this species were obtained from 
+\cite{Delsuc:2017, Kocot:2018} for tunicates, and for the other organisms from 
+Ensembl v.81 compara~\footnote{\url{https://github.com/Ensembl/ensembl-compara/blob/release/81/scripts/pipeline/species_tree.ensembl.topology.nw}}.
 
 \section*{Results}
 
@@ -714,7 +724,7 @@ According to the definitions in Material and Methods and Figure~\ref{fig:ABDO},
 previously defined homology architecture strategies relies on different pairwise 
 comparisons, exclusively on protein domain architectures. $\boldsymbol{\mathfrak{G}}$
 proteins represent the current annotated proteins on innate immune system and 
-their correspondent protein architectures represented as the reducted architectures.
+their correspondent protein architectures represented as the reduced architectures.
 Both, $\boldsymbol{\mathfrak{G}}$ proteins and architectures are used as queries 
 in order to perform pairwise comparisons with subject proteins. In this case, 
 A (architecture) comparison considers all the annotated protein domains and make a 
@@ -722,7 +732,7 @@ comparison based on a precomputed similarity matrix of \TODO{hidden markov profi
 in \texttt{RADS} \cite{Terrapon:2014}. B (blast) comparisons does not considers protein 
 domains, but the complete sequence of the query and the subject proteins, in this case, 
 at least a $70$ \% of similarity has to be considered as a true candidate. D (disorder) 
-and O (order) compare the reducted architectures, in this case for the first one, 
+and O (order) compare the reduced architectures, in this case for the first one, 
 all valid combinations of architectures are valid on the subject protein, while the 
 number and the identity of the \texttt{Pfam} families are conserved. This is not the case 
 of O, where the order of protein domain architecture is an additional requirement to 
@@ -737,7 +747,7 @@ consider a homologous subject.
     & \qquad &
     \begin{minipage}{0.35\textwidth}
       \caption{Detail of comparisons between query and subject protein domains with 
-	    different pairwise comparisons: A, B, D, O}\label{fig:FrecEstrat}
+      different pairwise comparisons: A, B, D, O}\label{fig:ABDO}
     \end{minipage}
   \end{tabular}
 \end{figure}
@@ -750,14 +760,14 @@ protein candidates in comparison to the results from O or D. Reduced number of
 reported candidates are related with the designed filters applied for each
 strategy, in this case the main difference relies on the target where the
 homology comparison was made. For B, complete protein sequence were taken into
-account, A takes the complete arrangement of, consecutive collapsed, protein domains
-and D and O, uses the collapsed arrangement as a set comparison or a 
+account, A takes the complete arrangement of consecutive collapsed protein domains,
+and D or O, uses the collapsed arrangement as a set comparison or a 
 list comparison, respectively (See Figure~\ref{fig:ABDO}). Despite the high reports of
 possible sequence homology reported with B results, in this approach was not taken
-into account unless the relationship was reported by another strategy.
+into account unless the relationship was reported in conjunction with another strategy.
 
-On the final results (described on Table~\ref{table:distribution_prot}, last column),
-in overall exists a highest distribution from annotated immune system proteins 
+In overall results (described on Table~\ref{table:distribution_prot}, last column),
+exists a highest distribution from annotated immune system proteins 
 in vertebrates (median = $54.48$\% $\pm 7.41$, n=$3$), in comparison to tunicates 
 (median = $31.08$\% $\pm 21.58$, n=$12$), cephalochordates ($41.67$\%, n=$1$), and 
 the outgroup composed by hemichordates ($56.56$\%, n=$1$) and echinoderms (median = 
@@ -828,20 +838,21 @@ the biological relevance and examples for each of the resulted relations are
 explained on Table~\ref{table:biologicalexplanation}.
 
 %%%%Biological discussion about homology strategies of architectures
+%Total:211849, alone=108368; combined=103481
 Based on the final results, the nature of the relationships between subject 
 proteins and their correspondent $\boldsymbol{\mathfrak{G}}$ proteins could be explained 
 by \textit{one} or \textit{many} ABDO comparisons. For the first case, subject protein
 and their correspondent $\boldsymbol{\mathfrak{G}}$ proteins could be well-characterized based
-on the description in Table~\ref{table:biologicalexplanation}. According to Figure XX, those
-proteins explain at least the XX\% of the relationships, the other group (that represent YY\%),
-are composed by those query proteins that reported more relations and the relations against
+on the description in Table~\ref{table:biologicalexplanation}. Along all results, those
+proteins explain at least the $51.15$\% of the relationships, the other group (that represent 
+$48.85$\%), are composed by those query proteins that reported more relations and the relations against
 $\boldsymbol{\mathfrak{G}}$, could not be easily classified as described in
 Table~\ref{table:biologicalexplanation}. 
 
 The relevance to make this distinction is to compare the final number of proteins
 that have been detected independently by each ABDO strategies. As shown in Figure~\ref{fig:relation}, 
 a relationship between the number of $\boldsymbol{\mathfrak{G}}$ proteins 
-and $\boldsymbol{\mathfrak{G}}$ species, was calculated in Y axis and then, the complete number
+and $\boldsymbol{\mathfrak{G}}$ species, was represented in $Y$ axis and then, the complete number
 of subject species was used to compare all of the ABDO strategies. Comparisons have been grouped
 based on the pre-defined groups of strategies (gray region on the top of plot). In the
 group number 1, A strategy recovered all the homodomain proteins with only one annotated domain 
@@ -853,18 +864,18 @@ could not be included in A because their domains organization disrupt the overal
 that have been defined for A to be consider as positive. Group $2$ are dominated by AB strategy,
 where the arrangement of A has been supported by the sequence homology evaluated by \texttt{blastp}.
 In this case, the number of related $\boldsymbol{\mathfrak{G}}$ species and proteins are lower in
-comparison to the last group. AD and BD, does not shows too much candidates, as far the D results 
+comparison to the last group. AD and BD, does not shows too much candidates, as far as the D results 
 are few, the possible combinations are possible but not present in more than $3$ 
 $\boldsymbol{\mathfrak{G}}$ species. In Group $3$, where all candidates are heterodomain proteins,
 ADO and ABD strategies are at some point antagonist, because the strict order 
 criteria applied on the first one and not in the second strategy and also, the sequence 
 homology is disrupted in the first group. Most of the detected candidates established 
 a relationship based on the order and have been detected at the most in $5$ 
-$\boldsymbol{\mathfrak{G}}$ species and at the maximum with $120$ species. The group 4, combines
+$\boldsymbol{\mathfrak{G}}$ species and at the maximum with $120$ proteins. The group 4, combines
 all the considered strategies and represents the set of proteins that reported a
 conserved arrangement in the domain distribution, both in reduced architecture and the
 complete domain annotation. For this group, $\boldsymbol{\mathfrak{G}}$ proteins belong from 
-at the maximum from $4$ s$\boldsymbol{\mathfrak{G}}$ species and one subject protein 
+at the maximum from $4$ $\boldsymbol{\mathfrak{G}}$ species and $1$ subject protein 
 reported relationships at the most with $35$ $\boldsymbol{\mathfrak{G}}$ proteins.
 \TODO{Maybe create another Supplemental files with the plot of proteins and species?
 please look into: /homes/biertank/cristian/Desktop/Final\_Figures\_paper\_domains/Code}
@@ -933,7 +944,7 @@ respect to $\boldsymbol{\mathfrak{G}}$ species (Figure~\ref{fig:FrecEstrat}).
 As discussed earlier, most of those relationships have been detected with human proteins and
 some of them with mouse ones, in general the pattern is conserved along all considered species
 in this study, but it could be a consequence of the number of initial candidates on the
-$\boldsymbol{\mathfrak{G}}$ proteins, as described on Additional File 2 (Table \TODO{XY}).
+$\boldsymbol{\mathfrak{G}}$ proteins, as described on Additional File 2: Table 1.
 
 \begin{figure}[ht!]
 	\centering
@@ -967,21 +978,20 @@ $\boldsymbol{\mathfrak{G}}$ proteins, as described on Additional File 2 (Table \
 
 Current detected innate immune system candidates on subject species represent
 a set of annotated proteins that could be subject of better annotations or
-classifications based on calculated information given by this study. So, 
-when detected protein architectures were considered, is possible to obtain 
-parameters from this sample of proteins, like the identity of the domain profiles. 
-For this feature in Figure~\ref{fig:domainDistr} the distribution of protein architectures, 
-is shown. In order to describe the nature of the architectures, their composition could be
-classified as: homodomain (by the same type of domains) or  heterodomains (more than one 
-domain type). By practical means all the species was grouped in $5$ taxonomical clades as:
-\textbf{Echi} = Echinodermata, \textbf{Hemi} = Hemichordata, \textbf{Ceph} = Cephalochordata, 
-\textbf{Tuni} = Tunicata and \textbf{Vert} = Vertebrata, following the sub-phylum 
-assignment on Additional File 1:Table 1. Homodomain proteins are depicted on 
-Figure~\ref{fig:domainDistr}A, where a total number of $2375$ homodomain architectures 
-were detected along all species: echinoderms ($77.28$\%), hemichordates ($72.56$\%), 
-cephalochordates ($64.04$\%), tunicates ($44.58$\%) and vertebrates ($65$\%). 
-This distribution also shows a high variation in total number of architectures of 
-one type of domain in echinoderms and tunicates, respect to vertebrates 
+classifications based on calculated information given by this study. By this
+way, the identity of the protein domain profiles could be taken into account
+and be described based on their domain profile composition: homodomain 
+(by the same type of domains) or heterodomains (more than one domain type)
+(Figure~\ref{fig:domainDistr}). By practical means all the species was grouped 
+in $5$ taxonomical clades as: \textbf{Echi} = Echinodermata, \textbf{Hemi} = 
+Hemichordata, \textbf{Ceph} = Cephalochordata, \textbf{Tuni} = Tunicata and 
+\textbf{Vert} = Vertebrata, following the sub-phylum assignment on Additional 
+File 1:Table 1. Homodomain proteins are depicted on Figure~\ref{fig:domainDistr}A, 
+where a total number of $2375$ homodomain architectures were detected along all 
+species: echinoderms ($77.28$\%), hemichordates ($72.56$\%), cephalochordates 
+($64.04$\%), tunicates ($44.58$\%) and vertebrates ($65$\%). This distribution 
+also shows a high variation in total number of architectures of one type of domain
+in echinoderms and tunicates, respect to vertebrates.
 
 \begin{figure}[ht!]
 \centering
@@ -1017,13 +1027,13 @@ Kinase domain (PF00069).
 % PF00001  Hemi   477
 
 %%
-Despite the similarity of this results along all clades, distribution 
-from \textsl{B.\ floridae} (Cephalochordata) showed also higher number of 
-proteins with $2$ and $3$ types of domains with similar numbers as reported 
-on vertebrates; but not in echinoderms, hemichordates and tunicates, that 
-showed similar density distributions. Also, few proteins are composed by more 
-than $5$ different types of domains, but the current distributions shows, in 
-all clades, a very long heavy tails with \TODO{$\ge 20$ domains types}.
+%Despite the similarity of this results along all clades, distribution 
+%from \textsl{B.\ floridae} (Cephalochordata) showed also higher number of 
+%proteins with $2$ and $3$ types of domains with similar numbers as reported 
+%on vertebrates; but not in echinoderms, hemichordates and tunicates, that 
+%showed similar density distributions. Also, few proteins are composed by more 
+%than $5$ different types of domains, but the current distributions shows, in 
+%all clades, a very long heavy tails with \TODO{$\ge 20$ domains types}.
 %%
 
 %%Hetero
@@ -1069,7 +1079,7 @@ relative frequency of bigrams and also the probability over final set of archite
 In accordance to the Materials and Methods, bigrams have been derivated from the
 n-gram analisis and as an intermediate results, absolute and relative frequencies
 were calculated. With this information, was possible to identify the most 
-frequent bigrams, including the N-terminus and the C-terminus positions along hetero/homo 
+frequent bigrams, including the N-terminus and the C-terminus positions along all 
 architectures. Figure~\ref{fig:bigramNet} shows the network of the most
 frequent bigrams, and the direction of the vertices represents the bigram 
 relationship between domains ($w_1 \rightarrow w_2$). In more detail,
