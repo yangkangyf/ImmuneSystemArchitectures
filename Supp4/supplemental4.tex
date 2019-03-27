@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper, margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage[square,numbers,sort&compress]{natbib}
+\usepackage{listings}
+\usepackage{rotating}
+\usepackage{placeins} %Force biblio at final document
+\usepackage{epic,eepic}
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{array}
+\usepackage{afterpage}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{booktabs}
+%\usepackage[T1]{fontenc}
+%\usepackage{sectsty}
+\usepackage{adjustbox}
+
+%opening
+\title{Supplemental information \#4: A new strategy to characterize the domain 
+architecture structure of proteins of the innate inmune system in tunicate 
+species}
+\author{Cristian A. Velandia-Huerto*, Ernesto Parra, Federico D. 
+Brown, Adriaan Gittenberger, \\ Peter F. Stadler and Clara I. 
+Berm\'{u}dez-Santana}
+\begin{document}
+
+\maketitle
+
+\section*{Didemnum vexillum re-annotation}
+\subsection*{Annotation of coding regions with \texttt{Augustus}}
+\subsection*{Mapping previous ncRNA annnotation on new assembly}
+Previous ncRNA annotation was retrieved from Velandia-Huerto, \textit{et al} \cite{} 
+in fasta format. All the contigs which have been reported an ncRNA have been obtained
+from the old \textit{D.\ vexillum} genome 
+version\footnote{\url{http://tunicata.bioinf.uni-leipzig.de/Download.html}}. This
+multifasta file was mapped onto the new genome with \texttt{blast}:
+
+\begin{lstlisting}[language=bash, breaklines=true]
+blastall -p blastb -d <DB> -i <QUERY> -F F -e 10e-5 -m 8 -o <OUT>
+\end{lstlisting}
+
+
+According to the set of blast parameters the number of contigs were increasing
+into the new genome. At the same time, if one contig reported more than one
+candidates into the new genome, was choosen this/those one (s) that reported the 
+highest bitscore. Having this previous information as an additional source of 
+information in order to clean the true position of the annotated ncRNAs in the
+new genomes. After mapping all the candidates with \texttt{blast}, the true locations
+were obtained after applying those filters:
+\begin{itemize}
+ \item Identity have to be $\geq 85$\%.
+ \item E-value $\leq 10^{-10}$.
+ \item Relation of sizes between the homology region of the query
+  ($r_h$) and their calculated size ($r_s$) have to be $\frac{r_h}{r_s} \geq 0.9$
+\end{itemize}
+
+From the $264$ reported loci of ncRNAs, XY were retrieved in the
+new genome, \texttt{GFF} file is reported along with all the coding and non-coding
+regions on Supplemental File X.
+\end{document}
