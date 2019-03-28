@@ -36,13 +36,31 @@ Berm\'{u}dez-Santana}
 \subsection*{Mapping previous ncRNA annnotation on new assembly}
 Previous ncRNA annotation was retrieved from Velandia-Huerto, \textit{et al} \cite{} 
 in fasta format. All the contigs which have been reported an ncRNA have been obtained
-from the old \textit{D.\ vexillum} genome 
-version\footnote{\url{http://tunicata.bioinf.uni-leipzig.de/Download.html}}. This
+from the first reported assembly of the \textit{D.\ vexillum} 
+genome\footnote{\url{http://tunicata.bioinf.uni-leipzig.de/Download.html}}. This
 multifasta file was mapped onto the new genome with \texttt{blast}:
 
 \begin{lstlisting}[language=bash, breaklines=true]
 blastall -p blastb -d <DB> -i <QUERY> -F F -e 10e-5 -m 8 -o <OUT>
 \end{lstlisting}
+
+Aligment files were retrieved in \texttt{maf} format and were parsed
+with \texttt{Bio::AlignIO} \texttt{Bioperl} library. The criteria to
+obtain the best genome coordinates was choosen based on the relation
+between the length of the mapped region into the new genome ($m$) and
+the original size of the query contig in the old genome ($s$). The
+relation was defined as $R = \frac{m}{s}$, and were defined as the best 
+mapping candidates those ones reported $R = 1$, but in order to retrieve
+the maximum number of mapping between the two genome versions, $R \geq 0.90$
+was also considered.
+
+From $247$ contigs, was possible to map $212$ in the raw results after the 
+mapping stage with $lastz$. After considering the $R$ relation, those results
+were parsed, resulting in: $64$ ($R = 1$), $35$ ($0.95 \leq R < 1 $), 
+$39$ ($0.90 \leq R < 0.95$) and $39$ ($0.85 \leq R < 0.90$). Best candidates
+was choosen based on the final aligment score. For those contigs that 
+reported 1:many relations, those set of positions in the new assembly was 
+also considered in the following analysis.
 
 
 According to the set of blast parameters the number of contigs were increasing
