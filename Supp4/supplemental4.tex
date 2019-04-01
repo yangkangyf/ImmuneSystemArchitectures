@@ -91,13 +91,15 @@ were obtained after applying those filters:
 An additional confirmation step was performed using the Covariance Models from
 \texttt{RFAM}v.11 onto the retrieved fasta sequences, using \texttt{infernal} package:
 \begin{lstlisting}[language=bash, breaklines=true]
-cmsearch -g --toponly <FASTA> <CM>
+cmsearch -g -Z <NT number (Mb)> --toponly <FASTA> <CM>
 \end{lstlisting}
 
-The other $170$ candidadates were obtained based on the blast results, and 
-their evaluation with the CMs. If \texttt{blast} failed to map the reported
-sequence, specific CM from those species was used to obtain the most probable
-position on the new genome.
+Cleaning true candidates was performed as reported in \cite{}.
+
+The other $170$ candidates were obtained based on the blast results, and 
+their evaluation was also performed  by \texttt{cmsearch} with the CMs. If 
+\texttt{blast} failed to map the reported sequence, specific CM from those 
+species was used to obtain the most probable position on the new genome.
 
 From the $264$ reported loci of ncRNAs, XY were retrieved in the
 new genome, \texttt{GFF} file is reported along with all the coding and non-coding
