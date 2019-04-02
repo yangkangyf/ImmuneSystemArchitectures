@@ -94,14 +94,33 @@ An additional confirmation step was performed using the Covariance Models from
 cmsearch -g -Z <NT number (Mb)> --toponly <FASTA> <CM>
 \end{lstlisting}
 
-Cleaning true candidates was performed as reported in \cite{}.
+True candidates was obtained as reported in \cite{}. Following this
+methodology was possible to obtain $67$ candidates that passed all the filters, 
+and additional $15$ candidates were included after a manual curation, based
+on their reported E-value and bitscore. Most of these, included candidates that
+failed to pass all the applied filters, due they have been detected as 
+truncated sequences.
+So, in this group that was possible to mapped directly on the new 
+\textit{D.\ vexillum} $77$ ncRNAs. \TODO{Please discuss about the
+presence of the same candidate multiple times in the new genome}.
+%In this case 77 was obtained, but 17 was discarted due low alignment scores.
+%The complete Best group was composed by: 94 ncRNAs.
 
-The other $170$ candidates were obtained based on the blast results, and 
-their evaluation was also performed  by \texttt{cmsearch} with the CMs. If 
-\texttt{blast} failed to map the reported sequence, specific CM from those 
-species was used to obtain the most probable position on the new genome.
+The other $170$ candidates did not reported a crossing with the old genome
+assembly in the pairwise-aligment. For that reason, the obtained blast 
+mapping allowed to retrieve candidate coordinates into the new genome
+assembly. Fasta sequences were retrieved and next, evaluated by secondary
+alignments with correspondent CMs. From those candidates, final GFF3 file
+reported additional $86$ mapped ncRNAs into the new assembly.
 
-From the $264$ reported loci of ncRNAs, XY were retrieved in the
+From the $264$ reported loci of ncRNAs, $163$ were retrieved in the
 new genome, \texttt{GFF} file is reported along with all the coding and non-coding
 regions on Supplemental File X.
+
+%%Candidates that failed blast mapping strategy
+After mapping the complete set of reported sequences on the new genome assembly
+some ncRNAs failed to be searched by blast. In this case, in order to
+determine if this ncRNA family is present, homology searches using 
+Hidden Markov Models (HMMs) was applied directly with the missing $51$ families.
+
 \end{document}
