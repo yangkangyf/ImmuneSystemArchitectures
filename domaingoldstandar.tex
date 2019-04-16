@@ -41,6 +41,9 @@ Berm\'{u}dez-Santana}
 
 \begin{itemize}
 \item Adapt draft to journal template.\TODO{Which one?}. 
+\item Based on the suggestions from Clara, please remove C. oblonga and P.
+	viridis from the analysis. The genome that we are going to report in
+	this paper is the Didemnum vexillum.
 \end{itemize}
 
 \section*{Introduction}
@@ -395,11 +398,10 @@ genome annotation could be searched on a genome browser, hosted on
 
 Genomic information source comes from $3$ Vertebrata species:
 \textit{Petromizon marinus}, \textit{Danio rerio} and 
-\textit{Latimeria chalumnae}, $10$ species of Tunicata: \textit{Oikopleura 
+\textit{Latimeria chalumnae}, $8$ species of Tunicata: \textit{Oikopleura 
 dioica}, \textit{Botryllus schlosseri}, \textit{Botrylloides 
 leachii}, \textit{Ciona robusta}, \textit{Ciona savignyi}, \textit{Didemnum 
-vexillum}, \textit{Perohora viridis}, \textit{Clavelina oblonga}, 
-\textit{Molgula occidentalis} and \textit{Molgula oculata}, $1$ specie 
+vexillum}, \textit{Molgula occidentalis} and \textit{Molgula oculata}, $1$ specie 
 from Cephalochordata: \textit{Branchiostoma floridae}, represents the final set 
 of chosen Chordates. As an outgroup, a set of $2$ species from Echinorderms: 
 \textit{Strongylocentrotus purpuratus} and \textit{Patiria miniata} and 
@@ -560,25 +562,6 @@ overlapping between all the strategies, as described on Figure
 
 \subsubsection*{Draft genomes without annotation}
 
-For the recently reported draft genomes of \textit{C.\ oblonga} and 
-\textit{P.\ viridis} a \textit{de novo} gene prediction was performed 
-directly on the assembled contigs using \texttt{GeneID}\cite{Blanco:2007} 
-with the following parameters:
-
-\begin{lstlisting}[language=bash, breaklines=true]
-geneid -3 -P <Parameter file> <FASTA FILE> -A >> <GFF3 file>
-\end{lstlisting}
-
-Here the \textit{Parameter file} was fetched via \texttt{FTP} for the tunicates: \textsl{C. intestinalis}\footnote{ftp://genome.crg.es/pub/software/geneid/cintestinalis.param\_Apr\_26\_2006} and 
-\textsl{O.dioica}\footnote{ftp://genome.crg.es/pub/software/geneid/odioica.param\_Nov\_10\_2006}.
-The final result was a \texttt{GFF3} file describing the coordinates on the 
-candidate genes, and additionally the set of possible protein candidates in a 
-\texttt{fasta} format. Over those candidates \texttt{HMMer} was ran to detect 
-domains that intersect with the mapped HMMs in $\boldsymbol{\mathfrak{G}}$. 
-Again, filters by each $m$ was used, the \textsl{Reduction 
-system}~\ref{reduction} step and comparison strategies \textbf{O, D, B, A} were 
-done (Figure~\ref{fig:workflow_golden}).
-
 For the draft genome of the carpet sea squirt \textit{D. vexillum} 
 \cite{velandia2016a} a \textit{de novo} gene prediction was performed 
 directly on the assembled contigs using \texttt{AUGUSTUS} \cite{augustus} 
@@ -588,96 +571,6 @@ with the following parameters:
 
 and the complete prediction of homologous architectures was obtained applying 
 the pipeline \TODO{Name of my pipeline!}.
-
-%\subsection*{Identification of Nucleotide coordinates and CDS sequences from 
-%Protein Domains}
-%The nucleotide sequences and the genome coordinates were retrieved for 
-%each protein domain that belongs from homologous architectures, inferred from 
-%the comparison strategies against \textsl{gold standard}. As shown in Figure 
-%~\ref{proteindomains2cds}, the required steps to infer this information for the 
-%majority of domains, relies on CDS sequences and annotations at genome level. 
-%In 
-%case of \textsl{O. dioica}, \textsl{B. schlosseri} and \textsl{B. floridae}, 
-%\texttt{GFF} files where downloaded from correspondent databases, including 
-%their reported fasta files. In case of \textit{D. vexillum}, the CDS fasta 
-%files 
-%were inferred directly from the \texttt{GFF} file through a \texttt{Perl} 
-%script. For species annotated on \texttt{Ensembl}, transcripts fasta files for 
-%each species on their correspondent \texttt{FTP} site\footnote{As described on 
-%http://jul2015.archive.ensembl.org/info/data/ftp/index.html} were obtained. 
-%With 
-%all fasta files from transcripts or CDS, required indexed fasta files were 
-%generated with \texttt{makeblastdb}. Fasta sequences from previously 
-%identified 
-%domains in each candidate proteins were obtained, using \texttt{tblastn} were 
-%compared in a pairwise alignment against their correspondent CDS sequences, as 
-%described below:
-
-%\begin{lstlisting}[language=bash, breaklines=true]
-%tblastn -db <CDS_DB> -query <PROTEIN_DOMAINS_FASTA> -evalue 1000 -word_size 6 
-%-window_size 40 -comp_based_stats 2 -gapopen 11 -gapextend 2 -matrix 
-%BLOSUM62 -db_gencode 1 -seg no -threshold 21 -outfmt 6 -out <OUT_FILE>
-%\end{lstlisting}
-
-%Tabular results were filtered applying the following conditions:
-
-%\begin{itemize}
-%\item The name of the possible candidate have to be equal to the 
-%previous name of the transcript which it was reported for this protein.
-%\item The identity have to be equal to $100$\%. 
-%\end{itemize}
-
-%In order to identify the genomic coordinates from these identified CDS, a 
-%\texttt{blastn} strategy was applied against the respective reported gene as 
-%follows: 
-
-%\begin{lstlisting}[language=bash, breaklines=true]
-%blastn -db <Genes DB> <DOMAINS FASTA> -num_threads 8 -evalue 1e^20 -word_size 
-%9 
-%-gapopen 2 -gapextend 5 -penalty -3 -reward 1 -dust yes -outfmt 6 -out 
-%<OUT_FILE>
-%\end{lstlisting}
-
-%Specific filters for this methodology were designed (as show below) and the 
-%final candidates were organized in a GFF file for each protein database.
-
-%\begin{itemize}
-%\item The name of the possible gene candidate have to be equal to 
-%the previous name of the gene which it was reported for this CDS or transcript.
-%\item The identity have to be equal to $100$\%. 
-%\end{itemize}
-
-
-%\begin{figure}[htbp]
-%\begin{center}
-%\includegraphics[scale=0.45]{figures/workflowComplete}
-%\caption{Methodological steps to obtain innate immune system candidates. 
-%Have been highlighted in blue the programs used in this pipeline. In green, 
-%those scripts in \texttt{Perl} that performed the reduction function and each 
-%of the architecture comparison considered in this study.}
-%\label{workflow_domains}
-%\end{center}
-%\end{figure}
-
-%\begin{figure}[htbp]
-%\begin{center}
-%\includegraphics[scale=0.3]{figures/workflow_2_dvex}
-%\caption{Designed workflow to annotate genes \textit{de novo} in \textit{D. 
-%vexillum} genome, and subsequently obtain the architecture distributions 
-%according to \textbf{O}rdered, \textbf{D}isorder and \textbf{B}last strategy.}
-%\label{workflow_domains_dvex}
-%\end{center}
-%\end{figure}
-
-%\begin{figure}[htbp]
-%\begin{center}
-%\includegraphics[scale=0.3]{figures/prot2cds}
-%\caption{Designed workflow to annotate genes \textit{de novo} in \textit{D. 
-%vexillum} genome, and subsequently obtain the architecture distributions 
-%according to \textbf{O}rdered, \textbf{D}isorder and \textbf{B}last strategy.}
-%\label{proteindomains2cds}
-%\end{center}
-%\end{figure}
 
 \subsection*{N-gram analysis on protein domain architectures}
 In order to identify the most frequent protein domain along all the protein 
@@ -782,39 +675,32 @@ species as follows: those ones that have been annotated in \texttt{Ensembl} as
 \textit{C.\ robusta}, \textit{C.\ savignyi}, \textit{P.\ marinus}, \textit{D.\ 
 rerio} and \textit{L.\ chalumnae}. Also, ones that currently have gene and protein annotations 
 but, in independent databases and without the prediction of domains, like \textit{B.\ floridae}, 
-\textit{B.\ schlosseri} and \textit{O.\ dioica}. The third group is composed by those 
-genomes that have been (re-) assembled in this study, as: \textit{D.\ vexillum}, \textit{C.\ oblonga} and 
-\textit{P.\ viridis}. Those species did not have gene or protein predictions, then this 
-prediction were performed as described in \textsl{Methods and Materials} with the 
-\texttt{GeneID} program using the previously constructed gene models from 
-\textit{C.\ robusta} and \textit{O.\ dioica}\footnote{For those genomes, in Table 
-~\ref{table:distribution_prot} are referenced as \textsl{Ciro} and \textsl{Oidi} in parenthesis,
-respectively} and with \texttt{AUGUSTUS} for \textit{D. vexillum}. Finally, the last group 
+\textit{B.\ schlosseri} and \textit{O.\ dioica}. The third group is represented
+by the re-assembly from \textit{D.\ vexillum}, which new protein predicton was
+suported with transcriptome data and calculated with \texttt{AUGUSTUS}. Finally, the last group 
 is composed by the outgroup species from hemichordates: \textit{S.\ kowalevskii} and from 
 echinoderms: \textit{P.\ miniata} and \textit{S.\ purpuratus} and the species from 
 tunicates that have now available annotations from protein sequences, as: (\textit{M.\ occidentalis}, 
 \textit{M.\ oculata} and \textit{B.\ leachii}), where the \textbf{ABDO} predictions have 
-been calculated applying the automated pipeline \TODO{NAME\_PIPELINE} generated in this study.
+been calculated applying the automated pipeline \TODO{NAME\_PIPELINE} generated
+in this study.
 
 Current annotation of genes and proteins could reflect the state of assembly
 or annotation efforts on subject species. As pointed out in Table~\ref{table:distribution_prot}
-is possible to calculate a relationship between the distribution of annotated genes ($g$) and 
-their protein-coding products ($p$), as: $p/g$. For \textit{P.\ miniata}, \textit{B.\ floridae}, 
+is possible to calculate a relationship $r$ between the distribution of annotated genes ($g$) and 
+their protein-coding products ($p$), as: $r = p/g$. For \textit{P.\ miniata}, \textit{B.\ floridae}, 
 \textit{O. dioica}, \textit{B.\ schlosseri} and \textit{B.\ leachii}, this number reflects a 
-1:1 relation, indicating that the annotation for genes are strictly limited for protein-coding genes. 
-Larger numbers of reported proteins have been detected for \textit{de novo} predictions of genes, 
-where the genomes from \textit{C.\ oblonga} and \textit{P.\ viridis} reported higher number 
-of possible protein products. Next, after retrieving or predicting the protein domain annotation, 
-always a reduced number of proteins with domain annotation could be identified and particullary for 
-the aforementioned genomes with \textit{de novo} predictions, less than $1\%$ of those results had 
-a succesfull domain annotation. 
+1:1 relation, indicating that the annotation for genes are strictly limited for
+protein-coding genes. Values $r > 1$ have found on the other species, except
+for \texttt{S.\ kowalevskii}, even for the new reported assembly from \textit{D.\ vexillum}.
 
-Next with these subset of proteins, domain architectures could be identified, appliying 
-the \textsl{Reduction function} described earlier. After independent methods of comparison 
-againgst $\boldsymbol{\mathfrak{G}}$, the number of candidates are described for 
-each homology architecture strategy (\textbf{ABDO}). The final number of innate 
-immune system proteins set is described on column \textbf{Total Prot.\ ISS}, which was 
-obtained after merging steps on the ABDO results.
+Next with these subset of proteins, domain architectures could be identified,
+applying the \textsl{Reduction function} described earlier. After independent
+methods of comparison againgst $\boldsymbol{\mathfrak{G}}$, the number of
+candidates are described for each homology architecture strategy
+(\textbf{ABDO}). The final number of innate immune system proteins set is
+described on column \textbf{Total Prot.\ ISS}, which was obtained after merging
+steps on the ABDO results.
 
 %%%% Discussion about Homology architecture strategies
 %%%%%%%%%%
@@ -829,7 +715,7 @@ A (architecture) comparison considers all the annotated protein domains and make
 comparison based on a precomputed similarity matrix of \TODO{hidden markov profiles} 
 in \texttt{RADS} \cite{Terrapon:2014}. B (blast) comparisons does not considers protein 
 domains, but the complete sequence of the query and the subject proteins, in this case, 
-at least a $70$ \% of similarity has to be considered as a true candidate. D (disorder) 
+at least a $70$\% of similarity has to be considered as a true candidate. D (disorder) 
 and O (order) compare the reduced architectures, in this case for the first one, 
 all valid combinations of architectures are valid on the subject protein, while the 
 number and the identity of the \texttt{Pfam} families are conserved. This is not the case 
@@ -867,18 +753,13 @@ into account unless the relationship was reported in conjunction with another st
 In overall results (described on Table~\ref{table:distribution_prot}, last column),
 exists a highest distribution from annotated immune system proteins 
 in vertebrates (median = $54.48$\% $\pm 7.41$, n=$3$), in comparison to tunicates 
-(median = $31.08$\% $\pm 21.58$, n=$12$), cephalochordates ($41.67$\%, n=$1$), and 
+(median =$38.565$\% $\pm 12.23$, n=$8$), cephalochordates ($41.67$\%, n=$1$), and 
 the outgroup composed by hemichordates ($56.56$\%, n=$1$) and echinoderms (median = 
-$56.105$\% $\pm 0.445$, n=$2$) shows similar distributions. High standard deviation in 
-tunicates are a consequence of the inclusion of the new draft genomes 
-(from \textit{C.\ oblonga} and \textit{P.\ viridis}), where the prediction of genes 
-was \textsl{de novo} by \texttt{GeneID}. In this context, only considering the tunicates 
-genomes that had a previous annotation, the estimated values changed 
-(median =$38.565$\% $\pm 12.23$, n=$8$) and shown in general, the same reduced values. 
-Distinction between colonial (median=$39.66$\% $\pm 15.61$, n=$3$) and 
-solitary ($37.47$\% $\pm 9.20$, n=$5$) tunicates does not reported a significant differences
-when compared the medians of final reported percentages (Kruskal-Wallis rank sum test,
-$p=0.8815, \alpha=0.05$).
+$56.105$\% $\pm 0.445$, n=$2$) shows similar distributions. Distinction between
+colonial (median=$39.66$\% $\pm 15.61$, n=$3$) and solitary ($37.47$\% $\pm
+9.20$, n=$5$) tunicates does not reported a significant differences when
+compared the medians of final reported percentages (Kruskal-Wallis rank sum
+test, $p=0.8815, \alpha=0.05$).
 %Code executed on: /homes/biertank/cristian/Desktop/Paper_Domains_Figures_Code/StatCalculation/testDifferences.r
 
 %Please copy complete table on K70!
@@ -903,11 +784,11 @@ $p=0.8815, \alpha=0.05$).
 \textsl{B. leachii }&$15839$&$15839$&$9833$ ($62.08$)&$1271$ ($8.02$)&$1422$ ($8.98$)&$6243$ ($39.42$)&$8174$ ($51.61$)&$8284$ ($52.30$)\\
 \textsl{C. robusta}&$17153$&$17304$&$12917$ ($74.65$)&$1668$ ($9.64$)&$1160$ ($6.70$)&$6005$ ($34.70$)&$6436$ ($37.19$)&$6484$ ($37.47$)\\
 \textsl{C. savignyi}&$12172$&$20157$&$17101$ ($84.84$)&$2087$ ($10.35$)&$1215$ ($6.03$)&$10049$ ($49.85$)&$10079$ ($50.00$)&$10206$ ($50.63$)\\
-\textsl{P. viridis} (Ciro)&$6077$&$2221773$&$2806$ ($0.13$)&$56$ ($0.00$)&$61$ ($0.00$)&$12724$ ($0.57$)&$1968$ ($0.09$)&$1972$ ($0.09$)\\
-\textsl{P. viridis} (Oidi)&$3025$&$1811030$&$2110$ ($0.12$)&$60$ ($0.00$)&$66$ ($0.00$)&$10329$ ($0.57$)&$1404$ ($0.08$)&$1408$ ($0.08$)\\
+%\textsl{P. viridis} (Ciro)&$6077$&$2221773$&$2806$ ($0.13$)&$56$ ($0.00$)&$61$ ($0.00$)&$12724$ ($0.57$)&$1968$ ($0.09$)&$1972$ ($0.09$)\\
+%\textsl{P. viridis} (Oidi)&$3025$&$1811030$&$2110$ ($0.12$)&$60$ ($0.00$)&$66$ ($0.00$)&$10329$ ($0.57$)&$1404$ ($0.08$)&$1408$ ($0.08$)\\
 \textsl{D. vexillum}&$26546$&$72326$&$36075$ ($49.88$)&$2920$ ($4.04$)&$3654$ ($5.05$)&$16889$ ($23.35$)&$28198$ ($38.99$)&$28686$ ($39.66$)\\
-\textsl{C. oblonga} (Ciro)&$19507$&$1174882$&$4032$ ($0.34$)&$120$ ($0.01$)&$125$ ($0.01$)&$4070$ ($0.35$)&$2893$ ($0.25$)&$2902$ ($0.25$)\\
-\textsl{C. oblonga} (Oidi)&$4832$&$950470$&$2856$ ($0.30$)&$125$ ($0.01$)&$135$ ($0.01$)&$8746$ ($0.92$)&$1990$ ($0.21$)&$1997$ ($0.21$)\\
+%\textsl{C. oblonga} (Ciro)&$19507$&$1174882$&$4032$ ($0.34$)&$120$ ($0.01$)&$125$ ($0.01$)&$4070$ ($0.35$)&$2893$ ($0.25$)&$2902$ ($0.25$)\\
+%\textsl{C. oblonga} (Oidi)&$4832$&$950470$&$2856$ ($0.30$)&$125$ ($0.01$)&$135$ ($0.01$)&$8746$ ($0.92$)&$1990$ ($0.21$)&$1997$ ($0.21$)\\
 \midrule
 \textsl{P. marinus}&$13114$&$11444$&$10623$ ($92.83$)&$1650$ ($14.42$)&$1145$ ($10.01$)&$6227$ ($54.41$)&$6025$ ($52.65$)&$6073$ ($53.07$)\\
 \textsl{D. rerio}&$31953$&$44489$&$42625$ ($95.81$)&$11762$ ($26.44$)&$4108$ ($9.23$)&$28031$ ($63.01$)&$29523$ ($66.36$)&$29607$ ($66.55$)\\
@@ -945,7 +826,7 @@ on the description in Table~\ref{table:biologicalexplanation}. Along all results
 proteins explain at least the $51.15$\% of the relationships, the other group (that represent 
 $48.85$\%), are composed by those query proteins that reported more relations and the relations against
 $\boldsymbol{\mathfrak{G}}$, could not be easily classified as described in
-Table~\ref{table:biologicalexplanation}. 
+Table~\ref{table:biologicalexplanation}.
 
 The relevance to make this distinction is to compare the final number of proteins
 that have been detected independently by each ABDO strategies. As shown in Figure~\ref{fig:relation}, 
@@ -1171,7 +1052,8 @@ relative frequency of bigrams and also the probability over final set of archite
   %\includegraphics[scale=0.3]{figures/network_10_NO_bigrams}
   \caption{Bi-grams network. Only was considered those bigrams that
   have been reported $\geq 10$ along all the architectures.
-  X corresponds to N-terminus and Z to the C-terminus.}\label{fig:bigramNet}
+  X corresponds to N-terminus and Z to the C-terminus.\TODO{Please change with
+  new data}}\label{fig:bigramNet}
 \end{figure}
 
 In accordance to the Materials and Methods, bigrams have been derivated from the
