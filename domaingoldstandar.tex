@@ -1131,20 +1131,20 @@ recognition, transduction or modification taks inside/outside the cell.
 \caption{Annnotation of bigram groups and network clusters. \TODO{Maybe on Supp info.}}\label{tab:meansDomains}
 \end{table}
 
+%This is the analysis from table_final.complete.txt
 As shown in Figure~\ref{fig:probArch}, the distribution of the probability of the 
 architectures in both, homodomain and heterodomain arrangements reported an unimodal 
 and bimodal density, respectively. Both, have long tails which corresponds to architectures that
-are the most probables along the complete set of architectures related with the IIS, 
-specifically the distribution of homodomains are the most probable architectures 
-(i.e. PF00069 (Protein kinase domain), PF00169 (PH domain), PF00595 (PDZ domain), 
-PF00076 (RRM\_1 or RNA recognition motif) and PF00400 (WD domain)). In average, around $3$ times
-more probable than the most probable heterodomain proteins. By the same way, inside 
-heterodomains the $5$ most probable architectures are: PF08953 (DUF1899)-PF00400 (WD domain); 
+are the most probables along the complete set of IIS architectures.
+Specifically, the distribution of homodomains are the most probable
+architectures (i.e. PF00069 (Protein kinase domain), PF00169 (PH domain),
+PF00595 (PDZ domain), PF00076 (RRM\_1 or RNA recognition motif) and PF00400 (WD
+domain)). In average, around $3\times$ more probable than the most probable heterodomain proteins. By the same way, inside heterodomains the $5$ most probable architectures are: PF08953 (DUF1899)-PF00400 (WD domain); 
 PF13855 (Leucine rich repeat)-PF01582 (TIR domain); PF00270 (DEAD/DEAH box helicase)-PF00271 
 (Helicase conserved C-terminal domain); PF13912 (C2H2-type zinc finger)-PF00096
 (Zinc finger, C2H2 type) and PF13927 (Ig\_3)-PF07679(Immunoglobulin I-set domain)
-(for complete list see Supplemental File X), along those architectures, the majority of 
-are composed by $2$ domains. \TODO{Please create Supplemental File with all table}.
+(for complete list see Supplemental File 5).
+%The supplemental file is: table_final.complete.txt
 
 %> summary(hom$Prob)
 %     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
@@ -1167,24 +1167,18 @@ are composed by $2$ domains. \TODO{Please create Supplemental File with all tabl
   \end{tabular}
 \end{figure}
 
-\TODO{When the architecture distribution is considered, the most frequent along 
-	all species are described on Addtional file. Change this table 
-	describing by specie, clade or even describe the matrix based on 1:1 
-	orthologous proteins.
-}
-
 %Protein clusters made by the commmon protein architecture
 Once protein candidates were detected by ABDO strategies on studied species, 
 a further step is the identification of the biological relevance of the 
 new detected protein candidates. Applying a clustering strategy 
 based on sharing the same group of $\boldsymbol{\mathfrak{G}}$ proteins,
-allow to create $4787$ groups to access for orthology relationships with 
+allow to create $4385$ groups to access for orthology relationships with 
 described methodology through \texttt{ProteinOrtho}. After retriving the
 results the first step to study those relations is the identification of 
 orthologous (1:1) or co-orthologous (1:many or many:many) groups. 
-A total of $30782$ relations were detected, from them: $52.55$\% reported 1:1 
-relationships, while co-orthologs are represented by $47.45$\%. Inside 1:1 relations, 
-exists $3726$ that includes at least one $\boldsymbol{\mathfrak{G}}$ protein 
+A total of $29073$ relations were detected, where proportion between
+one-to-one:coorthology is almost $50:50$. Inside 1:1 relations, 
+exists $3551$ that includes at least one $\boldsymbol{\mathfrak{G}}$ protein 
 and most of them are relations involved $2$ species ($52.20$\%) and 
 the distribution reach a maximum of $15$ species but it was detected only 
 in $1$ orthology group. 
