@@ -1178,18 +1178,12 @@ results the first step to study those relations is the identification of
 orthologous (1:1) or co-orthologous (1:many or many:many) groups. 
 A total of $29073$ relations were detected, where proportion between
 one-to-one:coorthology is almost $50:50$. Inside 1:1 relations, 
-exists $3551$ that includes at least one $\boldsymbol{\mathfrak{G}}$ protein 
-and most of them are relations involved $2$ species ($52.20$\%) and 
-the distribution reach a maximum of $15$ species but it was detected only 
-in $1$ orthology group. 
+exists $3551$ that includes at least one $\boldsymbol{\mathfrak{G}}$ protein.
 
-%Analize results from Trees!
-
-Then, in order to identify the phylogenetically distribution of those 1:1 
-proteins, a presence/absence matrix was calculated and phylogenetic tree 
-of studied species was obtained from \cite{} to calculate evolutionary history 
+Then, in order to identify the phylogenetically distribution of detected 1:1
+orthologs, a presence/absence matrix was calculated, based on the phylogenetic
+distribution of species reported on \cite{}, to calculate evolutionary history 
 of orthologous proteins from IIS by the Dollo parsimony \cite{}.
-
 As represented on Figure~\ref{fig:dollooneone}, a set of $1583$ architectures 
 are shared in the base of the \TODO{Deuterostomia?} and in both clades: 
 chordates and ambulacrarians report only gains (g) events. In this way, at the 
@@ -1234,7 +1228,9 @@ Deuterostomata.\TODO{Re-draw this tree, please with R}}\label{fig:dollooneone}
 \texttt{Interpro} annotations was retrieved with \texttt{biomaRt} for 
 those $\boldsymbol{\mathfrak{G}}$ proteins that have been identified
 as 1:1 orthologs of IIS candidates on studied species.
-\TODO{How visualize those results?}
+
+%Analize the table: list_annotation_golden_final.table in order to cluster the
+% orthology groups
 
 \TODO{Final tables are reported in Additional Files 3 
 (oneone\_heterodomains\_annotation\_proteins.txt, 
